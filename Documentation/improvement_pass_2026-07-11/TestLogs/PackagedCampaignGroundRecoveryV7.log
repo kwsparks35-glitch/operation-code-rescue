@@ -1,0 +1,111 @@
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak.
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc, Id=d97666d6c79e2622, Order=4, EntryCount=2526, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc"
+LogPakFile: Display: Mounted Pak file '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak', mount point: '../../../'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="Mac"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogInit: Display: Game Engine Initialized.
+LogInit: Display: Starting Game.
+LogTemp: Display: [CodeRescueUSCityRealization] 01 New York, NY active terrain='ForestHills' clouds='Overcast' grade='NeutralMetro' facades='GlassSteel' roads='NumberedGrid' homes='BrownstoneRow' wardrobe_accessory='Scarf'
+LogTemp: Display: [CodeRescueArenaConfinement] 01 New York, NY mission-safe bounds include buildings, survivor, and extraction; catch floor, four edge walls, beacons, and Backspace/F8 recovery guidance active.
+LogTemp: Display: [CityBlockV3] v3 street kit ACTIVE
+LogTemp: Display: [Streetscape] 01 New York, NY: 54 spawned, 0 failed
+LogTemp: Display: [CityBlockV3] 01 New York, NY: 36 spawned, 0 failed
+LogTemp: Display: [FirstLevelCombatArtV4] 01 New York, NY spawned 2 authored structures/cover; later levels unchanged
+LogTemp: Display: [FirstLevelAccessV5] building=AccessibleMarketV5 collision_boxes=13 doorway_clear_width=230cm visual_hull=disabled
+LogTemp: Display: [FirstLevelAccessV5] building=AccessibleClinicV5 collision_boxes=12 doorway_clear_width=230cm visual_hull=disabled
+LogTemp: Display: [FirstLevelAccessV5] building=OpenStreetCafeV5 collision_boxes=17 doorway_clear_width=230cm visual_hull=disabled
+LogTemp: Display: [FirstLevelAccessV5] 01 New York, NY buildings=3 open_doorways=3 functional_pickups=3 canonical_ground_z=0.0
+LogTemp: Display: [CityMood] fog=ok post=ok
+LogTemp: Display: [NightSky] dome=ok moon=ok
+LogTemp: Display: [ProductionSky] 01 New York, NY uses fog, atmosphere, sun, and post processing; geometric cloud plates omitted.
+LogTemp: Display: [CodeRescueUSCityRealization] 01 New York, NY sky family clouds='Overcast' grade='NeutralMetro' fog=0.016 sunday=(0.94 0.94 0.90)
+LogTemp: Display: [ProductionRoute] 01 New York, NY uses HUD objective distance, focus beacons, and the guidance drone; prototype pads and pillars omitted.
+LogTemp: Display: [CodeRescueSafeLearning] 01 New York, NY spawned 10 protected coding stations using selected Java track; all ten persist before survivor clearance.
+LogTemp: Display: [CodeRescueCaseFiles] 001 01 New York, NY spawned collectible case files with selected-language save persistence.
+LogTemp: Display: [ProductionWorld] 01 New York, NY curated=1 development_showcases=0
+LogTemp: Display: [CharacterPresentation] Survivor 'Civilian Survivor' uses production Quinn rig.
+LogTemp: Display: [CodeRescueEncounterDirector] 01 New York, NY spawned authored AI director layer with anchor, flanker, pressure, and sentinel roles. objective='terminal route locked' adaptive_pressure=0.90 relief=false difficulty='Normal'.
+LogTemp: Display: [CodeRescueExtractionSetPiece] 001 01 New York, NY spawned expanded extraction set piece 'ROOFTOP LIFT' around helipad for New York Survivor Team.
+LogTemp: Display: [CodeRescueEliteWardenMiniBoss] 01 New York, NY state='WARDEN DEFEATED' intel_unlocked=false boss_defeated=true spawned_minibosses=0 terminal='new_york_ny_sum'
+LogTemp: Display: [CodeRescueSecondaryMotion] 01 New York, NY spawned procedural cloth-ready rescue signals for safehouse, helipad, route, and survivor camp.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CodeRescueEntryAccess] 01 New York, NY cleared 0 static blockers from access points and froze 0 physics components. 
+LogTemp: Display: [ProductionPresentation] 01 New York, NY hidden labels=0 review actors=99 arrival blockers=5; gameplay structures retained.
+LogTemp: Display: [CityGroundContinuity] COMPLETE PASS city=0 canonical_floor=1 floor_top=-0.00 flattened_regions=3 remaining_elevated=0
+LogTemp: Display: [CanopyTrim] 01 New York, NY: 0 overhead display strips hidden
+LogTemp: Display: [PadCanopy] 01 New York, NY: 0 airborne meshes over the entry pad hidden
+LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=0 renewable_alive=124 regular_alive=120 director_alive=4 persistent_alive=0 saved_renewable_deaths_ignored=130 minimum=6 sandbox=0
+LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=0 renewable_alive=124 regular_alive=120 director_alive=4 persistent_alive=0 saved_renewable_deaths_ignored=130 minimum=6 sandbox=0
+LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+LogTemp: Display: [HeldWeapon] body weapon 'PistolV3' attached via hand_R
+LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+LogTrace: Display: Control listening on port 1985
+LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+LogTemp: Display: [SpawnClear] facing yaw 0 (camera clearance 800uu)
+LogTemp: Display: [RadioVoiceArbiter] city=0 active_voice=1 overlapping_voices=0
+LogTemp: Display: [CodeRescueUSCityRealization] 02 Los Angeles, CA active terrain='GoldenBasin' clouds='HazeWarm' grade='GoldenBasin' facades='GlassSteel' roads='WideArterial' homes='CraftsmanBungalow' wardrobe_accessory='SunHat'
+LogTemp: Display: [CodeRescueArenaConfinement] 02 Los Angeles, CA mission-safe bounds include buildings, survivor, and extraction; catch floor, four edge walls, beacons, and Backspace/F8 recovery guidance active.
+LogTemp: Display: [CityBlockV3] v3 street kit ACTIVE
+LogTemp: Display: [Streetscape] 02 Los Angeles, CA: 54 spawned, 0 failed
+LogTemp: Display: [CityBlockV3] 02 Los Angeles, CA: 39 spawned, 0 failed
+LogTemp: Display: [ProductionSky] 02 Los Angeles, CA uses fog, atmosphere, sun, and post processing; geometric cloud plates omitted.
+LogTemp: Display: [CodeRescueUSCityRealization] 02 Los Angeles, CA sky family clouds='HazeWarm' grade='GoldenBasin' fog=0.014 sunday=(1.00 0.92 0.74)
+LogTemp: Display: [ProductionRoute] 02 Los Angeles, CA uses HUD objective distance, focus beacons, and the guidance drone; prototype pads and pillars omitted.
+LogTemp: Display: [CodeRescueSafeLearning] 02 Los Angeles, CA spawned 10 protected coding stations using selected Java track; all ten persist before survivor clearance.
+LogTemp: Display: [CodeRescueCaseFiles] 002 02 Los Angeles, CA spawned collectible case files with selected-language save persistence.
+LogTemp: Display: [ProductionWorld] 02 Los Angeles, CA curated=1 development_showcases=0
+LogTemp: Display: [CharacterPresentation] Survivor 'Civilian Survivor' uses production Quinn rig.
+LogTemp: Display: [CodeRescueEncounterDirector] 02 Los Angeles, CA spawned authored AI director layer with anchor, flanker, pressure, and sentinel roles. objective='terminal route locked' adaptive_pressure=0.90 relief=false difficulty='Normal'.
+LogTemp: Display: [CodeRescueExtractionSetPiece] 002 02 Los Angeles, CA spawned expanded extraction set piece 'CONVOY GATE' around helipad for Los Angeles Survivor Team.
+LogStreaming: Display: FlushAsyncLoading(124): 1 QueuedPackages, 0 AsyncPackages
+LogTemp: Display: [CodeRescueEliteWardenMiniBoss] 02 Los Angeles, CA state='DORMANT UNTIL TERMINAL INTEL' intel_unlocked=false boss_defeated=false spawned_minibosses=0 terminal='los_angeles_ca_lock'
+LogTemp: Display: [CodeRescueSecondaryMotion] 02 Los Angeles, CA spawned procedural cloth-ready rescue signals for safehouse, helipad, route, and survivor camp.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+LogTemp: Display: [CodeRescueEntryAccess] 02 Los Angeles, CA cleared 0 static blockers from access points and froze 0 physics components. 
+LogTemp: Display: [ProductionPresentation] 02 Los Angeles, CA hidden labels=0 review actors=99 arrival blockers=5; gameplay structures retained.
+LogTemp: Display: [CityGroundContinuity] COMPLETE PASS city=1 canonical_floor=1 floor_top=-0.00 flattened_regions=1 remaining_elevated=0
+LogTemp: Display: [CanopyTrim] 02 Los Angeles, CA: 0 overhead display strips hidden
+LogTemp: Display: [PadCanopy] 02 Los Angeles, CA: 0 airborne meshes over the entry pad hidden
+LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=1 renewable_alive=124 regular_alive=120 director_alive=4 persistent_alive=1 saved_renewable_deaths_ignored=130 minimum=6 sandbox=0
+LogTemp: Display: [RadioVoiceArbiter] previous_voice_stopped=1
+LogTemp: Display: [CodeRescueArenaRecovery] 02. Los Angeles, CA destination=V(X=16660.00, Y=-5520.00, Z=92.00)
+LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=1 renewable_alive=124 regular_alive=120 director_alive=4 persistent_alive=1 saved_renewable_deaths_ignored=130 minimum=6 sandbox=0
+LogTemp: Display: [CampaignGroundRecoveryAudit] COMPLETE PASS city=1 recovered_relative_z=92.00 height=1 bounds=1 ground=1 population=1
+LogInit: Display: PreExit Game.
+LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance

@@ -1,0 +1,3 @@
+[cr-log-scan] allowed warning: Saved/Logs/PackagedSmoke_null.log:661: [2026.07.10-02.33.24:056][  0]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[cr-log-scan] allowed warning: Saved/Logs/PackagedSmoke_null.log:670: [2026.07.10-02.33.24:059][  1]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[cr-log-scan] passed: scanned 1 log file(s), 2 allowed warning(s)

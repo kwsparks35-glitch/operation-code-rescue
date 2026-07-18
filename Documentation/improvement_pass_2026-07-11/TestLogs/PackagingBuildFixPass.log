@@ -1,0 +1,1136 @@
+
+Running AutomationTool...
+
+Setting up bundled DotNet SDK
+/Users/Shared/UE_5.7/Engine/Binaries/ThirdParty/DotNet/8.0.412/mac-arm64
+Start UAT Interactively: dotnet AutomationTool.dll BuildCookRun -project=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject -platform=Mac -clientconfig=Development -build -cook -stage -pak -archive -nop4 -archivedirectory=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac -utf8output
+/Users/Shared/UE_5.7/Engine/Binaries/ThirdParty/DotNet/8.0.412/mac-arm64/dotnet
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject -platform=Mac -clientconfig=Development -build -cook -stage -pak -archive -nop4 -archivedirectory=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac -utf8output
+Initializing script modules...
+Total script module initialization time: 0.25 s.
+Using /Users/Shared/UE_5.7/Engine/Binaries/ThirdParty/DotNet/8.0.412/mac-arm64/dotnet
+Executing commands...
+Setting up ProjectParams for /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject
+********** BUILD COMMAND STARTED **********
+Choosing MODERN XCODE based on .ini settings
+Running: /Users/Shared/UE_5.7/Engine/Binaries/ThirdParty/DotNet/8.0.412/mac-arm64/dotnet "/Users/Shared/UE_5.7/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll" -Target="CodeRescueUnrealEditor Mac Development -Project=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject" -Target="CodeRescueUnreal Mac Development -Project=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject  -remoteini=\"/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix\"  " -log="/Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/UBA-CodeRescueUnrealEditor-Mac-Development.txt"
+Log file: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/UBA-CodeRescueUnrealEditor-Mac-Development.txt
+Using 'git status' to determine working set for adaptive non-unity build (/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix).
+Invalidating makefile for CodeRescueUnrealEditor (ispc deleted)
+Choosing MODERN XCODE based on .ini settings
+UHT compiled-in object format Default
+Compiling with Mac SDK 26.5, minimum Target OS version 14.00
+Invalidating makefile for CodeRescueUnreal (ispc deleted)
+UHT compiled-in object format Default
+Parsing headers for CodeRescueUnreal
+  Running Internal UnrealHeaderTool /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/Build/Mac/CodeRescueUnreal/Development/CodeRescueUnreal.uhtmanifest -WarningsAsErrors -installed
+UHT processed CodeRescueUnreal in 1.1077204 seconds (0 files written)
+Building CodeRescueUnrealEditor and CodeRescueUnreal...
+CodeRescueUnrealEditor: [Adaptive Build] Excluded from CodeRescueUnreal unity file: CodeZombieActor.cpp, CodeRescueGameMode.cpp, CodeTerminalWidget.cpp, CodeRescueMainMenuWidget.cpp, CodeRescueObjectiveJournalWidget.cpp, CityFastTravelWidget.cpp, CompanionActor.cpp, CodeRescueCampaign.cpp, CodeRunnerLibrary.cpp, CodeRescueGameModeSpawning.cpp, ObjectiveFocusBeaconActor.cpp, SurvivorActor.cpp, CodeRescuePauseWidget.cpp, CodeRescueMessageReaderWidget.cpp, CodeRescueGameInstance.cpp, FriendlyNPCActor.cpp, CodeRescueDamageFeedbackWidget.cpp, CodeRescueHUDWidget.cpp, CodeRescueCharacter.cpp
+CodeRescueUnreal: [Adaptive Build] Excluded from CodeRescueUnreal unity file: CodeZombieActor.cpp, CodeRescueGameMode.cpp, CodeTerminalWidget.cpp, CodeRescueMainMenuWidget.cpp, CodeRescueObjectiveJournalWidget.cpp, CityFastTravelWidget.cpp, CompanionActor.cpp, CodeRescueCampaign.cpp, CodeRunnerLibrary.cpp, CodeRescueGameModeSpawning.cpp, ObjectiveFocusBeaconActor.cpp, SurvivorActor.cpp, CodeRescuePauseWidget.cpp, CodeRescueMessageReaderWidget.cpp, CodeRescueGameInstance.cpp, FriendlyNPCActor.cpp, CodeRescueDamageFeedbackWidget.cpp, CodeRescueHUDWidget.cpp, CodeRescueCharacter.cpp
+Determining max actions to execute in parallel (14 physical cores, 14 logical cores)
+  Executing up to 14 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 39 action(s)
+  Storage capacity 40Gb
+---- Starting trace ----
+UbaServer - Listening on 0.0.0.0:1345
+** For CodeRescueUnreal-Mac-Development **
+[1/39] Compile [Apple] SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.h
+[2/39] Compile [Apple] SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.h
+[3/39] Compile [Apple] SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.h
+[4/39] Compile [Apple] SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.h
+[5/39] Compile [Apple] CodeRescuePauseWidget.cpp
+[6/39] Compile [Apple] CodeRunnerLibrary.cpp
+[7/39] Compile [Apple] CodeTerminalWidget.cpp
+[8/39] Compile [Apple] CodeRescueMessageReaderWidget.cpp
+[9/39] Compile [Apple] CodeRescueMainMenuWidget.cpp
+[10/39] Compile [Apple] CodeRescueHUDWidget.cpp
+[11/39] Compile [Apple] CodeRescueObjectiveJournalWidget.cpp
+[12/39] Compile [Apple] CodeRescueDamageFeedbackWidget.cpp
+[13/39] Compile [Apple] CodeRescueGameModeSpawning.cpp
+[14/39] Compile [Apple] CodeRescueGameInstance.cpp
+[15/39] Compile [Apple] Module.CodeRescueUnreal.3.cpp
+[16/39] Compile [Apple] Module.CodeRescueUnreal.4.cpp
+[17/39] Compile [Apple] Module.CodeRescueUnreal.2.cpp
+[18/39] Compile [Apple] FriendlyNPCActor.cpp
+[19/39] Compile [Apple] Module.CodeRescueUnreal.12.cpp
+[20/39] Compile [Apple] CompanionActor.cpp
+[21/39] Compile [Apple] Module.CodeRescueUnreal.11.cpp
+[22/39] Compile [Apple] Module.CodeRescueUnreal.10.cpp
+[23/39] Compile [Apple] Module.CodeRescueUnreal.1.cpp
+[24/39] Compile [Apple] CodeZombieActor.cpp
+[25/39] Compile [Apple] Module.CodeRescueUnreal.6.cpp
+[26/39] Compile [Apple] Module.CodeRescueUnreal.7.cpp
+[27/39] Compile [Apple] Module.CodeRescueUnreal.5.cpp
+[28/39] Compile [Apple] CodeRescueCampaign.cpp
+[29/39] Compile [Apple] CityFastTravelWidget.cpp
+[30/39] Compile [Apple] CodeRescueGameMode.cpp
+[31/39] Compile [Apple] CodeRescueCharacter.cpp
+[32/39] Compile [Apple] SurvivorActor.cpp
+[33/39] Compile [Apple] Module.CodeRescueUnreal.8.cpp
+[34/39] Compile [Apple] Module.CodeRescueUnreal.9.cpp
+[35/39] Compile [Apple] ObjectiveFocusBeaconActor.cpp
+[36/39] Link [Apple] CodeRescueUnreal
+[37/39] Updating version file: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/Build/Versions.xcconfig [NoUba]
+[38/39] ApplePostBuildSync Executing PostBuildSync [/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal] [NoUba]
+Discovering modules, targets and source code for project...
+Adding projects for all targets...
+Adding projects for all targets took 0.16s
+Adding projects for all game projects took 0.00s
+Adding projects for all modules took 0.51s
+Forcing MODERN XCODE with -modernxcode
+Compiling with Mac SDK 26.5, minimum Target OS version 14.00
+Compiling with IOS SDK 26.5, minimum Target OS version 15.0
+Adding additional Xcode project info took 0.91s
+Writing project files...
+Writing xcode workspace /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFiles/CodeRescueUnreal_Mac_CodeRescueUnreal.xcworkspace
+Writing project files... 100%
+Writing project files took 0.09s
+params: UBT_NO_POST_DEPLOY=true /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -workspace "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFiles/CodeRescueUnreal_Mac_CodeRescueUnreal.xcworkspace" -scheme "CodeRescueUnreal" -configuration "Development" -destination generic/platform="macOS" CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION=YES  -allowProvisioningUpdates UE_XCODE_BUILD_MODE=PostBuildSync -hideShellScriptEnvironment
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -workspace /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFiles/CodeRescueUnreal_Mac_CodeRescueUnreal.xcworkspace -scheme CodeRescueUnreal -configuration Development -destination generic/platform=macOS CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION=YES -allowProvisioningUpdates UE_XCODE_BUILD_MODE=PostBuildSync -hideShellScriptEnvironment
+
+Build settings from command line:
+    CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES
+    UE_XCODE_BUILD_MODE = PostBuildSync
+
+Run pre-actions
+
+SchemeAction Touch\ UBT\ generated\ tiles /var/folders/p4/rg7xv9gj12d60fnq392wq0mm0000gp/T/SchemeScriptAction-pI75QC.sh
+    cd /var/folders/p4/rg7xv9gj12d60fnq392wq0mm0000gp/T/
+    /bin/sh -c /var/folders/p4/rg7xv9gj12d60fnq392wq0mm0000gp/T/SchemeScriptAction-pI75QC.sh
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'CodeRescueUnreal' in project 'CodeRescueUnreal (Mac)' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --version --output-format xml1
+
+Build description signature: 179c6609ede0c7e9ce2d6db8c763998f
+Build description path: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac/build/XCBuildData/179c6609ede0c7e9ce2d6db8c763998f.xcbuilddata
+ProcessInfoPlistFile /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app/Contents/Info.plist /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Build/Mac/Resources/Info.Template.plist (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    builtin-infoPlistUtility /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Build/Mac/Resources/Info.Template.plist -producttype com.apple.product-type.application -genpkginfo /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app/Contents/PkgInfo -expandbuildsettings -format xml -platform macosx -additionalcontentfile /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_generated_info.plist -o /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app/Contents/Info.plist
+
+PhaseScriptExecution Copy\ Executable\ and\ Staged\ Data\ into\ .app /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/CodeRescueUnreal\ (Mac).build/Mac/CodeRescueUnreal.build/Script-BB734F3D942A8F74E8FBF62C.sh (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /bin/sh -c /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/CodeRescueUnreal\\\ \\\(Mac\\\).build/Mac/CodeRescueUnreal.build/Script-BB734F3D942A8F74E8FBF62C.sh
+Copying executable and any standalone dylibs into /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app/Contents/MacOS but do not overwrite unless src is newer
+
+CodeSign /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+
+    Signing Identity:     "Sign to Run Locally"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/CodeRescueUnreal.app.xcent --timestamp\=none --generate-entitlement-der /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app
+/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app: replacing existing signature
+
+Validate /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    builtin-validationUtility /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app -no-validate-extension -infoplist-subpath Contents/Info.plist
+
+RegisterWithLaunchServices /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app
+
+** BUILD SUCCEEDED **
+
+[39/39] WriteMetadata CodeRescueUnreal.target [NoUba]
+
+Trace written to file /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/UBA-CodeRescueUnrealEditor-Mac-Development.uba with size 10.1kb
+Total time in Unreal Build Accelerator local executor: 31.06 seconds
+Deploying CodeRescueUnrealEditor Mac Development...
+Deploying now!
+Deploying CodeRescueUnreal Mac Development...
+Deploying now!
+
+Result: Succeeded
+Total execution time: 35.47 seconds
+Took 35.57s to run dotnet, ExitCode=0
+No build products were made
+Build command time: 35.58 s
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+Running UnrealEditor Cook for project /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject
+Commandlet log file is /Users/Shared/UE_5.7/Engine/Programs/AutomationTool/Saved/Cook-2026.07.11-15.37.05.txt
+Running: /Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject" -run=Cook  -TargetPlatform=Mac  -unversioned -fileopenlog -abslog="/Users/Shared/UE_5.7/Engine/Programs/AutomationTool/Saved/Cook-2026.07.11-15.37.05.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Wait until we know the daemon has started.
+Parent received signal 30
+Daemon signalled successful start
+Forked complete (ret=0)
+LogInit: Display: Running engine for game: CodeRescueUnreal
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogCsvProfiler: Display: Metadata set : platform="Mac"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="macOS 26.5.1 25F80"
+LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M4 Pro"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+2026-07-11 15:37:11.208 UnrealEditor-Cmd[38558:7845856] [UE] Failed to find game directory: /Users/Shared/UE_5.7/CodeRescueUnreal/Binaries
+LogCsvProfiler: Display: Metadata set : commandline="" /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject -run=Cook -TargetPlatform=Mac -unversioned -fileopenlog -abslog=/Users/Shared/UE_5.7/Engine/Programs/AutomationTool/Saved/Cook-2026.07.11-15.37.05.txt -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="2af10eca6448b8345865ed81f15fab2f"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogAssetRegistry: Display: Asset registry cache read as 86.7 MiB from ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/CachedAssetRegistry_0.bin
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+2026-07-11 15:37:12.546 UnrealEditor-Cmd[38558:7845856] [UE4] Shutdown handler: initialize.
+LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.14
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.14.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.5.dylib
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOSClient'
+LogTargetPlatformManager: Display: Building Assets For Mac
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2469 MiB)
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogTemp: Display: /Applications/Xcode.app/Contents/Developer
+
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenServiceInstance: Display: Read zen version cache file from '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/5.7/Saved/Zen/zen.version', version: '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+LogZenServiceInstance: Display: Read zen version cache file from '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+LogZenServiceInstance: Display: Installed service at '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+LogZenServiceInstance: Display: Launching executable '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver', working dir '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install', data dir '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --http-forceloopback --owner-pid 38558  --child-id Zen_38558_Startup --detach'
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc status: OK!.
+LogDerivedDataCache: Display: /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.02ms. RandomReadSpeed=445.64MBs, RandomWriteSpeed=525.05MBs. Assigned SpeedClass 'Local'
+LogShaderCompilers: Display: No distributed shader compiler controller found
+LogShaderCompilers: Display: Using 11 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ShaderAutogen/METAL_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/CachedAssetRegistry_*.bin.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="MacEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: HLOD mesh reduction module (r.ProxyLODMeshReductionModule) set to "ProxyLODMeshReduction" which doesn't exist.
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: No automatic mesh merging module available
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ShaderAutogen/METAL_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.783 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogFabLauncher: Display: FabLauncher (version 0.5.0) active
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and incremental cooking will be invalid.
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenStore: Display: Establishing oplog 'CodeRescueUnreal.b8112ca1/EditorDomain'
+LogZenStore: Display: Zen project 'CodeRescueUnreal.b8112ca1' already exists
+LogZenStore: Display: Zen oplog 'CodeRescueUnreal.b8112ca1/EditorDomain' already exists
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.148s
+LogCook: Display: INCREMENTAL COOK DEPENDENCIES: Disabled. Incremental Cook Dependencies are disabled because the cooker is not using ZenStore, and we do not yet support storage of Incremental Cook dependency data with loose cooked packages. Falling back to legacy iterative cook mode.
+LogCook: Display: CalculateGlobalDependenciesHash(Mac):
+LogCook: Display: 	[Engine]:Core.System.CanStripEditorOnlyExportsAndImports = True
+LogCook: Display: 	[Engine]:Core.System.CanSkipEditorReferencedPackagesWhenCooking = False
+LogCook: Display: 	CanUseUnversionedPropertySerialization = True
+LogCook: Display: 	[Editor]:CookSettings.AutomaticOptionalInclusionAssetType = /Script/Niagara.NiagaraScript, /Script/Niagara.NiagaraEmitter, /Script/Niagara.NiagaraSystem, /Script/NiagaraEditor.NiagaraParameterDefinitions, /Script/Niagara.NiagaraEffectType, /Script/Niagara.NiagaraValidationRuleSet
+LogCook: Display: 	IsCookFlagSet(ECookInitializationFlags::Unversioned) = True
+LogCook: Display: 	FCoreRedirects::AppendHashOfGlobalRedirects = 2c443b6bf53a7f573728a20d66cbe37783b90d5395e25f19fcfbaee1c216ce53
+LogCook: Display: 	GlobalDependenciesHash(Mac) = b6b5857036a773ee2a95f70de0766f1c16329013fada0acb5de998934099798a
+LogCook: Display: FULL COOK: Incremental Cook Dependencies are disabled, and -legacyiterative was not specified. Deleting previously cooked packages for platform Mac and recooking all packages discovered in the current cook.
+LogCook: Display: Sandbox cleanup took 0.333 seconds for platforms Mac
+LogCook: Display: Compiling global changed shaders for platform 'Mac'
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/global_sf_metal_sm5-metal_sm5.0.metallib
+LogMetalShaderCompiler: Display: Archiving 5874 shaders for shader platform: SF_METAL_SM5
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM5
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (SF_METAL_SM5-METAL_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 342 (34200.00%)
+LogShaderLibrary: Display: Total Shaders: 5874, Unique Shaders: 5874 (100.00%)
+LogShaderLibrary: Display: Total Shader Size: 108.53mb, Unique Shaders Size: 108.53mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 528
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 4088 shaders (69.59%), compressed size: 77.54 MB (19.42 KB avg per shader), uncompressed size: 129.80 MB (32.51 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1669 shaders (28.41%), compressed size: 30.35 MB (18.62 KB avg per shader), uncompressed size: 51.37 MB (31.52 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 117 shaders (1.99%), compressed size: 0.64 MB (5.56 KB avg per shader), uncompressed size: 1.10 MB (9.60 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM5-METAL_SM5/ShaderDebug-Global-SF_METAL_SM5-METAL_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/global_sf_metal_sm6-metal_sm6.0.metallib
+LogMetalShaderCompiler: Display: [1/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_0_61EAAA7B994AEF134B864C8E9A1DBBC9.tmp
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: [2/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_1_8B8CB19FA24EBD5A0D52BBACB89A44C5.tmp
+LogMetalShaderCompiler: Display: [3/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_2_E89063B5E34E2BFBA78736936ACB83B2.tmp
+LogMetalShaderCompiler: Display: [4/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_3_BF9B170C3B4462BB67B4789D0A39F807.tmp
+LogMetalShaderCompiler: Display: [5/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_4_3717014A4C4C044572FF21A807E3ACFE.tmp
+LogMetalShaderCompiler: Display: [6/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_5_477F4D1EEA4F753D3306838FFAB7B6DB.tmp
+LogMetalShaderCompiler: Display: [7/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_6_40FCB13DDA4B9D9103BEC6B35FBCDB43.tmp
+LogMetalShaderCompiler: Display: [8/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_7_AE8D7F0C454FE1BDE31154A3A2D3AD35.tmp
+LogMetalShaderCompiler: Display: [9/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_8_76EE71932C40ECC6392C159D5F26670C.tmp
+LogMetalShaderCompiler: Display: [10/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_9_04EB50048D4C6CB0A869A29C3E4310B0.tmp
+LogMetalShaderCompiler: Display: [11/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_10_A844CEB798465E1EE6E6DC8FFD4ACF8F.tmp
+LogMetalShaderCompiler: Display: [12/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_11_A853EE89B140902D2CF5F1846BB5275A.tmp
+LogMetalShaderCompiler: Display: [13/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_12_D6FE70C39B4961A5B3263D98FC14241D.tmp
+LogMetalShaderCompiler: Display: [14/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_13_336ED7CC77439263C2EA7B9A67B6E400.tmp
+LogMetalShaderCompiler: Display: [15/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_14_6C70B728FF493D56ED7AA69FB59DE480.tmp
+LogMetalShaderCompiler: Display: [16/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_15_54ABBA568F41753DC120E1A850A91CB4.tmp
+LogMetalShaderCompiler: Display: [17/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_16_2A2A2E253E404EE0D2A556B574BB5116.tmp
+LogMetalShaderCompiler: Display: [18/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_17_195B01E308409E4DDA1DFDB6F752AFD8.tmp
+LogMetalShaderCompiler: Display: [19/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_18_9BC347CF1C4D3775D985EDBD6AC07DE3.tmp
+LogMetalShaderCompiler: Display: [20/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_19_34983ED4B54B9DCEB85BF59595BBA69E.tmp
+LogMetalShaderCompiler: Display: [21/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_20_A5B79248764650FC1996EABC5386D292.tmp
+LogMetalShaderCompiler: Display: [22/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_21_EA86F2A5264D87770791699BD6792940.tmp
+LogMetalShaderCompiler: Display: [23/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_22_7749A030B44ACB231E3A0D9B89D4068D.tmp
+LogMetalShaderCompiler: Display: [24/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_23_DFCDBD31544D4AE9CE2AB1AF5FE8D6BF.tmp
+LogMetalShaderCompiler: Display: [25/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_24_6F66A35869450B7F47A4FA921F0B493D.tmp
+LogMetalShaderCompiler: Display: [26/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_25_F19D92E51B4C25B92CC464A47ED45D7A.tmp
+LogMetalShaderCompiler: Display: [27/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_26_1CD069405B452A724D3814973F49F8B5.tmp
+LogMetalShaderCompiler: Display: [28/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_27_4668BF0BB14F7103335A1D8921A3DE51.tmp
+LogMetalShaderCompiler: Display: [29/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_28_FCD2389B00442E965EAA1B8F5AD2D750.tmp
+LogMetalShaderCompiler: Display: [30/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_29_41633785B845F10640ADD494E5E30A7C.tmp
+LogMetalShaderCompiler: Display: [31/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_30_6845FFF2AA4FCF0D1C01899F00358F1F.tmp
+LogMetalShaderCompiler: Display: [32/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_31_16428E9A84409D2CDE06E39BB7DC5177.tmp
+LogMetalShaderCompiler: Display: [33/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_32_2DD4185ED449A45C768F61BA061BA1B4.tmp
+LogMetalShaderCompiler: Display: [34/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_33_AB3F73C83B4EC0AD3B64FBBED39DB8B1.tmp
+LogMetalShaderCompiler: Display: [35/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_34_1AA672AAB9417E4185F3E0A2EDB77ABC.tmp
+LogMetalShaderCompiler: Display: [36/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_35_9804D288E447407EC1AD38BCAC2D842E.tmp
+LogMetalShaderCompiler: Display: [37/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_36_5863BC1D6F4CC44B26A7CC85E2978E44.tmp
+LogMetalShaderCompiler: Display: [38/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_37_DD89F21F704A444317BB8EBE4B6AF6C8.tmp
+LogMetalShaderCompiler: Display: [39/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_38_77D8836C0C45FB3DE8FD8BA71D0D5092.tmp
+LogMetalShaderCompiler: Display: [40/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_39_48AF662D57416E3ABB2572B79DE1FFCA.tmp
+LogMetalShaderCompiler: Display: [41/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_40_6CCE5B30224AB4A46603769E0653B844.tmp
+LogMetalShaderCompiler: Display: [42/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_41_8630CE94374D4822397D83BA1F9225C4.tmp
+LogMetalShaderCompiler: Display: [43/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_42_9C6F5D530E409711020B8482CAD7FA68.tmp
+LogMetalShaderCompiler: Display: [44/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_43_9F2177BA52445E1F76C8CEAC3F21E872.tmp
+LogMetalShaderCompiler: Display: [45/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_44_EAE061774B4EEF6CF3FE0F8D274673E6.tmp
+LogMetalShaderCompiler: Display: [46/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_45_8A867ED2764D1109534A37A591DFBDB7.tmp
+LogMetalShaderCompiler: Display: [47/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_46_2356BA0BC64DA0AC8302B985B6050990.tmp
+LogMetalShaderCompiler: Display: [48/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_47_A1B4229B344F5BE36BB1C29F5FE643B7.tmp
+LogMetalShaderCompiler: Display: [49/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_48_2049920B484849ACA7C30FB08147DEB9.tmp
+LogMetalShaderCompiler: Display: [50/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_49_37E72EA4234A8248843D05A83DF8DED9.tmp
+LogMetalShaderCompiler: Display: [51/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_50_C57198DDE24B9F55E3839A925133710E.tmp
+LogMetalShaderCompiler: Display: [52/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_51_D58B2404BF40D9BCEAB789B1513F6160.tmp
+LogMetalShaderCompiler: Display: [53/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_52_051C33057A410207F0A9C9895EDFDFFB.tmp
+LogMetalShaderCompiler: Display: [54/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_53_9A16710EB440B488DF68879C98679390.tmp
+LogMetalShaderCompiler: Display: [55/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_54_C7D50EE23D43C081F6B37592CED7365E.tmp
+LogMetalShaderCompiler: Display: [56/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_55_F69871148840E4C5DEA73FBCBA30F27E.tmp
+LogMetalShaderCompiler: Display: [57/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_56_134DF37A174798B3D90A888C8A375CC0.tmp
+LogMetalShaderCompiler: Display: [58/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_57_E0ECB2BF0646FE487B08A09BE97DD7D4.tmp
+LogMetalShaderCompiler: Display: [59/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_58_12B581CC5C41224A9915759C4D6BB4D8.tmp
+LogMetalShaderCompiler: Display: [60/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_59_EF252ACA5A4EA08B0AF76B9CA10BD04B.tmp
+LogMetalShaderCompiler: Display: [61/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_60_E2F25FAB8D41F1FB4EDCC0BCCD256479.tmp
+LogMetalShaderCompiler: Display: [62/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_61_6FAA7E7E7C44325AC0239585378D1202.tmp
+LogMetalShaderCompiler: Display: [63/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_62_7F07DC142E40406083AE24826F6A6603.tmp
+LogMetalShaderCompiler: Display: [64/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_63_4213C2BE8A40B1E5E995EFA7D92C614B.tmp
+LogMetalShaderCompiler: Display: [65/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_64_835325514A435545AA21F892E33FC870.tmp
+LogMetalShaderCompiler: Display: [66/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_65_9F8297B3694275DD3988968AA6BF66DE.tmp
+LogMetalShaderCompiler: Display: [67/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_66_B904C94BA940A86B9D712ABAB18537F3.tmp
+LogMetalShaderCompiler: Display: [68/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_67_5B6FEB88BB4D304EF4383D9C41697C38.tmp
+LogMetalShaderCompiler: Display: [69/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_68_F78504241C4F2CCB69D128950E554E44.tmp
+LogMetalShaderCompiler: Display: [70/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_69_DCBC96E3B2404C2982ACFAAD664908D3.tmp
+LogMetalShaderCompiler: Display: [71/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_70_D42C34E79944327DD2526C835BE990FD.tmp
+LogMetalShaderCompiler: Display: [72/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_71_F8184EB33E4EDB614DD7EEAA575179C2.tmp
+LogMetalShaderCompiler: Display: [73/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_72_9F5AEEF0A04DE5D2A9B135AD97F3E53A.tmp
+LogMetalShaderCompiler: Display: [74/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_73_FCF2E0D0374AFC17631574A7198B85F3.tmp
+LogMetalShaderCompiler: Display: [75/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_74_B116B4BD7442839B6E3160932FFF4C2F.tmp
+LogMetalShaderCompiler: Display: [76/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_75_C9FE599D2E4BD89055BD70AD29E34023.tmp
+LogMetalShaderCompiler: Display: [77/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_76_98DA11AD264EB43BEF5D2A9BC31683EB.tmp
+LogMetalShaderCompiler: Display: [78/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_77_620FAE77D846A3B2C3EF258C7BE61F3E.tmp
+LogMetalShaderCompiler: Display: [79/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_78_775B993FEC4131378AEF4E810071F324.tmp
+LogMetalShaderCompiler: Display: [80/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_79_3B4881D18C40057FAD2CEE98A8EEB12E.tmp
+LogMetalShaderCompiler: Display: [81/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_80_3A80CF1EDB43AD3EA84A0E89A8F738BC.tmp
+LogMetalShaderCompiler: Display: [82/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_81_2374C1BC6C4062AAB4F2DFAD1592D52F.tmp
+LogMetalShaderCompiler: Display: [83/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_82_AA6E98B1D54047A1181C1ABB8CACD278.tmp
+LogMetalShaderCompiler: Display: [84/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_83_2BC10876F848B2FC87176794FF5AF100.tmp
+LogMetalShaderCompiler: Display: [85/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_84_C1486983C045FDCF17302D9ED5D2D1E9.tmp
+LogMetalShaderCompiler: Display: [86/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_85_D6D243F621456C2B1362AA93F0EFA71C.tmp
+LogMetalShaderCompiler: Display: [87/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_86_F5D85CA18540897A5A2EA0BF5A0877AA.tmp
+LogMetalShaderCompiler: Display: [88/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_87_A6A5D752B749541DDE6045A375F0783B.tmp
+LogMetalShaderCompiler: Display: [89/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_88_056CB0F474485E9D8317FB8267594BFC.tmp
+LogMetalShaderCompiler: Display: [90/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_89_50DA9A04304CDAA26EFF81B9AEA542EE.tmp
+LogMetalShaderCompiler: Display: [91/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_90_7D0BA92FC94442820F6B13A44C077A19.tmp
+LogMetalShaderCompiler: Display: [92/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_91_DB9C5CD280407CE97EE057A5C2E4958E.tmp
+LogMetalShaderCompiler: Display: [93/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_92_EB96CBA4814A0694C94006AE484D6765.tmp
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM6
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (SF_METAL_SM6-METAL_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 407 (40700.00%)
+LogShaderLibrary: Display: Total Shaders: 8977, Unique Shaders: 8976 (99.99%)
+LogShaderLibrary: Display: Total Shader Size: 158.29mb, Unique Shaders Size: 158.28mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 4
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 530
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     2, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 7121 shaders (79.33%), compressed size: 136.44 MB (19.62 KB avg per shader), uncompressed size: 394.32 MB (56.70 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1729 shaders (19.26%), compressed size: 21.11 MB (12.50 KB avg per shader), uncompressed size: 58.41 MB (34.60 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 126 shaders (1.40%), compressed size: 0.74 MB (6.02 KB avg per shader), uncompressed size: 1.98 MB (16.12 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: Cooked packages 0 Packages Remain 1494 Total 1494
+LogCook: Display: Cook Diagnostics: OpenFileHandles=193, VirtualMemory=431701MiB, VirtualMemoryAvailable=19680MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogCook: Display: PreloadableFile was created for /Engine/Maps/Entry but never used. This is wasteful and bad for cook performance.
+LogCook: Display: PreloadableFile was created for /Game/Parallax_Night_Building_Material/Materials/Building_Office/Mi_Building05 but never used. This is wasteful and bad for cook performance.
+LogCook: Display: PreloadableFile was created for /Game/Parallax_Night_Building_Material/Materials/Building_Office/MI_NightGlassFunction_02 but never used. This is wasteful and bad for cook performance.
+LogCook: Display: PreloadableFile was created for /Game/Parallax_Night_Building_Material/Meshes/Building/SM_Building05 but never used. This is wasteful and bad for cook performance.
+LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn) ...
+LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Mannequin) ...
+LogCook: Display: Cooked packages 432 Packages Remain 1383 Total 1815
+LogCook: Display: UnexpectedLoad: TargetPackage /Game/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK was unexpectededly loaded during the cook of SourcePackage /Game/YI_ModularZombies/Demo/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK; it was not declared as a hard dependency (aka Import) of the SourcePackage. We have to conservatively add this package to the cook, but it might not be needed at runtime. Declare the TargetPackage as an import during editor save of the SourcePackage, or mark up its load with FCookLoadScope to specify whether it is runtime or editoronly.
+LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Zombie) ...
+LogCook: Display: Cooked packages 810 Packages Remain 1005 Total 1815
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.8.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.11.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.12.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.13.dylib
+LogCook: Display: Cooked packages 1641 Packages Remain 174 Total 1815
+LogCook: Display: Cooked packages 1815 Packages Remain 0 Total 1815
+LogCook: Display: Cook Diagnostics: OpenFileHandles=189, VirtualMemory=434890MiB, VirtualMemoryAvailable=16030MiB
+LogAssetRegistryGenerator: Display: Saving asset registry v22.
+LogAssetRegistryGenerator: Display: Generated development asset registry /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/DevelopmentAssetRegistry.bin num assets 1826, size is 1305.19kb, XxHash64[LE] = 0x90B07C5ADA894A28, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 1819, size is 594.00kb
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm5-metal_sm5.0.metallib
+LogMetalShaderCompiler: Display: Archiving 1476 shaders for shader platform: SF_METAL_SM5
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM5
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'CodeRescueUnreal' (SF_METAL_SM5-METAL_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 536, Unique Shadermaps: 196 (36.57%)
+LogShaderLibrary: Display: Total Shaders: 2578, Unique Shaders: 1541 (59.78%)
+LogShaderLibrary: Display: Total Shader Size: 33.24mb, Unique Shaders Size: 21.18mb (63.72%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 8
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 294
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     95, 77, 34, 32, 29, 26, 22, 21, 20, 19
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 914 shaders (59.31%), compressed size: 12.90 MB (14.46 KB avg per shader), uncompressed size: 22.00 MB (24.64 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 438 shaders (28.42%), compressed size: 5.98 MB (13.99 KB avg per shader), uncompressed size: 10.02 MB (23.42 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 189 shaders (12.26%), compressed size: 2.30 MB (12.44 KB avg per shader), uncompressed size: 3.96 MB (21.45 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM5-METAL_SM5/ShaderDebug-CodeRescueUnreal-SF_METAL_SM5-METAL_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm6-metal_sm6.0.metallib
+LogMetalShaderCompiler: Display: [1/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_0_36E4EF5D6942BA89E955D4BE0D8B3308.tmp
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: [2/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_1_D4179F882D4BC33D58A79683B408DC73.tmp
+LogMetalShaderCompiler: Display: [3/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_2_501E1E73B0444E661482898C153B8BA1.tmp
+LogMetalShaderCompiler: Display: [4/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_3_D64A622E9746D43CB47CA29B43396AC8.tmp
+LogMetalShaderCompiler: Display: [5/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_4_2ADA66D4D1417934E6D603A5B2E85CFF.tmp
+LogMetalShaderCompiler: Display: [6/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_5_4C6E232D1147167572EB3B81A41099B6.tmp
+LogMetalShaderCompiler: Display: [7/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_6_48C3FE81E1469C4CF17A89BE068659D5.tmp
+LogMetalShaderCompiler: Display: [8/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_7_1DE92C351845665AE14984ABA167B09E.tmp
+LogMetalShaderCompiler: Display: [9/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_8_2DFFE87A5948DCE20612E49997CCED4C.tmp
+LogMetalShaderCompiler: Display: [10/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_9_4AC05E4E734E021396D843BC20506F6C.tmp
+LogMetalShaderCompiler: Display: [11/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_10_3D55019DC144695B48BC7AAACDFDF26F.tmp
+LogMetalShaderCompiler: Display: [12/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_11_41685343804CC8144F4601A847C8B0DC.tmp
+LogMetalShaderCompiler: Display: [13/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_12_265719B1764A1CFC8F5496A19DF3A79A.tmp
+LogMetalShaderCompiler: Display: [14/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_13_B4067A48C34F1315882F66B2171E113F.tmp
+LogMetalShaderCompiler: Display: [15/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_14_D39E3B5F8342FEDAD04810BBC368E4CF.tmp
+LogMetalShaderCompiler: Display: [16/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_15_7FF644231C4A32BB4E22FB805418B900.tmp
+LogMetalShaderCompiler: Display: [17/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_16_AE4652F9204768F2E46A618E7367DA5C.tmp
+LogMetalShaderCompiler: Display: [18/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_17_7DD444610F458567668835AFDB9BF7A4.tmp
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM6
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'CodeRescueUnreal' (SF_METAL_SM6-METAL_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 536, Unique Shadermaps: 196 (36.57%)
+LogShaderLibrary: Display: Total Shaders: 2995, Unique Shaders: 1696 (56.63%)
+LogShaderLibrary: Display: Total Shader Size: 28.06mb, Unique Shaders Size: 16.18mb (57.66%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 9
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 371
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     187, 98, 96, 38, 28, 26, 22, 20, 19, 17
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1067 shaders (62.91%), compressed size: 9.98 MB (9.57 KB avg per shader), uncompressed size: 27.19 MB (26.10 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 424 shaders (25.00%), compressed size: 4.56 MB (11.02 KB avg per shader), uncompressed size: 12.57 MB (30.37 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 205 shaders (12.09%), compressed size: 1.64 MB (8.19 KB avg per shader), uncompressed size: 4.36 MB (21.76 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "GLTFImporter" referenced by "FabLauncher" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogCook: Display: Cook by the book total time in tick 6.404248s total time 29.275530
+LogCook: Display: Peak Used virtual 435266 MiB Peak Used physical 5540 MiB
+LogCook: Display: Packages Cooked: 1807, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 8, Total Packages: 1815
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.333s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.023s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.003s (1)
+LogCookStats: Display:     TickMainCookLoop: 6.404s (2)
+LogCookStats: Display:       PumpPollables: 0.003s (2)
+LogCookStats: Display:       PumpRequests: 0.014s (57)
+LogCookStats: Display:       LoadPackageForCooking: 3.301s (1815)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (1815)
+LogCookStats: Display:       SavingPackages: 2.431s (238)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.172s (35145)
+LogCookStats: Display:         PrepareSave: 0.521s (33484)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 0.268s (1814)
+LogCookStats: Display:           PrepareSave: 0.268s (2140)
+LogCookStats: Display:         SaveCookedPackage: 1.451s (1815)
+LogCookStats: Display:           GEditorSavePackage: 1.420s (1815)
+LogCookStats: Display:             VerifyCanCookPackage: 0.001s (1807)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.011s (1815)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (1)
+LogCookStats: Display:       WaitForAsync: 0.635s (59)
+LogCookStats: Display:     CookByTheBookFinished: 2.906s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.016s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.001s (1)
+LogCookStats: Display:       ChunkGeneration: 0.005s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.001s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.014s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.003s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.035s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.035s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.001s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.001s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.001s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000069
+LogCookStats: Display:     AsyncCompileTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=0
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.000094
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=0.124413
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     NumRequestedLoads=727
+LogCookStats: Display:     NumPackagesLoaded=4698
+LogCookStats: Display:     NumInlineLoads=3971
+LogCookStats: Display:     LoadPackageTimeSec=3.554461
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display:     NumPackagesSaved=1815
+LogCookStats: Display:     SavePackageTimeSec=1.411270
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.001970
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: CookOnTheFlyServer
+LogCookStats: Display:     PeakRequestQueueSize=1815
+LogCookStats: Display:     PeakLoadQueueSize=40
+LogCookStats: Display:     PeakSaveQueueSize=440
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=nan
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=47.943313
+LogCookStats: Display:  0. 0.StartupWallTimeSec=17.743645
+LogCookStats: Display:  0. 1.StartCookByTheBookTimeSec=20.866073
+LogCookStats: Display:  0. 1. 0.BlockOnAssetRegistryTimeSec=0.032558
+LogCookStats: Display:  0. 1. 1.GameCookModificationDelegateTimeSec=0.000072
+LogCookStats: Display:  0. 2.TickCookOnTheSideTimeSec=0.051647
+LogCookStats: Display:  0. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=3.300595
+LogCookStats: Display:  0. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=1.450694
+LogCookStats: Display:  0. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=0.789677
+LogCookStats: Display:  0. 3.TickLoopGCTimeSec=0.016092
+LogCookStats: Display:  0. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000003
+LogCookStats: Display:  0. 6.TickLoopProcessDeferredCommandsTimeSec=0.000015
+LogCookStats: Display:  0. 7.TickLoopTickCommandletStatsTimeSec=0.000000
+LogCookStats: Display:  0. 8.TickLoopFlushRenderingCommandsTimeSec=0.003231
+LogCookStats: Display:  0. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 10.ValidationTimeSec=0.000079
+LogCookStats: Display:  1.CookParameters=
+LogCookStats: Display:  1. 0.TargetPlatforms=Mac
+LogCookStats: Display:  1. 1.CookProject=CodeRescueUnreal
+LogCookStats: Display:  1. 2.CookCultures=
+LogCookStats: Display:  1. 3.IsCookAll=false
+LogCookStats: Display:  1. 4.IsCookOnTheFly=false
+LogCookStats: Display:  1. 5.IsIterativeCook=false
+LogCookStats: Display:  1. 6.IsUnversioned=true
+LogCookStats: Display:  1. 7.CookLabel=
+LogCookStats: Display:  1. 8.IsFastCook=false
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =      9436
+LogCookStats: Display: TotalGetMisses  =         0
+LogCookStats: Display: TotalGets       =      9436
+LogCookStats: Display: TotalGetHitPct  =  1.000000
+LogCookStats: Display: GetMissPct      =  0.000000
+LogCookStats: Display: TotalPutHits    =         0
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =         0
+LogCookStats: Display: TotalPutHitPct  =  0.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =      8552
+LogCookStats: Display: LocalGetMisses  =         0
+LogCookStats: Display: LocalGetTotal   =      8552
+LogCookStats: Display: LocalGetHitPct  =  1.000000
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =      8552
+LogCookStats: Display: ZenLocalGetTotal=      8552
+LogCookStats: Display: ZenLocalGetHitPct=  1.000000
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteReadSpeed=  0.000000
+LogCookStats: Display: ZenRemoteWriteSpeed=  0.000000
+LogCookStats: Display: ZenRemoteLatency=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  1.017197
+LogCookStats: Display: LocalReadSpeed  =700.350299
+LogCookStats: Display: LocalWriteSpeed =  0.000000
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: GlobalShader                                    0.84                   0.84             0        266.08
+LogCookStats: Display: Texture                                         0.30                   0.00             0        769.01
+LogCookStats: Display: STREAMEDAUDIO                                   0.17                   0.00             0        153.97
+LogCookStats: Display: Audio                                           0.08                   0.00             0        153.78
+LogCookStats: Display: BulkDataList                                    0.04                   0.00             0          0.66
+LogCookStats: Display: MaterialShader                                  0.02                   0.12             0        139.45
+LogCookStats: Display: StaticMesh                                      0.02                   0.01             0         44.84
+LogCookStats: Display: DistanceField                                   0.02                   0.01             0         11.01
+LogCookStats: Display: CardRepresentation                              0.01                   0.00             0          0.06
+LogCookStats: Display: NavCollision                                    0.01                   0.00             0          1.19
+LogCookStats: Display: SkeletalMesh                                    0.00                   0.00             0         99.90
+LogCookStats: Display: AnimationSequence                               0.00                   0.00             0          2.08
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.87
+LogCookStats: Display: BulkDataPayloadId                               0.00                   0.00             0          0.02
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0         24.68
+LogPackageBuildDependencyTracker: Display: Package Accesses (1058 referencing packages with a total of 18662 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (1182 referencing packages with a total of 6643 unique accesses). 1654 unique accesses that were not associated with a package.
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.000473s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 0 warning(s)
+LogInit: Display:
+Execution of commandlet took:  30.20 seconds
+LogShaderCompilers: Display: Shaders left to compile 0
+2026-07-11 15:37:59.348 UnrealEditor-Cmd[38558:7845706] [UE4] Shutdown handler: cleanup.
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Opening shared memory
+Starting the store
+Reading settings from '/Users/labcomputer/UnrealEngine/UnrealTrace/Settings.ini'
+
+Unable to open settings file /Users/labcomputer/UnrealEngine/UnrealTrace/Settings.ini.
+
+Store settings (/Users/labcomputer/UnrealEngine/UnrealTrace/Settings.ini):
+ - Store port: 1989
+ - Recorder port: 1981
+ - Thread count: 0
+ - Sponsored mode: 1
+ - Directory: '/Users/labcomputer/UnrealEngine/UnrealTrace/Store/001'
+Watcher enabled on /Users/labcomputer/UnrealEngine/UnrealTrace/Store/001
+Signalling parent 38568
+Terminating server, no sponsors or connections active.
+Received signal 15
+Listening cancelled, closing port...
+Listening cancelled, closing port...
+Daemon is exiting without errors.
+Took 55.92s to run UnrealEditor-Cmd, ExitCode=0
+Cook command time: 55.96 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating UECommandLine.txt
+Creating Staging Manifest...
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/Keywords.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/Engine.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/WordCount.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/PropertyNames.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/RepairData.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseEditorSettings.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseEditorKeyBindings.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseEditor.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/ToolTips.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseEditorPerProjectUserSettings.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BasePakFileRules.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/Editor.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/PortableObjectExport.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseSourceControlSettings.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseUnrealInsightsSettings.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Mac/MacEditorPerProjectUserSettings.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/PortableObjectImport.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/BaseLightmass.ini
+Excluding config file /Users/Shared/UE_5.7/Engine/Config/Localization/Category.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/VulkanPC/DataDrivenPlatformInfo.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseCompat.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/ConsoleVariables.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseInstallBundle.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseInput.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/PluginBase.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Layouts/DefaultLayout.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Mac/MacGame.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseDeviceProfiles.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseMaterialExpressions.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Base.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseScalability.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseRuntimeOptions.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseHardware.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseGameUserSettings.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseGame.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Layouts/UE4ClassicLayout.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Mac/BaseMacEngine.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Mac/BaseMacInput.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/Mac/DataDrivenPlatformInfo.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/BaseEngine.ini
+Including config file /Users/Shared/UE_5.7/Engine/Config/ConfigRedirects.ini
+Including config file /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Config/DefaultGame.ini
+Including config file /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Config/DefaultInput.ini
+Including config file /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Config/DefaultEngine.ini
+Cleaning Stage Directory: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac
+Creating pak using staging manifest.
+DumpManifest: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/PrePak_Mac_NonUFSFiles.txt, NumItems: 28
+DumpManifest: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/PrePak_Mac_NonUFSFilesDebug.txt, NumItems: 5
+DumpManifest: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/PrePak_Mac_UFSFiles.txt, NumItems: 6121
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Mac
+Using 0 pak order files:
+Running UnrealPak with arguments: "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject"  -cryptokeys="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/Crypto.json" -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -platform=Mac  -CreateMultiple="/Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/PakCommands.txt"
+Running: /Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealPak "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject"  -cryptokeys="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/Crypto.json" -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -platform=Mac  -CreateMultiple="/Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/PakCommands.txt"
+LogPakFile: Display: ProjectDir: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file /Users/Shared/UE_5.7/Engine/Programs/AutomationTool/Saved/ResponseFiles/PakList_CodeRescueUnreal-Mac.txt
+LogPakFile: Display: Added 1789 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1789 files in 0.00s.
+LogPakFile: Display: Creating pak /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak.
+OodleDataCompression: Display: Oodle v2.9.14 format for pak/iostore with method=Kraken, level=4=Normal
+LogPakFile: Display: Created pak file: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 482 files, 31569525 -> 10038834 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1307 files, 376760902 -> 376760902 bytes
+LogPakFile: Display: Added 1789 files, 387047409 bytes total
+LogPakFile: Display: PrimaryIndex size: 25350 bytes
+LogPakFile: Display: PathHashIndex size: 52013 bytes
+LogPakFile: Display: FullDirectoryIndex size: 58992 bytes
+LogPakFile: Display: Compression summary: 31.80% of original size. Compressed Size 10038834 bytes, Original Size 31569525 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 0.273905 seconds
+Took 1.24s to run UnrealPak, ExitCode=0
+Running UnrealPak with arguments: "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject" -CreateGlobalContainer="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal/Content/Paks/global.utoc" -PackageStoreManifest="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/packagestore.manifest" -CookedDirectory="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac" -Commands="/Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/IoStoreCommands.txt" -ScriptObjects="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/scriptobjects.bin" -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Mac 
+Running: /Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealPak "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject" -CreateGlobalContainer="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal/Content/Paks/global.utoc" -PackageStoreManifest="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/packagestore.manifest" -CookedDirectory="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac" -Commands="/Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/IoStoreCommands.txt" -ScriptObjects="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/scriptobjects.bin" -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled -platform=Mac
+LogPakFile: Display: ProjectDir: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogConfig: Display: Read in platform Mac ini files took 0.01 seconds
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '65536'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Using command list file: '/Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/IoStoreCommands.txt'
+LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+LogIoStore: Display: Fetched 1815 oplog items from Manifest in 0.00 seconds
+LogIoStore: Display: Parsed 1815 oplog items 0.00 seconds, 2525 chunks
+LogIoStore: Display: Using input asset registry: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/DevelopmentAssetRegistry.bin
+LogIoStore: Display: Loaded 718 chunk hashes from AssetRegistry in 0.01 seconds, 718 hashes updated in 0.00 seconds
+LogIoStore: Display: Searching for cooked assets in folder '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac'
+LogIoStore: Display: Found '4336' files
+LogIoStore: Display: Creating container targets...
+OodleDataCompression: Display: Oodle v2.9.14 format for pak/iostore with method=Kraken, level=4=Normal
+LogIoStore: Display: Parsing packages...
+LogIoStore: Display: Reading package assets...
+LogIoStore: Display: Reading 1000/1807: '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/CodeRescueArt/FirstLevelV4/GrenadeV4/GrenadeV4/Materials/CRV4_Steel.uasset'
+LogIoStore: Display: Packages read 1,807 files in 0.03 seconds, 2,804,137 total bytes, 92,095,672 bytes per second
+LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+LogIoStore: Display: Shaders processed in 0.00 seconds
+LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=7 (14 cores), MaxSourceBufferMemory=3072MiB
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 1807 packages using fallback bundle order
+LogIoStore: Display: Serializing container(s)...
+LogIoStore: Display: Writing chunks 1975/2527... [1974 compressed] [5100 compression tasks] [Physical: 3237 MiB, Virtual: 427572 MiB]
+LogIoStore: Display: Writing chunks 2438/2527... [2437 compressed] [276 compression tasks] [Physical: 2866 MiB, Virtual: 426351 MiB]
+LogIoStore: Display: Writing and compressing took 4.00 seconds, writes to disk took 0.29 seconds for 1,167,840,112 bytes @ 4,023,164,884 bytes per second.
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: CodeRescueUnreal-Mac: Found perfect hashmap for 2526 items.
+LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 654,544 bytes, 53,639,789 bytes per second
+LogIoStore: Display: Writing tocs... [Physical: 2908 MiB, Virtual: 426343 MiB]
+LogIoStore: Display: 718 / 2,527 hashes were loaded from the hash database, by type:
+LogIoStore: Display:     BulkData                   718
+LogIoStore: Display: 2,525 / 2,527 chunks attempted to compress, by type:
+LogIoStore: Display:     ExportBundleData           1,807 / 1,807
+LogIoStore: Display:     BulkData                   718 / 718
+LogIoStore: Display:     ScriptObjects              0 / 1
+LogIoStore: Display:     ContainerHeader            0 / 1
+LogIoStore: Display: Source bytes read:
+LogIoStore: Display:     Zen:                                  0
+LogIoStore: Display:     Loose File:               2,621,106,319
+LogIoStore: Display:         ExportBundleData        937,782,938 bytes over 3,614 reads
+LogIoStore: Display:         BulkData               1,683,323,381 bytes over 718 reads
+LogIoStore: Display:     Memory:                               0
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display:
+LogIoStore: Display: Container Summary
+LogIoStore: Display: ==================
+LogIoStore: Display:
+LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                              -/-/-/-/-               1            0.72                 2.80                 2.80 -
+LogIoStore: Display: CodeRescueUnreal-Mac                                C/-/-/I/-            2526          638.49              2072.91              1110.94 (46.41% Oodle)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Total                                                                    2527          639.20              2075.71              1113.74
+LogIoStore: Display:
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+LogIoStore: Display:
+LogIoStore: Display: Compression block padding:    18.68 MiB
+LogIoStore: Display:
+LogIoStore: Display: Container Directory Index
+LogIoStore: Display: ==========================
+LogIoStore: Display:
+LogIoStore: Display: Container                                          Size (KiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                                   0.00
+LogIoStore: Display: CodeRescueUnreal-Mac                                   112.62
+LogIoStore: Display:
+LogIoStore: Display: Container Patch Report
+LogIoStore: Display: ========================
+LogIoStore: Display:
+LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+LogIoStore: Display: CodeRescueUnreal-Mac                                     2526                0             2526             0.00          1092.25
+LogIoStore: Display:
+LogIoStore: Display: PackageStore
+LogIoStore: Display: =============
+LogIoStore: Display:
+LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: CodeRescueUnreal-Mac                                       48            1807               0
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Total                                                      48            1807               0
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: Input:      1807 Packages
+LogIoStore: Display: Input:    447.17 MiB UExp
+LogIoStore: Display: Input:      2.67 MiB UAsset
+LogIoStore: Display: Input:      1.57 GiB UBulk
+LogIoStore: Display: Input:         0   B for 0 Global shaders
+LogIoStore: Display: Input:         0   B for 0 Shared shaders
+LogIoStore: Display: Input:         0   B for 0 Unique shaders
+LogIoStore: Display: Input:         0   B for 0 Inline shaders
+LogIoStore: Display:
+LogIoStore: Display: Output:    22837 Name map entries
+LogIoStore: Display: Output:     2491 Imported package entries
+LogIoStore: Display: Output:      843 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     1.66 MiB HeaderData
+LogIoStore: Display: Output:     2.80 MiB InitialLoadData
+LogIoStore: Display:
+LogIoStore: Display: Success
+LogPakFile: Display: UnrealPak executed in 4.304818 seconds
+Took 4.55s to run UnrealPak, ExitCode=0
+DumpManifest: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/FinalCopyMac_UFSFiles.txt, NumItems: 6122
+DumpManifest: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/FinalCopyMac_NonUFSFiles.txt, NumItems: 28
+DumpManifest: /Users/labcomputer/Library/Logs/Unreal Engine/LocalBuildLogs/FinalCopyMac_NonUFSFilesDebug.txt, NumItems: 5
+Copying NonUFSFiles to staging directory: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac
+Copying DebugFiles to staging directory: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac
+Discovering modules, targets and source code for project...
+Adding projects for all targets...
+Adding projects for all targets took 0.00s
+Adding projects for all game projects took 0.00s
+Adding projects for all modules took 0.00s
+Compiling with Mac SDK 26.5, minimum Target OS version 14.00
+Compiling with IOS SDK 26.5, minimum Target OS version 15.0
+Adding additional Xcode project info took 0.00s
+Writing project files...
+Writing xcode workspace /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFiles/CodeRescueUnreal_Mac_CodeRescueUnreal.xcworkspace
+Writing project files... 100%
+Writing project files took 0.00s
+params: UBT_NO_POST_DEPLOY=true /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -workspace "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFiles/CodeRescueUnreal_Mac_CodeRescueUnreal.xcworkspace" -scheme "CodeRescueUnreal" -configuration "Development" -destination generic/platform="macOS" CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION=YES SYMROOT="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds" EFFECTIVE_PLATFORM_NAME=Mac UE_OVERRIDE_STAGE_DIR="/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac" -allowProvisioningUpdates UE_XCODE_BUILD_MODE=Stage -hideShellScriptEnvironment
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -workspace /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFiles/CodeRescueUnreal_Mac_CodeRescueUnreal.xcworkspace -scheme CodeRescueUnreal -configuration Development -destination generic/platform=macOS CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION=YES SYMROOT=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds EFFECTIVE_PLATFORM_NAME=Mac UE_OVERRIDE_STAGE_DIR=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac -allowProvisioningUpdates UE_XCODE_BUILD_MODE=Stage -hideShellScriptEnvironment
+
+Build settings from command line:
+    CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES
+    EFFECTIVE_PLATFORM_NAME = Mac
+    SYMROOT = /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds
+    UE_OVERRIDE_STAGE_DIR = /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac
+    UE_XCODE_BUILD_MODE = Stage
+
+Run pre-actions
+
+SchemeAction Touch\ UBT\ generated\ tiles /var/folders/p4/rg7xv9gj12d60fnq392wq0mm0000gp/T/SchemeScriptAction-EOgbgX.sh
+    cd /var/folders/p4/rg7xv9gj12d60fnq392wq0mm0000gp/T/
+    /bin/sh -c /var/folders/p4/rg7xv9gj12d60fnq392wq0mm0000gp/T/SchemeScriptAction-EOgbgX.sh
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'CodeRescueUnreal' in project 'CodeRescueUnreal (Mac)' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --version --output-format xml1
+
+Build description signature: 113a84faea5230e06ef2c0ea872b0caf
+Build description path: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/XCBuildData/113a84faea5230e06ef2c0ea872b0caf.xcbuilddata
+MkDir /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /bin/mkdir -p /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents
+
+MkDir /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /bin/mkdir -p /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources
+
+CpResource /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources/UEMetadata /Users/Shared/UE_5.7/Engine/Build/Mac/Resources/UEMetadata (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Shared/UE_5.7/Engine/Build/Mac/Resources/UEMetadata /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources
+
+LinkAssetCatalog /Users/Shared/UE_5.7/Engine/Build/Mac/Resources/Assets.xcassets (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    builtin-linkAssetCatalog --thinned /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_output/thinned --thinned-dependencies /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_generated_info.plist_unthinned --output /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources --plist-output /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources/AppIcon.icns (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+note: Emplaced /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources/Assets.car (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+
+ProcessInfoPlistFile /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Info.plist /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Build/Mac/Resources/Info.Template.plist (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    builtin-infoPlistUtility /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Build/Mac/Resources/Info.Template.plist -producttype com.apple.product-type.application -genpkginfo /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/PkgInfo -expandbuildsettings -format xml -platform macosx -additionalcontentfile /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/assetcatalog_generated_info.plist -o /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Info.plist
+
+LinkStoryboards (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module CodeRescueUnreal --target-device mac --minimum-deployment-target 14.00 --output-format human-readable-text --link /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/Resources /Users/Shared/UE_5.7/Engine/Build/IOS/Resources/Interface/LaunchScreen.storyboardc
+
+PhaseScriptExecution Copy\ Executable\ and\ Staged\ Data\ into\ .app /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ (Mac).build/Mac/CodeRescueUnreal.build/Script-BB734F3D942A8F74E8FBF62C.sh (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /bin/sh -c /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\\\ \\\(Mac\\\).build/Mac/CodeRescueUnreal.build/Script-BB734F3D942A8F74E8FBF62C.sh
+Copying executable and any standalone dylibs into /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/MacOS but do not overwrite unless src is newer
+Syncing /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac to /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app/Contents/UE
+
+CodeSign /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+
+    Signing Identity:     "Sign to Run Locally"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/CodeRescueUnreal\ \(Mac\).build/Mac/CodeRescueUnreal.build/CodeRescueUnreal.app.xcent --timestamp\=none --generate-entitlement-der /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app
+/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app: replacing existing signature
+
+Validate /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    builtin-validationUtility /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app -no-validate-extension -infoplist-subpath Contents/Info.plist
+
+RegisterWithLaunchServices /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app (in target 'CodeRescueUnreal' from project 'CodeRescueUnreal (Mac)')
+    cd /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ProjectFilesMac
+    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/StagedBuilds/Mac/CodeRescueUnreal.app
+
+** BUILD SUCCEEDED **
+
+Stage command time: 18.99 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac
+staging targets: 'CodeRescueUnreal', 'Development'
+==================================================================================================================================================
+Copying Development package /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnreal.app to archive directory /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app
+==================================================================================================================================================
+Archive command time: 0.21 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 111.27 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 51s
+AutomationTool exiting with ExitCode=0 (Success)
+Packaged Mac app:
+/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app

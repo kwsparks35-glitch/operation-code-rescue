@@ -1,0 +1,21 @@
+layer	target_spawn_cost_ms	target_runtime_cost_ms	target_memory_mb	notes
+CoreRoute	8	1	64	Entry, route stripe, terminal, survivor, helipad, and required blockers.
+ArenaConfinement	5	1	32	Catch floor, lock walls, beacons, and recovery guidance.
+USCityIdentity	18	3	160	Landscape, architecture, vehicles, clothing, signature silhouettes, and district micro-scenes.
+CombatActors	12	6	256	Zombies, elite variants, boss actors, damage markers, and AI controllers.
+RescueSquad	6	3	96	Five companions, support fire, medic pulse, and HUD pips.
+CurriculumSafehouse	8	2	96	Protected no-zombie learning room, terminal, language signage, and feedback props.
+HUDAndUI	4	3	48	HUD, subtitles, minimap, journal, pause/settings/tutorial widgets.
+AudioAndNarration	4	2	320	Radio cues, Maple narration WAVs, music, growls, and hit feedback.
+PhysicsAndProps	10	5	192	Interactable pickups, barricades, tactical props, and frozen access blockers.
+StreamingPackage	30	8	512	City transition cleanup/loading and cooked package mount behavior.
+RendererProfile	0	1	0	Apple Silicon packaged default uses TAA with temporal upsampling disabled; TSR is kept out of the Mac runtime baseline to reduce cost and zombie-motion ghosting.
+MacFeatureProfile	0	1	0	Nanite/SM6 and VSM remain promotion-gated for Mac; runtime play keeps non-Nanite fallbacks and disables VSMs until target hardware review passes.
+ImportedAssetBudgetGate	0	1	0	Imported skeletal meshes, city modules, textures, shaders, VFX, and physics props require Mac LOD, texture-memory, shader-complexity, and fallback review before runtime promotion.
+PhysicsPromotionValidation	0	1	0	Physics Assets, destructible debris, throwables, ragdolls, and future Geometry Collections require active-body retirement, ragdoll caps, simple collision, and smoke validation before runtime scaling.
+WorldPromotionValidation	0	1	0	Promoted city modules, PCG/PLA/HLOD outputs, Data Layer migrations, and imported environment packs require simple collision, authored fallback coverage, human-scale proportions, streaming budgets, and Mac package-smoke evidence before runtime scaling.
+RuntimeDataLayerMigration	3	1	12	World Partition/Data Layer fallback station uses five small review cards, short labels, and local lights to expose state/time/mode tags without replacing the generated city or adding heavy streaming cost.
+EnvironmentalStorytelling	4	1	16	The narrative world-story deck uses five nonblocking story cards, a few cable markers, short labels, and local lights to expose the coding-rescues-people premise without increasing combat or save-system cost.
+WorldBibleLore	3	1	12	The canonical lore deck uses five lore cards, one backboard, and local lights to expose premise, pillars, factions, technology rules, and city chapter data without changing runtime systems.
+HoudiniModularCityOutput	2	1	24	Generated city output review lane must stay lightweight, nonblocking, deterministic by city seed, and promotion-gated before any Houdini/PCG cell replaces fallback runtime city geometry.
+MacCompatibilityValidation	0	1	0	Groom, MetaHuman, Nanite/SM6, VSM/Lumen, shader-heavy, texture-heavy, skeletal, and static content require Mac fallback classification, LOD evidence, renderer fallback evidence, and packaged render-smoke validation before runtime promotion.

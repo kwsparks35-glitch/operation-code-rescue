@@ -1,0 +1,2230 @@
+{
+  "commandlet_plan": {
+    "commands": [
+      {
+        "argv": [
+          "/Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject",
+          "-unattended",
+          "-NoSound",
+          "-NullRHI",
+          "-run=ResavePackages",
+          "-projectonly",
+          "-IgnoreChangelist",
+          "-SearchAllAssets",
+          "-packagefolder=/Game"
+        ],
+        "name": "resave_packages"
+      },
+      {
+        "argv": [
+          "/Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject",
+          "-unattended",
+          "-NoSound",
+          "-NullRHI",
+          "-run=CompileAllBlueprints",
+          "-projectonly"
+        ],
+        "name": "compile_all_blueprints"
+      },
+      {
+        "argv": [
+          "/Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject",
+          "-unattended",
+          "-NoSound",
+          "-NullRHI",
+          "-run=DataValidation",
+          "-ProjectOnly"
+        ],
+        "name": "data_validation"
+      },
+      {
+        "argv": [
+          "/Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject",
+          "-unattended",
+          "-NoSound",
+          "-NullRHI",
+          "-run=PythonScript",
+          "-script=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/mcp_fab_unreal_import_validate.py"
+        ],
+        "name": "mcp_asset_validation_script"
+      }
+    ],
+    "engine_root": "/Users/Shared/UE_5.7/Engine",
+    "unreal_editor_cmd": "/Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd",
+    "uproject": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject"
+  },
+  "generated_at": "2026-05-27T20:44:01Z",
+  "generated_by": "fab-unreal-macos-mcp",
+  "honesty_boundary": "This manifest records local Fab/Vault metadata and project presence. It does not bypass Fab authentication, license terms, or publisher source-code requirements.",
+  "items": [
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/AI_for_NPC__MetaHuman_-_Dialog__actions_and_general_intelligence_-_by_Convai-ba3145af",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/AI_for_NPC__MetaHuman_-_Dialog__actions_and_general_intelligence_-_by_Convai-ba3145af/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "AI_for_NPC_MetaHuman_Dialog_actions_and_general_intelligence_by_Convai",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "AI for NPC  MetaHuman - Dialog  actions and general intelligence - by Convai",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "photoreal survivor mesh, hair/groom review, or tooling support",
+        "target_layer": "survivor/mentor visual identity and character customization staging",
+        "world_role": "survivor_character_pipeline"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": false,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/ASYNC_PHYSICS__Blueprints_Library-78cbe2c1",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/ASYNC_PHYSICS__Blueprints_Library-78cbe2c1/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "ASYNC_PHYSICS_Blueprints_Library",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "ASYNC PHYSICS  Blueprints Library",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "only after Mac rebuild, validation, and license review",
+        "target_layer": "manual review queue before runtime use",
+        "world_role": "tooling_or_plugin_candidate"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item advertises UE_5.7 compatibility and does not appear to require native plugin rebuild work."
+        ],
+        "recommended_actions": [
+          "Migrate with dependencies, then run validation before promoting into the main project."
+        ],
+        "supports_target_engine": true,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": false,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable"
+      },
+      "item": {
+        "build_version": "5.4.0-29926460+++UE5+Dev-Marketplace-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Building_Interior_Cubemap_Material_Function-054496b1",
+        "catalog_item_id": "e2bcab6a44cd414cb64715330811283d",
+        "compatible_apps": [
+          "UE_4.27",
+          "UE_5.0",
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4",
+          "UE_5.5",
+          "UE_5.6",
+          "UE_5.7"
+        ],
+        "content_roots": [
+          "Parallax_Night_Building_Material"
+        ],
+        "extension_counts": {
+          ".uasset": 87,
+          ".umap": 3
+        },
+        "file_count": 90,
+        "is_code_project": false,
+        "legacy_item_id": "54ae46f243c14f36b606319a297424f8",
+        "listing_url": "https://www.fab.com/listings/054496b1-cf86-4274-94af-cb562e126583",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Building_Interior_Cubemap_Material_Function-054496b1/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Building_Interior_Cubemap_Material_Function",
+        "source_engine_version": "5.4.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/1f0bfc6f-8d3e-498f-9588-4a2c0adc523e/53564f74-1535-42b5-84f6-61f60329a01c.jpg",
+        "title": "Building Interior Cubemap Material Function",
+        "vault_filters": "Building & Human-made",
+        "vault_tags": "Building & Human-made",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "Parallax_Night_Building_Material"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "visual variety without changing the coding-learning loop",
+        "target_layer": "city skyline, interiors, and architectural mood panels",
+        "world_role": "environment_material_upgrade"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item contains character, skeleton, physics, or animation assets; forward migration should include IK Rig/IK Retargeter and physics-asset validation.",
+          "Advertised compatible apps stop at: UE_5.1, UE_5.2, UE_5.3, UE_5.4."
+        ],
+        "recommended_actions": [
+          "Migrate into a sandbox, resave packages, retarget animations if needed, then run DataValidation."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": true,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable_after_retarget"
+      },
+      "item": {
+        "build_version": "4.23.0-15943532+++depot+UE4-UserContent-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Dog_Zombie-da3dfd97",
+        "catalog_item_id": "65634c90458c430b9f429ae742f1dbb3",
+        "compatible_apps": [
+          "UE_4.24",
+          "UE_4.25",
+          "UE_4.26",
+          "UE_4.27",
+          "UE_5.0",
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4"
+        ],
+        "content_roots": [
+          "DogZombie"
+        ],
+        "extension_counts": {
+          ".uasset": 70,
+          ".umap": 1
+        },
+        "file_count": 71,
+        "is_code_project": false,
+        "legacy_item_id": "87f24f942bf74c22aea538e0885d3a41",
+        "listing_url": "https://www.fab.com/listings/da3dfd97-2466-4f9d-ba58-3d29c85df972",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Dog_Zombie-da3dfd97/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Dog_Zombie",
+        "source_engine_version": "4.23.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/a3595846-892f-4041-97bd-95331a84bdf7/b0a828ab-19df-4bad-81d0-5092c112034c.jpg",
+        "title": "Dog Zombie",
+        "vault_filters": "Animals",
+        "vault_tags": "Animals",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "DogZombie"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "distinct enemy silhouette, behavior tuning, and animation validation",
+        "target_layer": "zombie encounter family and combat readability pass",
+        "world_role": "enemy_character_roster"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": false,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/LE_Extended_Standard_Library-0aadd41b",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/LE_Extended_Standard_Library-0aadd41b/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "LE_Extended_Standard_Library",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "LE Extended Standard Library",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "only after Mac rebuild, validation, and license review",
+        "target_layer": "manual review queue before runtime use",
+        "world_role": "tooling_or_plugin_candidate"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_Animator_Depth_Processing_Plugin-8efe3d9d",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_Animator_Depth_Processing_Plugin-8efe3d9d/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "MetaHuman_Animator_Depth_Processing_Plugin",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "MetaHuman Animator Depth Processing Plugin",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "photoreal survivor mesh, hair/groom review, or tooling support",
+        "target_layer": "survivor/mentor visual identity and character customization staging",
+        "world_role": "survivor_character_pipeline"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_for_Houdini-7bbdfbb5",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_for_Houdini-7bbdfbb5/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "MetaHuman_for_Houdini",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "MetaHuman for Houdini",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "photoreal survivor mesh, hair/groom review, or tooling support",
+        "target_layer": "survivor/mentor visual identity and character customization staging",
+        "world_role": "survivor_character_pipeline"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_for_Maya-9e3bf55e",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_for_Maya-9e3bf55e/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "MetaHuman_for_Maya",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "MetaHuman for Maya",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "photoreal survivor mesh, hair/groom review, or tooling support",
+        "target_layer": "survivor/mentor visual identity and character customization staging",
+        "world_role": "survivor_character_pipeline"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "Groom/hair content can load on macOS but may require visual fallback review depending on UE version and Apple GPU features.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Validate groom visibility on target hardware and provide material/card fallback if needed.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": false,
+          "has_groom": true,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_Groom_Advanced_Kit_for_Houdini-165c4244",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/MetaHuman_Groom_Advanced_Kit_for_Houdini-165c4244/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "MetaHuman_Groom_Advanced_Kit_for_Houdini",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "MetaHuman Groom Advanced Kit for Houdini",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "photoreal survivor mesh, hair/groom review, or tooling support",
+        "target_layer": "survivor/mentor visual identity and character customization staging",
+        "world_role": "survivor_character_pipeline"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item advertises UE_5.7 compatibility and does not appear to require native plugin rebuild work."
+        ],
+        "recommended_actions": [
+          "Migrate with dependencies, then run validation before promoting into the main project."
+        ],
+        "supports_target_engine": true,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": false,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable"
+      },
+      "item": {
+        "build_version": "5.4.0-30613212+++UE5+Dev-Marketplace-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Modern_Bridges-ea4d6c6f",
+        "catalog_item_id": "5440d148d3784315b451ae1465ee2046",
+        "compatible_apps": [
+          "UE_4.22",
+          "UE_4.23",
+          "UE_4.24",
+          "UE_4.25",
+          "UE_4.26",
+          "UE_4.27",
+          "UE_5.0",
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4",
+          "UE_5.5",
+          "UE_5.6",
+          "UE_5.7"
+        ],
+        "content_roots": [
+          "ModernBridges"
+        ],
+        "extension_counts": {
+          ".uasset": 34,
+          ".umap": 1
+        },
+        "file_count": 35,
+        "is_code_project": false,
+        "legacy_item_id": "fb70a2b51a8147c1abb1b45671c5f1fe",
+        "listing_url": "https://www.fab.com/listings/ea4d6c6f-83d9-4250-a12b-7393753db0f2",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Modern_Bridges-ea4d6c6f/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Modern_Bridges",
+        "source_engine_version": "5.4.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/3ebd2bb7-c881-4f70-8c39-c5c4ce71834e/a0327214-22a1-4a50-b7c0-8b876b8b5996.jpg",
+        "title": "Modern Bridges",
+        "vault_filters": "Buildings & Architecture",
+        "vault_tags": "Buildings & Architecture",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "ModernBridges"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "navigation landmark and coding-objective traversal route",
+        "target_layer": "FabShowcase bridge spans and rescue-route crossings",
+        "world_role": "city_traversal_architecture"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": false,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": true,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Quest_Kit_Pro-0c7f3429",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": true,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Quest_Kit_Pro-0c7f3429/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Quest_Kit_Pro",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "Quest Kit Pro",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "only after Mac rebuild, validation, and license review",
+        "target_layer": "manual review queue before runtime use",
+        "world_role": "tooling_or_plugin_candidate"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item contains character, skeleton, physics, or animation assets; forward migration should include IK Rig/IK Retargeter and physics-asset validation.",
+          "Blueprint assets may compile with deprecated or removed APIs after forward migration."
+        ],
+        "recommended_actions": [
+          "Migrate into a sandbox, resave packages, retarget animations if needed, then run DataValidation.",
+          "Run CompileAllBlueprints and treat warnings as review items."
+        ],
+        "supports_target_engine": true,
+        "traits": {
+          "has_animations": true,
+          "has_binaries": false,
+          "has_blueprints": true,
+          "has_character": true,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable_after_retarget"
+      },
+      "item": {
+        "build_version": "5.2.0-23743106+++UE5+Dev-Marketplace-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Urban_Zombie_4-b6e44075",
+        "catalog_item_id": "62743c12c0c3415baa7598f34313d2e3",
+        "compatible_apps": [
+          "UE_5.0",
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4",
+          "UE_5.5",
+          "UE_5.6",
+          "UE_5.7"
+        ],
+        "content_roots": [
+          "UrbanZombie4"
+        ],
+        "extension_counts": {
+          ".uasset": 73,
+          ".umap": 1
+        },
+        "file_count": 74,
+        "is_code_project": false,
+        "legacy_item_id": "1824fff508af4757ba1856d35d2447f1",
+        "listing_url": "https://www.fab.com/listings/b6e44075-0947-4666-b642-423b5bc8ce1a",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Urban_Zombie_4-b6e44075/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Urban_Zombie_4",
+        "source_engine_version": "5.2.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/ba2fb4ce-7439-48a7-9945-ab3469bcc513/2dc2c72b-433e-4e83-b4dc-9dce97249258.jpg",
+        "title": "Urban Zombie 4",
+        "vault_filters": "Characters & Creatures",
+        "vault_tags": "Characters & Creatures",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "UrbanZombie4"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "distinct enemy silhouette, behavior tuning, and animation validation",
+        "target_layer": "zombie encounter family and combat readability pass",
+        "world_role": "enemy_character_roster"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item contains character, skeleton, physics, or animation assets; forward migration should include IK Rig/IK Retargeter and physics-asset validation.",
+          "Advertised compatible apps stop at: UE_5.1, UE_5.2, UE_5.3, UE_5.4."
+        ],
+        "recommended_actions": [
+          "Migrate into a sandbox, resave packages, retarget animations if needed, then run DataValidation."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": true,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable_after_retarget"
+      },
+      "item": {
+        "build_version": "4.23.0-17510003+++depot+UE4-UserContent-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie-52a84b28",
+        "catalog_item_id": "d11aadf59e5741809b7342b787d96c31",
+        "compatible_apps": [
+          "UE_4.18",
+          "UE_4.19",
+          "UE_4.20",
+          "UE_4.21",
+          "UE_4.22",
+          "UE_4.23",
+          "UE_4.24",
+          "UE_4.25",
+          "UE_4.26",
+          "UE_4.27",
+          "UE_5.0",
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4"
+        ],
+        "content_roots": [
+          "Zombie"
+        ],
+        "extension_counts": {
+          ".uasset": 15,
+          ".umap": 1
+        },
+        "file_count": 16,
+        "is_code_project": false,
+        "legacy_item_id": "bd4ab37f033a4a4fb29d1e02503218a1",
+        "listing_url": "https://www.fab.com/listings/52a84b28-05f0-432a-be8f-3f5e563be478",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie-52a84b28/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Zombie",
+        "source_engine_version": "4.23.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/70d117e2-1ab5-4f5a-8aa8-e61dde0d02a9/b653a18f-df3f-4b56-9550-2eec9dc14ba2.jpg",
+        "title": "Zombie",
+        "vault_filters": "Characters & Creatures",
+        "vault_tags": "Characters & Creatures",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "Zombie"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "distinct enemy silhouette, behavior tuning, and animation validation",
+        "target_layer": "zombie encounter family and combat readability pass",
+        "world_role": "enemy_character_roster"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item contains character, skeleton, physics, or animation assets; forward migration should include IK Rig/IK Retargeter and physics-asset validation.",
+          "Blueprint assets may compile with deprecated or removed APIs after forward migration.",
+          "Advertised compatible apps stop at: UE_5.3, UE_5.4, UE_5.5, UE_5.6."
+        ],
+        "recommended_actions": [
+          "Migrate into a sandbox, resave packages, retarget animations if needed, then run DataValidation.",
+          "Run CompileAllBlueprints and treat warnings as review items."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": true,
+          "has_binaries": false,
+          "has_blueprints": true,
+          "has_character": true,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable_after_retarget"
+      },
+      "item": {
+        "build_version": "5.2.0-23553896+++UE5+Dev-Marketplace-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_-_Bloated_Female-b22ce9f9",
+        "catalog_item_id": "102d7f09e6bb4a99893afdb91a90188d",
+        "compatible_apps": [
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4",
+          "UE_5.5",
+          "UE_5.6"
+        ],
+        "content_roots": [
+          "YI_ModularZombies"
+        ],
+        "extension_counts": {
+          ".uasset": 600,
+          ".umap": 9
+        },
+        "file_count": 609,
+        "is_code_project": false,
+        "legacy_item_id": "22f898b83fc14774b19606d8ddfa9add",
+        "listing_url": "https://www.fab.com/listings/b22ce9f9-b8aa-4f6a-a1ef-32b04f07cfb3",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_-_Bloated_Female-b22ce9f9/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Zombie_Bloated_Female",
+        "source_engine_version": "5.2.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/0ce3665b-d575-499c-9894-7a7c5eef333d/1f02afff-77ea-4905-89c7-b30e53118b49.jpg",
+        "title": "Zombie - Bloated Female",
+        "vault_filters": "Characters & Creatures",
+        "vault_tags": "Characters & Creatures",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "YI_ModularZombies"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "distinct enemy silhouette, behavior tuning, and animation validation",
+        "target_layer": "zombie encounter family and combat readability pass",
+        "world_role": "enemy_character_roster"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The item contains character, skeleton, physics, or animation assets; forward migration should include IK Rig/IK Retargeter and physics-asset validation.",
+          "Blueprint assets may compile with deprecated or removed APIs after forward migration.",
+          "Advertised compatible apps stop at: UE_5.3, UE_5.4, UE_5.5, UE_5.6."
+        ],
+        "recommended_actions": [
+          "Migrate into a sandbox, resave packages, retarget animations if needed, then run DataValidation.",
+          "Run CompileAllBlueprints and treat warnings as review items."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": true,
+          "has_binaries": false,
+          "has_blueprints": true,
+          "has_character": true,
+          "has_content": true,
+          "has_groom": false,
+          "has_maps": true,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "portable_after_retarget"
+      },
+      "item": {
+        "build_version": "5.2.0-23553921+++UE5+Dev-Marketplace-Mac",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_-_Business_Suit-a7b4c2e9",
+        "catalog_item_id": "11647414eab34d5ba20ec30c2a1aafac",
+        "compatible_apps": [
+          "UE_5.1",
+          "UE_5.2",
+          "UE_5.3",
+          "UE_5.4",
+          "UE_5.5",
+          "UE_5.6"
+        ],
+        "content_roots": [
+          "YI_ModularZombies"
+        ],
+        "extension_counts": {
+          ".uasset": 446,
+          ".umap": 9
+        },
+        "file_count": 455,
+        "is_code_project": false,
+        "legacy_item_id": "96b01f5115d547f08559dcf6a32ebf9c",
+        "listing_url": "https://www.fab.com/listings/a7b4c2e9-0ae7-405f-a1be-df8f062c180a",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_-_Business_Suit-a7b4c2e9/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Zombie_Business_Suit",
+        "source_engine_version": "5.2.0",
+        "thumbnail_url": "https://media.fab.com/image_previews/gallery_images/920a3c10-2580-469c-b2e3-b953d58226b9/dc890cba-275f-4d52-8277-4b31c0292e29.jpg",
+        "title": "Zombie - Business Suit",
+        "vault_filters": "Characters & Creatures",
+        "vault_tags": "Characters & Creatures",
+        "vault_type": "AssetPack"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": true,
+        "present_content_roots": [
+          "YI_ModularZombies"
+        ]
+      },
+      "world_generation": {
+        "gameplay_use": "distinct enemy silhouette, behavior tuning, and animation validation",
+        "target_layer": "zombie encounter family and combat readability pass",
+        "world_role": "enemy_character_roster"
+      }
+    },
+    {
+      "analysis": {
+        "reasons": [
+          "The local cache entry uses an Epic binary manifest that this no-dependency server cannot decode into file-level evidence.",
+          "Treat this as an unknown-risk item until the Fab/Epic Launcher or Unreal Fab window materializes a normal project/plugin folder.",
+          "The cache entry has no file manifest entries; the launcher download may be incomplete."
+        ],
+        "recommended_actions": [
+          "Refresh or add the asset through the launcher/Fab window, then re-run scan_fab_cache.",
+          "If it is a plugin, verify source availability and Mac/universal binary support before use.",
+          "Refresh the Fab/Epic Launcher download before attempting migration."
+        ],
+        "supports_target_engine": false,
+        "traits": {
+          "has_animations": false,
+          "has_binaries": false,
+          "has_blueprints": false,
+          "has_character": true,
+          "has_content": false,
+          "has_groom": false,
+          "has_maps": false,
+          "has_native_code_or_plugin": false,
+          "has_source": false,
+          "has_third_party": false,
+          "has_uplugin": false
+        },
+        "verdict": "manual_review_required"
+      },
+      "item": {
+        "build_version": "",
+        "cache_folder": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_Female__Nurse-35246f73",
+        "catalog_item_id": "",
+        "compatible_apps": [],
+        "content_roots": [],
+        "extension_counts": {},
+        "file_count": 0,
+        "is_code_project": false,
+        "legacy_item_id": "",
+        "listing_url": "",
+        "manifest_parse_warning": "Could not parse manifest as UTF-8 JSON: 'utf-8' codec can't decode byte 0xc0 in position 1: invalid start byte",
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_Female__Nurse-35246f73/unreal-engine/manifest",
+        "plugin_roots": [],
+        "slug": "Zombie_Female_Nurse",
+        "source_engine_version": null,
+        "thumbnail_url": "",
+        "title": "Zombie Female  Nurse",
+        "vault_filters": "",
+        "vault_tags": "",
+        "vault_type": "BinaryManifest"
+      },
+      "project_presence": {
+        "missing_content_roots": [],
+        "present": false,
+        "present_content_roots": []
+      },
+      "world_generation": {
+        "gameplay_use": "distinct enemy silhouette, behavior tuning, and animation validation",
+        "target_layer": "zombie encounter family and combat readability pass",
+        "world_role": "enemy_character_roster"
+      }
+    }
+  ],
+  "project": {
+    "content_root_count": 16,
+    "content_roots": [
+      "Characters",
+      "CodeRescueAssets",
+      "CodeRescueData",
+      "Collections",
+      "Developers",
+      "DogZombie",
+      "Grooms",
+      "ModernBridges",
+      "Parallax_Night_Building_Material",
+      "StarterContent",
+      "UrbanZombie4",
+      "YI_ModularZombies",
+      "Zombie",
+      "ZombieFemale",
+      "__ExternalActors__",
+      "__ExternalObjects__"
+    ],
+    "enabled_plugins": [
+      "EditorScriptingUtilities",
+      "GeometryScripting",
+      "ModelingToolsEditorMode",
+      "Niagara",
+      "PCG",
+      "PythonScriptPlugin"
+    ],
+    "engine_association": "5.7",
+    "engine_root": "/Users/Shared/UE_5.7/Engine",
+    "fab_cache_manifest_count": 16,
+    "fab_cache_root": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary",
+    "fab_items_already_present": [
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Building_Interior_Cubemap_Material_Function-054496b1/unreal-engine/manifest",
+        "present_content_roots": [
+          "Parallax_Night_Building_Material"
+        ],
+        "slug": "Building_Interior_Cubemap_Material_Function",
+        "title": "Building Interior Cubemap Material Function"
+      },
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Dog_Zombie-da3dfd97/unreal-engine/manifest",
+        "present_content_roots": [
+          "DogZombie"
+        ],
+        "slug": "Dog_Zombie",
+        "title": "Dog Zombie"
+      },
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Modern_Bridges-ea4d6c6f/unreal-engine/manifest",
+        "present_content_roots": [
+          "ModernBridges"
+        ],
+        "slug": "Modern_Bridges",
+        "title": "Modern Bridges"
+      },
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Urban_Zombie_4-b6e44075/unreal-engine/manifest",
+        "present_content_roots": [
+          "UrbanZombie4"
+        ],
+        "slug": "Urban_Zombie_4",
+        "title": "Urban Zombie 4"
+      },
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie-52a84b28/unreal-engine/manifest",
+        "present_content_roots": [
+          "Zombie"
+        ],
+        "slug": "Zombie",
+        "title": "Zombie"
+      },
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_-_Bloated_Female-b22ce9f9/unreal-engine/manifest",
+        "present_content_roots": [
+          "YI_ModularZombies"
+        ],
+        "slug": "Zombie_Bloated_Female",
+        "title": "Zombie - Bloated Female"
+      },
+      {
+        "manifest_path": "/Users/Shared/UnrealEngine/Launcher/VaultCache/FabLibrary/Zombie_-_Business_Suit-a7b4c2e9/unreal-engine/manifest",
+        "present_content_roots": [
+          "YI_ModularZombies"
+        ],
+        "slug": "Zombie_Business_Suit",
+        "title": "Zombie - Business Suit"
+      }
+    ],
+    "host_platform": "macOS-26.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "project_root": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix",
+    "public_demo_fab_detail_plan": [
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "SpawnPublicDemoFabDetailLayer storefronts, route paint, practical lamps, and readable wet-street staging",
+        "mac_caveat": "Uses locally materialized project assets only; no remote Fab download is attempted.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+        ],
+        "project_signals": [
+          "CodeRescuePublicDemoQuality",
+          "CombatCoverReadable",
+          "FabShowcaseExpanded",
+          "MissionRoomPolish",
+          "ModernBridgesFabAsset",
+          "ParallaxNightBuildingUse",
+          "PublicDemoProductionDetail",
+          "RetailQualityWorldPass",
+          "SpawnPublicDemoFabDetailLayer",
+          "SurvivalHorrorThreatForeshadow",
+          "SurvivorRoomPolish"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "Parallax Night Building meshes/materials, StarterContent glass/door/lamp props, mission accent colors",
+        "status": "implemented_in_live_city_spawn",
+        "target_platform": "Mac",
+        "track": "Street-level Public Demo Composition",
+        "validation": "verify_may27_public_demo_fab_detail_pass.py, packaged render smoke, visual review capture"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "ModernBridgesFabAsset hero overpass with pylons, combat cover, emergency lights, and route scale references",
+        "mac_caveat": "Bridge meshes are consumed from local Content; marketplace licensing remains the user's account boundary.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+        ],
+        "project_signals": [
+          "CodeRescuePublicDemoQuality",
+          "CombatCoverReadable",
+          "FabShowcaseExpanded",
+          "MissionRoomPolish",
+          "ModernBridgesFabAsset",
+          "ParallaxNightBuildingUse",
+          "PublicDemoProductionDetail",
+          "RetailQualityWorldPass",
+          "SpawnPublicDemoFabDetailLayer",
+          "SurvivalHorrorThreatForeshadow",
+          "SurvivorRoomPolish"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "Local ModernBridges static meshes and material instances",
+        "status": "implemented_in_live_city_spawn",
+        "target_platform": "Mac",
+        "track": "ModernBridges Fab Hero Set Piece",
+        "validation": "verify_may27_public_demo_fab_detail_pass.py plus package smoke log marker"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "Terminal lab monitors/tables/shelves and survivor safe-room couch/lamp/supply detail with useful pickups",
+        "mac_caveat": "Future high-fidelity furniture packs can replace these slots after local materialization and validation.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+        ],
+        "project_signals": [
+          "CodeRescuePublicDemoQuality",
+          "CombatCoverReadable",
+          "FabShowcaseExpanded",
+          "MissionRoomPolish",
+          "ModernBridgesFabAsset",
+          "ParallaxNightBuildingUse",
+          "PublicDemoProductionDetail",
+          "RetailQualityWorldPass",
+          "SpawnPublicDemoFabDetailLayer",
+          "SurvivalHorrorThreatForeshadow",
+          "SurvivorRoomPolish"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "StarterContent props, Code Rescue terminal/survivor mission data, pickup actors",
+        "status": "implemented_in_live_city_spawn",
+        "target_platform": "Mac",
+        "track": "Mission-room and Survivor-room Dressing",
+        "validation": "runtime-step smoke commandlet, character/world commandlet, packaged render smoke"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "FabShowcaseExpanded panels for Modern Bridges, Parallax City, Dog Zombie, Urban Zombie, Groom/Hair, and Starter Props",
+        "mac_caveat": "Gallery records available local design coverage; missing packs remain review/materialization tasks.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+        ],
+        "project_signals": [
+          "CodeRescuePublicDemoQuality",
+          "CombatCoverReadable",
+          "FabShowcaseExpanded",
+          "MissionRoomPolish",
+          "ModernBridgesFabAsset",
+          "ParallaxNightBuildingUse",
+          "PublicDemoProductionDetail",
+          "RetailQualityWorldPass",
+          "SpawnPublicDemoFabDetailLayer",
+          "SurvivalHorrorThreatForeshadow",
+          "SurvivorRoomPolish"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "Local Fab/Vault audit, existing project content roots, public-demo detail manifest",
+        "status": "implemented_in_live_city_spawn",
+        "target_platform": "Mac",
+        "track": "Local Fab/Design Coverage Gallery",
+        "validation": "MCP audit asset plan and public demo verifier"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "BossRoutePolish, SurvivalHorrorThreatForeshadow, CombatCoverReadable, and ProjectilePhysicsTarget tagged props",
+        "mac_caveat": "Hands-on tuning still decides encounter pacing and feel.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+        ],
+        "project_signals": [
+          "CodeRescuePublicDemoQuality",
+          "CombatCoverReadable",
+          "FabShowcaseExpanded",
+          "MissionRoomPolish",
+          "ModernBridgesFabAsset",
+          "ParallaxNightBuildingUse",
+          "PublicDemoProductionDetail",
+          "RetailQualityWorldPass",
+          "SpawnPublicDemoFabDetailLayer",
+          "SurvivalHorrorThreatForeshadow",
+          "SurvivorRoomPolish"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "StarterContent statue/materials, existing boss route, tactical arena cover props",
+        "status": "implemented_in_live_city_spawn",
+        "target_platform": "Mac",
+        "track": "Threat Foreshadowing and Combat Readability",
+        "validation": "camera/roster commandlet, runtime smoke, packaged render smoke"
+      }
+    ],
+    "python_editor_ready": true,
+    "run_uat": "/Users/Shared/UE_5.7/Engine/Build/BatchFiles/RunUAT.sh",
+    "unreal_character_world_development_plan": [
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "Named NPC/cast slots in SpawnUnrealSystemsCharacterWorldLayer plus SurvivorActorClass and FriendlyNPCActor skeletal overrides",
+        "mac_caveat": "MetaHuman Creator and Bridge/Fab downloads remain authenticated external steps; MCP only records and validates local materialized assets.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "MetaHuman downloads, locally staged skeletal meshes, AnimBP classes, Control Rig assets, IK Retargeters, and groom/card hair assets",
+        "status": "in_game_slots_and_local_asset_hooks",
+        "target_platform": "Mac",
+        "track": "Novel MetaHuman-ready Playable and Survivor Cast",
+        "validation": "verify_may27_unreal_systems_character_world_pass.py, character/world commandlet, packaged render smoke"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "DCC intake crates, labels, source-safe manifest rows, and MCP dry-run copy/stage plans",
+        "mac_caveat": "Maya/Houdini authoring is outside Unreal; the project consumes exported files after license-safe local staging.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "FBX skeletal meshes, USD set dressing, Alembic grooms, Houdini-generated modular city pieces, and user-owned source project exports",
+        "status": "manifest_and_world_staging_ready",
+        "target_platform": "Mac",
+        "track": "Maya and Houdini DCC Intake",
+        "validation": "DataValidation, ResavePackages, CompileAllBlueprints, and visual review capture after local export"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "PCGWorldPartitionCell, HoudiniProceduralWorldDesign, and WorldPartitionReady tagged city cells in every spawned mission",
+        "mac_caveat": "Large generated worlds still need performance budgets and streamed-cell review on Apple GPU targets.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "PCG plugin, GeometryScripting, modular building kits, safehouse cells, route splines, and Houdini procedural outputs",
+        "status": "in_game_review_cells_and_pcg_hooks",
+        "target_platform": "Mac",
+        "track": "Houdini and PCG World Design",
+        "validation": "gameplay/access verifier, production-track commandlet, packaged null/render smoke"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "ChaosInteractivePhysics and AsyncPhysicsReady movable cover props with projectile/cover tags",
+        "mac_caveat": "Async physics behavior must be tuned per machine and verified under render load.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "Unreal Chaos physics, destructible cover assets, collision assets, projectile traces, and area weapon behavior",
+        "status": "gameplay_props_simulate_physics",
+        "target_platform": "Mac",
+        "track": "Chaos Interactive and Async Physics",
+        "validation": "runtime_step_smoke_contracts.py, tactical arsenal verifier, packaged render smoke"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "NPCBehaviorTreeReady, StateTreeEQSReady, AIPatrolRouteNode, AICoverSignal, and EnemyEncounterDirector tags",
+        "mac_caveat": "Current runtime remains C++ first; behavior-tree or StateTree assets should be promoted only after Blueprint compile validation.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "CodeRescueAIController, FriendlyNPCActor, zombie variants, navmesh bounds, Behavior Tree/StateTree/EQS candidates",
+        "status": "cxx_ai_plus_behavior_tree_state_tree_readiness",
+        "target_platform": "Mac",
+        "track": "NPC AI and Encounter Director",
+        "validation": "camera/roster commandlet, character/world commandlet, continuous play smoke"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "QuestMissionKitReady and MissionObjectiveKit boards tied to each city's terminal, survivor, route, and rescue beat",
+        "mac_caveat": "Third-party quest kits must be rebuilt/validated on Mac before runtime promotion.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "CodeRescueCampaign, terminal widgets, survivor gating, radio/subtitle rows, and validated external quest kits",
+        "status": "mission_board_and_campaign_hooks",
+        "target_platform": "Mac",
+        "track": "Quest and Mission Kit Incorporation",
+        "validation": "curriculum validator commandlet and production-track commandlet"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "SequencerControlRigIKGroomReady, ControlRigFacialSlot, IKRetargeterReady, and GroomCardFallbackReady tags",
+        "mac_caveat": "Groom and high-fidelity rigs need visual fallback review on Apple GPUs.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "Sequencer shots, Control Rig, IK Rig/IK Retargeter, groom assets, card fallback materials, and retargeted locomotion clips",
+        "status": "cinematic_character_pipeline_hooks",
+        "target_platform": "Mac",
+        "track": "Sequencer, Control Rig, IK Retargeter, Groom",
+        "validation": "animation manifest, visual review capture, DataValidation, packaged render smoke"
+      },
+      {
+        "dry_run_first_for_external_assets": true,
+        "gameplay_surface": "ContinuousPlayabilityTestRig tags on systems props, AI nodes, character slots, and physics targets",
+        "mac_caveat": "Full hands-on playtest still requires human review of feel, pacing, readability, and aesthetics.",
+        "manifest_files": [
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+          "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+        ],
+        "project_signals": [
+          "ChaosInteractivePhysics",
+          "ContinuousPlayabilityTestRig",
+          "HoudiniProceduralWorldDesign",
+          "MayaHoudiniDccHandoff",
+          "MetaHumanReadyCharacterDesign",
+          "NPCBehaviorTreeReady",
+          "PCGWorldPartitionCell",
+          "QuestMissionKitReady",
+          "SequencerControlRigIKGroomReady",
+          "SpawnUnrealSystemsCharacterWorldLayer",
+          "StateTreeEQSReady"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source_inputs": "Python verifiers, Unreal commandlets, package smoke scripts, and log scanner allowlists",
+        "status": "scripted_verifier_and_packaged_smoke_loop",
+        "target_platform": "Mac",
+        "track": "Continuous Playability QA",
+        "validation": "verify_may27_unreal_systems_character_world_pass.py plus null/render packaged smoke"
+      }
+    ],
+    "unreal_constituent_access_matrix": [
+      {
+        "constituent": "MetaHuman Character Design",
+        "dry_run_first": true,
+        "mac_status": "available_as_imported_runtime_assets",
+        "notes": "MetaHuman Creator and DCC round-trips are external/authenticated; this server records and validates local assets without bypassing Epic login or licenses.",
+        "project_hook": "SurvivorActorClass, ZombieActorClass, import_metahuman_survivor.py, CharacterIdentityCourt",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "MetaHuman downloads, Fab character packs, and local Unreal skeletal mesh/Blueprint subclasses",
+        "target_platform": "Mac",
+        "validation_command": "UnrealEditor-Cmd -run=DataValidation -ProjectOnly"
+      },
+      {
+        "constituent": "MetaHuman for Maya and Houdini DCC Handoff",
+        "dry_run_first": true,
+        "mac_status": "handoff_manifest_only_until_dcc_export_exists",
+        "notes": "Maya/Houdini tools run outside Unreal; MCP can index outputs, stage safe files, and create validation plans on macOS.",
+        "project_hook": "MCPImported staging, Groom/Characters content roots, IK Rig/IK Retargeter validation queue",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "Local Maya/Houdini exports, Alembic grooms, FBX skeletal meshes, and user-owned source projects",
+        "target_platform": "Mac",
+        "validation_command": "Run DataValidation plus visual QA after local DCC export is staged"
+      },
+      {
+        "constituent": "Chaos Interactive and Async Physics",
+        "dry_run_first": true,
+        "mac_status": "engine_feature_available_with_project_hooks",
+        "notes": "Async physics must be verified per platform and per asset; this matrix exposes the required checks instead of assuming parity.",
+        "project_hook": "PhysicsTraversalYard, movable props, projectile/area weapon smoke tests",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "Unreal Engine Chaos physics, physics assets, destructible props, and traversal set pieces",
+        "target_platform": "Mac",
+        "validation_command": "runtime_step_smoke_contracts.py and packaged app null/render smoke"
+      },
+      {
+        "constituent": "AI for NPC and Enemy Characters",
+        "dry_run_first": true,
+        "mac_status": "implemented_and_extensible",
+        "notes": "Current runtime uses C++ AI with navmesh fallback; MCP classifies Fab AI kits/plugins for Mac rebuild before integration.",
+        "project_hook": "CodeRescueAIController direct chase fallback, FriendlyNPCActor, SurvivorActor, zombie variants",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "AIController, Behavior Tree/StateTree candidates, EQS, Smart Objects, and local NPC assets",
+        "target_platform": "Mac",
+        "validation_command": "verify_camera_perspectives_and_character_roster.py plus play smoke"
+      },
+      {
+        "constituent": "Extended Standard Libraries and Plugins",
+        "dry_run_first": true,
+        "mac_status": "dry_run_first_rebuild_required_for_native_code",
+        "notes": "Binary-only plugins without source remain blocked for local Mac rebuild unless publisher Mac binaries are present.",
+        "project_hook": "CodeRescueUnreal.uproject plugin list and BuildPlugin Mac plan",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "Fab plugins, Unreal marketplace plugins, PythonScriptPlugin, EditorScriptingUtilities, PCG, Niagara, GeometryScripting",
+        "target_platform": "Mac",
+        "validation_command": "RunUAT BuildPlugin -TargetPlatforms=Mac, CompileAllBlueprints, DataValidation"
+      },
+      {
+        "constituent": "Quest and Mission Kits",
+        "dry_run_first": true,
+        "mac_status": "implemented_in_project_and_open_to_fab_kits",
+        "notes": "External quest kits can be staged only after local materialization and Blueprint compile validation.",
+        "project_hook": "major-city campaign generator, mission route layer, terminal/survivor progression",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "CodeRescueCampaign, radio_briefings.tsv, CodingTerminalActor, SurvivorActor, Fab quest kits after validation",
+        "target_platform": "Mac",
+        "validation_command": "verify_graduated_campaign_world.py and verify_curriculum_validator_shapes.py"
+      },
+      {
+        "constituent": "Niagara, PCG, World Partition, Sequencer, Control Rig, IK Retargeter, Groom",
+        "dry_run_first": true,
+        "mac_status": "mixed_engine_feature_access_with_asset_specific_validation",
+        "notes": "Feature availability is not the same as asset readiness; each imported asset still needs Mac render/performance QA.",
+        "project_hook": "Niagara hooks, PCG/GeometryScripting plugins, CharacterWorldRealizationLayer, visual review manifests",
+        "project_signal": [
+          "PythonScriptPlugin:enabled",
+          "EditorScriptingUtilities:enabled",
+          "PCG:enabled",
+          "Niagara:enabled",
+          "GeometryScripting:enabled"
+        ],
+        "requires_local_user_owned_assets": true,
+        "source": "Enabled engine plugins, project content roots, and imported character/environment packs",
+        "target_platform": "Mac",
+        "validation_command": "ResavePackages, CompileAllBlueprints, DataValidation, visual review capture"
+      }
+    ],
+    "unreal_editor_cmd": "/Users/Shared/UE_5.7/Engine/Binaries/Mac/UnrealEditor-Cmd",
+    "uproject": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject"
+  },
+  "public_demo_fab_detail_plan": [
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "SpawnPublicDemoFabDetailLayer storefronts, route paint, practical lamps, and readable wet-street staging",
+      "mac_caveat": "Uses locally materialized project assets only; no remote Fab download is attempted.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+      ],
+      "project_signals": [
+        "CodeRescuePublicDemoQuality",
+        "CombatCoverReadable",
+        "FabShowcaseExpanded",
+        "MissionRoomPolish",
+        "ModernBridgesFabAsset",
+        "ParallaxNightBuildingUse",
+        "PublicDemoProductionDetail",
+        "RetailQualityWorldPass",
+        "SpawnPublicDemoFabDetailLayer",
+        "SurvivalHorrorThreatForeshadow",
+        "SurvivorRoomPolish"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "Parallax Night Building meshes/materials, StarterContent glass/door/lamp props, mission accent colors",
+      "status": "implemented_in_live_city_spawn",
+      "target_platform": "Mac",
+      "track": "Street-level Public Demo Composition",
+      "validation": "verify_may27_public_demo_fab_detail_pass.py, packaged render smoke, visual review capture"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "ModernBridgesFabAsset hero overpass with pylons, combat cover, emergency lights, and route scale references",
+      "mac_caveat": "Bridge meshes are consumed from local Content; marketplace licensing remains the user's account boundary.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+      ],
+      "project_signals": [
+        "CodeRescuePublicDemoQuality",
+        "CombatCoverReadable",
+        "FabShowcaseExpanded",
+        "MissionRoomPolish",
+        "ModernBridgesFabAsset",
+        "ParallaxNightBuildingUse",
+        "PublicDemoProductionDetail",
+        "RetailQualityWorldPass",
+        "SpawnPublicDemoFabDetailLayer",
+        "SurvivalHorrorThreatForeshadow",
+        "SurvivorRoomPolish"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "Local ModernBridges static meshes and material instances",
+      "status": "implemented_in_live_city_spawn",
+      "target_platform": "Mac",
+      "track": "ModernBridges Fab Hero Set Piece",
+      "validation": "verify_may27_public_demo_fab_detail_pass.py plus package smoke log marker"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "Terminal lab monitors/tables/shelves and survivor safe-room couch/lamp/supply detail with useful pickups",
+      "mac_caveat": "Future high-fidelity furniture packs can replace these slots after local materialization and validation.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+      ],
+      "project_signals": [
+        "CodeRescuePublicDemoQuality",
+        "CombatCoverReadable",
+        "FabShowcaseExpanded",
+        "MissionRoomPolish",
+        "ModernBridgesFabAsset",
+        "ParallaxNightBuildingUse",
+        "PublicDemoProductionDetail",
+        "RetailQualityWorldPass",
+        "SpawnPublicDemoFabDetailLayer",
+        "SurvivalHorrorThreatForeshadow",
+        "SurvivorRoomPolish"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "StarterContent props, Code Rescue terminal/survivor mission data, pickup actors",
+      "status": "implemented_in_live_city_spawn",
+      "target_platform": "Mac",
+      "track": "Mission-room and Survivor-room Dressing",
+      "validation": "runtime-step smoke commandlet, character/world commandlet, packaged render smoke"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "FabShowcaseExpanded panels for Modern Bridges, Parallax City, Dog Zombie, Urban Zombie, Groom/Hair, and Starter Props",
+      "mac_caveat": "Gallery records available local design coverage; missing packs remain review/materialization tasks.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+      ],
+      "project_signals": [
+        "CodeRescuePublicDemoQuality",
+        "CombatCoverReadable",
+        "FabShowcaseExpanded",
+        "MissionRoomPolish",
+        "ModernBridgesFabAsset",
+        "ParallaxNightBuildingUse",
+        "PublicDemoProductionDetail",
+        "RetailQualityWorldPass",
+        "SpawnPublicDemoFabDetailLayer",
+        "SurvivalHorrorThreatForeshadow",
+        "SurvivorRoomPolish"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "Local Fab/Vault audit, existing project content roots, public-demo detail manifest",
+      "status": "implemented_in_live_city_spawn",
+      "target_platform": "Mac",
+      "track": "Local Fab/Design Coverage Gallery",
+      "validation": "MCP audit asset plan and public demo verifier"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "BossRoutePolish, SurvivalHorrorThreatForeshadow, CombatCoverReadable, and ProjectilePhysicsTarget tagged props",
+      "mac_caveat": "Hands-on tuning still decides encounter pacing and feel.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/public_demo_fab_detail_manifest.tsv"
+      ],
+      "project_signals": [
+        "CodeRescuePublicDemoQuality",
+        "CombatCoverReadable",
+        "FabShowcaseExpanded",
+        "MissionRoomPolish",
+        "ModernBridgesFabAsset",
+        "ParallaxNightBuildingUse",
+        "PublicDemoProductionDetail",
+        "RetailQualityWorldPass",
+        "SpawnPublicDemoFabDetailLayer",
+        "SurvivalHorrorThreatForeshadow",
+        "SurvivorRoomPolish"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "StarterContent statue/materials, existing boss route, tactical arena cover props",
+      "status": "implemented_in_live_city_spawn",
+      "target_platform": "Mac",
+      "track": "Threat Foreshadowing and Combat Readability",
+      "validation": "camera/roster commandlet, runtime smoke, packaged render smoke"
+    }
+  ],
+  "source_documents": [
+    "MCP_Unreal_Fab_SOP.pdf",
+    "MCP Design for Fab and Unreal Asset Porting on macOS and Forward Migration to Current Unreal Engine.pdf"
+  ],
+  "target": {
+    "engine_app": "UE_5.7",
+    "engine_version": "5.7",
+    "platform": "Mac"
+  },
+  "unreal_character_world_development_plan": [
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "Named NPC/cast slots in SpawnUnrealSystemsCharacterWorldLayer plus SurvivorActorClass and FriendlyNPCActor skeletal overrides",
+      "mac_caveat": "MetaHuman Creator and Bridge/Fab downloads remain authenticated external steps; MCP only records and validates local materialized assets.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "MetaHuman downloads, locally staged skeletal meshes, AnimBP classes, Control Rig assets, IK Retargeters, and groom/card hair assets",
+      "status": "in_game_slots_and_local_asset_hooks",
+      "target_platform": "Mac",
+      "track": "Novel MetaHuman-ready Playable and Survivor Cast",
+      "validation": "verify_may27_unreal_systems_character_world_pass.py, character/world commandlet, packaged render smoke"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "DCC intake crates, labels, source-safe manifest rows, and MCP dry-run copy/stage plans",
+      "mac_caveat": "Maya/Houdini authoring is outside Unreal; the project consumes exported files after license-safe local staging.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "FBX skeletal meshes, USD set dressing, Alembic grooms, Houdini-generated modular city pieces, and user-owned source project exports",
+      "status": "manifest_and_world_staging_ready",
+      "target_platform": "Mac",
+      "track": "Maya and Houdini DCC Intake",
+      "validation": "DataValidation, ResavePackages, CompileAllBlueprints, and visual review capture after local export"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "PCGWorldPartitionCell, HoudiniProceduralWorldDesign, and WorldPartitionReady tagged city cells in every spawned mission",
+      "mac_caveat": "Large generated worlds still need performance budgets and streamed-cell review on Apple GPU targets.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "PCG plugin, GeometryScripting, modular building kits, safehouse cells, route splines, and Houdini procedural outputs",
+      "status": "in_game_review_cells_and_pcg_hooks",
+      "target_platform": "Mac",
+      "track": "Houdini and PCG World Design",
+      "validation": "gameplay/access verifier, production-track commandlet, packaged null/render smoke"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "ChaosInteractivePhysics and AsyncPhysicsReady movable cover props with projectile/cover tags",
+      "mac_caveat": "Async physics behavior must be tuned per machine and verified under render load.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "Unreal Chaos physics, destructible cover assets, collision assets, projectile traces, and area weapon behavior",
+      "status": "gameplay_props_simulate_physics",
+      "target_platform": "Mac",
+      "track": "Chaos Interactive and Async Physics",
+      "validation": "runtime_step_smoke_contracts.py, tactical arsenal verifier, packaged render smoke"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "NPCBehaviorTreeReady, StateTreeEQSReady, AIPatrolRouteNode, AICoverSignal, and EnemyEncounterDirector tags",
+      "mac_caveat": "Current runtime remains C++ first; behavior-tree or StateTree assets should be promoted only after Blueprint compile validation.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "CodeRescueAIController, FriendlyNPCActor, zombie variants, navmesh bounds, Behavior Tree/StateTree/EQS candidates",
+      "status": "cxx_ai_plus_behavior_tree_state_tree_readiness",
+      "target_platform": "Mac",
+      "track": "NPC AI and Encounter Director",
+      "validation": "camera/roster commandlet, character/world commandlet, continuous play smoke"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "QuestMissionKitReady and MissionObjectiveKit boards tied to each city's terminal, survivor, route, and rescue beat",
+      "mac_caveat": "Third-party quest kits must be rebuilt/validated on Mac before runtime promotion.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "CodeRescueCampaign, terminal widgets, survivor gating, radio/subtitle rows, and validated external quest kits",
+      "status": "mission_board_and_campaign_hooks",
+      "target_platform": "Mac",
+      "track": "Quest and Mission Kit Incorporation",
+      "validation": "curriculum validator commandlet and production-track commandlet"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "SequencerControlRigIKGroomReady, ControlRigFacialSlot, IKRetargeterReady, and GroomCardFallbackReady tags",
+      "mac_caveat": "Groom and high-fidelity rigs need visual fallback review on Apple GPUs.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "Sequencer shots, Control Rig, IK Rig/IK Retargeter, groom assets, card fallback materials, and retargeted locomotion clips",
+      "status": "cinematic_character_pipeline_hooks",
+      "target_platform": "Mac",
+      "track": "Sequencer, Control Rig, IK Retargeter, Groom",
+      "validation": "animation manifest, visual review capture, DataValidation, packaged render smoke"
+    },
+    {
+      "dry_run_first_for_external_assets": true,
+      "gameplay_surface": "ContinuousPlayabilityTestRig tags on systems props, AI nodes, character slots, and physics targets",
+      "mac_caveat": "Full hands-on playtest still requires human review of feel, pacing, readability, and aesthetics.",
+      "manifest_files": [
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/unreal_systems_character_world_manifest.tsv",
+        "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/CodeRescueData/novel_character_world_design_manifest.tsv"
+      ],
+      "project_signals": [
+        "ChaosInteractivePhysics",
+        "ContinuousPlayabilityTestRig",
+        "HoudiniProceduralWorldDesign",
+        "MayaHoudiniDccHandoff",
+        "MetaHumanReadyCharacterDesign",
+        "NPCBehaviorTreeReady",
+        "PCGWorldPartitionCell",
+        "QuestMissionKitReady",
+        "SequencerControlRigIKGroomReady",
+        "SpawnUnrealSystemsCharacterWorldLayer",
+        "StateTreeEQSReady"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source_inputs": "Python verifiers, Unreal commandlets, package smoke scripts, and log scanner allowlists",
+      "status": "scripted_verifier_and_packaged_smoke_loop",
+      "target_platform": "Mac",
+      "track": "Continuous Playability QA",
+      "validation": "verify_may27_unreal_systems_character_world_pass.py plus null/render packaged smoke"
+    }
+  ],
+  "unreal_constituent_access_matrix": [
+    {
+      "constituent": "MetaHuman Character Design",
+      "dry_run_first": true,
+      "mac_status": "available_as_imported_runtime_assets",
+      "notes": "MetaHuman Creator and DCC round-trips are external/authenticated; this server records and validates local assets without bypassing Epic login or licenses.",
+      "project_hook": "SurvivorActorClass, ZombieActorClass, import_metahuman_survivor.py, CharacterIdentityCourt",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "MetaHuman downloads, Fab character packs, and local Unreal skeletal mesh/Blueprint subclasses",
+      "target_platform": "Mac",
+      "validation_command": "UnrealEditor-Cmd -run=DataValidation -ProjectOnly"
+    },
+    {
+      "constituent": "MetaHuman for Maya and Houdini DCC Handoff",
+      "dry_run_first": true,
+      "mac_status": "handoff_manifest_only_until_dcc_export_exists",
+      "notes": "Maya/Houdini tools run outside Unreal; MCP can index outputs, stage safe files, and create validation plans on macOS.",
+      "project_hook": "MCPImported staging, Groom/Characters content roots, IK Rig/IK Retargeter validation queue",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "Local Maya/Houdini exports, Alembic grooms, FBX skeletal meshes, and user-owned source projects",
+      "target_platform": "Mac",
+      "validation_command": "Run DataValidation plus visual QA after local DCC export is staged"
+    },
+    {
+      "constituent": "Chaos Interactive and Async Physics",
+      "dry_run_first": true,
+      "mac_status": "engine_feature_available_with_project_hooks",
+      "notes": "Async physics must be verified per platform and per asset; this matrix exposes the required checks instead of assuming parity.",
+      "project_hook": "PhysicsTraversalYard, movable props, projectile/area weapon smoke tests",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "Unreal Engine Chaos physics, physics assets, destructible props, and traversal set pieces",
+      "target_platform": "Mac",
+      "validation_command": "runtime_step_smoke_contracts.py and packaged app null/render smoke"
+    },
+    {
+      "constituent": "AI for NPC and Enemy Characters",
+      "dry_run_first": true,
+      "mac_status": "implemented_and_extensible",
+      "notes": "Current runtime uses C++ AI with navmesh fallback; MCP classifies Fab AI kits/plugins for Mac rebuild before integration.",
+      "project_hook": "CodeRescueAIController direct chase fallback, FriendlyNPCActor, SurvivorActor, zombie variants",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "AIController, Behavior Tree/StateTree candidates, EQS, Smart Objects, and local NPC assets",
+      "target_platform": "Mac",
+      "validation_command": "verify_camera_perspectives_and_character_roster.py plus play smoke"
+    },
+    {
+      "constituent": "Extended Standard Libraries and Plugins",
+      "dry_run_first": true,
+      "mac_status": "dry_run_first_rebuild_required_for_native_code",
+      "notes": "Binary-only plugins without source remain blocked for local Mac rebuild unless publisher Mac binaries are present.",
+      "project_hook": "CodeRescueUnreal.uproject plugin list and BuildPlugin Mac plan",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "Fab plugins, Unreal marketplace plugins, PythonScriptPlugin, EditorScriptingUtilities, PCG, Niagara, GeometryScripting",
+      "target_platform": "Mac",
+      "validation_command": "RunUAT BuildPlugin -TargetPlatforms=Mac, CompileAllBlueprints, DataValidation"
+    },
+    {
+      "constituent": "Quest and Mission Kits",
+      "dry_run_first": true,
+      "mac_status": "implemented_in_project_and_open_to_fab_kits",
+      "notes": "External quest kits can be staged only after local materialization and Blueprint compile validation.",
+      "project_hook": "major-city campaign generator, mission route layer, terminal/survivor progression",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "CodeRescueCampaign, radio_briefings.tsv, CodingTerminalActor, SurvivorActor, Fab quest kits after validation",
+      "target_platform": "Mac",
+      "validation_command": "verify_graduated_campaign_world.py and verify_curriculum_validator_shapes.py"
+    },
+    {
+      "constituent": "Niagara, PCG, World Partition, Sequencer, Control Rig, IK Retargeter, Groom",
+      "dry_run_first": true,
+      "mac_status": "mixed_engine_feature_access_with_asset_specific_validation",
+      "notes": "Feature availability is not the same as asset readiness; each imported asset still needs Mac render/performance QA.",
+      "project_hook": "Niagara hooks, PCG/GeometryScripting plugins, CharacterWorldRealizationLayer, visual review manifests",
+      "project_signal": [
+        "PythonScriptPlugin:enabled",
+        "EditorScriptingUtilities:enabled",
+        "PCG:enabled",
+        "Niagara:enabled",
+        "GeometryScripting:enabled"
+      ],
+      "requires_local_user_owned_assets": true,
+      "source": "Enabled engine plugins, project content roots, and imported character/environment packs",
+      "target_platform": "Mac",
+      "validation_command": "ResavePackages, CompileAllBlueprints, DataValidation, visual review capture"
+    }
+  ]
+}

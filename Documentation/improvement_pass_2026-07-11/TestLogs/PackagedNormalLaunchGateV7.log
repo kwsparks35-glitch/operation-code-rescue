@@ -1,0 +1,214 @@
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak.
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc, Id=d97666d6c79e2622, Order=4, EntryCount=2526, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc"
+LogPakFile: Display: Mounted Pak file '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak', mount point: '../../../'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogMetal: Display:       Vendor ID: 4203
+LogMetal: Display:       Device ID: 875640394
+LogMetal: Display:       VRAM (MB): 36864
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Metal"
+LogCsvProfiler: Display: Metadata set : rhiname="Metal"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library Global
+LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+LogTemp: Display: Clearing the OS Cache
+LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+LogShaderLibrary: Display: Logical shader library 'CodeRescueUnreal' has been created as a monolithic library
+LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+LogShaderLibrary: Display: Discovered new 0 components for logical shader library 'CodeRescueUnreal' (total number of components is now 2)
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="Mac"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm6-metal_sm6.0.metallib, 22425180 bytes!
+LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/global_sf_metal_sm6-metal_sm6.0.metallib, 236063064 bytes!
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogInit: Display: Game Engine Initialized.
+LogInit: Display: Starting Game.
+LogTemp: Display: [LaunchLanguage] station spawned: JAVA
+LogTemp: Display: [LaunchLanguage] station spawned: PYTHON
+LogTemp: Display: [LaunchLanguage] station spawned: C
+LogTemp: Display: [LaunchLanguage] station spawned: C+
+LogTemp: Display: [LaunchLanguage] station spawned: C++
+LogTemp: Display: [LaunchLanguage] station spawned: MATLAB
+LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+LogTemp: Display: [CodeRescueLaunchLanguageMenu] Launch-only language widget ready: Java, C, C+, C++, Python, MATLAB.
+LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+LogTemp: Display: [CodeRescueLaunchLanguageMenu] Showing launch language chooser before active play.
+LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+LogTemp: Display: [HeldWeapon] body weapon 'PistolV3' attached via hand_R
+LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+LogTrace: Display: Control listening on port 1985
+LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+LogTemp: Display: [SpawnClear] facing yaw 0 (camera clearance 800uu)
+LogInit: Display: PreExit Game.
+LogShaderLibrary: Display: Closing logical shader library 'Global' with 1 components
+LogShaderLibrary: Display: Closing logical shader library 'CodeRescueUnreal' with 2 components

@@ -1,0 +1,4 @@
+[cr-log-scan] allowed warning: Saved/Logs/PackagedSmoke_render.log:807: [2026.07.10-02.33.27:384][  0]LogAudioMixerAudioUnit: Warning: Error querying Sample Rate: 2003332927
+[cr-log-scan] allowed warning: Saved/Logs/PackagedSmoke_render.log:886: [2026.07.10-02.33.27:684][  0]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[cr-log-scan] allowed warning: Saved/Logs/PackagedSmoke_render.log:900: [2026.07.10-02.33.27:747][  1]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[cr-log-scan] passed: scanned 1 log file(s), 3 allowed warning(s)

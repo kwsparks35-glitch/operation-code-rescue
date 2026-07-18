@@ -1,0 +1,1390 @@
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Mac/UnrealTraceServer')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Mac"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="macOS 26.5.1 25F80"
+LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M4 Pro"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" -windowed -ResX=1280 -ResY=720 -NoRadioVoice -NoSound -Unattended -NoSplash -CodeRescueAutoResumeLanguage=Cpp -stdout -FullStdOutLogOutput -installed""
+LogCsvProfiler: Display: Metadata set : loginid="4c030eef89447e1ef239b28fd95251e1"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak.
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc, Id=d97666d6c79e2622, Order=4, EntryCount=2526, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc' in location slot 0
+LogFilePackageStore: Mounting container: Id=d97666d6c79e2622, Order=4, NumPackages=1807
+LogPakFile: Display: Mounted IoStore container "../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc"
+LogPakFile: Display: Mounted Pak file '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.144266
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../CodeRescueUnreal/AssetRegistry.bin'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: OS requested locale 'en-US' is not supported. Using the OS requested language of 'en-US' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Mac-1D3DCB64114CF0479CF3A19D30A08699
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [/Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin PCG
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryScripting
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: CodeRescueUnreal
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=Mac
+LogInit: MachineId=4c030eef89447e1ef239b28fd95251e1
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: macOS 26.5.1 (25F80), CPU: Apple M4 Pro, GPU: Apple M4 Pro
+LogInit: CPU Model ID: 0, microcode revision: 0
+LogInit: Compiled (64-bit): Mar  6 2026 07:40:46
+LogInit: Architecture: arm64
+LogInit: Compiled with Clang: 16.0.0 (clang-1600.0.26.4)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  -windowed -ResX=1280 -ResY=720 -NoRadioVoice -NoSound -Unattended -NoSplash -CodeRescueAutoResumeLanguage=Cpp -stdout -FullStdOutLogOutput -installed
+LogInit: Base Directory: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app/Contents/UE/CodeRescueUnreal/Binaries/Mac/
+LogInit: Allocator: Binned3
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 41
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   FN-Main-InterchangePipeline (B69D2E47-E2A8-4003-BF77-18A492C4D899): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 19
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 40
+LogDevObjectVersion:   Dev-Optimus (93EDE1AA-10CA-7375-4DF9-8A2849B157A0): 14
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 11
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:300000]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:2]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.07.12-01.33.07:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.07.12-01.33.07:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.07.12-01.33.07:162][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.07.12-01.33.07:163][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.07.12-01.33.07:163][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.07.12-01.33.07:163][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.07.12-01.33.07:163][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.07.12-01.33.07:164][  0]LogInit: Selected Device Profile: [Mac]
+[2026.07.12-01.33.07:164][  0]LogInit: Selected Device Profile: [Mac]
+[2026.07.12-01.33.07:164][  0]LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.07.12-01.33.07:164][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.07.12-01.33.07:164][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.ZeroInitialise:1 -> 1]]
+[2026.07.12-01.33.07:164][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.BoundsChecking:1 -> 1]]
+[2026.07.12-01.33.07:164][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.07.12-01.33.07:164][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.07.12-01.33.07:164][  0]LogConfig: Applying CVar settings from Section [Startup_Mac] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.07.12-01.33.07:164][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2026.07.12-01.33.07:164][  0]LogConfig: CVar [[r.SceneCulling.ExplicitCellBounds:1]] deferred - dummy variable created
+[2026.07.12-01.33.07:164][  0]LogConfig: CVar [[r.GPUStatsEnabled:0]] deferred - dummy variable created
+[2026.07.12-01.33.07:164][  0]LogConfig: Set CVar [[Slate.NoAnimationOnTabForegroundedEvent:1]]
+[2026.07.12-01.33.07:164][  0]LogInit: macOS 26.5.1 (25F80)
+[2026.07.12-01.33.07:164][  0]LogInit: Model: Mac16,8
+[2026.07.12-01.33.07:164][  0]LogInit: CPU: Apple M4 Pro
+[2026.07.12-01.33.07:164][  0]LogInit: CPU Page size=16384, Cores=14, HT=14
+[2026.07.12-01.33.07:164][  0]LogInit: Computer: Kenneths-MacBook-Pro.local
+[2026.07.12-01.33.07:164][  0]LogInit: User: labcomputer
+[2026.07.12-01.33.07:164][  0]LogInit: High frequency timer resolution =24.000000 MHz
+[2026.07.12-01.33.07:164][  0]LogInit: Power Source: AC Power
+[2026.07.12-01.33.07:164][  0]LogInit: Memory total: Physical=48.0GB (48GB approx) Pagefile=0.0GB Virtual=48.0GB
+[2026.07.12-01.33.07:164][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.07.12-01.33.07:164][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.07.12-01.33.07:164][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.07.12-01.33.07:164][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.07.12-01.33.07:164][  0]LogInit: Using OS detected language (en-US).
+[2026.07.12-01.33.07:164][  0]LogInit: Using OS detected locale (en-US).
+[2026.07.12-01.33.07:164][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.07.12-01.33.07:200][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.07.12-01.33.07:201][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2026.07.12-01.33.07:201][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.07.12-01.33.07:222][  0]LogRHI: Texture pool is 25804 MB (70% of 36864 MB)
+[2026.07.12-01.33.07:222][  0]LogMetal: Display:       Vendor ID: 4203
+[2026.07.12-01.33.07:222][  0]LogMetal: Display:       Device ID: 875640394
+[2026.07.12-01.33.07:222][  0]LogMetal: Display:       VRAM (MB): 36864
+[2026.07.12-01.33.07:222][  0]LogMac: Attached monitors:
+[2026.07.12-01.33.07:222][  0]LogMac: Screen: Built-in Retina Display, Resolution: 1512x982, Points: 1512x982, WorkArea: (0, 0) -> (1448, 948), Scale: 1.00
+[2026.07.12-01.33.07:222][  0]LogMac: Found 1 attached monitors.
+[2026.07.12-01.33.07:223][  0]LogRHI: RHI Adapter Info:
+[2026.07.12-01.33.07:223][  0]LogRHI:             Name: Apple M4 Pro
+[2026.07.12-01.33.07:223][  0]LogRHI:   Driver Version:  (internal:0.0.0, unified:0.0.0)
+[2026.07.12-01.33.07:223][  0]LogRHI:      Driver Date: 1-1-1970
+[2026.07.12-01.33.07:225][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.07.12-01.33.07:226][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Metal"
+[2026.07.12-01.33.07:226][  0]LogCsvProfiler: Display: Metadata set : rhiname="Metal"
+[2026.07.12-01.33.07:226][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.07.12-01.33.07:226][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+[2026.07.12-01.33.07:226][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.07.12-01.33.07:228][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2026.07.12-01.33.07:229][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library Global
+[2026.07.12-01.33.07:229][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:229][  0]LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:230][  0]LogTemp: Display: Clearing the OS Cache
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: Platform=METAL_SM6 (52)
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: ---
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: ---
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2026.07.12-01.33.07:233][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2026.07.12-01.33.07:237][  0]LogSlate: Using FreeType 2.10.0
+[2026.07.12-01.33.07:237][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:320][  0]LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:321][  0]LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+[2026.07.12-01.33.07:322][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+[2026.07.12-01.33.07:322][  0]LogShaderLibrary: Display: Logical shader library 'CodeRescueUnreal' has been created as a monolithic library
+[2026.07.12-01.33.07:322][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+[2026.07.12-01.33.07:322][  0]LogShaderLibrary: Display: Discovered new 0 components for logical shader library 'CodeRescueUnreal' (total number of components is now 2)
+[2026.07.12-01.33.07:322][  0]LogInit: Using OS detected language (en-US).
+[2026.07.12-01.33.07:322][  0]LogInit: Using OS detected locale (en-US).
+[2026.07.12-01.33.07:322][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.07.12-01.33.07:322][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2026.07.12-01.33.07:322][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.07.12-01.33.07:322][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.07.12-01.33.07:322][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.07.12-01.33.07:399][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.07.12-01.33.07:399][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.07.12-01.33.07:400][  0]LogInit: Selected Device Profile: [Mac]
+[2026.07.12-01.33.07:400][  0]LogDeviceProfileManager: Active device profile: [0x122213840][0x7b00172ff0 82] Mac
+[2026.07.12-01.33.07:400][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Mac"
+[2026.07.12-01.33.07:401][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.12-01.33.07:402][  0]LogFilePackageStore: Updated: NewPackages=1807, OldPackages=0, TotalPackages=1808
+[2026.07.12-01.33.07:408][  0]LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm6-metal_sm6.0.metallib, 22425188 bytes!
+[2026.07.12-01.33.07:455][  0]LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/global_sf_metal_sm6-metal_sm6.0.metallib, 236063064 bytes!
+[2026.07.12-01.33.07:584][  0]LogUsd: Attempted to call a static function from UnrealUSDWrapper before the module is actually loaded! The module will be loaded now, but not all static functions have this check. In general, please ensure an Unreal module is loaded before calling any of its static functions, for example by calling 'FModuleManager::LoadModuleChecked<IUnrealUSDWrapperModule>("UnrealUSDWrapper");' beforehand.
+[2026.07.12-01.33.07:599][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.12-01.33.07:601][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.07.12-01.33.07:602][  0]LogPackageLocalizationCache: Processed 73 localized package path(s) for 1 prioritized culture(s) in 0.000358 seconds
+[2026.07.12-01.33.07:606][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.07.12-01.33.07:606][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.07.12-01.33.07:612][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.12-01.33.07:619][  0]LogMoviePlayer: FAVMoviePlayer ctor...
+[2026.07.12-01.33.07:619][  0]LogMoviePlayer: Initializing movie player
+[2026.07.12-01.33.07:622][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.07.12-01.33.07:623][  0]LogInit: XR: MultiViewport is Disabled
+[2026.07.12-01.33.07:623][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.07.12-01.33.07:624][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 5218640A87FC4776800000000000D700 | Instance: 864A4DD5C547EF39415A53B5317457EA (Kenneths-MacBook-Pro.local-6635).
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   DirectML:  no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   D3D12:     no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   NPU:       no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT: Interface availability:
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   GPU: no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   RDG: no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT:   NPU: no
+[2026.07.12-01.33.07:629][  0]LogNNERuntimeORT: NNERuntimeORTDml is not available!
+[2026.07.12-01.33.07:641][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.07.12-01.33.07:643][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.07.12-01.33.07:650][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.07.12-01.33.07:658][  0]LogUObjectArray: 33134 objects as part of root set at end of initial load.
+[2026.07.12-01.33.07:658][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2026.07.12-01.33.07:658][  0]LogUObjectArray: CloseDisregardForGC: 33134/33134 objects in disregard for GC pool
+[2026.07.12-01.33.07:666][  0]LogEngine: Initializing Engine...
+[2026.07.12-01.33.07:673][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.07.12-01.33.07:673][  0]LogInit: Texture streaming: Enabled
+[2026.07.12-01.33.07:674][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.07.12-01.33.07:676][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.07.12-01.33.07:679][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.12-01.33.07:679][  0]LogInit: Display: Game Engine Initialized.
+[2026.07.12-01.33.07:680][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.07.12-01.33.07:683][  0]LogInit: Display: Starting Game.
+[2026.07.12-01.33.07:683][  0]LogGlobalStatus: Browse Started Browse: "/Engine/Maps/Entry?Name=Player"
+[2026.07.12-01.33.07:683][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
+[2026.07.12-01.33.07:683][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
+[2026.07.12-01.33.07:683][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.07.12-01.33.07:683][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.07.12-01.33.07:683][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.12-01.33.07:685][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.07.12-01.33.07:691][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Entry
+[2026.07.12-01.33.07:692][  0]LogLoad: Game class is 'CodeRescueGameMode'
+[2026.07.12-01.33.07:693][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 0) at 2026.07.11-17.33.07
+[2026.07.12-01.33.07:693][  0]LogWorld: Bringing up level for play took: 0.001361
+[2026.07.12-01.33.07:695][  0]r.DynamicGlobalIlluminationMethod = "0"
+[2026.07.12-01.33.07:695][  0]r.ReflectionMethod = "0"
+[2026.07.12-01.33.07:695][  0]r.DefaultFeature.AutoExposure = "1"
+[2026.07.12-01.33.07:695][  0]r.EyeAdaptationQuality = "2"
+[2026.07.12-01.33.07:697][  0]r.Shadow.Virtual.Enable = "0"
+[2026.07.12-01.33.07:698][  0]LogTemp: Display: [LaunchLanguage] station spawned: JAVA
+[2026.07.12-01.33.07:698][  0]LogTemp: Display: [LaunchLanguage] station spawned: PYTHON
+[2026.07.12-01.33.07:699][  0]LogTemp: Display: [LaunchLanguage] station spawned: C
+[2026.07.12-01.33.07:699][  0]LogTemp: Display: [LaunchLanguage] station spawned: C+
+[2026.07.12-01.33.07:700][  0]LogTemp: Display: [LaunchLanguage] station spawned: C++
+[2026.07.12-01.33.07:701][  0]LogTemp: Display: [LaunchLanguage] station spawned: MATLAB
+[2026.07.12-01.33.07:715][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.07.12-01.33.07:716][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.07.12-01.33.07:716][  0]LogTemp: Display: [CodeRescueLaunchLanguageMenu] Launch-only language widget ready: Java, C, C+, C++, Python, MATLAB.
+[2026.07.12-01.33.07:716][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.07.12-01.33.07:716][  0]LogTemp: Display: [CodeRescueLaunchLanguageMenu] Showing launch language chooser before active play.
+[2026.07.12-01.33.07:754][  0]LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+[2026.07.12-01.33.07:754][  0]LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+[2026.07.12-01.33.07:754][  0]LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+[2026.07.12-01.33.07:755][  0]LogTemp: Display: [HeldWeapon] body weapon 'PistolV3' attached via hand_R
+[2026.07.12-01.33.07:760][  0]LogLoad: Took 0.077471 seconds to LoadMap(/Engine/Maps/Entry)
+[2026.07.12-01.33.07:760][  0]LogGlobalStatus: LoadMap Load map complete /Engine/Maps/Entry
+[2026.07.12-01.33.07:761][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2026.07.12-01.33.07:770][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.12-01.33.07:771][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2026.07.12-01.33.07:771][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=32, PathHashSize=16, EntriesSize=28672, DirTreeIndexSize=159448, TotalSize=188168
+[2026.07.12-01.33.07:771][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2026.07.12-01.33.07:771][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2026.07.12-01.33.07:774][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.07.12-01.33.07:774][  0]LogLoad: (Engine Initialization) Total time: 0.83 seconds
+[2026.07.12-01.33.07:774][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.07.12-01.33.07:774][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.07.12-01.33.07:783][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.12-01.33.07:795][  0]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.12-01.33.07:831][  0]LogSlate: Slate font cache was flushed
+[2026.07.12-01.33.07:831][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.12-01.33.07:831][  0]LogTrace: Display: Control listening on port 1985
+[2026.07.12-01.33.07:833][  1]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+[2026.07.12-01.33.07:833][  1]LogTemp: Display: [LaunchGate] auto-resume harness language=Cpp save_exists=1
+[2026.07.12-01.33.07:833][  1]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.07.12-01.33.07:833][  1]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.07.12-01.33.07:835][  1]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.12-01.33.07:836][  1]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2026.07.12-01.33.07:843][  2]LogGlobalStatus: Browse Started Browse: "/Engine/Maps/Entry"
+[2026.07.12-01.33.07:843][  2]LogNet: Browse: /Engine/Maps/Entry
+[2026.07.12-01.33.07:843][  2]LogLoad: LoadMap: /Engine/Maps/Entry
+[2026.07.12-01.33.07:843][  2]LogWorld: BeginTearingDown for /Engine/Maps/Entry
+[2026.07.12-01.33.07:844][  2]LogWorld: UWorld::CleanupWorld for Entry, bSessionEnded=true, bCleanupResources=true
+[2026.07.12-01.33.07:845][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.12-01.33.07:848][  2]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.12-01.33.07:850][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2026.07.12-01.33.07:851][  2]LogStreaming: Display: FlushAsyncLoading(71): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.12-01.33.07:853][  2]LogChaosDD: Creating Chaos Debug Draw Scene for world Entry
+[2026.07.12-01.33.07:854][  2]LogLoad: Game class is 'CodeRescueGameMode'
+[2026.07.12-01.33.07:855][  2]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 0) at 2026.07.11-17.33.07
+[2026.07.12-01.33.07:855][  2]LogWorld: Bringing up level for play took: 0.000800
+[2026.07.12-01.33.07:855][  2]r.DynamicGlobalIlluminationMethod = "0"
+[2026.07.12-01.33.07:855][  2]r.ReflectionMethod = "0"
+[2026.07.12-01.33.07:855][  2]r.DefaultFeature.AutoExposure = "1"
+[2026.07.12-01.33.07:855][  2]r.EyeAdaptationQuality = "2"
+[2026.07.12-01.33.07:855][  2]r.DefaultFeature.Bloom = "1"
+[2026.07.12-01.33.07:857][  2]r.Shadow.Virtual.Enable = "0"
+[2026.07.12-01.33.07:857][  2]LogTemp: Display: [CodeRescueUSCityRealization] 02 Los Angeles, CA active terrain='GoldenBasin' clouds='HazeWarm' grade='GoldenBasin' facades='GlassSteel' roads='WideArterial' homes='CraftsmanBungalow' wardrobe_accessory='SunHat'
+[2026.07.12-01.33.07:862][  2]LogTemp: Display: [CodeRescueArenaConfinement] 02 Los Angeles, CA mission-safe bounds include buildings, survivor, and extraction; catch floor, four edge walls, beacons, and Backspace/F8 recovery guidance active.
+[2026.07.12-01.33.07:864][  2]LogTemp: Display: [CityBlockV3] v3 street kit ACTIVE
+[2026.07.12-01.33.07:873][  2]LogTemp: Display: [Streetscape] 02 Los Angeles, CA: 54 spawned, 0 failed
+[2026.07.12-01.33.07:882][  2]LogTemp: Display: [CityBlockV3] 02 Los Angeles, CA: 39 spawned, 0 failed
+[2026.07.12-01.33.07:882][  2]LogTemp: Display: [CityMood] fog=ok post=ok
+[2026.07.12-01.33.07:884][  2]LogTemp: Display: [NightSky] dome=ok moon=ok
+[2026.07.12-01.33.07:884][  2]LogTemp: Display: [ProductionSky] 02 Los Angeles, CA uses fog, atmosphere, sun, and post processing; geometric cloud plates omitted.
+[2026.07.12-01.33.07:884][  2]LogTemp: Display: [CodeRescueUSCityRealization] 02 Los Angeles, CA sky family clouds='HazeWarm' grade='GoldenBasin' fog=0.014 sunday=(1.00 0.92 0.74)
+[2026.07.12-01.33.07:908][  2]LogTemp: Display: [ProductionRoute] 02 Los Angeles, CA uses HUD objective distance, focus beacons, and the guidance drone; prototype pads and pillars omitted.
+[2026.07.12-01.33.07:917][  2]LogTemp: Display: [CodeRescueCodingWorldResponse] 02. Los Angeles, CA terminal 'los_angeles_ca_lock' revealed solved rescue route from saved state.
+[2026.07.12-01.33.07:918][  2]LogTemp: Display: [CodeRescueSafeLearning] 02 Los Angeles, CA spawned 10 protected coding stations using selected C++ track; all ten persist before survivor clearance.
+[2026.07.12-01.33.07:919][  2]LogTemp: Display: [CodeRescueCaseFiles] 002 02 Los Angeles, CA spawned collectible case files with selected-language save persistence.
+[2026.07.12-01.33.07:919][  2]LogTemp: Display: [ProductionWorld] 02 Los Angeles, CA curated=1 development_showcases=0
+[2026.07.12-01.33.07:922][  2]LogTemp: Display: [CharacterPresentation] Survivor 'Civilian Survivor' uses production Quinn rig.
+[2026.07.12-01.33.08:566][  2]LogTemp: Display: [CodeRescueExtractionSetPiece] 002 02 Los Angeles, CA spawned expanded extraction set piece 'CONVOY GATE' around helipad for Los Angeles Survivor Team.
+[2026.07.12-01.33.08:630][  2]LogTemp: Display: [CodeRescueEliteWardenMiniBoss] 02 Los Angeles, CA state='WARDEN DEFEATED' intel_unlocked=true boss_defeated=true spawned_minibosses=0 terminal='los_angeles_ca_lock'
+[2026.07.12-01.33.08:630][  2]LogTemp: Display: [CodeRescueSecondaryMotion] 02 Los Angeles, CA spawned procedural cloth-ready rescue signals for safehouse, helipad, route, and survivor camp.
+[2026.07.12-01.33.08:638][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.12-01.33.08:641][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.12-01.33.08:643][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.12-01.33.08:645][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.12-01.33.08:645][  2]LogTemp: Display: [CodeRescueEntryAccess] 02 Los Angeles, CA cleared 0 static blockers from access points and froze 0 physics components. 
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [ProductionPresentation] 02 Los Angeles, CA hidden labels=11 review actors=94 arrival blockers=5; gameplay structures retained.
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [CityGroundContinuity] COMPLETE PASS city=1 canonical_floor=1 floor_top=-0.00 flattened_regions=1 remaining_elevated=0
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [CanopyTrim] 02 Los Angeles, CA: 0 overhead display strips hidden
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [PadCanopy] 02 Los Angeles, CA: 0 airborne meshes over the entry pad hidden
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [CharacterGroundingAudit] COMPLETE PASS city=1 label=02 Los Angeles, CA characters=130 regrounded=7 floating_after=0 min_ground_z=-18.0
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=1 renewable_alive=120 regular_alive=120 director_alive=0 persistent_alive=0 saved_renewable_deaths_ignored=298 minimum=6 sandbox=0
+[2026.07.12-01.33.08:646][  2]LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=1 renewable_alive=120 regular_alive=120 director_alive=0 persistent_alive=0 saved_renewable_deaths_ignored=298 minimum=6 sandbox=0
+[2026.07.12-01.33.08:649][  2]LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+[2026.07.12-01.33.08:649][  2]LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+[2026.07.12-01.33.08:649][  2]LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+[2026.07.12-01.33.08:649][  2]LogTemp: Display: [HeldWeapon] body weapon 'RifleV3' attached via hand_R
+[2026.07.12-01.33.08:652][  2]LogLoad: Took 0.808949 seconds to LoadMap(/Engine/Maps/Entry)
+[2026.07.12-01.33.08:652][  2]LogGlobalStatus: LoadMap Load map complete /Engine/Maps/Entry
+[2026.07.12-01.33.08:652][  2]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[2026.07.12-01.33.08:667][  2]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+[2026.07.12-01.33.08:669][  2]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001085 kind=2 amount=1 location=V(X=27596.48, Y=2589.58, Z=90.15)
+[2026.07.12-01.33.08:669][  2]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480844 remains visible 9.0s then fades 2.8s impulse=V(X=-308.61, Z=24.69)
+[2026.07.12-01.33.08:678][  2]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482068 bone=upperarm_L attacker=CodeZombieActor_2147480893 count=1
+[2026.07.12-01.33.08:687][  2]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.12-01.33.08:835][  7]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001093 kind=0 amount=22 location=V(X=27844.60, Y=3097.18, Z=90.15)
+[2026.07.12-01.33.08:835][  7]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480779 remains visible 9.0s then fades 2.8s impulse=V(X=-308.11, Y=17.55, Z=24.69)
+[2026.07.12-01.33.09:069][ 14]LogTemp: Display: [SpawnClear] facing yaw 0 (camera clearance 800uu)
+[2026.07.12-01.33.09:192][ 17]LogTemp: Display: [RadioVoiceArbiter] city=1 active_voice=1 overlapping_voices=0
+[2026.07.12-01.33.09:486][ 26]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001077 kind=5 amount=3 location=V(X=27766.57, Y=2274.87, Z=90.15)
+[2026.07.12-01.33.09:487][ 26]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480907 remains visible 9.0s then fades 2.8s impulse=V(X=-247.18, Y=-184.78, Z=24.69)
+[2026.07.12-01.33.09:565][ 28]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482068 bone=upperarm_L attacker=CodeZombieActor_2147480837 count=2
+[2026.07.12-01.33.09:840][ 36]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001029 kind=0 amount=22 location=V(X=27679.12, Y=2967.30, Z=90.15)
+[2026.07.12-01.33.09:840][ 36]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481303 remains visible 9.0s then fades 2.8s impulse=V(X=-304.67, Y=-49.17, Z=24.69)
+[2026.07.12-01.33.10:173][ 48]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001021 kind=6 amount=1 location=V(X=27571.38, Y=2805.31, Z=90.15)
+[2026.07.12-01.33.10:173][ 48]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481371 remains visible 9.0s then fades 2.8s impulse=V(X=-296.15, Y=-86.82, Z=24.69)
+[2026.07.12-01.33.10:377][ 56]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001037 kind=5 amount=3 location=V(X=27680.73, Y=3333.54, Z=90.15)
+[2026.07.12-01.33.10:378][ 56]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481241 remains visible 9.0s then fades 2.8s impulse=V(X=-305.10, Y=46.46, Z=24.69)
+[2026.07.12-01.33.10:654][ 67]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210770 kind=1 amount=1 location=V(X=28032.46, Y=2292.20, Z=54.95)
+[2026.07.12-01.33.10:655][ 67]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479660 remains visible 9.0s then fades 2.8s impulse=V(X=-203.76, Y=-231.78, Z=24.69)
+[2026.07.12-01.33.10:820][ 73]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482068 bone=upperarm_L attacker=CodeZombieActor_2147480837 count=3
+[2026.07.12-01.33.11:112][ 84]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210771 kind=6 amount=1 location=V(X=27708.02, Y=2529.98, Z=54.95)
+[2026.07.12-01.33.11:112][ 84]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479656 remains visible 9.0s then fades 2.8s impulse=V(X=-252.37, Y=-177.62, Z=24.69)
+[2026.07.12-01.33.11:402][ 95]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001101 kind=6 amount=1 location=V(X=27839.36, Y=3468.80, Z=89.94)
+[2026.07.12-01.33.11:403][ 95]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480715 remains visible 9.0s then fades 2.8s impulse=V(X=-302.14, Y=62.88, Z=24.69)
+[2026.07.12-01.33.12:037][120]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001013 kind=0 amount=22 location=V(X=27792.98, Y=2347.74, Z=90.15)
+[2026.07.12-01.33.12:037][120]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481441 remains visible 9.0s then fades 2.8s impulse=V(X=-210.64, Y=-225.55, Z=24.69)
+[2026.07.12-01.33.12:114][123]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001030 kind=1 amount=1 location=V(X=28692.56, Y=3234.82, Z=90.11)
+[2026.07.12-01.33.12:114][123]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481296 remains visible 9.0s then fades 2.8s impulse=V(X=-14.05, Y=-308.29, Z=24.69)
+[2026.07.12-01.33.12:274][129]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482068 bone=upperarm_L attacker=CodeZombieActor_2147480837 count=4
+[2026.07.12-01.33.12:480][137]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001078 kind=3 amount=1 location=V(X=28703.37, Y=2391.55, Z=90.15)
+[2026.07.12-01.33.12:480][137]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480900 remains visible 9.0s then fades 2.8s impulse=V(X=11.39, Y=-308.40, Z=24.69)
+[2026.07.12-01.33.12:981][156]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210772 kind=5 amount=3 location=V(X=27757.65, Y=2186.23, Z=54.95)
+[2026.07.12-01.33.12:981][156]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479652 remains visible 9.0s then fades 2.8s impulse=V(X=-179.64, Y=-250.94, Z=24.69)
+[2026.07.12-01.33.13:432][173]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001045 kind=2 amount=1 location=V(X=28154.58, Y=3715.27, Z=90.15)
+[2026.07.12-01.33.13:432][173]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481176 remains visible 9.0s then fades 2.8s impulse=V(X=-212.28, Y=224.01, Z=24.69)
+[2026.07.12-01.33.13:614][180]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001069 kind=0 amount=22 location=V(X=27896.37, Y=2127.43, Z=90.15)
+[2026.07.12-01.33.13:614][180]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480980 remains visible 9.0s then fades 2.8s impulse=V(X=-142.91, Y=-273.53, Z=24.69)
+[2026.07.12-01.33.13:641][181]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001022 kind=5 amount=3 location=V(X=28696.24, Y=2843.41, Z=90.15)
+[2026.07.12-01.33.13:641][181]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481362 remains visible 9.0s then fades 2.8s impulse=V(X=137.34, Y=-276.37, Z=24.69)
+[2026.07.12-01.33.14:341][209]LogCharacterMovement: CodeZombieActor_2147481234 is stuck and failed to move! Velocity: X=-77.92 Y=-39.40 Z=0.00 Location: X=28629.57 Y=3358.01 Z=90.06 Normal: X=-0.35 Y=0.93 Z=-0.10 PenetrationDepth:1.248 Actor:CodeZombieActor_2147480770 Component:PrimitiveBody BoneName:None (0 other events since notify)
+[2026.07.12-01.33.14:395][211]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001086 kind=0 amount=26 location=V(X=28658.16, Y=3221.00, Z=89.97)
+[2026.07.12-01.33.14:395][211]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480837 remains visible 9.0s then fades 2.8s impulse=V(X=299.95, Y=-72.62, Z=24.69)
+[2026.07.12-01.33.14:788][227]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001014 kind=0 amount=26 location=V(X=28609.88, Y=2272.61, Z=90.15)
+[2026.07.12-01.33.14:788][227]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481432 remains visible 9.0s then fades 2.8s impulse=V(X=69.12, Y=-300.77, Z=24.69)
+[2026.07.12-01.33.14:841][229]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001076 kind=0 amount=18 location=V(X=27264.89, Y=2554.19, Z=90.15)
+[2026.07.12-01.33.14:841][229]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480917 remains visible 9.0s then fades 2.8s impulse=V(X=-268.02, Y=-153.00, Z=24.69)
+[2026.07.12-01.33.14:893][231]LogCharacterMovement: CodeZombieActor_2147480770 is stuck and failed to move! Velocity: X=-80.73 Y=-33.27 Z=0.00 Location: X=28633.02 Y=3284.24 Z=89.94 Normal: X=0.59 Y=-0.81 Z=-0.02 PenetrationDepth:1.199 Actor:CodeZombieActor_2147481234 Component:PrimitiveBody BoneName:None (0 other events since notify)
+[2026.07.12-01.33.15:313][247]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482068 bone=upperarm_L attacker=CodeZombieActor_2147480893 count=5
+[2026.07.12-01.33.15:361][249]LogCharacterMovement: CodeZombieActor_2147481234 is stuck and failed to move! Velocity: X=-69.58 Y=-52.75 Z=0.00 Location: X=28599.63 Y=3345.19 Z=89.92 Normal: X=-0.45 Y=0.89 Z=-0.08 PenetrationDepth:4.923 Actor:CodeZombieActor_2147480770 Component:PrimitiveBody BoneName:None (22 other events since notify)
+[2026.07.12-01.33.15:498][254]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001100 kind=1 amount=1 location=V(X=27388.82, Y=3445.37, Z=90.15)
+[2026.07.12-01.33.15:498][254]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480722 remains visible 9.0s then fades 2.8s impulse=V(X=-285.15, Y=118.03, Z=24.69)
+[2026.07.12-01.33.15:772][264]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001012 kind=5 amount=3 location=V(X=27189.63, Y=2653.05, Z=90.15)
+[2026.07.12-01.33.15:772][264]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481448 remains visible 9.0s then fades 2.8s impulse=V(X=-277.25, Y=-135.55, Z=24.69)
+[2026.07.12-01.33.16:012][273]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001092 kind=5 amount=3 location=V(X=27286.16, Y=3228.77, Z=90.15)
+[2026.07.12-01.33.16:012][273]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480788 remains visible 9.0s then fades 2.8s impulse=V(X=-306.35, Y=37.34, Z=24.69)
+[2026.07.12-01.33.16:536][293]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001109 kind=0 amount=22 location=V(X=28063.61, Y=3578.71, Z=90.15)
+[2026.07.12-01.33.16:536][293]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480647 remains visible 9.0s then fades 2.8s impulse=V(X=-58.49, Y=303.02, Z=24.69)
+[2026.07.12-01.33.16:587][295]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001005 kind=2 amount=1 location=V(X=27690.42, Y=2005.77, Z=90.15)
+[2026.07.12-01.33.16:587][295]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481503 remains visible 9.0s then fades 2.8s impulse=V(X=-117.71, Y=-285.28, Z=24.69)
+[2026.07.12-01.33.16:667][298]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001046 kind=0 amount=26 location=V(X=28435.00, Y=3326.97, Z=114.75)
+[2026.07.12-01.33.16:667][298]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481169 remains visible 9.0s then fades 2.8s impulse=V(X=250.16, Y=180.73, Z=24.69)
+[2026.07.12-01.33.17:325][323]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480844 captured final skeletal pose for fade
+[2026.07.12-01.33.17:325][323]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480844 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.17:574][333]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001084 kind=0 amount=18 location=V(X=27318.17, Y=2977.35, Z=89.92)
+[2026.07.12-01.33.17:575][333]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480853 remains visible 9.0s then fades 2.8s impulse=V(X=-303.99, Y=-53.24, Z=24.69)
+[2026.07.12-01.33.17:781][341]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001006 kind=0 amount=26 location=V(X=28670.25, Y=2229.82, Z=90.15)
+[2026.07.12-01.33.17:781][341]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481496 remains visible 9.0s then fades 2.8s impulse=V(X=142.31, Y=-273.85, Z=24.69)
+[2026.07.12-01.33.17:849][343]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480779 captured final skeletal pose for fade
+[2026.07.12-01.33.17:849][343]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480779 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.18:379][364]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001070 kind=1 amount=1 location=V(X=28680.01, Y=2354.55, Z=89.00)
+[2026.07.12-01.33.18:379][364]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480970 remains visible 9.0s then fades 2.8s impulse=V(X=174.83, Y=-254.32, Z=24.69)
+[2026.07.12-01.33.18:520][369]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480907 captured final skeletal pose for fade
+[2026.07.12-01.33.18:520][369]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480907 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.18:583][372]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001068 kind=3 amount=1 location=V(X=27485.24, Y=2370.78, Z=90.15)
+[2026.07.12-01.33.18:583][372]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480989 remains visible 9.0s then fades 2.8s impulse=V(X=-204.58, Y=-231.06, Z=24.69)
+[2026.07.12-01.33.18:812][381]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482068 bone=upperarm_L attacker=CodeZombieActor_2147480893 count=6
+[2026.07.12-01.33.18:869][383]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481303 captured final skeletal pose for fade
+[2026.07.12-01.33.18:869][383]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481303 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.18:961][387]LogCharacterMovement: CodeZombieActor_2147481234 is stuck and failed to move! Velocity: X=-80.68 Y=-33.39 Z=0.00 Location: X=28405.70 Y=3259.25 Z=90.20 Normal: X=-0.15 Y=0.98 Z=0.12 PenetrationDepth:2.044 Actor:CodeZombieActor_2147480770 Component:PrimitiveBody BoneName:None (3 other events since notify)
+[2026.07.12-01.33.19:119][393]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001108 kind=3 amount=1 location=V(X=27648.31, Y=3551.70, Z=90.15)
+[2026.07.12-01.33.19:119][393]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480656 remains visible 9.0s then fades 2.8s impulse=V(X=-216.41, Y=220.02, Z=24.69)
+[2026.07.12-01.33.19:190][395]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481371 captured final skeletal pose for fade
+[2026.07.12-01.33.19:190][395]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481371 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.19:406][403]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481241 captured final skeletal pose for fade
+[2026.07.12-01.33.19:406][403]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481241 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.19:562][409]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001094 kind=0 amount=26 location=V(X=28404.47, Y=3184.51, Z=90.03)
+[2026.07.12-01.33.19:562][409]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480770 remains visible 9.0s then fades 2.8s impulse=V(X=307.73, Y=23.31, Z=24.69)
+[2026.07.12-01.33.19:673][413]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479660 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.19:972][425]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001023 kind=0 amount=30 location=V(X=28639.94, Y=3033.68, Z=90.15)
+[2026.07.12-01.33.19:972][425]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481355 remains visible 9.0s then fades 2.8s impulse=V(X=302.34, Y=-61.89, Z=24.69)
+[2026.07.12-01.33.20:135][431]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480844 fade complete; removing corpse
+[2026.07.12-01.33.20:139][431]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479656 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.20:154][432]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001053 kind=0 amount=22 location=V(X=28109.53, Y=3442.26, Z=90.15)
+[2026.07.12-01.33.20:154][432]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481112 remains visible 9.0s then fades 2.8s impulse=V(X=77.69, Y=298.68, Z=24.69)
+[2026.07.12-01.33.20:421][442]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480715 captured final skeletal pose for fade
+[2026.07.12-01.33.20:421][442]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480715 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.20:436][443]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001054 kind=0 amount=26 location=V(X=28215.57, Y=3217.83, Z=90.07)
+[2026.07.12-01.33.20:436][443]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481105 remains visible 9.0s then fades 2.8s impulse=V(X=292.60, Y=98.13, Z=24.69)
+[2026.07.12-01.33.20:437][443]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001020 kind=1 amount=1 location=V(X=27451.14, Y=2972.84, Z=90.15)
+[2026.07.12-01.33.20:437][443]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481380 remains visible 9.0s then fades 2.8s impulse=V(X=-294.28, Y=-92.96, Z=24.69)
+[2026.07.12-01.33.20:648][451]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480779 fade complete; removing corpse
+[2026.07.12-01.33.21:051][465]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481441 captured final skeletal pose for fade
+[2026.07.12-01.33.21:051][465]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481441 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.21:128][468]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481296 captured final skeletal pose for fade
+[2026.07.12-01.33.21:128][468]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481296 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.21:197][471]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001038 kind=3 amount=1 location=V(X=28239.14, Y=3278.28, Z=192.45)
+[2026.07.12-01.33.21:197][471]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481234 remains visible 9.0s then fades 2.8s impulse=V(X=266.90, Y=154.95, Z=24.69)
+[2026.07.12-01.33.21:331][476]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480907 fade complete; removing corpse
+[2026.07.12-01.33.21:377][478]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001004 kind=0 amount=18 location=V(X=27229.21, Y=2437.42, Z=90.37)
+[2026.07.12-01.33.21:377][478]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481513 remains visible 9.0s then fades 2.8s impulse=V(X=-230.18, Y=-205.57, Z=24.69)
+[2026.07.12-01.33.21:513][483]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480900 captured final skeletal pose for fade
+[2026.07.12-01.33.21:513][483]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480900 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.21:625][488]LogCharacterMovement: CodeZombieActor_2147480638 is stuck and failed to move! Velocity: X=-78.68 Y=-37.85 Z=0.00 Location: X=28388.68 Y=3409.91 Z=89.99 Normal: X=0.71 Y=-0.71 Z=-0.05 PenetrationDepth:1.266 Actor:CodeZombieActor_2147480567 Component:PrimitiveBody BoneName:None (0 other events since notify)
+[2026.07.12-01.33.21:675][490]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481303 fade complete; removing corpse
+[2026.07.12-01.33.21:938][501]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001031 kind=6 amount=1 location=V(X=28283.91, Y=3147.32, Z=90.01)
+[2026.07.12-01.33.21:938][501]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481289 remains visible 9.0s then fades 2.8s impulse=V(X=308.36, Y=-12.45, Z=24.69)
+[2026.07.12-01.33.21:986][503]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481371 fade complete; removing corpse
+[2026.07.12-01.33.21:996][503]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479652 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.22:208][512]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481241 fade complete; removing corpse
+[2026.07.12-01.33.22:308][516]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001028 kind=3 amount=1 location=V(X=27426.63, Y=3160.04, Z=90.15)
+[2026.07.12-01.33.22:308][516]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481312 remains visible 9.0s then fades 2.8s impulse=V(X=-308.61, Y=1.33, Z=24.69)
+[2026.07.12-01.33.22:467][521]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481176 captured final skeletal pose for fade
+[2026.07.12-01.33.22:467][521]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481176 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.22:490][522]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479660 fade complete; removing corpse
+[2026.07.12-01.33.22:550][524]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001007 kind=5 amount=3 location=V(X=28854.49, Y=2624.75, Z=89.45)
+[2026.07.12-01.33.22:550][524]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481487 remains visible 9.0s then fades 2.8s impulse=V(X=261.60, Y=-163.73, Z=24.69)
+[2026.07.12-01.33.22:635][526]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480980 captured final skeletal pose for fade
+[2026.07.12-01.33.22:635][526]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480980 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.22:669][527]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481362 captured final skeletal pose for fade
+[2026.07.12-01.33.22:669][527]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481362 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.22:952][536]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479656 fade complete; removing corpse
+[2026.07.12-01.33.23:214][544]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480715 fade complete; removing corpse
+[2026.07.12-01.33.23:245][545]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001102 kind=5 amount=3 location=V(X=28174.44, Y=3195.25, Z=90.15)
+[2026.07.12-01.33.23:245][545]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480706 remains visible 9.0s then fades 2.8s impulse=V(X=308.58, Y=4.55, Z=24.69)
+[2026.07.12-01.33.23:423][550]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480837 captured final skeletal pose for fade
+[2026.07.12-01.33.23:423][550]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480837 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.23:440][551]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001095 kind=2 amount=1 location=V(X=28249.21, Y=3135.04, Z=90.15)
+[2026.07.12-01.33.23:440][551]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480761 remains visible 9.0s then fades 2.8s impulse=V(X=304.19, Y=-52.08, Z=24.69)
+[2026.07.12-01.33.23:807][562]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481432 captured final skeletal pose for fade
+[2026.07.12-01.33.23:807][562]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481432 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.23:856][564]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481441 fade complete; removing corpse
+[2026.07.12-01.33.23:873][564]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480917 captured final skeletal pose for fade
+[2026.07.12-01.33.23:873][564]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480917 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.23:924][566]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481296 fade complete; removing corpse
+[2026.07.12-01.33.24:185][574]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001044 kind=0 amount=18 location=V(X=27651.32, Y=3367.35, Z=90.15)
+[2026.07.12-01.33.24:185][574]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481185 remains visible 9.0s then fades 2.8s impulse=V(X=-258.07, Y=169.24, Z=24.69)
+[2026.07.12-01.33.24:318][578]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001015 kind=2 amount=1 location=V(X=28930.09, Y=2716.98, Z=90.15)
+[2026.07.12-01.33.24:318][578]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481425 remains visible 9.0s then fades 2.8s impulse=V(X=279.35, Y=-131.16, Z=24.69)
+[2026.07.12-01.33.24:323][578]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480900 fade complete; removing corpse
+[2026.07.12-01.33.24:511][584]LogCharacterMovement: CodeZombieActor_2147480795 is stuck and failed to move! Velocity: X=133.24 Y=2.96 Z=0.00 Location: X=27223.07 Y=3254.40 Z=89.92 Normal: X=0.38 Y=-0.92 Z=-0.07 PenetrationDepth:5.182 Actor:CodeZombieActor_2147481255 Component:PrimitiveBody BoneName:None (0 other events since notify)
+[2026.07.12-01.33.24:529][584]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480722 captured final skeletal pose for fade
+[2026.07.12-01.33.24:529][584]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480722 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.24:795][592]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481448 captured final skeletal pose for fade
+[2026.07.12-01.33.24:795][592]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481448 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.24:810][593]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479652 fade complete; removing corpse
+[2026.07.12-01.33.25:030][599]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480788 captured final skeletal pose for fade
+[2026.07.12-01.33.25:030][599]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480788 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.25:280][607]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481176 fade complete; removing corpse
+[2026.07.12-01.33.25:442][612]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480980 fade complete; removing corpse
+[2026.07.12-01.33.25:473][613]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481362 fade complete; removing corpse
+[2026.07.12-01.33.25:506][614]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001110 kind=1 amount=1 location=V(X=28225.56, Y=3319.65, Z=90.15)
+[2026.07.12-01.33.25:506][614]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480638 remains visible 9.0s then fades 2.8s impulse=V(X=284.65, Y=119.25, Z=24.69)
+[2026.07.12-01.33.25:558][615]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480647 captured final skeletal pose for fade
+[2026.07.12-01.33.25:558][615]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480647 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.25:623][617]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481503 captured final skeletal pose for fade
+[2026.07.12-01.33.25:623][617]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481503 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.25:687][619]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481169 captured final skeletal pose for fade
+[2026.07.12-01.33.25:687][619]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481169 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.25:704][620]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001118 kind=3 amount=1 location=V(X=28169.35, Y=3373.41, Z=90.15)
+[2026.07.12-01.33.25:704][620]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480567 remains visible 9.0s then fades 2.8s impulse=V(X=249.49, Y=181.66, Z=24.69)
+[2026.07.12-01.33.25:805][623]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001107 kind=5 amount=3 location=V(X=27460.27, Y=3342.46, Z=90.15)
+[2026.07.12-01.33.25:805][623]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480665 remains visible 9.0s then fades 2.8s impulse=V(X=-293.18, Y=96.38, Z=24.69)
+[2026.07.12-01.33.26:048][630]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001091 kind=6 amount=1 location=V(X=27367.06, Y=3225.46, Z=89.98)
+[2026.07.12-01.33.26:048][630]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480795 remains visible 9.0s then fades 2.8s impulse=V(X=-308.49, Y=8.59, Z=24.69)
+[2026.07.12-01.33.26:218][635]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480837 fade complete; removing corpse
+[2026.07.12-01.33.26:598][647]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481432 fade complete; removing corpse
+[2026.07.12-01.33.26:606][647]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480853 captured final skeletal pose for fade
+[2026.07.12-01.33.26:606][647]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480853 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.26:689][650]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480917 fade complete; removing corpse
+[2026.07.12-01.33.26:797][653]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481496 captured final skeletal pose for fade
+[2026.07.12-01.33.26:798][653]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481496 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.26:989][660]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001035 kind=2 amount=1 location=V(X=27434.73, Y=3277.64, Z=90.32)
+[2026.07.12-01.33.26:989][660]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481255 remains visible 9.0s then fades 2.8s impulse=V(X=-297.41, Y=82.40, Z=24.69)
+[2026.07.12-01.33.27:344][671]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480722 fade complete; removing corpse
+[2026.07.12-01.33.27:417][673]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480970 captured final skeletal pose for fade
+[2026.07.12-01.33.27:417][673]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480970 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.27:585][679]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481448 fade complete; removing corpse
+[2026.07.12-01.33.27:601][679]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480989 captured final skeletal pose for fade
+[2026.07.12-01.33.27:601][679]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480989 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.27:616][680]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001079 kind=0 amount=30 location=V(X=28692.32, Y=2961.47, Z=90.15)
+[2026.07.12-01.33.27:616][680]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480893 remains visible 9.0s then fades 2.8s impulse=V(X=300.59, Y=-69.94, Z=24.69)
+[2026.07.12-01.33.27:823][687]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480788 fade complete; removing corpse
+[2026.07.12-01.33.27:853][688]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001116 kind=0 amount=18 location=V(X=27758.02, Y=3465.18, Z=90.15)
+[2026.07.12-01.33.27:854][688]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480586 remains visible 9.0s then fades 2.8s impulse=V(X=-162.65, Y=262.27, Z=24.69)
+[2026.07.12-01.33.28:148][697]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480656 captured final skeletal pose for fade
+[2026.07.12-01.33.28:148][697]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480656 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.28:349][704]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480647 fade complete; removing corpse
+[2026.07.12-01.33.28:407][706]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481503 fade complete; removing corpse
+[2026.07.12-01.33.28:502][709]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481169 fade complete; removing corpse
+[2026.07.12-01.33.28:572][711]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480770 captured final skeletal pose for fade
+[2026.07.12-01.33.28:572][711]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480770 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.28:739][717]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001047 kind=5 amount=3 location=V(X=28315.49, Y=3269.53, Z=90.15)
+[2026.07.12-01.33.28:739][717]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481162 remains visible 9.0s then fades 2.8s impulse=V(X=298.19, Y=79.54, Z=24.69)
+[2026.07.12-01.33.28:854][721]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001067 kind=5 amount=3 location=V(X=27182.11, Y=2532.64, Z=90.38)
+[2026.07.12-01.33.28:854][721]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480998 remains visible 9.0s then fades 2.8s impulse=V(X=-245.53, Y=-186.97, Z=24.69)
+[2026.07.12-01.33.28:886][722]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001117 kind=5 amount=3 location=V(X=28019.64, Y=3358.68, Z=90.15)
+[2026.07.12-01.33.28:886][722]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480577 remains visible 9.0s then fades 2.8s impulse=V(X=71.22, Y=300.28, Z=24.69)
+[2026.07.12-01.33.28:977][725]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001071 kind=6 amount=1 location=V(X=29030.46, Y=2403.46, Z=90.15)
+[2026.07.12-01.33.28:977][725]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480960 remains visible 9.0s then fades 2.8s impulse=V(X=251.72, Y=-178.55, Z=24.69)
+[2026.07.12-01.33.28:995][725]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481355 captured final skeletal pose for fade
+[2026.07.12-01.33.28:995][725]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481355 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.29:167][731]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481112 captured final skeletal pose for fade
+[2026.07.12-01.33.29:167][731]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481112 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.29:403][740]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480853 fade complete; removing corpse
+[2026.07.12-01.33.29:465][742]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481380 captured final skeletal pose for fade
+[2026.07.12-01.33.29:465][742]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481380 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.29:465][742]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481105 captured final skeletal pose for fade
+[2026.07.12-01.33.29:465][742]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481105 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.29:605][748]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481496 fade complete; removing corpse
+[2026.07.12-01.33.30:221][771]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480970 fade complete; removing corpse
+[2026.07.12-01.33.30:231][771]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481234 captured final skeletal pose for fade
+[2026.07.12-01.33.30:231][771]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481234 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.30:392][777]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481513 captured final skeletal pose for fade
+[2026.07.12-01.33.30:393][777]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481513 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.30:410][778]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480989 fade complete; removing corpse
+[2026.07.12-01.33.30:621][786]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001083 kind=0 amount=30 location=V(X=27259.45, Y=2972.21, Z=90.15)
+[2026.07.12-01.33.30:621][786]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480863 remains visible 9.0s then fades 2.8s impulse=V(X=-298.24, Y=-79.36, Z=24.69)
+[2026.07.12-01.33.30:726][790]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001075 kind=2 amount=1 location=V(X=27204.57, Y=2891.44, Z=90.15)
+[2026.07.12-01.33.30:726][790]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480927 remains visible 9.0s then fades 2.8s impulse=V(X=-291.99, Y=-99.93, Z=24.69)
+[2026.07.12-01.33.30:943][798]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480656 fade complete; removing corpse
+[2026.07.12-01.33.30:953][798]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481289 captured final skeletal pose for fade
+[2026.07.12-01.33.30:953][798]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481289 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.31:206][808]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001061 kind=6 amount=1 location=V(X=27952.81, Y=3345.66, Z=90.15)
+[2026.07.12-01.33.31:207][808]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481045 remains visible 9.0s then fades 2.8s impulse=V(X=-186.83, Y=245.64, Z=24.69)
+[2026.07.12-01.33.31:323][812]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481312 captured final skeletal pose for fade
+[2026.07.12-01.33.31:323][812]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481312 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.31:370][814]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480770 fade complete; removing corpse
+[2026.07.12-01.33.31:449][817]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001052 kind=5 amount=3 location=V(X=27780.59, Y=3376.09, Z=90.15)
+[2026.07.12-01.33.31:449][817]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481121 remains visible 9.0s then fades 2.8s impulse=V(X=-260.02, Y=166.23, Z=24.69)
+[2026.07.12-01.33.31:476][818]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001039 kind=0 amount=30 location=V(X=28574.51, Y=3291.11, Z=90.15)
+[2026.07.12-01.33.31:476][818]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481225 remains visible 9.0s then fades 2.8s impulse=V(X=302.38, Y=61.73, Z=24.69)
+[2026.07.12-01.33.31:568][821]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481487 captured final skeletal pose for fade
+[2026.07.12-01.33.31:568][821]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481487 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.31:670][825]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001036 kind=0 amount=18 location=V(X=27648.29, Y=3297.63, Z=90.15)
+[2026.07.12-01.33.31:670][825]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481248 remains visible 9.0s then fades 2.8s impulse=V(X=-295.16, Y=90.11, Z=24.69)
+[2026.07.12-01.33.31:782][829]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481355 fade complete; removing corpse
+[2026.07.12-01.33.31:810][830]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210392 kind=5 amount=3 location=V(X=28458.20, Y=3071.84, Z=53.28)
+[2026.07.12-01.33.31:810][830]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479458 remains visible 9.0s then fades 2.8s impulse=V(X=302.08, Y=-63.16, Z=24.69)
+[2026.07.12-01.33.31:975][836]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481112 fade complete; removing corpse
+[2026.07.12-01.33.32:264][847]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481380 fade complete; removing corpse
+[2026.07.12-01.33.32:265][847]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481105 fade complete; removing corpse
+[2026.07.12-01.33.32:275][847]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480706 captured final skeletal pose for fade
+[2026.07.12-01.33.32:275][847]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480706 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.32:458][854]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480761 captured final skeletal pose for fade
+[2026.07.12-01.33.32:458][854]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480761 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.33:037][877]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481234 fade complete; removing corpse
+[2026.07.12-01.33.33:188][884]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481513 fade complete; removing corpse
+[2026.07.12-01.33.33:198][884]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481185 captured final skeletal pose for fade
+[2026.07.12-01.33.33:198][884]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481185 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.33:325][890]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481425 captured final skeletal pose for fade
+[2026.07.12-01.33.33:325][890]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481425 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.33:532][901]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001099 kind=0 amount=30 location=V(X=27373.45, Y=3319.99, Z=90.15)
+[2026.07.12-01.33.33:532][901]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480729 remains visible 9.0s then fades 2.8s impulse=V(X=-275.31, Y=139.46, Z=24.69)
+[2026.07.12-01.33.33:533][901]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210990 kind=1 amount=1 location=V(X=27860.40, Y=3305.06, Z=90.00)
+[2026.07.12-01.33.33:533][901]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479442 remains visible 9.0s then fades 2.8s impulse=V(X=-308.61, Z=24.69)
+[2026.07.12-01.33.33:590][904]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001011 kind=6 amount=1 location=V(X=27066.84, Y=2750.04, Z=90.15)
+[2026.07.12-01.33.33:590][904]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481457 remains visible 9.0s then fades 2.8s impulse=V(X=-307.14, Y=-30.09, Z=24.69)
+[2026.07.12-01.33.33:757][913]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481289 fade complete; removing corpse
+[2026.07.12-01.33.34:120][933]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481312 fade complete; removing corpse
+[2026.07.12-01.33.34:371][947]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481487 fade complete; removing corpse
+[2026.07.12-01.33.34:461][952]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210992 kind=5 amount=3 location=V(X=27261.02, Y=3100.57, Z=54.95)
+[2026.07.12-01.33.34:461][952]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479434 remains visible 9.0s then fades 2.8s impulse=V(X=-300.65, Y=69.66, Z=24.69)
+[2026.07.12-01.33.34:519][955]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480638 captured final skeletal pose for fade
+[2026.07.12-01.33.34:519][955]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480638 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.34:725][967]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480567 captured final skeletal pose for fade
+[2026.07.12-01.33.34:725][967]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480567 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.34:736][968]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001055 kind=2 amount=1 location=V(X=28441.60, Y=3297.53, Z=90.15)
+[2026.07.12-01.33.34:736][968]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481098 remains visible 9.0s then fades 2.8s impulse=V(X=116.34, Y=285.84, Z=24.69)
+[2026.07.12-01.33.34:755][969]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001111 kind=6 amount=1 location=V(X=28517.18, Y=3270.72, Z=90.15)
+[2026.07.12-01.33.34:755][969]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480629 remains visible 9.0s then fades 2.8s impulse=V(X=162.92, Y=262.11, Z=24.69)
+[2026.07.12-01.33.34:805][972]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001087 kind=5 amount=3 location=V(X=28803.39, Y=3054.92, Z=90.15)
+[2026.07.12-01.33.34:805][972]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480830 remains visible 9.0s then fades 2.8s impulse=V(X=291.38, Y=101.70, Z=24.69)
+[2026.07.12-01.33.34:813][972]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480665 captured final skeletal pose for fade
+[2026.07.12-01.33.34:813][972]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480665 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.35:059][987]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480795 captured final skeletal pose for fade
+[2026.07.12-01.33.35:059][987]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480795 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.35:073][988]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480706 fade complete; removing corpse
+[2026.07.12-01.33.35:266][999]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480761 fade complete; removing corpse
+[2026.07.12-01.33.35:568][ 17]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001062 kind=5 amount=3 location=V(X=28146.96, Y=3460.77, Z=88.56)
+[2026.07.12-01.33.35:568][ 17]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481035 remains visible 9.0s then fades 2.8s impulse=V(X=-61.01, Y=302.52, Z=24.69)
+[2026.07.12-01.33.35:936][ 39]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001003 kind=0 amount=30 location=V(X=27098.97, Y=2602.81, Z=90.15)
+[2026.07.12-01.33.35:936][ 39]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481520 remains visible 9.0s then fades 2.8s impulse=V(X=-300.97, Y=-68.25, Z=24.69)
+[2026.07.12-01.33.35:992][ 42]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481255 captured final skeletal pose for fade
+[2026.07.12-01.33.35:992][ 42]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481255 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.36:003][ 43]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481185 fade complete; removing corpse
+[2026.07.12-01.33.36:120][ 50]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481425 fade complete; removing corpse
+[2026.07.12-01.33.36:465][ 71]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210390 kind=1 amount=1 location=V(X=28642.49, Y=3176.26, Z=54.95)
+[2026.07.12-01.33.36:465][ 71]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479466 remains visible 9.0s then fades 2.8s impulse=V(X=207.71, Y=228.26, Z=24.69)
+[2026.07.12-01.33.36:515][ 74]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210391 kind=6 amount=1 location=V(X=28377.63, Y=3299.50, Z=54.95)
+[2026.07.12-01.33.36:516][ 74]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479462 remains visible 9.0s then fades 2.8s impulse=V(X=-6.60, Y=308.54, Z=24.69)
+[2026.07.12-01.33.36:585][ 78]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001060 kind=1 amount=1 location=V(X=27745.77, Y=3583.07, Z=90.15)
+[2026.07.12-01.33.36:586][ 78]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481055 remains visible 9.0s then fades 2.8s impulse=V(X=-210.23, Y=225.93, Z=24.69)
+[2026.07.12-01.33.36:624][ 80]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480893 captured final skeletal pose for fade
+[2026.07.12-01.33.36:624][ 80]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480893 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.36:874][ 94]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480586 captured final skeletal pose for fade
+[2026.07.12-01.33.36:874][ 94]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480586 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.37:326][120]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480638 fade complete; removing corpse
+[2026.07.12-01.33.37:532][133]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480567 fade complete; removing corpse
+[2026.07.12-01.33.37:606][137]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210991 kind=6 amount=1 location=V(X=27238.28, Y=3542.25, Z=54.95)
+[2026.07.12-01.33.37:606][137]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479438 remains visible 9.0s then fades 2.8s impulse=V(X=-267.84, Y=153.32, Z=24.69)
+[2026.07.12-01.33.37:609][137]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480665 fade complete; removing corpse
+[2026.07.12-01.33.37:684][142]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001103 kind=0 amount=30 location=V(X=28786.29, Y=3152.18, Z=90.15)
+[2026.07.12-01.33.37:685][142]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480697 remains visible 9.0s then fades 2.8s impulse=V(X=208.25, Y=227.76, Z=24.69)
+[2026.07.12-01.33.37:753][146]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481162 captured final skeletal pose for fade
+[2026.07.12-01.33.37:753][146]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481162 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.37:812][150]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001027 kind=5 amount=3 location=V(X=26975.41, Y=3127.20, Z=90.15)
+[2026.07.12-01.33.37:813][150]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481321 remains visible 9.0s then fades 2.8s impulse=V(X=-302.69, Y=60.15, Z=24.69)
+[2026.07.12-01.33.37:862][153]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480795 fade complete; removing corpse
+[2026.07.12-01.33.37:864][153]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480998 captured final skeletal pose for fade
+[2026.07.12-01.33.37:864][153]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480998 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.37:895][155]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480577 captured final skeletal pose for fade
+[2026.07.12-01.33.37:895][155]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480577 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.37:989][161]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480960 captured final skeletal pose for fade
+[2026.07.12-01.33.37:989][161]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480960 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.38:266][179]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001119 kind=0 amount=30 location=V(X=28591.21, Y=3430.29, Z=90.15)
+[2026.07.12-01.33.38:266][179]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480558 remains visible 9.0s then fades 2.8s impulse=V(X=51.68, Y=304.26, Z=24.69)
+[2026.07.12-01.33.38:799][213]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481255 fade complete; removing corpse
+[2026.07.12-01.33.38:846][216]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001019 kind=0 amount=30 location=V(X=26771.44, Y=2759.73, Z=90.15)
+[2026.07.12-01.33.38:846][216]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481390 remains visible 9.0s then fades 2.8s impulse=V(X=-308.24, Y=-15.19, Z=24.69)
+[2026.07.12-01.33.39:425][253]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480893 fade complete; removing corpse
+[2026.07.12-01.33.39:624][266]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001063 kind=0 amount=30 location=V(X=28782.12, Y=3644.41, Z=90.15)
+[2026.07.12-01.33.39:624][266]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481028 remains visible 9.0s then fades 2.8s impulse=V(X=104.23, Y=290.48, Z=24.69)
+[2026.07.12-01.33.39:629][266]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480863 captured final skeletal pose for fade
+[2026.07.12-01.33.39:629][266]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480863 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.39:639][267]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001115 kind=2 amount=1 location=V(X=27220.96, Y=3671.60, Z=90.15)
+[2026.07.12-01.33.39:639][267]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480593 remains visible 9.0s then fades 2.8s impulse=V(X=-256.78, Y=171.19, Z=24.69)
+[2026.07.12-01.33.39:670][269]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210632 kind=5 amount=3 location=V(X=28663.16, Y=3424.72, Z=100.89)
+[2026.07.12-01.33.39:670][269]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479371 remains visible 9.0s then fades 2.8s impulse=V(X=85.64, Y=296.49, Z=24.69)
+[2026.07.12-01.33.39:671][269]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480586 fade complete; removing corpse
+[2026.07.12-01.33.39:737][273]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480927 captured final skeletal pose for fade
+[2026.07.12-01.33.39:737][273]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480927 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.40:220][303]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481045 captured final skeletal pose for fade
+[2026.07.12-01.33.40:220][303]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481045 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.40:459][318]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210630 kind=1 amount=1 location=V(X=29029.38, Y=3640.28, Z=54.95)
+[2026.07.12-01.33.40:460][318]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479379 remains visible 9.0s then fades 2.8s impulse=V(X=170.79, Y=257.04, Z=24.69)
+[2026.07.12-01.33.40:464][318]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481121 captured final skeletal pose for fade
+[2026.07.12-01.33.40:464][318]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481121 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.40:479][319]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481225 captured final skeletal pose for fade
+[2026.07.12-01.33.40:480][319]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481225 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.40:557][324]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481162 fade complete; removing corpse
+[2026.07.12-01.33.40:605][327]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210631 kind=6 amount=1 location=V(X=28654.52, Y=3844.94, Z=54.95)
+[2026.07.12-01.33.40:605][327]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479375 remains visible 9.0s then fades 2.8s impulse=V(X=49.61, Y=304.60, Z=24.69)
+[2026.07.12-01.33.40:670][331]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480998 fade complete; removing corpse
+[2026.07.12-01.33.40:674][331]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481248 captured final skeletal pose for fade
+[2026.07.12-01.33.40:674][331]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481248 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.40:702][333]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480577 fade complete; removing corpse
+[2026.07.12-01.33.40:798][339]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480960 fade complete; removing corpse
+[2026.07.12-01.33.40:816][340]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479458 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.41:529][385]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001090 kind=1 amount=1 location=V(X=26480.85, Y=3063.08, Z=90.15)
+[2026.07.12-01.33.41:529][385]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480805 remains visible 9.0s then fades 2.8s impulse=V(X=-306.49, Y=36.12, Z=24.69)
+[2026.07.12-01.33.41:656][393]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001051 kind=6 amount=1 location=V(X=26895.81, Y=3771.11, Z=90.15)
+[2026.07.12-01.33.41:656][393]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481130 remains visible 9.0s then fades 2.8s impulse=V(X=-265.44, Y=157.42, Z=24.69)
+[2026.07.12-01.33.42:366][438]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001082 kind=5 amount=3 location=V(X=26376.99, Y=2847.61, Z=90.15)
+[2026.07.12-01.33.42:366][438]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480870 remains visible 9.0s then fades 2.8s impulse=V(X=-308.60, Y=3.09, Z=24.69)
+[2026.07.12-01.33.42:430][442]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480863 fade complete; removing corpse
+[2026.07.12-01.33.42:460][444]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210820 kind=1 amount=1 location=V(X=26618.48, Y=2847.63, Z=85.75)
+[2026.07.12-01.33.42:461][444]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479346 remains visible 9.0s then fades 2.8s impulse=V(X=-308.60, Y=2.50, Z=24.69)
+[2026.07.12-01.33.42:540][449]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480927 fade complete; removing corpse
+[2026.07.12-01.33.42:543][449]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479442 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.42:543][449]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480729 captured final skeletal pose for fade
+[2026.07.12-01.33.42:543][449]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480729 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.42:605][453]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481457 captured final skeletal pose for fade
+[2026.07.12-01.33.42:605][453]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481457 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.43:027][480]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481045 fade complete; removing corpse
+[2026.07.12-01.33.43:167][489]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001098 kind=3 amount=1 location=V(X=26372.59, Y=3229.19, Z=90.15)
+[2026.07.12-01.33.43:167][489]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480738 remains visible 9.0s then fades 2.8s impulse=V(X=-303.17, Y=57.70, Z=24.69)
+[2026.07.12-01.33.43:261][495]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481121 fade complete; removing corpse
+[2026.07.12-01.33.43:276][496]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481225 fade complete; removing corpse
+[2026.07.12-01.33.43:385][503]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210822 kind=5 amount=3 location=V(X=26266.13, Y=2632.34, Z=54.95)
+[2026.07.12-01.33.43:385][503]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479338 remains visible 9.0s then fades 2.8s impulse=V(X=-307.44, Y=-26.85, Z=24.69)
+[2026.07.12-01.33.43:464][508]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479434 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.43:476][509]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481248 fade complete; removing corpse
+[2026.07.12-01.33.43:613][518]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479458 fade complete; removing corpse
+[2026.07.12-01.33.43:738][526]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481098 captured final skeletal pose for fade
+[2026.07.12-01.33.43:738][526]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481098 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.43:768][528]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480629 captured final skeletal pose for fade
+[2026.07.12-01.33.43:768][528]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480629 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.43:812][531]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480830 captured final skeletal pose for fade
+[2026.07.12-01.33.43:812][531]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480830 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.44:317][567]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001074 kind=0 amount=26 location=V(X=26256.40, Y=2737.17, Z=90.15)
+[2026.07.12-01.33.44:317][567]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480934 remains visible 9.0s then fades 2.8s impulse=V(X=-308.37, Y=-12.34, Z=24.69)
+[2026.07.12-01.33.44:582][586]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481035 captured final skeletal pose for fade
+[2026.07.12-01.33.44:582][586]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481035 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.44:945][613]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481520 captured final skeletal pose for fade
+[2026.07.12-01.33.44:945][613]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481520 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.45:190][632]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001043 kind=0 amount=30 location=V(X=26445.01, Y=3591.05, Z=90.15)
+[2026.07.12-01.33.45:190][632]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481192 remains visible 9.0s then fades 2.8s impulse=V(X=-289.05, Y=108.14, Z=24.69)
+[2026.07.12-01.33.45:242][636]LogTemp: Display: [ZombieSupplyDrop] zombie_id=10210821 kind=6 amount=1 location=V(X=26360.38, Y=3066.69, Z=54.82)
+[2026.07.12-01.33.45:242][636]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479342 remains visible 9.0s then fades 2.8s impulse=V(X=-306.67, Y=34.58, Z=24.69)
+[2026.07.12-01.33.45:346][644]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479442 fade complete; removing corpse
+[2026.07.12-01.33.45:347][644]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480729 fade complete; removing corpse
+[2026.07.12-01.33.45:410][649]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481457 fade complete; removing corpse
+[2026.07.12-01.33.45:477][654]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479466 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.45:516][657]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479462 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.45:593][663]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481055 captured final skeletal pose for fade
+[2026.07.12-01.33.45:593][663]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481055 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.46:205][711]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001026 kind=0 amount=26 location=V(X=26357.87, Y=3010.28, Z=90.15)
+[2026.07.12-01.33.46:206][711]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481330 remains visible 9.0s then fades 2.8s impulse=V(X=-307.47, Y=26.52, Z=24.69)
+[2026.07.12-01.33.46:217][712]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001018 kind=3 amount=1 location=V(X=26321.86, Y=2805.89, Z=89.99)
+[2026.07.12-01.33.46:217][712]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481399 remains visible 9.0s then fades 2.8s impulse=V(X=-308.60, Y=-2.93, Z=24.69)
+[2026.07.12-01.33.46:268][716]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479434 fade complete; removing corpse
+[2026.07.12-01.33.46:534][737]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481098 fade complete; removing corpse
+[2026.07.12-01.33.46:573][740]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480629 fade complete; removing corpse
+[2026.07.12-01.33.46:609][743]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480830 fade complete; removing corpse
+[2026.07.12-01.33.46:612][743]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479438 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.46:696][750]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480697 captured final skeletal pose for fade
+[2026.07.12-01.33.46:696][750]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480697 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.46:824][761]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481321 captured final skeletal pose for fade
+[2026.07.12-01.33.46:824][761]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481321 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.47:274][800]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480558 captured final skeletal pose for fade
+[2026.07.12-01.33.47:274][800]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480558 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.47:384][810]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481035 fade complete; removing corpse
+[2026.07.12-01.33.47:745][843]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481520 fade complete; removing corpse
+[2026.07.12-01.33.47:847][852]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481390 captured final skeletal pose for fade
+[2026.07.12-01.33.47:847][852]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481390 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.48:282][892]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479466 fade complete; removing corpse
+[2026.07.12-01.33.48:315][895]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479462 fade complete; removing corpse
+[2026.07.12-01.33.48:399][903]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481055 fade complete; removing corpse
+[2026.07.12-01.33.48:632][925]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481028 captured final skeletal pose for fade
+[2026.07.12-01.33.48:632][925]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481028 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.48:642][926]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480593 captured final skeletal pose for fade
+[2026.07.12-01.33.48:642][926]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480593 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.48:674][929]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479371 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.49:417][  1]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479438 fade complete; removing corpse
+[2026.07.12-01.33.49:460][  5]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479379 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.49:500][  9]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480697 fade complete; removing corpse
+[2026.07.12-01.33.49:610][ 20]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479375 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.49:628][ 22]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481321 fade complete; removing corpse
+[2026.07.12-01.33.49:767][ 36]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001059 kind=0 amount=30 location=V(X=26390.52, Y=4197.01, Z=90.15)
+[2026.07.12-01.33.49:767][ 36]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481062 remains visible 9.0s then fades 2.8s impulse=V(X=-258.37, Y=168.78, Z=24.69)
+[2026.07.12-01.33.50:072][ 67]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480558 fade complete; removing corpse
+[2026.07.12-01.33.50:531][114]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480805 captured final skeletal pose for fade
+[2026.07.12-01.33.50:531][114]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480805 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.50:646][126]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481390 fade complete; removing corpse
+[2026.07.12-01.33.50:658][127]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481130 captured final skeletal pose for fade
+[2026.07.12-01.33.50:658][127]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481130 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.51:371][199]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480870 captured final skeletal pose for fade
+[2026.07.12-01.33.51:372][199]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480870 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.51:438][206]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481028 fade complete; removing corpse
+[2026.07.12-01.33.51:449][207]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480593 fade complete; removing corpse
+[2026.07.12-01.33.51:469][209]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479346 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.51:476][210]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479371 fade complete; removing corpse
+[2026.07.12-01.33.52:177][282]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480738 captured final skeletal pose for fade
+[2026.07.12-01.33.52:177][282]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480738 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.52:262][291]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479379 fade complete; removing corpse
+[2026.07.12-01.33.52:390][304]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479338 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.52:416][307]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479375 fade complete; removing corpse
+[2026.07.12-01.33.53:326][401]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480934 captured final skeletal pose for fade
+[2026.07.12-01.33.53:326][401]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480934 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.53:334][402]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480805 fade complete; removing corpse
+[2026.07.12-01.33.53:460][415]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481130 fade complete; removing corpse
+[2026.07.12-01.33.54:174][489]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480870 fade complete; removing corpse
+[2026.07.12-01.33.54:194][491]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481192 captured final skeletal pose for fade
+[2026.07.12-01.33.54:194][491]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481192 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.54:251][497]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479342 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.54:270][499]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479346 fade complete; removing corpse
+[2026.07.12-01.33.54:985][573]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480738 fade complete; removing corpse
+[2026.07.12-01.33.55:195][595]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479338 fade complete; removing corpse
+[2026.07.12-01.33.55:207][596]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481330 captured final skeletal pose for fade
+[2026.07.12-01.33.55:207][596]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481330 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.55:226][598]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481399 captured final skeletal pose for fade
+[2026.07.12-01.33.55:226][598]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481399 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.33.56:128][692]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480934 fade complete; removing corpse
+[2026.07.12-01.33.56:995][782]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481192 fade complete; removing corpse
+[2026.07.12-01.33.57:053][788]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147479342 fade complete; removing corpse
+[2026.07.12-01.33.57:724][858]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001106 kind=0 amount=26 location=V(X=26113.37, Y=3643.76, Z=90.15)
+[2026.07.12-01.33.57:724][858]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480672 remains visible 9.0s then fades 2.8s impulse=V(X=-291.82, Y=100.41, Z=24.69)
+[2026.07.12-01.33.58:011][888]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481330 fade complete; removing corpse
+[2026.07.12-01.33.58:031][890]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481399 fade complete; removing corpse
+[2026.07.12-01.33.58:772][967]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481062 captured final skeletal pose for fade
+[2026.07.12-01.33.58:772][967]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481062 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.34.01:578][257]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481062 fade complete; removing corpse
+[2026.07.12-01.34.02:259][327]LogTemp: Display: [ZombieSupplyDrop] zombie_id=1001034 kind=0 amount=26 location=V(X=26045.93, Y=3295.60, Z=90.15)
+[2026.07.12-01.34.02:259][327]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481262 remains visible 9.0s then fades 2.8s impulse=V(X=-303.08, Y=58.21, Z=24.69)
+[2026.07.12-01.34.06:727][780]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480672 captured final skeletal pose for fade
+[2026.07.12-01.34.06:727][780]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480672 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.34.09:534][ 65]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147480672 fade complete; removing corpse
+[2026.07.12-01.34.11:266][241]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481262 captured final skeletal pose for fade
+[2026.07.12-01.34.11:266][241]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481262 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.12-01.34.14:075][525]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481262 fade complete; removing corpse
+[2026.07.12-01.35.27:437][764]LogCore: Engine exit requested (reason: Mac GracefulTerminationHandler)

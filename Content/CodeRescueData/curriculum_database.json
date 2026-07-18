@@ -1,0 +1,3225 @@
+{
+ "version": "0.4.0-learning-vertical",
+ "design_goal": "Make every combat terminal teach a real coding strategy and validate behavior with visible and hidden tests.",
+ "concept_graph": [
+  {
+   "tier": 1,
+   "concept": "variables, types, I/O, expressions"
+  },
+  {
+   "tier": 2,
+   "concept": "conditionals & boolean logic"
+  },
+  {
+   "tier": 3,
+   "concept": "loops & accumulation"
+  },
+  {
+   "tier": 4,
+   "concept": "arrays / lists & iteration"
+  },
+  {
+   "tier": 5,
+   "concept": "strings & indexing"
+  },
+  {
+   "tier": 6,
+   "concept": "functions, params, return, scope"
+  },
+  {
+   "tier": 7,
+   "concept": "recursion"
+  },
+  {
+   "tier": 8,
+   "concept": "dictionaries / maps"
+  },
+  {
+   "tier": 9,
+   "concept": "searching & sorting"
+  },
+  {
+   "tier": 10,
+   "concept": "complexity & refactoring (capstones)"
+  }
+ ],
+ "schema_note": "Entries carry both the loader's shared fields (id,title,language,concept,difficulty,strategies,common_mistakes) and forward-compatible learning fields (tier,micro_lesson,worked_example,prompt,starter,visible_tests,hidden_tests,misconceptions,world_effect,post_solve). world_effect binds the learner's OUTPUT to the in-world rescue (intrinsic integration). | 2026-07-04 item25: tiers 6-10 deepened to full 6-language depth (24 entries, generic-harness compatible).",
+ "entries": [
+  {
+   "id": "java-methods-total-power",
+   "title": "Java: methods and return values",
+   "language": "Java",
+   "concept": "methods",
+   "difficulty": 1,
+   "strategies": [
+    "Start with the method signature required by the mission.",
+    "Return the calculated value instead of printing from inside the method unless the prompt asks for printing.",
+    "Use small visible tests first, then check edge cases such as zero and negative values."
+   ],
+   "common_mistakes": [
+    "Forgetting semicolons after return statements.",
+    "Changing the method name expected by the hidden tests.",
+    "Printing the answer instead of returning it."
+   ]
+  },
+  {
+   "id": "java-boolean-access-control",
+   "title": "Java: boolean access logic",
+   "language": "Java",
+   "concept": "conditionals and boolean operators",
+   "difficulty": 2,
+   "strategies": [
+    "Translate the English rule into truth-table language before coding.",
+    "Use && when every safety condition must be true.",
+    "Test true/true, true/false, false/true, and false/false."
+   ],
+   "common_mistakes": [
+    "Using || when the rule requires all conditions.",
+    "Testing only the success case and missing unsafe false cases.",
+    "Confusing assignment with comparison in conditional expressions."
+   ]
+  },
+  {
+   "id": "c-functions-and-main",
+   "title": "C: functions, prototypes, and main",
+   "language": "C",
+   "concept": "functions and compilation",
+   "difficulty": 1,
+   "strategies": [
+    "Include the needed headers before calling standard library functions.",
+    "Keep the function name and parameter order exactly as the harness expects.",
+    "Return an int from main and compile with warnings enabled."
+   ],
+   "common_mistakes": [
+    "Forgetting #include <stdio.h> when using printf.",
+    "Returning a value from the wrong function.",
+    "Changing a test harness function name."
+   ]
+  },
+  {
+   "id": "python-functions-and-tests",
+   "title": "Python: pure functions and readable tests",
+   "language": "Python",
+   "concept": "functions and unit thinking",
+   "difficulty": 1,
+   "strategies": [
+    "Keep mission functions pure when possible: same inputs should produce same outputs.",
+    "Use descriptive parameter names that match the rescue system.",
+    "Test the visible case and at least two hidden-style cases."
+   ],
+   "common_mistakes": [
+    "Printing when the mission requires return.",
+    "Indenting inconsistently.",
+    "Assuming truthy/falsy values without checking exact expected results."
+   ]
+  },
+  {
+   "id": "matlab-function-files",
+   "title": "MATLAB: function files and vector awareness",
+   "language": "MATLAB",
+   "concept": "functions and numerical scripting",
+   "difficulty": 1,
+   "strategies": [
+    "Make the function name match the file name when working in MATLAB.",
+    "Use clear variable names and end function blocks explicitly.",
+    "Prefer vectorized operations when the mission asks for array behavior."
+   ],
+   "common_mistakes": [
+    "Using a function name that does not match the file name.",
+    "Using matrix operators when element-wise operators are required.",
+    "Testing only scalar values when the mission will later use arrays."
+   ]
+  },
+  {
+   "id": "cross-language-debugging",
+   "title": "Debugging: isolate syntax, logic, and test failures",
+   "language": "All",
+   "concept": "debugging strategy",
+   "difficulty": 2,
+   "strategies": [
+    "First ask whether the code compiles or runs at all.",
+    "If it runs, compare expected output against actual output for the smallest test case.",
+    "Read hidden-test failures as clues about generality, not as punishment."
+   ],
+   "common_mistakes": [
+    "Changing many things at once.",
+    "Ignoring compiler messages.",
+    "Solving only the visible example instead of the general rule."
+   ]
+  },
+  {
+   "id": "t1-power-of-a-shelter",
+   "title": "Compute a shelter's power draw",
+   "language": "Python",
+   "concept": "variables and expressions",
+   "tier": 1,
+   "difficulty": 1,
+   "micro_lesson": "A variable stores a value; an expression combines variables with operators to make a new value.",
+   "worked_example": "floors=3, drawPerFloor=40  ->  total = floors*drawPerFloor = 120",
+   "prompt": "Return the total power a shelter needs: floors multiplied by draw-per-floor.",
+   "starter": {
+    "python": "def shelter_power(floors, draw_per_floor):\n    # return floors * draw_per_floor\n    return 0\n",
+    "java": "public static int shelterPower(int floors, int drawPerFloor) {\n    // return floors * drawPerFloor;\n    return 0;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "3, 40",
+     "out": "120"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0, 40",
+     "out": "0"
+    },
+    {
+     "in": "5, 12",
+     "out": "60"
+    }
+   ],
+   "misconceptions": [
+    "adds instead of multiplies",
+    "swaps the two inputs",
+    "prints instead of returns"
+   ],
+   "strategies": [
+    "Name the value you want, then build it from the inputs.",
+    "Multiplication is repeated addition: floors groups of draw-per-floor."
+   ],
+   "common_mistakes": [
+    "Using + when the rule says 'per floor' (that is multiplication).",
+    "Returning nothing / printing instead of returning."
+   ],
+   "world_effect": "The shelter's generator spins up to exactly the wattage you computed; its windows light in sequence.",
+   "post_solve": "You turned two inputs into one derived value — the core of every program: data in, result out."
+  },
+  {
+   "id": "t1-fuel-mix-average",
+   "title": "Average two fuel readings",
+   "language": "Python",
+   "concept": "variables and expressions",
+   "tier": 1,
+   "difficulty": 1,
+   "micro_lesson": "Integer vs. real division matters: averaging needs real (floating) division.",
+   "worked_example": "a=10, b=15  ->  (a+b)/2 = 12.5",
+   "prompt": "Return the average of two fuel-tank readings.",
+   "starter": {
+    "python": "def fuel_average(a, b):\n    return 0\n",
+    "java": "public static double fuelAverage(int a, int b) {\n    return 0;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "10, 15",
+     "out": "12.5"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0, 0",
+     "out": "0.0"
+    },
+    {
+     "in": "7, 8",
+     "out": "7.5"
+    }
+   ],
+   "misconceptions": [
+    "uses integer division and loses the .5",
+    "adds without dividing"
+   ],
+   "strategies": [
+    "Add first, then divide by 2.",
+    "Watch integer division in Java/C: cast or use a real type."
+   ],
+   "common_mistakes": [
+    "Integer division truncating 12.5 to 12.",
+    "Dividing only one of the two values."
+   ],
+   "world_effect": "Two fuel gauges merge into one steady needle on the depot readout.",
+   "post_solve": "You met a classic trap: integer vs. real division. Types change results."
+  },
+  {
+   "id": "t2-airlock-access",
+   "title": "Airlock access rule",
+   "language": "All",
+   "validator": "boolean_lock",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "conditionals and boolean logic",
+   "tier": 2,
+   "difficulty": 2,
+   "micro_lesson": "Combine conditions with AND when ALL must hold; the result is a single true/false.",
+   "worked_example": "hasKey=true AND powerOn=false -> false; both must be true.",
+   "prompt": "Return true only when the survivor has the key and the airlock has power.",
+   "starter": {
+    "java": "public static boolean shouldUnlock(boolean hasKey, boolean powerOn) {\n    return false;\n}\n",
+    "c": "int shouldUnlock(int hasKey, int powerOn) {\n    return 0;\n}\n",
+    "cplus": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "cpp": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "python": "def should_unlock(has_key, power_on):\n    return False\n",
+    "matlab": "function result = should_unlock(has_key, power_on)\n    result = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "true, true",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "true, false",
+     "out": "false"
+    },
+    {
+     "in": "false, true",
+     "out": "false"
+    },
+    {
+     "in": "false, false",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "uses OR instead of AND",
+    "opens when only one condition is true",
+    "tests only the success case"
+   ],
+   "strategies": [
+    "Turn the English rule into a truth table before coding.",
+    "Use AND (&&) when every condition is required."
+   ],
+   "common_mistakes": [
+    "Using || when the rule needs all conditions.",
+    "Missing the boundary case where power exactly equals 100."
+   ],
+   "world_effect": "The airlock cycles open the instant both conditions are met; the survivor slips through.",
+   "post_solve": "Boolean logic is rule systems in miniature — validators, permissions, and game state all start here."
+  },
+  {
+   "id": "t2-airlock-double-consent",
+   "title": "Two-person airlock consent",
+   "language": "All",
+   "validator": "boolean_lock",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "conditionals and boolean logic",
+   "tier": 2,
+   "difficulty": 2,
+   "micro_lesson": "AND is the safe-choice operator when two independent approvals are required.",
+   "worked_example": "operatorReady=true and medicReady=false -> false.",
+   "prompt": "Return true only when both rescue staff are ready to unlock the checkpoint.",
+   "starter": {
+    "java": "public static boolean shouldUnlock(boolean hasKey, boolean powerOn) {\n    return false;\n}\n",
+    "c": "int shouldUnlock(int hasKey, int powerOn) {\n    return 0;\n}\n",
+    "cplus": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "cpp": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "python": "def should_unlock(has_key, power_on):\n    return False\n",
+    "matlab": "function result = should_unlock(has_key, power_on)\n    result = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "true, true",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "true, false",
+     "out": "false"
+    },
+    {
+     "in": "false, true",
+     "out": "false"
+    },
+    {
+     "in": "false, false",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "uses OR for a two-person rule",
+    "returns true by default",
+    "forgets one of the inputs"
+   ],
+   "strategies": [
+    "Name the two required facts.",
+    "Make a four-row truth table.",
+    "Only the true/true row should open."
+   ],
+   "common_mistakes": [
+    "Treating one approval as enough.",
+    "Skipping the false/false test."
+   ],
+   "world_effect": "Two wall switches light at once before the checkpoint door unlocks.",
+   "post_solve": "The rule is small, but it is the same shape as real permission checks: every required condition must pass."
+  },
+  {
+   "id": "t2-airlock-power-and-key",
+   "title": "Power plus keycard gate",
+   "language": "All",
+   "validator": "boolean_lock",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "conditionals and boolean logic",
+   "tier": 2,
+   "difficulty": 2,
+   "micro_lesson": "A boolean function should return the rule itself, not a printed explanation.",
+   "worked_example": "keycard=true, backupPower=true -> true; keycard=true, backupPower=false -> false.",
+   "prompt": "Return true only when the keycard is present and backup power is online.",
+   "starter": {
+    "java": "public static boolean shouldUnlock(boolean hasKey, boolean powerOn) {\n    return false;\n}\n",
+    "c": "int shouldUnlock(int hasKey, int powerOn) {\n    return 0;\n}\n",
+    "cplus": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "cpp": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "python": "def should_unlock(has_key, power_on):\n    return False\n",
+    "matlab": "function result = should_unlock(has_key, power_on)\n    result = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "true, true",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "true, false",
+     "out": "false"
+    },
+    {
+     "in": "false, true",
+     "out": "false"
+    },
+    {
+     "in": "false, false",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "prints unlocked instead of returning true",
+    "tests only the keycard",
+    "confuses assignment with comparison"
+   ],
+   "strategies": [
+    "Keep the signature exactly as shown.",
+    "Return the combined boolean expression.",
+    "Use the visible test before changing anything else."
+   ],
+   "common_mistakes": [
+    "Printing instead of returning.",
+    "Ignoring the second parameter."
+   ],
+   "world_effect": "The keycard reader and backup generator both turn green before the lock releases.",
+   "post_solve": "Returning a boolean lets the game system decide what to do next. That makes your code reusable."
+  },
+  {
+   "id": "t2-airlock-safe-zone",
+   "title": "Safe-zone lockout",
+   "language": "All",
+   "validator": "boolean_lock",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "conditionals and boolean logic",
+   "tier": 2,
+   "difficulty": 3,
+   "micro_lesson": "The fastest way to debug a boolean rule is to check every row of the truth table.",
+   "worked_example": "true/false and false/true are both blocked because one required fact is missing.",
+   "prompt": "Return true only for the one safe truth-table row: both inputs true.",
+   "starter": {
+    "java": "public static boolean shouldUnlock(boolean hasKey, boolean powerOn) {\n    return false;\n}\n",
+    "c": "int shouldUnlock(int hasKey, int powerOn) {\n    return 0;\n}\n",
+    "cplus": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "cpp": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "python": "def should_unlock(has_key, power_on):\n    return False\n",
+    "matlab": "function result = should_unlock(has_key, power_on)\n    result = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "true, true",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "true, false",
+     "out": "false"
+    },
+    {
+     "in": "false, true",
+     "out": "false"
+    },
+    {
+     "in": "false, false",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "trusts a single passing case",
+    "uses NOT on one input",
+    "accidentally accepts true/false"
+   ],
+   "strategies": [
+    "Write TT, TF, FT, FF beside the code.",
+    "Make only TT return true.",
+    "Let every other row return false."
+   ],
+   "common_mistakes": [
+    "Checking only the happy path.",
+    "Using a negated input accidentally."
+   ],
+   "world_effect": "Four truth-table lamps audit the lock; only the all-clear row opens the safe-zone door.",
+   "post_solve": "Truth tables make invisible logic visible. The validator's hidden tests are just the rows you did not see first."
+  },
+  {
+   "id": "t2-airlock-route-authorization",
+   "title": "Route authorization lock",
+   "language": "All",
+   "validator": "boolean_lock",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "conditionals and boolean logic",
+   "tier": 2,
+   "difficulty": 3,
+   "micro_lesson": "A good boolean function is tiny, explicit, and easy to test.",
+   "worked_example": "authorized=true, routeClear=true -> true; every other pair -> false.",
+   "prompt": "Return true only when authorization is granted and the rescue route is clear.",
+   "starter": {
+    "java": "public static boolean shouldUnlock(boolean hasKey, boolean powerOn) {\n    return false;\n}\n",
+    "c": "int shouldUnlock(int hasKey, int powerOn) {\n    return 0;\n}\n",
+    "cplus": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "cpp": "bool shouldUnlock(bool hasKey, bool powerOn) {\n    return false;\n}\n",
+    "python": "def should_unlock(has_key, power_on):\n    return False\n",
+    "matlab": "function result = should_unlock(has_key, power_on)\n    result = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "true, true",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "true, false",
+     "out": "false"
+    },
+    {
+     "in": "false, true",
+     "out": "false"
+    },
+    {
+     "in": "false, false",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "overcomplicates the condition",
+    "hardcodes true",
+    "returns a string instead of a boolean"
+   ],
+   "strategies": [
+    "Prefer one clear return expression.",
+    "Confirm that the return type is boolean-like for your language.",
+    "Use hidden-test thinking: one false input must block the route."
+   ],
+   "common_mistakes": [
+    "Returning text such as 'open'.",
+    "Hardcoding the visible true/true case."
+   ],
+   "world_effect": "The route authorization panel draws one clean green line only when both safety signals agree.",
+   "post_solve": "Small boolean functions are building blocks for bigger rescue systems because they are easy to compose and test."
+  },
+  {
+   "id": "t2-triage-tag",
+   "title": "Triage tag by severity",
+   "language": "Python",
+   "concept": "conditionals and branching",
+   "tier": 2,
+   "difficulty": 2,
+   "micro_lesson": "if / elif / else pick exactly one branch, in order; order matters.",
+   "worked_example": "sev>=8 -> 'RED'; sev>=4 -> 'YELLOW'; else 'GREEN'",
+   "prompt": "Return the triage color for a severity 0-10: >=8 RED, >=4 YELLOW, else GREEN.",
+   "starter": {
+    "python": "def triage(sev):\n    return \"\"\n",
+    "java": "public static String triage(int sev) {\n    return \"\";\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "9",
+     "out": "\"RED\""
+    },
+    {
+     "in": "5",
+     "out": "\"YELLOW\""
+    },
+    {
+     "in": "1",
+     "out": "\"GREEN\""
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "8",
+     "out": "\"RED\""
+    },
+    {
+     "in": "4",
+     "out": "\"YELLOW\""
+    },
+    {
+     "in": "0",
+     "out": "\"GREEN\""
+    }
+   ],
+   "misconceptions": [
+    "branch order reversed so everything is GREEN",
+    "boundary at 8 or 4 handled wrong"
+   ],
+   "strategies": [
+    "Check the most severe condition first.",
+    "Each boundary (8, 4) needs a deliberate test."
+   ],
+   "common_mistakes": [
+    "Ordering branches low-to-high so high severities never reach RED.",
+    "Using separate ifs that overwrite each other."
+   ],
+   "world_effect": "Numbered triage pylons light red, amber, and green over the wounded as you classify them.",
+   "post_solve": "Ordered branches are the backbone of every rule engine; the order IS the logic."
+  },
+  {
+   "id": "t3-count-survivors",
+   "title": "Count survivors on a floor",
+   "language": "Python",
+   "concept": "loops and accumulation",
+   "tier": 3,
+   "difficulty": 2,
+   "micro_lesson": "A loop repeats work; an accumulator variable carries a running total across iterations.",
+   "worked_example": "rooms=[2,0,3] -> total 0->2->2->5",
+   "prompt": "Return the total survivors across a list of room counts.",
+   "starter": {
+    "python": "def total_survivors(rooms):\n    total = 0\n    # loop and add each room\n    return total\n",
+    "java": "public static int totalSurvivors(int[] rooms) {\n    int total = 0;\n    return total;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[2,0,3]",
+     "out": "5"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[]",
+     "out": "0"
+    },
+    {
+     "in": "[10]",
+     "out": "10"
+    }
+   ],
+   "misconceptions": [
+    "resets the accumulator inside the loop",
+    "returns inside the loop after one room"
+   ],
+   "strategies": [
+    "Initialize the total once, before the loop.",
+    "Add each element; return after the loop ends."
+   ],
+   "common_mistakes": [
+    "Putting the return inside the loop (stops after one item).",
+    "Re-zeroing total each iteration."
+   ],
+   "world_effect": "A tally board over the stairwell ticks up to the exact headcount as you sweep each room.",
+   "post_solve": "Accumulation — one variable summarizing many — is how programs turn data into answers."
+  },
+  {
+   "id": "t3-fizzbuzz-relay",
+   "title": "Relay pulse (FizzBuzz)",
+   "language": "Java",
+   "concept": "loops, modulo, ordered branches",
+   "tier": 3,
+   "difficulty": 3,
+   "micro_lesson": "The modulo operator (%) gives a remainder; use it to test divisibility inside a loop.",
+   "worked_example": "15 -> ...,'Fizz'(3),'Buzz'(5),'FizzBuzz'(15)",
+   "prompt": "Return 1..n where multiples of 3 are 'Fizz', of 5 'Buzz', of both 'FizzBuzz'.",
+   "starter": {
+    "java": "public static String[] fizzBuzz(int n) {\n    String[] result = new String[n];\n    return result;\n}\n",
+    "python": "def fizz_buzz(n):\n    result = []\n    return result\n"
+   },
+   "visible_tests": [
+    {
+     "in": "5",
+     "out": "['1','2','Fizz','4','Buzz']"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "15",
+     "out": "..'Fizz'..'Buzz'..'FizzBuzz'"
+    },
+    {
+     "in": "1",
+     "out": "['1']"
+    }
+   ],
+   "misconceptions": [
+    "checks %3 before %15 so 15 prints 'Fizz'",
+    "1-based vs 0-based index slip"
+   ],
+   "strategies": [
+    "Test %15 (both) FIRST, then %3, then %5.",
+    "Predict 3, 5, and 15 before you code the branch order."
+   ],
+   "common_mistakes": [
+    "Ordering the divisibility checks wrong.",
+    "Off-by-one when filling the array."
+   ],
+   "world_effect": "The relay pylons flash their pattern down the block, re-opening the signal path in rhythm.",
+   "post_solve": "Branch order + modulo is a surprisingly deep pattern: it is rule precedence made concrete."
+  },
+  {
+   "id": "t4-evac-even-order",
+   "title": "Route even evac units, in order",
+   "language": "All",
+   "validator": "even_filter",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "arrays and filtering",
+   "tier": 4,
+   "difficulty": 3,
+   "micro_lesson": "Filtering keeps items that pass a test WHILE preserving their original order.",
+   "worked_example": "[1,2,3,4] -> [2,4]  (order kept)",
+   "prompt": "Return only the even unit numbers, preserving order.",
+   "starter": {
+    "java": "public static int[] evenNumbers(int[] values) {\n    return new int[0];\n}\n",
+    "c": "int evenNumbers(const int* input, int count, int* output) {\n    return 0;\n}\n",
+    "cplus": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "cpp": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "python": "def even_numbers(values):\n    return []\n",
+    "matlab": "function result = even_numbers(values)\n    result = [];\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[1,2,3,4]",
+     "out": "[2,4]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[]",
+     "out": "[]"
+    },
+    {
+     "in": "[7,7,8]",
+     "out": "[8]"
+    },
+    {
+     "in": "[2,4,6]",
+     "out": "[2,4,6]"
+    }
+   ],
+   "misconceptions": [
+    "reorders the output",
+    "keeps odds instead",
+    "mutates the input list"
+   ],
+   "strategies": [
+    "Walk the list once; append items that pass the test.",
+    "Preserve order — do not sort."
+   ],
+   "common_mistakes": [
+    "Sorting or reversing the result.",
+    "Filtering for odd by mistake."
+   ],
+   "world_effect": "Even-numbered evac trucks pull out first, in the exact order your filter returned them.",
+   "post_solve": "This is the whole thesis: your output IS the rescue. Filtering preserves order — that is why triage lists stay stable."
+  },
+  {
+   "id": "t4-evac-even-order-empty",
+   "title": "Keep the lane clear when no even units exist",
+   "language": "All",
+   "validator": "even_filter",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "arrays and filtering",
+   "tier": 4,
+   "difficulty": 3,
+   "micro_lesson": "A correct filter can return an empty collection; empty is a valid result, not a failure.",
+   "worked_example": "[1,3,5] -> [] because no value passes the even test.",
+   "prompt": "Return the even unit numbers. If no unit is even, return an empty result without inventing a fallback.",
+   "starter": {
+    "java": "public static int[] evenNumbers(int[] values) {\n    return new int[0];\n}\n",
+    "c": "int evenNumbers(const int* input, int count, int* output) {\n    return 0;\n}\n",
+    "cplus": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "cpp": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "python": "def even_numbers(values):\n    return []\n",
+    "matlab": "function result = even_numbers(values)\n    result = [];\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[1,3,5]",
+     "out": "[]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[]",
+     "out": "[]"
+    },
+    {
+     "in": "[2]",
+     "out": "[2]"
+    },
+    {
+     "in": "[9,11,12]",
+     "out": "[12]"
+    }
+   ],
+   "misconceptions": [
+    "returns null/None instead of an empty result",
+    "adds a default even number",
+    "treats empty input as an error"
+   ],
+   "strategies": [
+    "Start with an empty result.",
+    "Only add a value after it passes the test.",
+    "Return the result even when nothing was added."
+   ],
+   "common_mistakes": [
+    "Special-casing empty input incorrectly.",
+    "Returning the original list when no evens are found."
+   ],
+   "world_effect": "The boarding lane stays physically clear when your filter returns no even units.",
+   "post_solve": "Empty output is still output. The rescue system can trust it because your code made no false positives."
+  },
+  {
+   "id": "t4-evac-even-order-mixed",
+   "title": "Pull even units out of a noisy queue",
+   "language": "All",
+   "validator": "even_filter",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "arrays and filtering",
+   "tier": 4,
+   "difficulty": 4,
+   "micro_lesson": "Filtering is a one-pass keep/reject decision for each item in the queue.",
+   "worked_example": "[5,12,7,14,1,18] -> [12,14,18]",
+   "prompt": "Return every even emergency unit from a mixed queue, keeping the original order.",
+   "starter": {
+    "java": "public static int[] evenNumbers(int[] values) {\n    return new int[0];\n}\n",
+    "c": "int evenNumbers(const int* input, int count, int* output) {\n    return 0;\n}\n",
+    "cplus": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "cpp": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "python": "def even_numbers(values):\n    return []\n",
+    "matlab": "function result = even_numbers(values)\n    result = [];\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[5,12,7,14,1,18]",
+     "out": "[12,14,18]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[6,1,8,3,10]",
+     "out": "[6,8,10]"
+    },
+    {
+     "in": "[13,15,17]",
+     "out": "[]"
+    },
+    {
+     "in": "[20,21]",
+     "out": "[20]"
+    }
+   ],
+   "misconceptions": [
+    "stops after the first match",
+    "sorts the result",
+    "keeps values by index instead of by value"
+   ],
+   "strategies": [
+    "Inspect every item in sequence.",
+    "Append matching items to a separate result.",
+    "Do not break after the first even value."
+   ],
+   "common_mistakes": [
+    "Returning only the first even value.",
+    "Testing the position number instead of the unit number."
+   ],
+   "world_effect": "Three kept convoy markers roll forward while rejected odd units stay parked.",
+   "post_solve": "The queue was noisy, but the predicate stayed simple: every value got one fair keep/reject check."
+  },
+  {
+   "id": "t4-evac-even-order-negative",
+   "title": "Filter even units with zero and negatives",
+   "language": "All",
+   "validator": "even_filter",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "arrays and filtering",
+   "tier": 4,
+   "difficulty": 4,
+   "micro_lesson": "Evenness is about divisibility by 2; zero and negative numbers can be even too.",
+   "worked_example": "[-2,-1,0,3,8] -> [-2,0,8]",
+   "prompt": "Return every even value, including zero and negative even unit IDs.",
+   "starter": {
+    "java": "public static int[] evenNumbers(int[] values) {\n    return new int[0];\n}\n",
+    "c": "int evenNumbers(const int* input, int count, int* output) {\n    return 0;\n}\n",
+    "cplus": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "cpp": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "python": "def even_numbers(values):\n    return []\n",
+    "matlab": "function result = even_numbers(values)\n    result = [];\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[-2,-1,0,3,8]",
+     "out": "[-2,0,8]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[-7,-6,-5,-4]",
+     "out": "[-6,-4]"
+    },
+    {
+     "in": "[0]",
+     "out": "[0]"
+    },
+    {
+     "in": "[-3,-1,1]",
+     "out": "[]"
+    }
+   ],
+   "misconceptions": [
+    "assumes only positive numbers can be even",
+    "drops zero",
+    "uses greater-than checks instead of modulo"
+   ],
+   "strategies": [
+    "Use the same evenness test for every integer.",
+    "Do not add a positive-only guard.",
+    "Trace zero as a visible edge case."
+   ],
+   "common_mistakes": [
+    "Rejecting zero even though it is divisible by 2.",
+    "Filtering positive numbers instead of even numbers."
+   ],
+   "world_effect": "Cold-storage units, reserve units, and unit zero enter the convoy only when the filter proves they are even.",
+   "post_solve": "Edge cases are where a concept becomes durable: the same predicate handled positive, negative, and zero."
+  },
+  {
+   "id": "t4-evac-even-order-stability",
+   "title": "Preserve duplicate even units",
+   "language": "All",
+   "validator": "even_filter",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "arrays and filtering",
+   "tier": 4,
+   "difficulty": 4,
+   "micro_lesson": "Filtering is not deduping. If an even value appears twice, both appearances survive in order.",
+   "worked_example": "[4,4,2,9,2] -> [4,4,2,2]",
+   "prompt": "Return every even unit occurrence, preserving duplicates and order.",
+   "starter": {
+    "java": "public static int[] evenNumbers(int[] values) {\n    return new int[0];\n}\n",
+    "c": "int evenNumbers(const int* input, int count, int* output) {\n    return 0;\n}\n",
+    "cplus": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "cpp": "#include <vector>\nstd::vector<int> evenNumbers(const std::vector<int>& values) {\n    return {};\n}\n",
+    "python": "def even_numbers(values):\n    return []\n",
+    "matlab": "function result = even_numbers(values)\n    result = [];\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[4,4,2,9,2]",
+     "out": "[4,4,2,2]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[8,8,8]",
+     "out": "[8,8,8]"
+    },
+    {
+     "in": "[1,2,1,2]",
+     "out": "[2,2]"
+    },
+    {
+     "in": "[6,5,6,5,6]",
+     "out": "[6,6,6]"
+    }
+   ],
+   "misconceptions": [
+    "removes duplicates",
+    "uses a set/map by accident",
+    "changes the order while cleaning"
+   ],
+   "strategies": [
+    "Append every matching occurrence.",
+    "Avoid sets when the prompt asks for order.",
+    "Use the visible test to prove duplicates survive."
+   ],
+   "common_mistakes": [
+    "Deduping the output.",
+    "Sorting duplicate values into a new order."
+   ],
+   "world_effect": "Duplicate even convoy slots remain visible so no survivor is silently dropped from the manifest.",
+   "post_solve": "Stable filtering respects the original queue. That is why every duplicate survivor slot is still represented."
+  },
+  {
+   "id": "t4-max-signal",
+   "title": "Strongest signal in the array",
+   "language": "Python",
+   "concept": "arrays and iteration",
+   "tier": 4,
+   "difficulty": 3,
+   "micro_lesson": "Track a 'best so far' variable, updating it as you scan.",
+   "worked_example": "[3,9,4] -> best 3->9->9 = 9",
+   "prompt": "Return the maximum value in a non-empty list of signal strengths.",
+   "starter": {
+    "python": "def strongest(signals):\n    return 0\n",
+    "java": "public static int strongest(int[] signals) {\n    return 0;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[3,9,4]",
+     "out": "9"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[5]",
+     "out": "5"
+    },
+    {
+     "in": "[-2,-9]",
+     "out": "-2"
+    }
+   ],
+   "misconceptions": [
+    "initializes best to 0 (fails on negatives)",
+    "returns the last element"
+   ],
+   "strategies": [
+    "Initialize 'best' to the first element, not 0.",
+    "Compare each element and keep the larger."
+   ],
+   "common_mistakes": [
+    "Assuming values are positive (0-init breaks negatives).",
+    "Returning the final element instead of the max."
+   ],
+   "world_effect": "The comms dish rotates to lock onto the single strongest beacon you identified.",
+   "post_solve": "'Best so far' is a reusable pattern: max, min, closest, cheapest all share this shape."
+  },
+  {
+   "id": "t5-reverse-code",
+   "title": "Reverse the door code",
+   "language": "All",
+   "validator": "reverse_string",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "strings and indexing",
+   "tier": 5,
+   "difficulty": 2,
+   "micro_lesson": "Strings are sequences you can index and walk backward.",
+   "worked_example": "'abc' -> 'cba'",
+   "prompt": "Return the reversed string of a door code.",
+   "starter": {
+    "java": "public static String reverseString(String s) {\n    return \"\";\n}\n",
+    "c": "void reverseString(const char* input, char* output) {\n    output[0] = '\\0';\n}\n",
+    "cplus": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "cpp": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "python": "def reverse_string(s):\n    return \"\"\n",
+    "matlab": "function result = reverse_string(s)\n    result = '';\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "'abc'",
+     "out": "'cba'"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "''",
+     "out": "''"
+    },
+    {
+     "in": "'a'",
+     "out": "'a'"
+    },
+    {
+     "in": "'ab'",
+     "out": "'ba'"
+    }
+   ],
+   "misconceptions": [
+    "off-by-one drops the first/last char",
+    "returns the input unchanged"
+   ],
+   "strategies": [
+    "Build the result from the last index down to the first.",
+    "Empty and single-char strings should just work."
+   ],
+   "common_mistakes": [
+    "Off-by-one on the boundary index.",
+    "Forgetting the empty-string case."
+   ],
+   "world_effect": "The keypad re-sequences and the vault door rolls back along its track.",
+   "post_solve": "Indexing and boundaries are where most string bugs live; test empty and length-1 always."
+  },
+  {
+   "id": "t5-reverse-code-empty",
+   "title": "Reverse empty and single-letter codes",
+   "language": "All",
+   "validator": "reverse_string",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "strings and indexing",
+   "tier": 5,
+   "difficulty": 2,
+   "micro_lesson": "Boundary cases are not special failures: empty and one-character strings reverse to themselves.",
+   "worked_example": "'' -> ''; 'x' -> 'x'",
+   "prompt": "Return the reversed string while handling empty and one-character door codes.",
+   "starter": {
+    "java": "public static String reverseString(String s) {\n    return \"\";\n}\n",
+    "c": "void reverseString(const char* input, char* output) {\n    output[0] = '\\0';\n}\n",
+    "cplus": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "cpp": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "python": "def reverse_string(s):\n    return \"\"\n",
+    "matlab": "function result = reverse_string(s)\n    result = '';\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "''",
+     "out": "''"
+    },
+    {
+     "in": "'x'",
+     "out": "'x'"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "'ab'",
+     "out": "'ba'"
+    },
+    {
+     "in": "'gate'",
+     "out": "'etag'"
+    }
+   ],
+   "misconceptions": [
+    "starts at length instead of length-1",
+    "crashes on empty input",
+    "drops the first character"
+   ],
+   "strategies": [
+    "Start from the last valid index.",
+    "Let a zero-iteration loop return an empty result.",
+    "Test length 0, 1, and 2 before longer strings."
+   ],
+   "common_mistakes": [
+    "Off-by-one on the first or last index.",
+    "Assuming every code has at least two characters."
+   ],
+   "world_effect": "The vault accepts a blank maintenance code without jamming, then confirms a one-letter code unchanged.",
+   "post_solve": "Boundary cases prove the loop is shaped correctly before the larger rescue code arrives."
+  },
+  {
+   "id": "t5-reverse-code-signal",
+   "title": "Reverse a radio signal token",
+   "language": "All",
+   "validator": "reverse_string",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "strings and indexing",
+   "tier": 5,
+   "difficulty": 3,
+   "micro_lesson": "A reverse copies characters from right to left while preserving every character exactly.",
+   "worked_example": "'rescue' -> 'eucser'",
+   "prompt": "Return the reversed radio token exactly, preserving all letters.",
+   "starter": {
+    "java": "public static String reverseString(String s) {\n    return \"\";\n}\n",
+    "c": "void reverseString(const char* input, char* output) {\n    output[0] = '\\0';\n}\n",
+    "cplus": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "cpp": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "python": "def reverse_string(s):\n    return \"\"\n",
+    "matlab": "function result = reverse_string(s)\n    result = '';\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "'rescue'",
+     "out": "'eucser'"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "'signal'",
+     "out": "'langis'"
+    },
+    {
+     "in": "'module'",
+     "out": "'eludom'"
+    }
+   ],
+   "misconceptions": [
+    "uses sort instead of reverse",
+    "changes letter case",
+    "drops repeated letters"
+   ],
+   "strategies": [
+    "Append or assign each input character exactly once.",
+    "Trace the first output character: it must be the last input character.",
+    "Do not transform case or alphabetize."
+   ],
+   "common_mistakes": [
+    "Sorting characters instead of reversing their positions.",
+    "Forgetting that repeated letters are separate positions."
+   ],
+   "world_effect": "Radio glyph tiles flip last-to-first until the rescue signal becomes readable.",
+   "post_solve": "Reverse is position work, not value work. Every character survives; only its location changes."
+  },
+  {
+   "id": "t5-reverse-code-digits",
+   "title": "Reverse mixed code digits",
+   "language": "All",
+   "validator": "reverse_string",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "strings and indexing",
+   "tier": 5,
+   "difficulty": 3,
+   "micro_lesson": "Digits inside a string are still characters; reverse their positions without doing arithmetic.",
+   "worked_example": "'gate42' -> '24etag'",
+   "prompt": "Return the reversed mixed door code exactly, including digits.",
+   "starter": {
+    "java": "public static String reverseString(String s) {\n    return \"\";\n}\n",
+    "c": "void reverseString(const char* input, char* output) {\n    output[0] = '\\0';\n}\n",
+    "cplus": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "cpp": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "python": "def reverse_string(s):\n    return \"\"\n",
+    "matlab": "function result = reverse_string(s)\n    result = '';\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "'gate42'",
+     "out": "'24etag'"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "'a1b2'",
+     "out": "'2b1a'"
+    },
+    {
+     "in": "'7safe'",
+     "out": "'efas7'"
+    }
+   ],
+   "misconceptions": [
+    "treats digits as numbers",
+    "removes nonletters",
+    "keeps digits at the end"
+   ],
+   "strategies": [
+    "Treat the whole input as a sequence of characters.",
+    "Move positions, not numeric values.",
+    "Check that digits reverse just like letters."
+   ],
+   "common_mistakes": [
+    "Parsing digits instead of copying characters.",
+    "Dropping digits during cleanup."
+   ],
+   "world_effect": "The keypad's numeric tumblers rotate into the reversed code order before the vault unlatches.",
+   "post_solve": "Strings can contain letters, digits, and symbols. Indexing code should preserve them all unless told otherwise."
+  },
+  {
+   "id": "t5-reverse-code-case",
+   "title": "Reverse case-sensitive code",
+   "language": "All",
+   "validator": "reverse_string",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "strings and indexing",
+   "tier": 5,
+   "difficulty": 3,
+   "micro_lesson": "Reverse should preserve character identity; uppercase and lowercase characters stay exactly as they are.",
+   "worked_example": "'AbC' -> 'CbA'",
+   "prompt": "Return the reversed code while preserving uppercase and lowercase characters exactly.",
+   "starter": {
+    "java": "public static String reverseString(String s) {\n    return \"\";\n}\n",
+    "c": "void reverseString(const char* input, char* output) {\n    output[0] = '\\0';\n}\n",
+    "cplus": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "cpp": "#include <string>\nstd::string reverseString(std::string s) {\n    return \"\";\n}\n",
+    "python": "def reverse_string(s):\n    return \"\"\n",
+    "matlab": "function result = reverse_string(s)\n    result = '';\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "'AbC'",
+     "out": "'CbA'"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "'SafeDoor'",
+     "out": "'rooDefaS'"
+    },
+    {
+     "in": "'Qr'",
+     "out": "'rQ'"
+    }
+   ],
+   "misconceptions": [
+    "lowercases the string",
+    "uppercases the string",
+    "compares letters instead of copying positions"
+   ],
+   "strategies": [
+    "Do not normalize case.",
+    "Copy exactly the character you read.",
+    "Use a mixed-case visible trace."
+   ],
+   "common_mistakes": [
+    "Changing case while reversing.",
+    "Using case-insensitive comparison by accident."
+   ],
+   "world_effect": "Uppercase and lowercase glyph plates slide into their reversed slots without changing color.",
+   "post_solve": "Preserving exact characters is how code keeps IDs, passwords, and rescue tokens trustworthy."
+  },
+  {
+   "id": "t5-palindrome-lock",
+   "title": "Palindrome failsafe",
+   "language": "Python",
+   "concept": "strings and two-pointer",
+   "tier": 5,
+   "difficulty": 3,
+   "micro_lesson": "A two-pointer walk compares the ends moving inward — linear and allocation-free.",
+   "worked_example": "'level' -> l=e? v center -> true",
+   "prompt": "Return True if the string reads the same forwards and backwards.",
+   "starter": {
+    "python": "def is_palindrome(s):\n    return False\n",
+    "java": "public static boolean isPalindrome(String s) {\n    return false;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "'level'",
+     "out": "true"
+    },
+    {
+     "in": "'code'",
+     "out": "false"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "''",
+     "out": "true"
+    },
+    {
+     "in": "'a'",
+     "out": "true"
+    },
+    {
+     "in": "'abba'",
+     "out": "true"
+    }
+   ],
+   "misconceptions": [
+    "treats empty as false",
+    "compares only the first and last char"
+   ],
+   "strategies": [
+    "Move two pointers inward until they meet.",
+    "Empty and single-char are palindromes."
+   ],
+   "common_mistakes": [
+    "Stopping after one comparison.",
+    "Mishandling even vs odd length."
+   ],
+   "world_effect": "The failsafe recognizes the symmetric key and disarms the district's lockdown.",
+   "post_solve": "Two-pointer is a workhorse technique: palindromes, reversals, and merges all use it."
+  },
+  {
+   "id": "t6-celsius-to-safe",
+   "title": "Convert reactor temp",
+   "language": "Python",
+   "concept": "functions and return values",
+   "tier": 6,
+   "difficulty": 2,
+   "micro_lesson": "A function packages a computation behind a name; return hands the value back to the caller.",
+   "worked_example": "c=100 -> f = c*9/5+32 = 212",
+   "prompt": "Return Fahrenheit for a Celsius reactor reading.",
+   "starter": {
+    "python": "def to_fahrenheit(c):\n    return 0\n",
+    "java": "public static double toFahrenheit(double c) {\n    return 0;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "100",
+     "out": "212"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0",
+     "out": "32"
+    },
+    {
+     "in": "-40",
+     "out": "-40"
+    }
+   ],
+   "misconceptions": [
+    "integer division drops the fraction",
+    "applies operations in the wrong order"
+   ],
+   "strategies": [
+    "Follow the formula exactly; mind operator precedence.",
+    "Use real division so fractional degrees survive."
+   ],
+   "common_mistakes": [
+    "Integer math truncating results.",
+    "Adding 32 before multiplying."
+   ],
+   "world_effect": "The reactor gauge re-labels itself in the survivor's units; the overheat alarm quiets.",
+   "post_solve": "Functions are reusable machines: name, inputs, one clear returned result."
+  },
+  {
+   "id": "t6-clamp-power",
+   "title": "Clamp power to safe range",
+   "language": "Python",
+   "concept": "functions and helpers",
+   "tier": 6,
+   "difficulty": 2,
+   "micro_lesson": "Small helper functions compose into larger logic; clamp keeps a value within bounds.",
+   "worked_example": "clamp(130, 0, 100) -> 100",
+   "prompt": "Return value limited to the range [lo, hi].",
+   "starter": {
+    "python": "def clamp(value, lo, hi):\n    return value\n",
+    "java": "public static int clamp(int value, int lo, int hi) {\n    return value;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "130,0,100",
+     "out": "100"
+    },
+    {
+     "in": "-5,0,100",
+     "out": "0"
+    },
+    {
+     "in": "50,0,100",
+     "out": "50"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0,0,100",
+     "out": "0"
+    },
+    {
+     "in": "100,0,100",
+     "out": "100"
+    }
+   ],
+   "misconceptions": [
+    "only clamps one side",
+    "swaps lo and hi"
+   ],
+   "strategies": [
+    "Handle both the too-low and too-high cases.",
+    "Return the value untouched when already in range."
+   ],
+   "common_mistakes": [
+    "Forgetting the lower OR upper bound.",
+    "Off-by-one at the exact bounds."
+   ],
+   "world_effect": "The power regulator pins the grid to a safe ceiling; sparks stop arcing across the panel.",
+   "post_solve": "A tiny, well-named helper you can trust is worth more than clever one-off code."
+  },
+  {
+   "id": "t7-cascade-factorial",
+   "title": "Cascade sequence (factorial)",
+   "language": "Python",
+   "concept": "recursion",
+   "tier": 7,
+   "difficulty": 3,
+   "micro_lesson": "Recursion solves a problem in terms of a smaller version, with a base case to stop.",
+   "worked_example": "fact(4)=4*fact(3)=...=24; base fact(0)=1",
+   "prompt": "Return n! (n factorial). Assume n >= 0.",
+   "starter": {
+    "python": "def factorial(n):\n    return 1\n",
+    "java": "public static long factorial(int n) {\n    return 1;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "4",
+     "out": "24"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0",
+     "out": "1"
+    },
+    {
+     "in": "1",
+     "out": "1"
+    },
+    {
+     "in": "6",
+     "out": "720"
+    }
+   ],
+   "misconceptions": [
+    "missing base case -> infinite recursion",
+    "base case returns 0, zeroing the product"
+   ],
+   "strategies": [
+    "Write the base case first (n==0 -> 1).",
+    "Trust the recursive call for n-1, then combine."
+   ],
+   "common_mistakes": [
+    "No base case (stack overflow).",
+    "Base case returning 0 instead of 1."
+   ],
+   "world_effect": "Backup generators kick on in a cascading chain, each triggering the next down the grid.",
+   "post_solve": "Recursion is a mindset: solve the smallest case, then let the function trust itself."
+  },
+  {
+   "id": "t7-relay-fibonacci",
+   "title": "Relay handshake (Fibonacci)",
+   "language": "Python",
+   "concept": "recursion and memo thinking",
+   "tier": 7,
+   "difficulty": 3,
+   "micro_lesson": "Some recursions branch; recognizing repeated subproblems motivates memoization later.",
+   "worked_example": "fib: 0,1,1,2,3,5,8 ; fib(6)=8",
+   "prompt": "Return the nth Fibonacci number (fib(0)=0, fib(1)=1).",
+   "starter": {
+    "python": "def fib(n):\n    return 0\n",
+    "java": "public static long fib(int n) {\n    return 0;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "6",
+     "out": "8"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0",
+     "out": "0"
+    },
+    {
+     "in": "1",
+     "out": "1"
+    },
+    {
+     "in": "10",
+     "out": "55"
+    }
+   ],
+   "misconceptions": [
+    "wrong base cases",
+    "adds the wrong two previous terms"
+   ],
+   "strategies": [
+    "Anchor both base cases (0 and 1).",
+    "fib(n)=fib(n-1)+fib(n-2)."
+   ],
+   "common_mistakes": [
+    "Only one base case.",
+    "Off-by-one in the indexing."
+   ],
+   "world_effect": "Two relay towers handshake in the classic spiral cadence, extending the signal chain.",
+   "post_solve": "Naive fib recomputes subproblems — a perfect setup for learning memoization next."
+  },
+  {
+   "id": "t8-district-headcount",
+   "title": "District headcount board",
+   "language": "Python",
+   "concept": "dictionaries and tallying",
+   "tier": 8,
+   "difficulty": 3,
+   "micro_lesson": "A map/dictionary counts occurrences by key in one pass.",
+   "worked_example": "['A','B','A'] -> {'A':2,'B':1}",
+   "prompt": "Return a map from district label to the number of survivors tagged there.",
+   "starter": {
+    "python": "def headcount(labels):\n    return {}\n",
+    "java": "public static java.util.Map<String,Integer> headcount(String[] labels) {\n    return new java.util.HashMap<>();\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "['A','B','A']",
+     "out": "{'A':2,'B':1}"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[]",
+     "out": "{}"
+    },
+    {
+     "in": "['A']",
+     "out": "{'A':1}"
+    }
+   ],
+   "misconceptions": [
+    "overwrites instead of incrementing",
+    "forgets first-seen initialization"
+   ],
+   "strategies": [
+    "For each label, add 1 to its running count.",
+    "Initialize a key to 0 the first time you see it."
+   ],
+   "common_mistakes": [
+    "Setting count = 1 every time (overwrite).",
+    "KeyError from reading a missing key."
+   ],
+   "world_effect": "The district board updates live, each neighborhood showing its exact rescued count.",
+   "post_solve": "Counting-by-key is one of the most useful patterns in real software — logs, votes, inventory."
+  },
+  {
+   "id": "t9-locate-survivor",
+   "title": "Locate survivor (binary search)",
+   "language": "Python",
+   "concept": "searching sorted data",
+   "tier": 9,
+   "difficulty": 4,
+   "micro_lesson": "Binary search halves a SORTED range each step: O(log n) instead of O(n).",
+   "worked_example": "find 7 in [1,3,7,9]: mid->index 2",
+   "prompt": "Return the index of target in a sorted array, or -1 if absent.",
+   "starter": {
+    "python": "def binary_search(values, target):\n    return -1\n",
+    "java": "public static int binarySearch(int[] values, int target) {\n    return -1;\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[1,3,7,9], 7",
+     "out": "2"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[1,3,7,9], 2",
+     "out": "-1"
+    },
+    {
+     "in": "[5], 5",
+     "out": "0"
+    },
+    {
+     "in": "[], 1",
+     "out": "-1"
+    }
+   ],
+   "misconceptions": [
+    "off-by-one on low/high bounds",
+    "assumes unsorted input",
+    "infinite loop when mid never moves"
+   ],
+   "strategies": [
+    "Keep low<=high; move the bound past mid each step.",
+    "The array MUST be sorted for this to work."
+   ],
+   "common_mistakes": [
+    "Using < instead of <= on the loop guard.",
+    "Not updating low/high, causing an infinite loop."
+   ],
+   "world_effect": "The roster scanner jumps straight to the survivor's bunk instead of checking every room.",
+   "post_solve": "Binary search is the payoff of sorted data: structure turns linear work into logarithmic work."
+  },
+  {
+   "id": "t9-priority-sort",
+   "title": "Triage priority sort",
+   "language": "Python",
+   "concept": "sorting",
+   "tier": 9,
+   "difficulty": 4,
+   "micro_lesson": "Sorting reorders by a key; here, most-severe first (descending).",
+   "worked_example": "[3,9,4] -> [9,4,3]",
+   "prompt": "Return the severities sorted from highest to lowest.",
+   "starter": {
+    "python": "def by_priority(sev):\n    return []\n",
+    "java": "public static int[] byPriority(int[] sev) {\n    return new int[0];\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[3,9,4]",
+     "out": "[9,4,3]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[]",
+     "out": "[]"
+    },
+    {
+     "in": "[1,1]",
+     "out": "[1,1]"
+    }
+   ],
+   "misconceptions": [
+    "sorts ascending",
+    "mutates and returns None"
+   ],
+   "strategies": [
+    "Sort, then reverse — or sort with a descending key.",
+    "Stable order for ties is fine."
+   ],
+   "common_mistakes": [
+    "Ascending when the rule says highest-first.",
+    "Returning None after an in-place sort."
+   ],
+   "world_effect": "The triage line physically reorders: the most critical survivors move to the front of extraction.",
+   "post_solve": "Choosing the right key and direction is most of real-world 'sorting' — the algorithm is secondary."
+  },
+  {
+   "id": "t10-evac-manifest-capstone",
+   "title": "Evac manifest (capstone)",
+   "language": "Python",
+   "concept": "compose: filter + sort + dedupe",
+   "tier": 10,
+   "difficulty": 5,
+   "micro_lesson": "Real tasks compose primitives: filter, then sort, then remove duplicates — order of steps matters.",
+   "worked_example": "[4,2,4,1] evens->[4,2,4] sort desc->[4,4,2] dedupe->[4,2]",
+   "prompt": "From unit numbers, keep evens, order highest-first, and remove duplicates.",
+   "starter": {
+    "python": "def evac_manifest(units):\n    return []\n",
+    "java": "public static int[] evacManifest(int[] units) {\n    return new int[0];\n}\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[4,2,4,1]",
+     "out": "[4,2]"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[]",
+     "out": "[]"
+    },
+    {
+     "in": "[2,2,2]",
+     "out": "[2]"
+    },
+    {
+     "in": "[1,3,5]",
+     "out": "[]"
+    }
+   ],
+   "misconceptions": [
+    "dedupes before sorting and loses order",
+    "keeps odds",
+    "duplicates survive"
+   ],
+   "strategies": [
+    "Do it in stages: filter -> sort desc -> dedupe.",
+    "Test each stage on paper before combining."
+   ],
+   "common_mistakes": [
+    "Wrong stage order.",
+    "Forgetting one of the three operations."
+   ],
+   "world_effect": "The final extraction manifest prints clean: even units, priority order, no double-boarding.",
+   "post_solve": "Composition is the essence of programming: small correct pieces, assembled deliberately, solve big problems."
+  },
+  {
+   "id": "t1-ration-split",
+   "title": "Split the ration crates",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "variables, types, I/O, expressions",
+   "tier": 1,
+   "difficulty": 1,
+   "micro_lesson": "The % (modulo) operator returns what remains after whole-number division — the classic 'how many are left over' tool.",
+   "worked_example": "13 rations, 4 people -> each gets 3, 13 - 12 = 1 left over.",
+   "prompt": "Return how many rations remain after dividing them evenly among the survivors.",
+   "starter": {
+    "python": "def leftover_rations(total, people):\n    return 0\n",
+    "java": "public static int leftoverRations(int total, int people) {\n    return 0;\n}\n",
+    "c": "int leftoverRations(int total, int people) {\n    return 0;\n}\n",
+    "cplus": "int leftoverRations(int total, int people) {\n    return 0;\n}\n",
+    "cpp": "int leftoverRations(int total, int people) {\n    return 0;\n}\n",
+    "matlab": "function out = leftover_rations(total, people)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "13, 4",
+     "out": "1"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "20, 5",
+     "out": "0"
+    },
+    {
+     "in": "7, 3",
+     "out": "1"
+    }
+   ],
+   "misconceptions": [
+    "confuses / with %",
+    "expects % to round"
+   ],
+   "strategies": [
+    "Trace one small example by hand first.",
+    "Remember: a % b is what's left AFTER a // b shares."
+   ],
+   "common_mistakes": [
+    "Returning the quotient instead of the remainder.",
+    "Swapping the operands of %."
+   ],
+   "world_effect": "The quartermaster stops double-counting; the spare crate glows for pickup.",
+   "post_solve": "Arithmetic operators are your first tools: / shares, % reports the remainder.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t3-generator-charge",
+   "title": "Charge the generator",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "loops & accumulation",
+   "tier": 3,
+   "difficulty": 2,
+   "micro_lesson": "A loop repeats work; an accumulator variable carries the running total across iterations.",
+   "worked_example": "n=4 -> 1+2+3+4 = 10.",
+   "prompt": "Each crank i of the generator adds i units of charge. Return the total after n cranks.",
+   "starter": {
+    "python": "def total_charge(n):\n    return 0\n",
+    "java": "public static int totalCharge(int n) {\n    return 0;\n}\n",
+    "c": "int totalCharge(int n) {\n    return 0;\n}\n",
+    "cplus": "int totalCharge(int n) {\n    return 0;\n}\n",
+    "cpp": "int totalCharge(int n) {\n    return 0;\n}\n",
+    "matlab": "function out = total_charge(n)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "4",
+     "out": "10"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "1",
+     "out": "1"
+    },
+    {
+     "in": "10",
+     "out": "55"
+    }
+   ],
+   "misconceptions": [
+    "starts the accumulator at 1",
+    "off-by-one on the loop bound"
+   ],
+   "strategies": [
+    "Write the loop bounds for the smallest case (n=1) first.",
+    "Initialize total to 0 BEFORE the loop."
+   ],
+   "common_mistakes": [
+    "Looping to n-1 and missing the last crank.",
+    "Resetting the total inside the loop."
+   ],
+   "world_effect": "The generator hums to life; corridor lights flicker on one by one.",
+   "post_solve": "Accumulation is THE loop pattern: initialize, update inside the loop, return after.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t6-clamp-dose",
+   "title": "Clamp the medkit dose",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "functions, params, return, scope",
+   "tier": 6,
+   "difficulty": 2,
+   "micro_lesson": "Functions take parameters, compute, and RETURN one result. Clamping = bounding a value into a range.",
+   "worked_example": "value=12, range 0..10 -> too high -> return the high bound, 10.",
+   "prompt": "Return the dose limited to the inclusive range [low, high].",
+   "starter": {
+    "python": "def clamp_dose(value, low, high):\n    return 0\n",
+    "java": "public static int clampDose(int value, int low, int high) {\n    return 0;\n}\n",
+    "c": "int clampDose(int value, int low, int high) {\n    return 0;\n}\n",
+    "cplus": "int clampDose(int value, int low, int high) {\n    return 0;\n}\n",
+    "cpp": "int clampDose(int value, int low, int high) {\n    return 0;\n}\n",
+    "matlab": "function out = clamp_dose(value, low, high)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "12, 0, 10",
+     "out": "10"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "-3, 0, 10",
+     "out": "0"
+    },
+    {
+     "in": "7, 0, 10",
+     "out": "7"
+    }
+   ],
+   "misconceptions": [
+    "returns a parameter instead of the clamped value",
+    "treats bounds as exclusive"
+   ],
+   "strategies": [
+    "Handle 'too high' and 'too low' separately, then the pass-through case.",
+    "Test exactly at the bounds."
+   ],
+   "common_mistakes": [
+    "Swapping low and high.",
+    "Forgetting to return the unchanged value when in range."
+   ],
+   "world_effect": "The auto-injector stops overdosing; the medbay warning light turns green.",
+   "post_solve": "min/max composition beats if-chains: clamp(v) = max(low, min(high, v)).",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t6-fuel-per-km",
+   "title": "Fuel budget per kilometer",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "functions, params, return, scope",
+   "tier": 6,
+   "difficulty": 2,
+   "micro_lesson": "Real division keeps fractions. Returning a float lets callers do precise planning.",
+   "worked_example": "50 liters over 200 km -> 50/200 = 0.25 L/km.",
+   "prompt": "Return how many liters the jeep burns per kilometer.",
+   "starter": {
+    "python": "def fuel_per_km(liters, km):\n    return 0.0\n",
+    "java": "public static double fuelPerKm(double liters, double km) {\n    return 0.0;\n}\n",
+    "c": "double fuelPerKm(double liters, double km) {\n    return 0.0;\n}\n",
+    "cplus": "double fuelPerKm(double liters, double km) {\n    return 0.0;\n}\n",
+    "cpp": "double fuelPerKm(double liters, double km) {\n    return 0.0;\n}\n",
+    "matlab": "function out = fuel_per_km(liters, km)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "50.0, 200.0",
+     "out": "0.25"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "9.0, 30.0",
+     "out": "0.3"
+    },
+    {
+     "in": "1.0, 4.0",
+     "out": "0.25"
+    }
+   ],
+   "misconceptions": [
+    "integer division truncates the ratio",
+    "divides km by liters"
+   ],
+   "strategies": [
+    "Keep units straight: liters PER km means liters / km.",
+    "Sanity-check with an easy pair like 1 L / 4 km."
+   ],
+   "common_mistakes": [
+    "Flipping the division.",
+    "Rounding when the caller needs the exact rate."
+   ],
+   "world_effect": "The jeep's range readout switches from '??' to a real number the squad can trust.",
+   "post_solve": "Choose float types when the answer lives between whole numbers.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t6-signal-average",
+   "title": "Average the relay signals",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "functions, params, return, scope",
+   "tier": 6,
+   "difficulty": 2,
+   "micro_lesson": "Parameters are local names for the caller's values; combine them and return one summary.",
+   "worked_example": "(3+4+5)/3 = 4.",
+   "prompt": "Return the mean strength of the three relay signals.",
+   "starter": {
+    "python": "def signal_average(a, b, c):\n    return 0.0\n",
+    "java": "public static double signalAverage(double a, double b, double c) {\n    return 0.0;\n}\n",
+    "c": "double signalAverage(double a, double b, double c) {\n    return 0.0;\n}\n",
+    "cplus": "double signalAverage(double a, double b, double c) {\n    return 0.0;\n}\n",
+    "cpp": "double signalAverage(double a, double b, double c) {\n    return 0.0;\n}\n",
+    "matlab": "function out = signal_average(a, b, c)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "3.0, 4.0, 5.0",
+     "out": "4.0"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0.0, 0.0, 3.0",
+     "out": "1.0"
+    },
+    {
+     "in": "1.5, 1.5, 1.5",
+     "out": "1.5"
+    }
+   ],
+   "misconceptions": [
+    "divides by the wrong count",
+    "adds inside the wrong parentheses"
+   ],
+   "strategies": [
+    "Sum first, divide once.",
+    "Use 3.0 so the division stays real."
+   ],
+   "common_mistakes": [
+    "Dividing each term separately then adding.",
+    "Integer division by 3."
+   ],
+   "world_effect": "The radio mast picks the strongest bearing; static clears from the channel.",
+   "post_solve": "A pure function of its parameters is trivial to test — that's why we live there.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t6-access-window",
+   "title": "Curfew access window",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "functions, params, return, scope",
+   "tier": 6,
+   "difficulty": 2,
+   "micro_lesson": "A function can return a boolean directly — the comparison IS the answer; no if needed.",
+   "worked_example": "hour=9 -> 8 <= 9 and 9 < 18 -> true.",
+   "prompt": "The safehouse door opens from 08:00 inclusive to 18:00 exclusive. Return whether the given hour is inside the window.",
+   "starter": {
+    "python": "def access_open(hour):\n    return False\n",
+    "java": "public static boolean accessOpen(int hour) {\n    return false;\n}\n",
+    "c": "int accessOpen(int hour) {\n    return false;\n}\n",
+    "cplus": "bool accessOpen(int hour) {\n    return false;\n}\n",
+    "cpp": "bool accessOpen(int hour) {\n    return false;\n}\n",
+    "matlab": "function out = access_open(hour)\nout = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "9",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "7",
+     "out": "false"
+    },
+    {
+     "in": "17",
+     "out": "true"
+    },
+    {
+     "in": "18",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "uses <= on the upper bound",
+    "returns 1/0 strings instead of booleans"
+   ],
+   "strategies": [
+    "Mark each bound inclusive/exclusive before coding.",
+    "Test both edges: 8 and 18."
+   ],
+   "common_mistakes": [
+    "hour <= 18 lets the 18:00 lockout leak.",
+    "Combining with OR instead of AND."
+   ],
+   "world_effect": "The blast door's keypad glows green during the day cycle and red at night.",
+   "post_solve": "return (condition); beats if (condition) return true; else return false;.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t7-countdown-sum",
+   "title": "Countdown charge relay",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "recursion",
+   "tier": 7,
+   "difficulty": 3,
+   "micro_lesson": "Recursion = a base case that stops + a smaller call that shrinks toward it.",
+   "worked_example": "countdown_sum(3) = 3 + countdown_sum(2) = 3 + 2 + 1 + 0 = 6.",
+   "prompt": "Return n + (n-1) + ... + 1 using recursion (0 for n <= 0).",
+   "starter": {
+    "python": "def countdown_sum(n):\n    return 0\n",
+    "java": "public static int countdownSum(int n) {\n    return 0;\n}\n",
+    "c": "int countdownSum(int n) {\n    return 0;\n}\n",
+    "cplus": "int countdownSum(int n) {\n    return 0;\n}\n",
+    "cpp": "int countdownSum(int n) {\n    return 0;\n}\n",
+    "matlab": "function out = countdown_sum(n)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "3",
+     "out": "6"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0",
+     "out": "0"
+    },
+    {
+     "in": "6",
+     "out": "21"
+    }
+   ],
+   "misconceptions": [
+    "no base case, infinite descent",
+    "adds n-1 instead of n at each level"
+   ],
+   "strategies": [
+    "Write the base case FIRST and test it alone.",
+    "Trust the smaller call to be correct."
+   ],
+   "common_mistakes": [
+    "Recursing on n instead of n-1.",
+    "Returning 1 at the base instead of 0."
+   ],
+   "world_effect": "Charge packets cascade down the relay tower and the beacon fires.",
+   "post_solve": "Every recursive solve is an induction proof you ran on a machine.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t7-relay-factorial",
+   "title": "Relay permutation lock",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "recursion",
+   "tier": 7,
+   "difficulty": 3,
+   "micro_lesson": "Factorial is the canonical recursion: n! = n * (n-1)!, with 1! = 1 as the floor.",
+   "worked_example": "4! = 4*3*2*1 = 24.",
+   "prompt": "Return n! (n factorial) recursively; treat n <= 1 as 1.",
+   "starter": {
+    "python": "def relay_factorial(n):\n    return 0\n",
+    "java": "public static int relayFactorial(int n) {\n    return 0;\n}\n",
+    "c": "int relayFactorial(int n) {\n    return 0;\n}\n",
+    "cplus": "int relayFactorial(int n) {\n    return 0;\n}\n",
+    "cpp": "int relayFactorial(int n) {\n    return 0;\n}\n",
+    "matlab": "function out = relay_factorial(n)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "4",
+     "out": "24"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "1",
+     "out": "1"
+    },
+    {
+     "in": "6",
+     "out": "720"
+    }
+   ],
+   "misconceptions": [
+    "base case returns 0 and zeroes everything",
+    "multiplies by n-1 twice"
+   ],
+   "strategies": [
+    "Identity for * is 1 — start there.",
+    "Trace n=2 fully before trusting n=6."
+   ],
+   "common_mistakes": [
+    "Returning 0 for the base case.",
+    "Using n * factorial(n) and never shrinking."
+   ],
+   "world_effect": "The lock cycles through every wiring permutation and clicks open.",
+   "post_solve": "Multiplicative accumulation works exactly like additive — only the identity changes (1, not 0).",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t7-fibonacci-beacon",
+   "title": "Fibonacci beacon spacing",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "recursion",
+   "tier": 7,
+   "difficulty": 3,
+   "micro_lesson": "Some recursions branch twice: fib(n) = fib(n-1) + fib(n-2), with TWO base cases.",
+   "worked_example": "fib: 0,1,1,2,3,5,8 -> fib(6)=8.",
+   "prompt": "Return the n-th Fibonacci number (fib(0)=0, fib(1)=1).",
+   "starter": {
+    "python": "def beacon_fib(n):\n    return 0\n",
+    "java": "public static int beaconFib(int n) {\n    return 0;\n}\n",
+    "c": "int beaconFib(int n) {\n    return 0;\n}\n",
+    "cplus": "int beaconFib(int n) {\n    return 0;\n}\n",
+    "cpp": "int beaconFib(int n) {\n    return 0;\n}\n",
+    "matlab": "function out = beacon_fib(n)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "6",
+     "out": "8"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "0",
+     "out": "0"
+    },
+    {
+     "in": "1",
+     "out": "1"
+    },
+    {
+     "in": "9",
+     "out": "34"
+    }
+   ],
+   "misconceptions": [
+    "single base case only",
+    "starts the sequence at 1,2"
+   ],
+   "strategies": [
+    "Pin BOTH base cases before the recursive line.",
+    "Check fib(2)=1 by hand."
+   ],
+   "common_mistakes": [
+    "fib(n-1)+fib(n-1) typo.",
+    "Off-by-one sequence start."
+   ],
+   "world_effect": "Route beacons space themselves at nature's spacing; the column reads instantly at distance.",
+   "post_solve": "Branching recursion is powerful AND expensive — tier 10 shows you why (memoize!).",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t7-halving-check",
+   "title": "Power-cell halving check",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "recursion",
+   "tier": 7,
+   "difficulty": 3,
+   "micro_lesson": "Recursive definition: 1 is a power of two; an even n is one iff n/2 is; everything else is not.",
+   "worked_example": "8 -> 4 -> 2 -> 1 -> true. 12 -> 6 -> 3 -> odd and not 1 -> false.",
+   "prompt": "Return whether n is a power of two (1, 2, 4, 8, ...). n <= 0 is false.",
+   "starter": {
+    "python": "def is_power_of_two(n):\n    return False\n",
+    "java": "public static boolean isPowerOfTwo(int n) {\n    return false;\n}\n",
+    "c": "int isPowerOfTwo(int n) {\n    return false;\n}\n",
+    "cplus": "bool isPowerOfTwo(int n) {\n    return false;\n}\n",
+    "cpp": "bool isPowerOfTwo(int n) {\n    return false;\n}\n",
+    "matlab": "function out = is_power_of_two(n)\nout = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "8",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "1",
+     "out": "true"
+    },
+    {
+     "in": "12",
+     "out": "false"
+    },
+    {
+     "in": "0",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "treats 0 as a power of two",
+    "uses n/2 with truncation on odds"
+   ],
+   "strategies": [
+    "Handle n<=0, n==1, odd, even as your four branches.",
+    "Trace 12 to see the false path."
+   ],
+   "common_mistakes": [
+    "Base case n==0 returning true.",
+    "Recursing on n-2 instead of n/2."
+   ],
+   "world_effect": "The charger accepts only clean power-of-two cells; the sorter now flags the rest.",
+   "post_solve": "Recursion mirrors the DEFINITION of a structure — here, repeated halving.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t8-badge-anagram",
+   "title": "Badge anagram check",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "dictionaries / maps",
+   "tier": 8,
+   "difficulty": 3,
+   "micro_lesson": "Count letters with a map (char -> count); two strings match iff their count-maps match.",
+   "worked_example": "listen/silent both map to {e1,i1,l1,n1,s1,t1} -> anagrams.",
+   "prompt": "Return whether the two badge codes are anagrams (same letters, same counts).",
+   "starter": {
+    "python": "def is_anagram(a, b):\n    return False\n",
+    "java": "public static boolean isAnagram(String a, String b) {\n    return false;\n}\n",
+    "c": "int isAnagram(const char* a, const char* b) {\n    return false;\n}\n",
+    "cplus": "bool isAnagram(std::string a, std::string b) {\n    return false;\n}\n",
+    "cpp": "bool isAnagram(std::string a, std::string b) {\n    return false;\n}\n",
+    "matlab": "function out = is_anagram(a, b)\nout = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "\"listen\", \"silent\"",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "\"evac\", \"cave\"",
+     "out": "true"
+    },
+    {
+     "in": "\"code\", \"cede\"",
+     "out": "false"
+    }
+   ],
+   "misconceptions": [
+    "compares sorted lengths only",
+    "counts letters of one string only"
+   ],
+   "strategies": [
+    "Build one count-map per string, or +1/-1 in a single map.",
+    "Different lengths can never be anagrams."
+   ],
+   "common_mistakes": [
+    "Forgetting the length short-circuit.",
+    "Case-sensitivity surprises (tests here are lowercase)."
+   ],
+   "world_effect": "Forged badges with shuffled letters stop fooling the checkpoint scanner.",
+   "post_solve": "Maps turn 'compare arrangements' into 'compare counts' — order stops mattering.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t8-first-duplicate",
+   "title": "First duplicated supply tag",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "dictionaries / maps",
+   "tier": 8,
+   "difficulty": 3,
+   "micro_lesson": "A 'seen' set/map answers 'have I met this before?' in one step per element.",
+   "worked_example": "[3,1,4,1,5]: 3 new, 1 new, 4 new, 1 SEEN -> return 1.",
+   "prompt": "Return the first tag value whose second occurrence appears earliest; -1 if all tags are unique.",
+   "starter": {
+    "python": "def first_duplicate(values):\n    return 0\n",
+    "java": "public static int firstDuplicate(int[] values) {\n    return 0;\n}\n",
+    "c": "int firstDuplicate(const int* values, int valuesCount) {\n    return 0;\n}\n",
+    "cplus": "int firstDuplicate(std::vector<int> values) {\n    return 0;\n}\n",
+    "cpp": "int firstDuplicate(std::vector<int> values) {\n    return 0;\n}\n",
+    "matlab": "function out = first_duplicate(values)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[3, 1, 4, 1, 5]",
+     "out": "1"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[2, 7, 2, 7]",
+     "out": "2"
+    },
+    {
+     "in": "[5, 6, 8]",
+     "out": "-1"
+    }
+   ],
+   "misconceptions": [
+    "returns the index instead of the value",
+    "returns the LAST duplicate"
+   ],
+   "strategies": [
+    "Walk left to right; check 'seen' BEFORE inserting.",
+    "Return -1 only after the loop finishes."
+   ],
+   "common_mistakes": [
+    "Inserting before checking (everything looks duplicated).",
+    "Missing the no-duplicates fallback."
+   ],
+   "world_effect": "The intake scanner flags double-logged crates the moment they pass.",
+   "post_solve": "Sets/maps buy O(1) membership — the difference between one pass and a nested scan.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t8-distinct-supplies",
+   "title": "Count distinct supply types",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "dictionaries / maps",
+   "tier": 8,
+   "difficulty": 3,
+   "micro_lesson": "A set is a map without values: insert everything, its size is your distinct count.",
+   "worked_example": "{4,7,9} -> 3 distinct types.",
+   "prompt": "Return how many DIFFERENT supply type-codes appear in the manifest.",
+   "starter": {
+    "python": "def count_distinct(values):\n    return 0\n",
+    "java": "public static int countDistinct(int[] values) {\n    return 0;\n}\n",
+    "c": "int countDistinct(const int* values, int valuesCount) {\n    return 0;\n}\n",
+    "cplus": "int countDistinct(std::vector<int> values) {\n    return 0;\n}\n",
+    "cpp": "int countDistinct(std::vector<int> values) {\n    return 0;\n}\n",
+    "matlab": "function out = count_distinct(values)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[4, 4, 7, 4, 9]",
+     "out": "3"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[1, 1, 1]",
+     "out": "1"
+    },
+    {
+     "in": "[]",
+     "out": "0"
+    }
+   ],
+   "misconceptions": [
+    "counts total elements",
+    "misses the empty-manifest case"
+   ],
+   "strategies": [
+    "Insert all, then read the size.",
+    "Decide the empty answer (0) before coding."
+   ],
+   "common_mistakes": [
+    "Returning the array length.",
+    "Breaking on the empty array."
+   ],
+   "world_effect": "The depot board shows real variety, not raw crate count — rationing gets smarter.",
+   "post_solve": "When only membership matters, reach for a set before a list.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t8-most-frequent",
+   "title": "Most requested supply",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "dictionaries / maps",
+   "tier": 8,
+   "difficulty": 3,
+   "micro_lesson": "Count with a map, then take the key with the largest count — the histogram pattern.",
+   "worked_example": "5 appears 3x, others once -> 5.",
+   "prompt": "Return the value that appears most often (tests guarantee a unique winner).",
+   "starter": {
+    "python": "def most_frequent(values):\n    return 0\n",
+    "java": "public static int mostFrequent(int[] values) {\n    return 0;\n}\n",
+    "c": "int mostFrequent(const int* values, int valuesCount) {\n    return 0;\n}\n",
+    "cplus": "int mostFrequent(std::vector<int> values) {\n    return 0;\n}\n",
+    "cpp": "int mostFrequent(std::vector<int> values) {\n    return 0;\n}\n",
+    "matlab": "function out = most_frequent(values)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[5, 3, 5, 9, 5]",
+     "out": "5"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[2, 2, 8, 8, 8]",
+     "out": "8"
+    },
+    {
+     "in": "[7]",
+     "out": "7"
+    }
+   ],
+   "misconceptions": [
+    "returns the count instead of the value",
+    "tracks only the last element's count"
+   ],
+   "strategies": [
+    "Two phases: build counts, then scan for the max.",
+    "Track best-value and best-count together."
+   ],
+   "common_mistakes": [
+    "Returning the max COUNT.",
+    "Resetting counts inside the loop."
+   ],
+   "world_effect": "The requisition board reorders itself around what survivors actually ask for.",
+   "post_solve": "Histograms are the workhorse of data questions: count first, ask second.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t8-char-inventory",
+   "title": "Densest letter in the callsign",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "dictionaries / maps",
+   "tier": 8,
+   "difficulty": 3,
+   "micro_lesson": "Strings are sequences too — the same char->count map answers density questions.",
+   "worked_example": "mississippi: i x4, s x4? s appears 4, i appears 4 -> max 4.",
+   "prompt": "Return the highest occurrence count of any single character in the callsign (0 for empty).",
+   "starter": {
+    "python": "def max_char_count(s):\n    return 0\n",
+    "java": "public static int maxCharCount(String s) {\n    return 0;\n}\n",
+    "c": "int maxCharCount(const char* s) {\n    return 0;\n}\n",
+    "cplus": "int maxCharCount(std::string s) {\n    return 0;\n}\n",
+    "cpp": "int maxCharCount(std::string s) {\n    return 0;\n}\n",
+    "matlab": "function out = max_char_count(s)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "\"mississippi\"",
+     "out": "4"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "\"evac\"",
+     "out": "1"
+    },
+    {
+     "in": "\"\"",
+     "out": "0"
+    }
+   ],
+   "misconceptions": [
+    "returns the character, not the count",
+    "empty string crashes the max"
+   ],
+   "strategies": [
+    "Guard the empty case first.",
+    "One pass to count; one pass (or running max) to answer."
+   ],
+   "common_mistakes": [
+    "max() over an empty sequence.",
+    "Counting bytes vs characters confusion (tests are ASCII)."
+   ],
+   "world_effect": "The cipher desk spots repeated-letter callsigns that jam the radio codes.",
+   "post_solve": "Map thinking transfers across types: ints, strings, anything hashable.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t9-manifest-search",
+   "title": "Manifest linear search",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "searching & sorting",
+   "tier": 9,
+   "difficulty": 3,
+   "micro_lesson": "Linear search: scan left to right, return the FIRST index that matches, -1 when absent.",
+   "worked_example": "[4,8,15,16] target 15 -> index 2.",
+   "prompt": "Return the first index of target in the manifest, or -1 if it is missing.",
+   "starter": {
+    "python": "def find_index(values, target):\n    return 0\n",
+    "java": "public static int findIndex(int[] values, int target) {\n    return 0;\n}\n",
+    "c": "int findIndex(const int* values, int valuesCount, int target) {\n    return 0;\n}\n",
+    "cplus": "int findIndex(std::vector<int> values, int target) {\n    return 0;\n}\n",
+    "cpp": "int findIndex(std::vector<int> values, int target) {\n    return 0;\n}\n",
+    "matlab": "function out = find_index(values, target)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[4, 8, 15, 16], 15",
+     "out": "2"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[3, 3, 3], 3",
+     "out": "0"
+    },
+    {
+     "in": "[1, 2], 9",
+     "out": "-1"
+    }
+   ],
+   "misconceptions": [
+    "returns the value instead of the index",
+    "returns the last match"
+   ],
+   "strategies": [
+    "Return INSIDE the loop on match.",
+    "The -1 belongs after the loop, not in it."
+   ],
+   "common_mistakes": [
+    "Off-by-one starting index.",
+    "Returning early with -1 on the first mismatch."
+   ],
+   "world_effect": "Crate lookups stop tearing the depot apart — the finder points at one shelf.",
+   "post_solve": "Every fancier search is judged against this baseline: O(n), first match, -1 contract.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t9-route-sorted",
+   "title": "Is the evac route sorted?",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "searching & sorting",
+   "tier": 9,
+   "difficulty": 3,
+   "micro_lesson": "Sortedness is a PAIRWISE property: every adjacent pair must be non-decreasing.",
+   "worked_example": "[2,5,5,9]: 2<=5, 5<=5, 5<=9 -> true.",
+   "prompt": "Return whether the route's waypoint ids are in non-decreasing order.",
+   "starter": {
+    "python": "def is_sorted(values):\n    return False\n",
+    "java": "public static boolean isSorted(int[] values) {\n    return false;\n}\n",
+    "c": "int isSorted(const int* values, int valuesCount) {\n    return false;\n}\n",
+    "cplus": "bool isSorted(std::vector<int> values) {\n    return false;\n}\n",
+    "cpp": "bool isSorted(std::vector<int> values) {\n    return false;\n}\n",
+    "matlab": "function out = is_sorted(values)\nout = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[2, 5, 5, 9]",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[3, 1, 2]",
+     "out": "false"
+    },
+    {
+     "in": "[7]",
+     "out": "true"
+    }
+   ],
+   "misconceptions": [
+    "compares only the ends",
+    "uses < and rejects equal neighbors"
+   ],
+   "strategies": [
+    "Loop to len-2 comparing i and i+1.",
+    "One bad pair ends it — return false immediately."
+   ],
+   "common_mistakes": [
+    "Index out of range at the last pair.",
+    "Treating duplicates as unsorted."
+   ],
+   "world_effect": "The nav computer trusts the route and unlocks fast-travel along it.",
+   "post_solve": "Binary search (next door) is only legal on data that passes THIS check.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t9-second-strongest",
+   "title": "Second-strongest signal",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "searching & sorting",
+   "tier": 9,
+   "difficulty": 4,
+   "micro_lesson": "Track TWO running values (best, second) in one pass — no full sort needed.",
+   "worked_example": "[4,9,1,7]: best 9, second 7.",
+   "prompt": "Return the second-largest DISTINCT value (tests guarantee at least two distinct values).",
+   "starter": {
+    "python": "def second_largest(values):\n    return 0\n",
+    "java": "public static int secondLargest(int[] values) {\n    return 0;\n}\n",
+    "c": "int secondLargest(const int* values, int valuesCount) {\n    return 0;\n}\n",
+    "cplus": "int secondLargest(std::vector<int> values) {\n    return 0;\n}\n",
+    "cpp": "int secondLargest(std::vector<int> values) {\n    return 0;\n}\n",
+    "matlab": "function out = second_largest(values)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[4, 9, 1, 7]",
+     "out": "7"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[5, 5, 8]",
+     "out": "5"
+    },
+    {
+     "in": "[2, 3]",
+     "out": "2"
+    }
+   ],
+   "misconceptions": [
+    "returns the second element, not second largest",
+    "duplicates of the max shadow the runner-up"
+   ],
+   "strategies": [
+    "Update (best, second) carefully in that order.",
+    "Skip values equal to best when filling second."
+   ],
+   "common_mistakes": [
+    "Initializing second to 0 (breaks on negatives).",
+    "Full sort then off-by-one pick."
+   ],
+   "world_effect": "The relay auto-selects a backup mast the instant the primary drops.",
+   "post_solve": "Partial answers (top-k) rarely need a full sort — cheaper invariants win.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t9-supply-threshold",
+   "title": "Crates under the threshold",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "searching & sorting",
+   "tier": 9,
+   "difficulty": 3,
+   "micro_lesson": "Counting with a predicate: scan once, +1 whenever the condition holds.",
+   "worked_example": "[3,9,4,10] limit 5 -> 3 and 4 qualify -> 2.",
+   "prompt": "Return how many crate weights are strictly below the carry limit.",
+   "starter": {
+    "python": "def count_below(values, limit):\n    return 0\n",
+    "java": "public static int countBelow(int[] values, int limit) {\n    return 0;\n}\n",
+    "c": "int countBelow(const int* values, int valuesCount, int limit) {\n    return 0;\n}\n",
+    "cplus": "int countBelow(std::vector<int> values, int limit) {\n    return 0;\n}\n",
+    "cpp": "int countBelow(std::vector<int> values, int limit) {\n    return 0;\n}\n",
+    "matlab": "function out = count_below(values, limit)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[3, 9, 4, 10], 5",
+     "out": "2"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[1, 1, 1], 2",
+     "out": "3"
+    },
+    {
+     "in": "[8, 9], 3",
+     "out": "0"
+    }
+   ],
+   "misconceptions": [
+    "uses <= instead of <",
+    "returns the qualifying values"
+   ],
+   "strategies": [
+    "Strictly below means <, test the boundary value.",
+    "Accumulate a count, not a list."
+   ],
+   "common_mistakes": [
+    "Counting values equal to the limit.",
+    "Returning early after the first match."
+   ],
+   "world_effect": "The loadmaster instantly knows what one runner can carry through the breach.",
+   "post_solve": "On SORTED data this becomes binary search for the boundary — tier 10 energy.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t10-triangle-fast",
+   "title": "Refactor: charge formula",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "complexity & refactoring (capstones)",
+   "tier": 10,
+   "difficulty": 4,
+   "micro_lesson": "Same spec as your tier-3 loop — but n*(n+1)/2 answers in ONE step. Complexity is a design choice.",
+   "worked_example": "n=100 -> 100*101/2 = 5050. No loop.",
+   "prompt": "Return 1+2+...+n WITHOUT a loop, using the closed-form formula.",
+   "starter": {
+    "python": "def triangle_fast(n):\n    return 0\n",
+    "java": "public static int triangleFast(int n) {\n    return 0;\n}\n",
+    "c": "int triangleFast(int n) {\n    return 0;\n}\n",
+    "cplus": "int triangleFast(int n) {\n    return 0;\n}\n",
+    "cpp": "int triangleFast(int n) {\n    return 0;\n}\n",
+    "matlab": "function out = triangle_fast(n)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "4",
+     "out": "10"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "100",
+     "out": "5050"
+    },
+    {
+     "in": "1",
+     "out": "1"
+    }
+   ],
+   "misconceptions": [
+    "divides before multiplying with integer types",
+    "off-by-one in the formula"
+   ],
+   "strategies": [
+    "Multiply first, then halve — one of n, n+1 is even.",
+    "Check n=1 gives 1."
+   ],
+   "common_mistakes": [
+    "n*(n-1)/2 (sums to n-1).",
+    "Float division leaving .0 artifacts in typed languages."
+   ],
+   "world_effect": "The generator charges instantly now — the crank montage is over.",
+   "post_solve": "You just refactored O(n) to O(1). Same contract, different cost — THAT is engineering.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t10-pair-sum-lockout",
+   "title": "Pair-sum lockout",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "complexity & refactoring (capstones)",
+   "tier": 10,
+   "difficulty": 4,
+   "micro_lesson": "Nested scan is O(n^2); a 'seen' set asking for (target - value) makes it one pass.",
+   "worked_example": "target 9: see 2, need 7... later meet 7 -> true.",
+   "prompt": "Return whether any two DIFFERENT positions sum to the target code.",
+   "starter": {
+    "python": "def pair_sum_exists(values, target):\n    return False\n",
+    "java": "public static boolean pairSumExists(int[] values, int target) {\n    return false;\n}\n",
+    "c": "int pairSumExists(const int* values, int valuesCount, int target) {\n    return false;\n}\n",
+    "cplus": "bool pairSumExists(std::vector<int> values, int target) {\n    return false;\n}\n",
+    "cpp": "bool pairSumExists(std::vector<int> values, int target) {\n    return false;\n}\n",
+    "matlab": "function out = pair_sum_exists(values, target)\nout = false;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[2, 7, 11, 15], 9",
+     "out": "true"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[3, 4], 6",
+     "out": "false"
+    },
+    {
+     "in": "[5, 5], 10",
+     "out": "true"
+    }
+   ],
+   "misconceptions": [
+    "uses the same element twice",
+    "checks pairs only once left-to-right... and misses none — but n^2"
+   ],
+   "strategies": [
+    "For each value, ask: have I SEEN its complement?",
+    "Insert AFTER checking to avoid self-pairing."
+   ],
+   "common_mistakes": [
+    "Counting v + v = target with one occurrence.",
+    "Returning false inside the loop."
+   ],
+   "world_effect": "The vault stops brute-forcing pairs — the door answers before the horde arrives.",
+   "post_solve": "The map/set from tier 8 just accelerated a tier-9 search. Concepts compound.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t10-longest-run",
+   "title": "Longest stable power run",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "complexity & refactoring (capstones)",
+   "tier": 10,
+   "difficulty": 4,
+   "micro_lesson": "One pass, two counters: current-run length and best-so-far. Reset on change, never look back.",
+   "worked_example": "[4,4,4,2,2,4]: runs 3,2,1 -> 3.",
+   "prompt": "Return the length of the longest run of equal consecutive readings (0 for empty).",
+   "starter": {
+    "python": "def longest_run(values):\n    return 0\n",
+    "java": "public static int longestRun(int[] values) {\n    return 0;\n}\n",
+    "c": "int longestRun(const int* values, int valuesCount) {\n    return 0;\n}\n",
+    "cplus": "int longestRun(std::vector<int> values) {\n    return 0;\n}\n",
+    "cpp": "int longestRun(std::vector<int> values) {\n    return 0;\n}\n",
+    "matlab": "function out = longest_run(values)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[4, 4, 4, 2, 2, 4]",
+     "out": "3"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[7]",
+     "out": "1"
+    },
+    {
+     "in": "[]",
+     "out": "0"
+    },
+    {
+     "in": "[1, 2, 3]",
+     "out": "1"
+    }
+   ],
+   "misconceptions": [
+    "compares to the first element instead of the previous",
+    "forgets the final run"
+   ],
+   "strategies": [
+    "Update best INSIDE the loop (or once after).",
+    "Empty input first: define the answer as 0."
+   ],
+   "common_mistakes": [
+    "Missing the last run when the array ends mid-run.",
+    "Starting current at 0 with non-empty input."
+   ],
+   "world_effect": "The grid report highlights the steadiest generator — that's the one worth guarding.",
+   "post_solve": "Sliding one-pass state machines beat re-scanning windows — linear beats quadratic again.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t10-evac-gain",
+   "title": "Best evac trade window",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "complexity & refactoring (capstones)",
+   "tier": 10,
+   "difficulty": 4,
+   "micro_lesson": "Track the minimum so far; the best gain at each step is value - minSoFar. One pass, O(1) space.",
+   "worked_example": "[7,1,5,3,6,4]: min hits 1, later 6 -> gain 5.",
+   "prompt": "Return the best possible later-minus-earlier gain in the supply price list (0 if it only falls).",
+   "starter": {
+    "python": "def best_gain(values):\n    return 0\n",
+    "java": "public static int bestGain(int[] values) {\n    return 0;\n}\n",
+    "c": "int bestGain(const int* values, int valuesCount) {\n    return 0;\n}\n",
+    "cplus": "int bestGain(std::vector<int> values) {\n    return 0;\n}\n",
+    "cpp": "int bestGain(std::vector<int> values) {\n    return 0;\n}\n",
+    "matlab": "function out = best_gain(values)\nout = 0;\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "[7, 1, 5, 3, 6, 4]",
+     "out": "5"
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "[7, 6, 4, 3, 1]",
+     "out": "0"
+    },
+    {
+     "in": "[2, 10]",
+     "out": "8"
+    }
+   ],
+   "misconceptions": [
+    "allows selling before buying",
+    "returns negative best on falling data"
+   ],
+   "strategies": [
+    "Carry minSoFar; compare-and-update both values each step.",
+    "Falling-only input must yield 0."
+   ],
+   "common_mistakes": [
+    "Using global max/min pair regardless of order.",
+    "Forgetting the 0 floor."
+   ],
+   "world_effect": "The trader NPC finally quotes fair barter windows instead of gut feelings.",
+   "post_solve": "You reduced all pairs O(n^2) to a single sweep with one remembered fact. Capstone complete.",
+   "authored": "claude-2026-07-04-item25"
+  },
+  {
+   "id": "t10-callsign-reverse-words",
+   "title": "Refactor: callsign word flip",
+   "language": "All",
+   "languages": [
+    "Java",
+    "C",
+    "C+",
+    "C++",
+    "Python",
+    "MATLAB"
+   ],
+   "concept": "complexity & refactoring (capstones)",
+   "tier": 10,
+   "difficulty": 4,
+   "micro_lesson": "Refactor pipelines: split -> reverse -> join beats index juggling for clarity AND correctness.",
+   "worked_example": "'echo delta nine' -> [echo,delta,nine] -> [nine,delta,echo] -> 'nine delta echo'.",
+   "prompt": "Return the callsign with its WORDS in reverse order (single spaces, no leading/trailing).",
+   "starter": {
+    "python": "def reverse_words(s):\n    return ''\n",
+    "java": "public static String reverseWords(String s) {\n    return \"\";\n}\n",
+    "c": "const char* reverseWords(const char* s) {\n    return 0;\n}\n",
+    "cplus": "std::string reverseWords(std::string s) {\n    return \"\";\n}\n",
+    "cpp": "std::string reverseWords(std::string s) {\n    return \"\";\n}\n",
+    "matlab": "function out = reverse_words(s)\nout = '';\nend\n"
+   },
+   "visible_tests": [
+    {
+     "in": "\"echo delta nine\"",
+     "out": "\"nine delta echo\""
+    }
+   ],
+   "hidden_tests": [
+    {
+     "in": "\"solo\"",
+     "out": "\"solo\""
+    },
+    {
+     "in": "\"alpha beta\"",
+     "out": "\"beta alpha\""
+    }
+   ],
+   "misconceptions": [
+    "reverses characters instead of words",
+    "loses or doubles spaces"
+   ],
+   "strategies": [
+    "Think in stages: split, reverse, join.",
+    "Test the single-word case."
+   ],
+   "common_mistakes": [
+    "Reversing the whole string.",
+    "Joining with no separator."
+   ],
+   "world_effect": "Reversed callsigns unlock the mirrored checkpoint's challenge-response.",
+   "post_solve": "Readable pipelines are refactoring's gift: each stage testable, no index arithmetic.",
+   "authored": "claude-2026-07-04-item25"
+  }
+ ]
+}

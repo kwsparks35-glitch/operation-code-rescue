@@ -1,0 +1,6 @@
+[cr-log-scan] allowed warning: Saved/Logs/PackagedCampaignGroundRecoveryV7.log:74: LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[cr-log-scan] allowed warning: Saved/Logs/PackagedCampaignGroundRecoveryV7.log:111: LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[cr-log-scan] allowed warning: Saved/Logs/PackagedFirstLevelIntegratedV7.log:232: LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[cr-log-scan] allowed warning: Saved/Logs/PackagedFirstLevelIntegratedV7.log:306: LogClient: Warning: Consoles don't need hitproxy storage - wasting memory!?
+[cr-log-scan] allowed warning: Saved/Logs/PackagedFirstLevelIntegratedV7.log:355: LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[cr-log-scan] passed: scanned 3 log file(s), 5 allowed warning(s)

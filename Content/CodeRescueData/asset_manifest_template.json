@@ -1,0 +1,9 @@
+{
+  "zombie_skeletal_mesh": "/Game/CodeRescueAssets/Characters/Zombies/SK_Zombie_01.SK_Zombie_01",
+  "survivor_skeletal_mesh": "/Game/CodeRescueAssets/Characters/Survivors/SK_Survivor_01.SK_Survivor_01",
+  "muzzle_flash_vfx": "/Game/CodeRescueAssets/VFX/Niagara/NS_MuzzleFlash.NS_MuzzleFlash",
+  "bullet_impact_vfx": "/Game/CodeRescueAssets/VFX/Niagara/NS_BulletImpact.NS_BulletImpact",
+  "fire_smoke_vfx": "/Game/CodeRescueAssets/VFX/Niagara/NS_FireSmoke.NS_FireSmoke",
+  "infection_cloud_vfx": "/Game/CodeRescueAssets/VFX/Niagara/NS_InfectionCloud.NS_InfectionCloud",
+  "notes": "These are intended target paths after importing licensed or personally-created professional assets into the Content Browser. This project does not bundle paid third-party assets."
+}

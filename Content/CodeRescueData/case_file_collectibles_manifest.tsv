@@ -1,0 +1,4 @@
+case_file_type	spawn_suffix	source_fields	runtime_actor	save_contract	player_feedback
+TerminalEvidence	terminal_evidence	TerminalTitle/CurriculumFocus/LandmarkName/LanguageTrackText	ACaseFilePickupActor	CollectedCaseFileIds + LastCollectedCaseFileTitle in the selected-language save	CASE FILE subtitle plus journal case-file summary
+SurvivorNote	survivor_note	SurvivorName/CharacterStoryPlan/RadioBriefing/TerminalTitle/LandmarkName	ACaseFilePickupActor	CollectedCaseFileIds + LastCollectedCaseFileTitle in the selected-language save	Survivor story context plus saved active-language run confirmation
+RouteBrief	route_brief	LandmarkName/ArchitectureSignature/NovelGameplayDetail/ProgressionPlan/AccessibilityPolishPlan	ACaseFilePickupActor	CollectedCaseFileIds + LastCollectedCaseFileTitle in the selected-language save	Route/world context plus glowing CASE FILE prompt

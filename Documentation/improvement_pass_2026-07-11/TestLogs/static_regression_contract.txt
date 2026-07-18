@@ -1,0 +1,25 @@
+[PASS] radio narration has one owner and a city-switch debounce
+[PASS] cooked audio and macOS speech are both stopped before replacement
+[PASS] emergency catch floor sits well below the playable city
+[PASS] mission floor owns an explicit canonical-ground contract
+[PASS] ground normalization no longer traces the city onto the catch floor
+[PASS] arena recovery ignores the catch floor and rejects invalid heights
+[PASS] second-city below-floor recovery has a runtime audit
+[PASS] terminal editor uses near-white text on explicit near-black state brushes
+[PASS] terminal contrast has numeric and rendered-review checks
+[PASS] gameplay HUD cannot overlap terminal, reader, or pause content
+[PASS] only boss and named-miniboss deaths persist as removals
+[PASS] saved world-state application preserves renewable enemies
+[PASS] regular, horde, director, and dog spawners ignore prior-session deaths
+[PASS] every non-sandbox loaded city requires a visible renewable population
+[PASS] reverse validator accepts prefix and postfix decrement
+[PASS] the exact reported valid C++ solution is a runtime regression test
+[PASS] ordinary solved-route reconstruction cannot spawn the blocking reader
+[PASS] message reader owns focus, input lock, and an explicit mouse close
+[PASS] reader, journal, and pause surfaces are mutually exclusive and audited
+[PASS] pause has preview and bubble pointer routing fallbacks
+[PASS] all pause actions expose click telemetry and direct activation
+[PASS] Manny loads six authored production animation sequences
+[PASS] locomotion, airborne states, landing, and two-arm aim are integrated
+[PASS] single-session integrated acceptance includes all reported regressions
+[PASS] 2026-07-11 regression source contract (24/24)

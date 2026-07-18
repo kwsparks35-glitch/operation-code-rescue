@@ -1,0 +1,2 @@
+PackagedMac/Mac/CodeRescueUnreal.app: valid on disk
+PackagedMac/Mac/CodeRescueUnreal.app: satisfies its Designated Requirement

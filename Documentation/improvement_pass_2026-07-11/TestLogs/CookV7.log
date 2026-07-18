@@ -1,0 +1,1388 @@
+﻿Log file open, 07/11/26 13:04:23
+LogInit: Display: Running engine for game: CodeRescueUnreal
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogCore: No trace connection. Tracing to in-memory cache.
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Mac"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="macOS 26.5.1 25F80"
+LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M4 Pro"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject -run=Cook -TargetPlatform=Mac -unversioned -fileopenlog -abslog=/Users/Shared/UE_5.7/Engine/Programs/AutomationTool/Saved/Cook-2026.07.11-13.04.21.txt -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="2af10eca6448b8345865ed81f15fab2f"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogFileOpenOrder: Initialized file open order log : ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Build/Mac/FileOpenOrder/EditorOpenOrder.log
+LogStats: Stats thread started at 0.532712
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Mac-749D573F3D42A3F5E8DA6B9D136DA142
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Found matching target receipt: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Found matching target receipt: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnrealEditor.target
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin PCG
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogAssetRegistry: Display: Asset registry cache read as 86.7 MiB from ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/CachedAssetRegistry_0.bin
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin BackChannel
+LogConfig: Display: Loading Mac ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin Niagara
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin GeometryScripting
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogStudioTelemetry: Started StudioTelemetry Session
+LogStudioTelemetry: Started StudioTelemetry Session
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogEOSShared: Loaded "libEOSSDK-Mac-Shipping.dylib"
+LogEOSShared: Initialize Initializing EOSSDK Version:1.19.0.3-49960398
+LogInit: ExecutableName: UnrealEditor-Cmd
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=MacEditor
+LogInit: MachineId=2af10eca6448b8345865ed81f15fab2f
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: macOS 26.5.1 (25F80), CPU: Apple M4 Pro, GPU: Apple M4 Pro
+LogInit: CPU Model ID: 0, microcode revision: 0
+LogInit: Compiled (64-bit): Mar  6 2026 07:40:56
+LogInit: Architecture: arm64
+LogInit: Compiled with Clang: 16.0.0 (clang-1600.0.26.4)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject -run=Cook -TargetPlatform=Mac -unversioned -fileopenlog -abslog=/Users/Shared/UE_5.7/Engine/Programs/AutomationTool/Saved/Cook-2026.07.11-13.04.21.txt -stdout -CrashForUAT -unattended -NoLogTimes
+LogInit: Base Directory: /Users/Shared/UE_5.7/Engine/Binaries/Mac/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:300000]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+LogConfig: Set CVar [[r.Substrate.Glints:1]]
+LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+LogConfig: Set CVar [[r.Refraction.Blur:1]]
+LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:1]]
+LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+LogConfig: Set CVar [[r.TemporalAA.Upsampling:0]]
+LogConfig: Set CVar [[r.AntiAliasingMethod:2]]
+LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+LogConfig: Set CVar [[r.ReflectionMethod:1]]
+LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:1]]
+LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+LogConfig: Set CVar [[r.RayTracing:0]]
+LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.FXAA.Quality:4]]
+LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+LogConfig: Set CVar [[r.ShadowQuality:5]]
+LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+LogConfig: Set CVar [[r.VolumetricFog:1]]
+LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+LogConfig: Set CVar [[r.CapsuleShadows:1]]
+LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+LogConfig: Set CVar [[r.AOQuality:2]]
+LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.SSR.Quality:3]]
+LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+LogConfig: Set CVar [[r.LensFlareQuality:2]]
+LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+LogConfig: Set CVar [[r.BloomQuality:5]]
+LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+LogConfig: Set CVar [[r.Upscale.Quality:3]]
+LogConfig: Set CVar [[r.LightShaftQuality:1]]
+LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+LogConfig: Set CVar [[r.Streaming.Boost:1]]
+LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+LogConfig: Set CVar [[r.RefractionQuality:2]]
+LogConfig: Set CVar [[r.SceneColorFormat:4]]
+LogConfig: Set CVar [[r.DetailMode:3]]
+LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+LogConfig: Set CVar [[r.SSS.Scale:1]]
+LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+LogConfig: Set CVar [[r.SSS.Quality:1]]
+LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+LogConfig: Set CVar [[r.SSGI.Quality:3]]
+LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+LogConfig: Set CVar [[grass.DensityScale:1.0]]
+LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+LogInit: Selected Device Profile: [MacEditor]
+LogInit: Selected Device Profile: [MacEditor]
+LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogDeviceProfileManager: Going up to parent DeviceProfile [Mac]
+LogDeviceProfileManager: Going up to parent DeviceProfile []
+LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.ZeroInitialise:1 -> 1]]
+LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.BoundsChecking:1 -> 1]]
+LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+LogConfig: Applying CVar settings from Section [Startup_Mac] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+LogConfig: CVar [[r.SceneCulling.ExplicitCellBounds:1]] deferred - dummy variable created
+LogConfig: CVar [[r.GPUStatsEnabled:0]] deferred - dummy variable created
+LogConfig: Set CVar [[Slate.NoAnimationOnTabForegroundedEvent:1]]
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Config/MacEditor/Editor.ini]
+LogInit: macOS 26.5.1 (25F80)
+LogInit: Model: Mac16,8
+LogInit: CPU: Apple M4 Pro
+LogInit: CPU Page size=16384, Cores=14, HT=14
+LogInit: Computer: Kenneths-MacBook-Pro.local
+LogInit: User: labcomputer
+LogInit: High frequency timer resolution =24.000000 MHz
+LogInit: Power Source: AC Power
+LogInit: Xcode developer folder path: /Applications/Xcode.app/Contents/Developer, version 26.6.0
+LogInit: Memory total: Physical=48.0GB (48GB approx) Pagefile=3.0GB Virtual=51.0GB
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.14
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.14.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.5.dylib
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOSClient'
+LogTargetPlatformManager: Display: Building Assets For Mac
+LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+LogTargetPlatformManager: Loaded format module MetalShaderFormat
+LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+LogTargetPlatformManager:   SF_METAL_SM5_IOS
+LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+LogTargetPlatformManager:   SF_METAL_SM5
+LogTargetPlatformManager:   SF_METAL_SM6
+LogTargetPlatformManager:   SF_METAL_SIM
+LogTargetPlatformManager:   SF_METAL_ES3_1
+LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+LogTargetPlatformManager:   GLSL_150_ES31
+LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+LogTargetPlatformManager:   VVM_1_0
+LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+LogTargetPlatformManager:   SF_VULKAN_SM5
+LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+LogTargetPlatformManager:   SF_VULKAN_ES31
+LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+LogTargetPlatformManager:   SF_VULKAN_SM6
+LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+LogChaosDD: Chaos Debug Draw Startup
+LogInit: Physics initialised using underlying interface: Chaos
+LogInit: Using OS detected language (en-US).
+LogInit: Using OS detected locale (en-US).
+LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogTemp: Display: /Applications/Xcode.app/Contents/Developer
+
+LogVRS: Current RHI does not support Variable Rate Shading
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+LogInit: Initializing FReadOnlyCVARCache
+LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2469 MiB)
+LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+LogZenServiceInstance: Found Zen config default=/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenServiceInstance: Display: Read zen version cache file from '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/5.7/Saved/Zen/zen.version', version: '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+LogZenServiceInstance: InTree version at '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zenserver' is '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+LogZenServiceInstance: Display: Read zen version cache file from '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+LogZenServiceInstance: Installed version at '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver' is '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+LogZenServiceInstance: Display: Installed service at '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+LogZenServiceInstance: No current process using the data dir found, launching a new instance
+LogZenServiceInstance: Display: Launching executable '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver', working dir '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install', data dir '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --http-forceloopback --owner-pid 13762  --child-id Zen_13762_Startup --detach'
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.129 seconds
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc status: OK!.
+LogDerivedDataCache: /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.00 seconds.
+LogDerivedDataCache: Display: /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.00ms. RandomReadSpeed=391.19MBs, RandomWriteSpeed=566.09MBs. Assigned SpeedClass 'Local'
+LogDerivedDataCache: Local: Using data cache path /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+LogDerivedDataCache: Shared: Disabled because no path is configured.
+LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/Shaders/WorkingDirectory/13762/).
+LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/Shaders/tmp/AD06AB751445CCB1F43071AD145E5F71/'.
+LogShaderCompilers: Display: No distributed shader compiler controller found
+LogShaderCompilers: Display: Using 11 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ShaderAutogen/METAL_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/CachedAssetRegistry_*.bin.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogInit: Selected Device Profile: [MacEditor]
+LogDeviceProfileManager: Active device profile: [0x39f7d8180][0x397934800 82] MacEditor
+LogCsvProfiler: Display: Metadata set : deviceprofile="MacEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: HLOD mesh reduction module (r.ProxyLODMeshReductionModule) set to "ProxyLODMeshReduction" which doesn't exist.
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: No automatic mesh merging module available
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogMeshMerging: No automatic mesh merging module available
+LogMeshMerging: No distributed automatic mesh merging module available
+LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ShaderAutogen/METAL_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogSlate: Border
+LogSlate: BreadcrumbButton
+LogSlate: Brushes.Title
+LogSlate: ColorPicker.ColorThemes
+LogSlate: Default
+LogSlate: Icons.Save
+LogSlate: Icons.Toolbar.Settings
+LogSlate: ListView
+LogSlate: SoftwareCursor_CardinalCross
+LogSlate: SoftwareCursor_Grab
+LogSlate: TableView.DarkRow
+LogSlate: TableView.Row
+LogSlate: TreeView
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.737 ms
+LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 56D9630A089B4F10800000000000CF00 | Instance: 0C5C1CA5EF4E9319E935E890A8EBB4E7 (Kenneths-MacBook-Pro.local-13762).
+LogNNERuntimeORT: MakeRuntimeORTDml:
+LogNNERuntimeORT:   DirectML:  no
+LogNNERuntimeORT:   RHI D3D12: no
+LogNNERuntimeORT:   D3D12:     no
+LogNNERuntimeORT:   NPU:       no
+LogNNERuntimeORT: Interface availability:
+LogNNERuntimeORT:   GPU: no
+LogNNERuntimeORT:   RDG: no
+LogNNERuntimeORT:   NPU: no
+LogNNERuntimeORT: NNERuntimeORTDml can only cook!
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogMetaSound: MetaSound Engine Initialized
+LogConfig: Applying CVar settings from Section [/Script/PCG.PCGEngineSettings] File [Engine]
+LogTimingProfiler: Initialize
+LogTimingProfiler: OnSessionChanged
+LoadingProfiler: Initialize
+LoadingProfiler: OnSessionChanged
+LogNetworkingProfiler: Initialize
+LogNetworkingProfiler: OnSessionChanged
+LogMemoryProfiler: Initialize
+LogMemoryProfiler: OnSessionChanged
+LogChaosVDEditor: [RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+LogChaosVDEditor: [RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+LogUsd: Attempted to call a static function from UnrealUSDWrapper before the module is actually loaded! The module will be loaded now, but not all static functions have this check. In general, please ensure an Unreal module is loaded before calling any of its static functions, for example by calling 'FModuleManager::LoadModuleChecked<IUnrealUSDWrapperModule>("UnrealUSDWrapper");' beforehand.
+SourceControl: Revision control is disabled
+LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+SourceControl: Revision control is disabled
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+LogFabLauncher: Display: FabLauncher (version 0.5.0) active
+LogUObjectArray: 47547 objects as part of root set at end of initial load.
+LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+LogInit: Executing Class /Script/UnrealEd.CookCommandlet
+LogInit: Initializing Editor Engine...
+LogEngine: Initializing Engine...
+LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+LogNiagara: UAV Float16 is not supported, compressed GPU emitters will be disabled.
+LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+LogInit: Texture streaming: Disabled
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogInit: Initializing Editor Engine Completed
+LogContentValidation: Adding native validator /Script/DataValidation.DirtyFilesChangelistValidator
+LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Localization
+LogContentValidation: Adding native validator /Script/DataValidation.EditorValidator_Material
+LogContentValidation: Adding native validator /Script/DataValidation.PackageFileValidator
+LogContentValidation: Adding native validator /Script/DataValidation.WorldPartitionChangelistValidator
+LogContentValidation: Adding native validator /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+LogContentValidation: Adding native validator /Script/CodeRescueUnrealEditor.CodeRescueAssetManifestValidator
+LogContentValidation: Adding native validator /Script/CodeRescueUnrealEditor.CodeRescueMacCompatibilityValidator
+LogContentValidation: Adding native validator /Script/CodeRescueUnrealEditor.CodeRescuePhysicsPromotionValidator
+LogContentValidation: Adding native validator /Script/CodeRescueUnrealEditor.CodeRescueWorldPromotionValidator
+LogContentValidation: Adding native validator /Script/CodeRescueUnrealEditor.CodeRescueZombieVariantTableValidator
+LogPython: Python disabled via config setting 'DisablePythonForCommandlet'
+LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and incremental cooking will be invalid.
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+LogZenStore: Display: Establishing oplog 'CodeRescueUnreal.b8112ca1/EditorDomain'
+LogZenStore: Display: Zen project 'CodeRescueUnreal.b8112ca1' already exists
+LogZenStore: Display: Zen oplog 'CodeRescueUnreal.b8112ca1/EditorDomain' already exists
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: AssetRegistryGather time 0.2287s: AssetDataDiscovery 0.1192s, AssetDataGather 0.0672s, StoreResults 0.0422s. Wall time 9.5080s.
+	NumCachedDirectories 0. NumUncachedDirectories 2589. NumCachedFiles 10730. NumUncachedFiles 0.
+	BackgroundTickInterruptions 0.
+LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+LogCollectionManager: Loaded 0 collections in 0.003226 seconds
+LogFileCache: Scanning file cache for directory '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Collections/' took 0.00s
+LogFileCache: Scanning file cache for directory '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/Developers/labcomputer/Collections/' took 0.00s
+LogFileCache: Scanning file cache for directory '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/Collections/' took 0.00s
+LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.629s
+LogCook: Display: INCREMENTAL COOK DEPENDENCIES: Disabled. Incremental Cook Dependencies are disabled because the cooker is not using ZenStore, and we do not yet support storage of Incremental Cook dependency data with loose cooked packages. Falling back to legacy iterative cook mode.
+LogCook: Display: CalculateGlobalDependenciesHash(Mac):
+LogCook: Display: 	[Engine]:Core.System.CanStripEditorOnlyExportsAndImports = True
+LogCook: Display: 	[Engine]:Core.System.CanSkipEditorReferencedPackagesWhenCooking = False
+LogCook: Display: 	CanUseUnversionedPropertySerialization = True
+LogCook: Display: 	[Editor]:CookSettings.AutomaticOptionalInclusionAssetType = /Script/Niagara.NiagaraScript, /Script/Niagara.NiagaraEmitter, /Script/Niagara.NiagaraSystem, /Script/NiagaraEditor.NiagaraParameterDefinitions, /Script/Niagara.NiagaraEffectType, /Script/Niagara.NiagaraValidationRuleSet
+LogCook: Display: 	IsCookFlagSet(ECookInitializationFlags::Unversioned) = True
+LogCook: Display: 	FCoreRedirects::AppendHashOfGlobalRedirects = 2c443b6bf53a7f573728a20d66cbe37783b90d5395e25f19fcfbaee1c216ce53
+LogCook: Display: 	GlobalDependenciesHash(Mac) = b6b5857036a773ee2a95f70de0766f1c16329013fada0acb5de998934099798a
+LogCook: Display: FULL COOK: Incremental Cook Dependencies are disabled, and -legacyiterative was not specified. Deleting previously cooked packages for platform Mac and recooking all packages discovered in the current cook.
+LogCook: Display: Sandbox cleanup took 0.469 seconds for platforms Mac
+LogCook: Display: Compiling global changed shaders for platform 'Mac'
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/global_sf_metal_sm5-metal_sm5.0.metallib
+LogMetalShaderCompiler: Display: Archiving 5874 shaders for shader platform: SF_METAL_SM5
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM5
+LogShaderLibrary: Display: 
+LogShaderLibrary: Display: Shader Library 'Global' (SF_METAL_SM5-METAL_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 342 (34200.00%)
+LogShaderLibrary: Display: Total Shaders: 5874, Unique Shaders: 5874 (100.00%)
+LogShaderLibrary: Display: Total Shader Size: 108.53mb, Unique Shaders Size: 108.53mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 528
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 4088 shaders (69.59%), compressed size: 77.54 MB (19.42 KB avg per shader), uncompressed size: 129.80 MB (32.51 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1669 shaders (28.41%), compressed size: 30.35 MB (18.62 KB avg per shader), uncompressed size: 51.37 MB (31.52 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 117 shaders (1.99%), compressed size: 0.64 MB (5.56 KB avg per shader), uncompressed size: 1.10 MB (9.60 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM5-METAL_SM5/ShaderDebug-Global-SF_METAL_SM5-METAL_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/global_sf_metal_sm6-metal_sm6.0.metallib
+LogMetalShaderCompiler: Display: [1/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_0_5B0BE9E39D4B6EF34A64F1994C8D9453.tmp
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: [2/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_1_0096404D1144C61C18A821AC0F92D392.tmp
+LogMetalShaderCompiler: Display: [3/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_2_91444A1358448FA2F5ABFBBCD7ED361A.tmp
+LogMetalShaderCompiler: Display: [4/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_3_E31067527949634C7456BEA5EAF5298D.tmp
+LogMetalShaderCompiler: Display: [5/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_4_3BF6F018C5470D75527B8AAEDF6BD24D.tmp
+LogMetalShaderCompiler: Display: [6/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_5_1C21F60ABF43E65D4B026EB00321D021.tmp
+LogMetalShaderCompiler: Display: [7/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_6_292491A6EF40B9B086C0E883B20029F0.tmp
+LogMetalShaderCompiler: Display: [8/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_7_4707D385E94052C8D032588BBB02F7C5.tmp
+LogMetalShaderCompiler: Display: [9/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_8_941E045985435785A7520EA0C41E7A54.tmp
+LogMetalShaderCompiler: Display: [10/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_9_3F73C539B24FE2D6524F898D983F74D3.tmp
+LogMetalShaderCompiler: Display: [11/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_10_31EE0D20E64F87B38B9100ADD2A68609.tmp
+LogMetalShaderCompiler: Display: [12/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_11_58113D25984D4402072D9686A36A1848.tmp
+LogMetalShaderCompiler: Display: [13/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_12_D5FE4B8B6B491252577F1290C4824C7E.tmp
+LogMetalShaderCompiler: Display: [14/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_13_C33DBD87324A24843C5CF2A3C19D577E.tmp
+LogMetalShaderCompiler: Display: [15/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_14_750DB72A0247196420E41D9E60EF872A.tmp
+LogMetalShaderCompiler: Display: [16/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_15_29225FF58242C90615FC6FB9D2D9C0F9.tmp
+LogMetalShaderCompiler: Display: [17/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_16_6AAE6590B54FDE065B288CB4F09C4372.tmp
+LogMetalShaderCompiler: Display: [18/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_17_8DB4B22326451BE8AD5140B3A5A0FEDB.tmp
+LogMetalShaderCompiler: Display: [19/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_18_AA5F91FCEF4F8C1D32B8A98CBEB08D7F.tmp
+LogMetalShaderCompiler: Display: [20/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_19_343EB180084B1C07F1C7A4B8BF416A1E.tmp
+LogMetalShaderCompiler: Display: [21/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_20_86DAA84964421F3B9121528D65A6B028.tmp
+LogMetalShaderCompiler: Display: [22/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_21_28DF2D25C642546A950C4FAECDBD364D.tmp
+LogMetalShaderCompiler: Display: [23/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_22_E451F96E744933C1B9D25E86BEBA22BB.tmp
+LogMetalShaderCompiler: Display: [24/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_23_BCB749DE404FE5F9AC48BEADE292DE10.tmp
+LogMetalShaderCompiler: Display: [25/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_24_6AAC6B515A44005AB204C0BBDB6C1854.tmp
+LogMetalShaderCompiler: Display: [26/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_25_85FE685D3A4541804F4F768D26319EEE.tmp
+LogMetalShaderCompiler: Display: [27/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_26_B3FC7C1A2B4A1C4B8E10F9A000A6B8DA.tmp
+LogMetalShaderCompiler: Display: [28/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_27_EC10B5572847721C156C95A877136E7F.tmp
+LogMetalShaderCompiler: Display: [29/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_28_69F3B866CC470E3B0E7295890278D04D.tmp
+LogMetalShaderCompiler: Display: [30/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_29_0EDF0328CF45510210A3C2B3C743AF49.tmp
+LogMetalShaderCompiler: Display: [31/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_30_119677FA8B4BE79673D82F829AAE8C72.tmp
+LogMetalShaderCompiler: Display: [32/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_31_2648A536C64A4A0BE281BB961B7EF2EB.tmp
+LogMetalShaderCompiler: Display: [33/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_32_6CC57CE66F46EF3F10F1C6B595D4B03B.tmp
+LogMetalShaderCompiler: Display: [34/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_33_D918E6FC814C6ECB9089A89CE7AAB5FE.tmp
+LogMetalShaderCompiler: Display: [35/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_34_9483C6239D4C601883C278A51E38C790.tmp
+LogMetalShaderCompiler: Display: [36/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_35_83343F3189484561EC79E99A7146B187.tmp
+LogMetalShaderCompiler: Display: [37/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_36_F587995570422614C7918F9FC0FE8DA8.tmp
+LogMetalShaderCompiler: Display: [38/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_37_0BB40BF78C41BCB056FE31B70F82BFA9.tmp
+LogMetalShaderCompiler: Display: [39/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_38_DE5640979A408FCB3FF76995C184455F.tmp
+LogMetalShaderCompiler: Display: [40/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_39_7707157D2F4DA30873B669B09EFC8A75.tmp
+LogMetalShaderCompiler: Display: [41/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_40_FA080159E640632D219CCBBF033BB328.tmp
+LogMetalShaderCompiler: Display: [42/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_41_D24751C4504B3035E13A8CBCA4886280.tmp
+LogMetalShaderCompiler: Display: [43/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_42_C51D2C5EF94EF51D5CFCFBB9BEF0297B.tmp
+LogMetalShaderCompiler: Display: [44/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_43_DD3800373946C9F100735DB85802CD97.tmp
+LogMetalShaderCompiler: Display: [45/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_44_122C20032D4D2E8C78FC398857447C8E.tmp
+LogMetalShaderCompiler: Display: [46/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_45_26EA40CA2445473BBAF962AAFC9BE4F3.tmp
+LogMetalShaderCompiler: Display: [47/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_46_54BA968D124812998EE01FB4C6D01E01.tmp
+LogMetalShaderCompiler: Display: [48/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_47_2F3F7C23D442C472716BCC8519D4D7F8.tmp
+LogMetalShaderCompiler: Display: [49/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_48_955347D42743675621C26A9D1E114960.tmp
+LogMetalShaderCompiler: Display: [50/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_49_301EC9659F4BC40B48692B82A2B0494F.tmp
+LogMetalShaderCompiler: Display: [51/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_50_E1DA38AC214FE855D2FA63B36BEA00C0.tmp
+LogMetalShaderCompiler: Display: [52/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_51_6B50A3A75D4C04097EC04A9E8017DE2A.tmp
+LogMetalShaderCompiler: Display: [53/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_52_638AF593564A99AC9C61DFB32C754AA6.tmp
+LogMetalShaderCompiler: Display: [54/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_53_BC19E202E340017A41BE5DBA8B5C1457.tmp
+LogMetalShaderCompiler: Display: [55/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_54_44E99AB65042F78891548A9428C49A5B.tmp
+LogMetalShaderCompiler: Display: [56/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_55_CCC1C6F4A1408AA425085D86F34BADCA.tmp
+LogMetalShaderCompiler: Display: [57/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_56_4DA8301D7A472AA53C49CAAC83C7776F.tmp
+LogMetalShaderCompiler: Display: [58/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_57_24367A13A448C48D445F62B149F0E737.tmp
+LogMetalShaderCompiler: Display: [59/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_58_8F96556DB84BBC9B8CD195B43D0D59AC.tmp
+LogMetalShaderCompiler: Display: [60/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_59_149D82F8934A9A4752215DAC5A1B6DB4.tmp
+LogMetalShaderCompiler: Display: [61/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_60_D666A187B14DE2145C7DE0BAEC18023E.tmp
+LogMetalShaderCompiler: Display: [62/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_61_AC08B9F15148A58C03907D99BCDBCA27.tmp
+LogMetalShaderCompiler: Display: [63/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_62_511B7EF84D4F1E4082EDBA8865680897.tmp
+LogMetalShaderCompiler: Display: [64/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_63_86726E4D1F458C821E7433B41594F7DF.tmp
+LogMetalShaderCompiler: Display: [65/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_64_0232F96A584CB7E2A1551CA9F9FC0F40.tmp
+LogMetalShaderCompiler: Display: [66/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_65_46AA9795E04CB53AC8B307BE1A796E74.tmp
+LogMetalShaderCompiler: Display: [67/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_66_45B18005F54D6D0BE0BECCAAEB8BC891.tmp
+LogMetalShaderCompiler: Display: [68/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_67_7BA70C6C9C4C211A985BEBAD4218C0AE.tmp
+LogMetalShaderCompiler: Display: [69/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_68_1D99CC4FD34189CDF114D8993D205C12.tmp
+LogMetalShaderCompiler: Display: [70/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_69_7CC81EB0364A01B766F8DF96F22DAD72.tmp
+LogMetalShaderCompiler: Display: [71/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_70_E4408A8B8F4CB60909D4D6BC3E001ADE.tmp
+LogMetalShaderCompiler: Display: [72/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_71_A37FC4C96E4B87F7CFEB2B8F64E002F8.tmp
+LogMetalShaderCompiler: Display: [73/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_72_260E3DD11A466D58F1146EB6844CF002.tmp
+LogMetalShaderCompiler: Display: [74/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_73_AE4ED4A5204FC1CB5A870392B82896C6.tmp
+LogMetalShaderCompiler: Display: [75/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_74_C654C7981E441FAA01C68C86B2093871.tmp
+LogMetalShaderCompiler: Display: [76/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_75_5F291D14854EF40B462C85B692AE6550.tmp
+LogMetalShaderCompiler: Display: [77/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_76_29272D5AAB48DE22CBAFFDAA7A398F66.tmp
+LogMetalShaderCompiler: Display: [78/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_77_07AA8C7D934CDDA5D600928161AA136F.tmp
+LogMetalShaderCompiler: Display: [79/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_78_E7D8F6DB0D478D9E64A787AC02718D8D.tmp
+LogMetalShaderCompiler: Display: [80/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_79_1EC46E6EDA41F9DC4D4E95A0F64611B1.tmp
+LogMetalShaderCompiler: Display: [81/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_80_59C9D1E2254430A9850030B2624EE94C.tmp
+LogMetalShaderCompiler: Display: [82/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_81_43BB312B7C455301F8F5DDA9C9BBD2D9.tmp
+LogMetalShaderCompiler: Display: [83/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_82_241908A58340F22210930FA080D911A1.tmp
+LogMetalShaderCompiler: Display: [84/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_83_8458B2F39E455F130C0721AF7E21013A.tmp
+LogMetalShaderCompiler: Display: [85/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_84_D38C5D2DE34B168722FF90B3EDAF2A72.tmp
+LogMetalShaderCompiler: Display: [86/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_85_C57CCE30244BDCAF28B9A08B93D41F8C.tmp
+LogMetalShaderCompiler: Display: [87/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_86_53F7CD61E44546227BBC1FBB375063FE.tmp
+LogMetalShaderCompiler: Display: [88/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_87_961AD850464271CF18FCFB856F21F9E2.tmp
+LogMetalShaderCompiler: Display: [89/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_88_2C02FCD6EA49053A3A8C0BA1518D302F.tmp
+LogMetalShaderCompiler: Display: [90/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_89_997C83660F4061F6B33711B805264531.tmp
+LogMetalShaderCompiler: Display: [91/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_90_36E997F62449C92B39A464955CDED6AA.tmp
+LogMetalShaderCompiler: Display: [92/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_91_95010578C840B9E9CD32159A4B7D384E.tmp
+LogMetalShaderCompiler: Display: [93/93] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_92_DF355CD411407691E16F30852665F7E7.tmp
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM6
+LogShaderLibrary: Display: 
+LogShaderLibrary: Display: Shader Library 'Global' (SF_METAL_SM6-METAL_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 407 (40700.00%)
+LogShaderLibrary: Display: Total Shaders: 8977, Unique Shaders: 8976 (99.99%)
+LogShaderLibrary: Display: Total Shader Size: 158.29mb, Unique Shaders Size: 158.28mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 4
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 530
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     2, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 7121 shaders (79.33%), compressed size: 136.44 MB (19.62 KB avg per shader), uncompressed size: 394.32 MB (56.70 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1729 shaders (19.26%), compressed size: 21.11 MB (12.50 KB avg per shader), uncompressed size: 58.41 MB (34.60 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 126 shaders (1.40%), compressed size: 0.74 MB (6.02 KB avg per shader), uncompressed size: 1.98 MB (16.12 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-Global-SF_METAL_SM6-METAL_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: Cooked packages 0 Packages Remain 1494 Total 1494
+LogCook: Display: Cook Diagnostics: OpenFileHandles=193, VirtualMemory=431698MiB, VirtualMemoryAvailable=20276MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+LogCook: Display: PreloadableFile was created for /Engine/Maps/Entry but never used. This is wasteful and bad for cook performance.
+LogCook: Display: PreloadableFile was created for /Game/Parallax_Night_Building_Material/Materials/Building_Office/Mi_Building05 but never used. This is wasteful and bad for cook performance.
+LogCook: Display: PreloadableFile was created for /Game/Parallax_Night_Building_Material/Materials/Building_Office/MI_NightGlassFunction_02 but never used. This is wasteful and bad for cook performance.
+LogCook: Display: PreloadableFile was created for /Game/Parallax_Night_Building_Material/Meshes/Building/SM_Building05 but never used. This is wasteful and bad for cook performance.
+LogDeviceProfileManager: Going up to parent DeviceProfile []
+LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Mannequin) ...
+LogCook: Display: Cooked packages 432 Packages Remain 1383 Total 1815
+LogCook: Display: UnexpectedLoad: TargetPackage /Game/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK was unexpectededly loaded during the cook of SourcePackage /Game/YI_ModularZombies/Demo/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK; it was not declared as a hard dependency (aka Import) of the SourcePackage. We have to conservatively add this package to the cook, but it might not be needed at runtime. Declare the TargetPackage as an import during editor save of the SourcePackage, or mark up its load with FCookLoadScope to specify whether it is runtime or editoronly.
+LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Zombie) ...
+LogCook: Display: Cooked packages 778 Packages Remain 1037 Total 1815
+LogComputeFramework: DG_LinearBlendSkin_Morph_Cloth_LinearBlendSkin_Morph_Cloth_OptimusNode_ComputeKernel_1: Loaded SF_METAL_SM5 shaders from DDC.
+LogComputeFramework: DG_LinearBlendSkin_Morph_Cloth_LinearBlendSkin_Morph_Cloth_OptimusNode_ComputeKernel_1: Loaded SF_METAL_SM6 shaders from DDC.
+LogComputeFramework: DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals_LinearBlendSkin_Morph_Cloth_PositionOnly_OptimusNode_ComputeKernel_1: Loaded SF_METAL_SM5 shaders from DDC.
+LogComputeFramework: DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals_LinearBlendSkin_Morph_Cloth_PositionOnly_OptimusNode_ComputeKernel_1: Loaded SF_METAL_SM6 shaders from DDC.
+LogComputeFramework: DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals_ComputeNormalsTangents_OptimusNode_CustomComputeKernel_0: Loaded SF_METAL_SM5 shaders from DDC.
+LogComputeFramework: DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals_ComputeNormalsTangents_OptimusNode_CustomComputeKernel_0: Loaded SF_METAL_SM6 shaders from DDC.
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.8.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.11.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.12.dylib
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.13.dylib
+LogCook: Display: Cooked packages 1604 Packages Remain 211 Total 1815
+LogCook: Display: Cooked packages 1815 Packages Remain 0 Total 1815
+LogCook: Display: Cook Diagnostics: OpenFileHandles=191, VirtualMemory=434872MiB, VirtualMemoryAvailable=18660MiB
+LogAssetRegistryGenerator: Display: Saving asset registry v22.
+LogAssetRegistryGenerator: Display: Generated development asset registry /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Metadata/DevelopmentAssetRegistry.bin num assets 1826, size is 1305.19kb, XxHash64[LE] = 0x90B07C5ADA894A28, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 1819, size is 594.00kb
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm5-metal_sm5.0.metallib
+LogMetalShaderCompiler: Display: Archiving 1476 shaders for shader platform: SF_METAL_SM5
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM5
+LogShaderLibrary: Display: 
+LogShaderLibrary: Display: Shader Library 'CodeRescueUnreal' (SF_METAL_SM5-METAL_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 536, Unique Shadermaps: 196 (36.57%)
+LogShaderLibrary: Display: Total Shaders: 2578, Unique Shaders: 1541 (59.78%)
+LogShaderLibrary: Display: Total Shader Size: 33.24mb, Unique Shaders Size: 21.18mb (63.72%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 8
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 294
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     95, 77, 34, 32, 29, 26, 22, 21, 20, 19
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 914 shaders (59.31%), compressed size: 12.90 MB (14.46 KB avg per shader), uncompressed size: 22.00 MB (24.64 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 438 shaders (28.42%), compressed size: 5.98 MB (13.99 KB avg per shader), uncompressed size: 10.02 MB (23.42 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 189 shaders (12.26%), compressed size: 2.30 MB (12.44 KB avg per shader), uncompressed size: 3.96 MB (21.45 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM5-METAL_SM5/ShaderDebug-CodeRescueUnreal-SF_METAL_SM5-METAL_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogMetalShaderCompiler: Display: Creating Native Library /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Cooked/Mac/CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm6-metal_sm6.0.metallib
+LogMetalShaderCompiler: Display: [1/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_0_5281BFBDB04499AF3D9C178CD8026862.tmp
+LogZipArchive: Display: Closing zip file with 0 entries.
+LogMetalShaderCompiler: Display: [2/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_1_52D10FE9FC4C1D5AE6F6A38880CFCA88.tmp
+LogMetalShaderCompiler: Display: [3/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_2_772AF2C60B44909ABAB20C8C9A82F408.tmp
+LogMetalShaderCompiler: Display: [4/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_3_EA41DBCE744344065E6C9DB538C955F0.tmp
+LogMetalShaderCompiler: Display: [5/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_4_76685A71FB40B1BBB445F2866E332D8C.tmp
+LogMetalShaderCompiler: Display: [6/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_5_DE33A9ABB848E4D39FFCBC845BD1428B.tmp
+LogMetalShaderCompiler: Display: [7/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_6_6850C92556429A4CBB6515933CA6AFA5.tmp
+LogMetalShaderCompiler: Display: [8/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_7_2A5AF7B6D14EB581932CBEBA9D071677.tmp
+LogMetalShaderCompiler: Display: [9/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_8_A2555D4778409270BEB1E8807FCF5F11.tmp
+LogMetalShaderCompiler: Display: [10/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_9_A37A58F325498339B4F903B0104FFDCB.tmp
+LogMetalShaderCompiler: Display: [11/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_10_2F2136BAFF4857611579DD954695E241.tmp
+LogMetalShaderCompiler: Display: [12/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_11_6BDE46D2B643F52EEBEF4691C788FB2B.tmp
+LogMetalShaderCompiler: Display: [13/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_12_920E92FC764A7F1C69DEF0B4719D68D7.tmp
+LogMetalShaderCompiler: Display: [14/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_13_98648369FF4DC28239ABB5BD6109C33D.tmp
+LogMetalShaderCompiler: Display: [15/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_14_BED5AA4BAB4DFD920A32BBAC7F992C10.tmp
+LogMetalShaderCompiler: Display: [16/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_15_8959E2DDF146E4510EF8B6A5D27BD5CF.tmp
+LogMetalShaderCompiler: Display: [17/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_16_512576751B4811BB7D2B9587E991FA0B.tmp
+LogMetalShaderCompiler: Display: [18/18] /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/NativeLibrary/SF_METAL_SM6-METAL_SM6/MetalPackBatch_17_8544714F6945F66EE2AB80997B5785C4.tmp
+LogMetalShaderCompiler: Display: Post-processing archive for shader platform: SF_METAL_SM6
+LogShaderLibrary: Display: 
+LogShaderLibrary: Display: Shader Library 'CodeRescueUnreal' (SF_METAL_SM6-METAL_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 536, Unique Shadermaps: 196 (36.57%)
+LogShaderLibrary: Display: Total Shaders: 2995, Unique Shaders: 1696 (56.63%)
+LogShaderLibrary: Display: Total Shader Size: 28.06mb, Unique Shaders Size: 16.18mb (57.66%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 9
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 371
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     187, 98, 96, 38, 28, 26, 22, 20, 19, 17
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1067 shaders (62.91%), compressed size: 9.98 MB (9.57 KB avg per shader), uncompressed size: 27.19 MB (26.10 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 424 shaders (25.00%), compressed size: 4.56 MB (11.02 KB avg per shader), uncompressed size: 12.57 MB (30.37 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 205 shaders (12.09%), compressed size: 1.64 MB (8.19 KB avg per shader), uncompressed size: 4.36 MB (21.76 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Shaders/SF_METAL_SM6-METAL_SM6/ShaderDebug-CodeRescueUnreal-SF_METAL_SM6-METAL_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "GLTFImporter" referenced by "FabLauncher" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogCook: Display: Cook by the book total time in tick 6.852615s total time 31.409300
+LogCook: Display: Peak Used virtual 435652 MiB Peak Used physical 5879 MiB
+LogCook: Display: Packages Cooked: 1807, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 8, Total Packages: 1815
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.469s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.024s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.003s (1)
+LogCookStats: Display:     TickMainCookLoop: 6.853s (2)
+LogCookStats: Display:       PumpPollables: 0.005s (2)
+LogCookStats: Display:       PumpRequests: 0.014s (57)
+LogCookStats: Display:       LoadPackageForCooking: 3.485s (1815)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (1815)
+LogCookStats: Display:       SavingPackages: 2.520s (261)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.197s (39376)
+LogCookStats: Display:         PrepareSave: 0.508s (37725)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 0.224s (1814)
+LogCookStats: Display:           PrepareSave: 0.224s (2159)
+LogCookStats: Display:         SaveCookedPackage: 1.568s (1815)
+LogCookStats: Display:           GEditorSavePackage: 1.534s (1815)
+LogCookStats: Display:             VerifyCanCookPackage: 0.002s (1807)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.012s (1815)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (1)
+LogCookStats: Display:       WaitForAsync: 0.804s (75)
+LogCookStats: Display:     CookByTheBookFinished: 3.421s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.026s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.002s (1)
+LogCookStats: Display:       ChunkGeneration: 0.009s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.001s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.017s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.003s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.040s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.039s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.001s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.001s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.002s (1)
+LogShaderCompilers: Wrote shader compile stats to file '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/MaterialStats/Stats-2026.07.11-13.05.08.csv'.
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000081
+LogCookStats: Display:     AsyncCompileTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=0
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.000104
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=0.141098
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     NumRequestedLoads=727
+LogCookStats: Display:     NumPackagesLoaded=4698
+LogCookStats: Display:     NumInlineLoads=3971
+LogCookStats: Display:     LoadPackageTimeSec=3.800885
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display:     NumPackagesSaved=1815
+LogCookStats: Display:     SavePackageTimeSec=1.524201
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.002386
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: CookOnTheFlyServer
+LogCookStats: Display:     PeakRequestQueueSize=1815
+LogCookStats: Display:     PeakLoadQueueSize=40
+LogCookStats: Display:     PeakSaveQueueSize=438
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=nan
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display: 
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=45.687689
+LogCookStats: Display:  0. 0.StartupWallTimeSec=13.140088
+LogCookStats: Display:  0. 1.StartCookByTheBookTimeSec=22.247604
+LogCookStats: Display:  0. 1. 0.BlockOnAssetRegistryTimeSec=0.033552
+LogCookStats: Display:  0. 1. 1.GameCookModificationDelegateTimeSec=0.000081
+LogCookStats: Display:  0. 2.TickCookOnTheSideTimeSec=0.058378
+LogCookStats: Display:  0. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=3.484605
+LogCookStats: Display:  0. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=1.568413
+LogCookStats: Display:  0. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=0.732492
+LogCookStats: Display:  0. 3.TickLoopGCTimeSec=0.016675
+LogCookStats: Display:  0. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000005
+LogCookStats: Display:  0. 6.TickLoopProcessDeferredCommandsTimeSec=0.000016
+LogCookStats: Display:  0. 7.TickLoopTickCommandletStatsTimeSec=0.000001
+LogCookStats: Display:  0. 8.TickLoopFlushRenderingCommandsTimeSec=0.004705
+LogCookStats: Display:  0. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 10.ValidationTimeSec=0.000139
+LogCookStats: Display:  1.CookParameters=
+LogCookStats: Display:  1. 0.TargetPlatforms=Mac
+LogCookStats: Display:  1. 1.CookProject=CodeRescueUnreal
+LogCookStats: Display:  1. 2.CookCultures=
+LogCookStats: Display:  1. 3.IsCookAll=false
+LogCookStats: Display:  1. 4.IsCookOnTheFly=false
+LogCookStats: Display:  1. 5.IsIterativeCook=false
+LogCookStats: Display:  1. 6.IsUnversioned=true
+LogCookStats: Display:  1. 7.CookLabel=
+LogCookStats: Display:  1. 8.IsFastCook=false
+LogCookStats: Display: 
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =      9499
+LogCookStats: Display: TotalGetMisses  =         0
+LogCookStats: Display: TotalGets       =      9499
+LogCookStats: Display: TotalGetHitPct  =  1.000000
+LogCookStats: Display: GetMissPct      =  0.000000
+LogCookStats: Display: TotalPutHits    =         0
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =         0
+LogCookStats: Display: TotalPutHitPct  =  0.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =      8615
+LogCookStats: Display: LocalGetMisses  =         0
+LogCookStats: Display: LocalGetTotal   =      8615
+LogCookStats: Display: LocalGetHitPct  =  1.000000
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =      8615
+LogCookStats: Display: ZenLocalGetTotal=      8615
+LogCookStats: Display: ZenLocalGetHitPct=  1.000000
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteReadSpeed=  0.000000
+LogCookStats: Display: ZenRemoteWriteSpeed=  0.000000
+LogCookStats: Display: ZenRemoteLatency=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  0.872005
+LogCookStats: Display: LocalReadSpeed  =695.366705
+LogCookStats: Display: LocalWriteSpeed =  0.000000
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display: 
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: GlobalShader                                    0.86                   0.85             0        266.08
+LogCookStats: Display: Texture                                         0.33                   0.00             0        769.01
+LogCookStats: Display: STREAMEDAUDIO                                   0.08                   0.00             0        153.97
+LogCookStats: Display: Audio                                           0.07                   0.01             0        153.78
+LogCookStats: Display: BulkDataList                                    0.05                   0.00             0          0.66
+LogCookStats: Display: MaterialShader                                  0.02                   0.13             0        149.87
+LogCookStats: Display: StaticMesh                                      0.02                   0.01             0         44.84
+LogCookStats: Display: CardRepresentation                              0.02                   0.00             0          0.06
+LogCookStats: Display: DistanceField                                   0.02                   0.01             0         11.01
+LogCookStats: Display: NavCollision                                    0.01                   0.00             0          1.19
+LogCookStats: Display: SkeletalMesh                                    0.00                   0.00             0         99.90
+LogCookStats: Display: AnimationSequence                               0.00                   0.00             0          2.08
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.87
+LogCookStats: Display: BulkDataPayloadId                               0.00                   0.00             0          0.02
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0         24.68
+LogPackageBuildDependencyTracker: Display: Package Accesses (1058 referencing packages with a total of 18647 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (1182 referencing packages with a total of 6724 unique accesses). 1654 unique accesses that were not associated with a package.
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.000491s to verify the EDL loading graph.
+LogCore: Engine exit requested (reason: Commandlet CookCommandlet_0 finished execution (result 0))
+LogInit: Display: 
+LogInit: Display: Success - 0 error(s), 0 warning(s)
+LogInit: Display: 
+Execution of commandlet took:  32.55 seconds
+LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+LogRuntimeTelemetry: Recording EnginePreExit events
+LogExit: Preparing to exit.
+LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+LogExit: Editor shut down
+LogExit: Object subsystem successfully closed.
+LogShaderCompilers: Display: Shaders left to compile 0
+LogChaosVDEditor: [UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+LogChaosVDEditor: [UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+LogMemoryProfiler: Shutdown
+LogNetworkingProfiler: Shutdown
+LoadingProfiler: Shutdown
+LogTimingProfiler: Shutdown
+LogChaosDD: Chaos Debug Draw Shutdown
+LogEOSShared: Shutdown EOS_Shutdown Result=[EOS_Success]
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 07/11/26 13:05:08

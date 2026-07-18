@@ -1,0 +1,6 @@
+feature	source	runtime_surface	persisted_field	status
+mono_audio_toggle	UCodeRescueGameInstance::bMonoAudio	Settings Mono Audio checkbox	bMonoAudio	implemented_saved_language_run_setting
+mono_visual_cue_lock	UCodeRescueGameInstance::ApplyAudioMixSettings	Mono mode forces bVisualizeSoundCues on	bMonoAudio + bVisualizeSoundCues	implemented_no_audio_only_directional_info
+centered_project_sfx	GetMonoSafeSoundLocation in player zombie survivor cues	Weapon hit fire dry-fire zombie attack death survivor bark rescue VO	bMonoAudio	implemented_project_owned_positional_cue_centering
+active_spatial_refresh	ACodeRescueGameMode::RefreshMonoAudioSpatialization	Ambient sound actors and zombie growl components	bMonoAudio	implemented_apply_button_runtime_refresh
+mono_review_summary	UCodeRescueGameInstance::GetMonoAudioSummary	Settings apply feedback and Blueprint-callable audit summary	bMonoAudio	implemented_accessibility_summary

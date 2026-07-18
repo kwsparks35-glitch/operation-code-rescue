@@ -1,0 +1,96 @@
+{
+  "app_exists": true,
+  "app_path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app",
+  "app_size_bytes": 2151185466,
+  "app_size_mb": 2051.5,
+  "codesign_display": {
+    "available": true,
+    "returncode": 0,
+    "stderr": "Executable=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app/Contents/MacOS/CodeRescueUnreal\nIdentifier=com.operationcoderescue.CodeRescueUnreal\nFormat=app bundle with Mach-O thin (arm64)\nCodeDirectory v=20400 size=744257 flags=0x2(adhoc) hashes=23247+7 location=embedded\nVersionPlatform=1\nVersionMin=917504\nVersionSDK=1705216\nHash type=sha256 size=32\nCandidateCDHash sha256=78df13305748ba93f1dde27fc9af9274535b21fe\nCandidateCDHashFull sha256=78df13305748ba93f1dde27fc9af9274535b21febbc3a1e931871855bf7b5aed\nHash choices=sha256\nCMSDigest=78df13305748ba93f1dde27fc9af9274535b21febbc3a1e931871855bf7b5aed\nCMSDigestType=2\nExecutable Segment base=0\nExecutable Segment limit=219856896\nExecutable Segment flags=0x1\nPage size=16384\nCDHash=78df13305748ba93f1dde27fc9af9274535b21fe\nSignature=adhoc\nInfo.plist entries=25\nTeamIdentifier=not set\nSealed Resources version=2 rules=13 files=40\nInternal requirements count=0 size=12",
+    "stdout": ""
+  },
+  "codesign_verify": {
+    "available": true,
+    "returncode": 0,
+    "stderr": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app: valid on disk\n/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app: satisfies its Designated Requirement",
+    "stdout": ""
+  },
+  "credential_blocker_count": 1,
+  "credential_blockers": [
+    "Gatekeeper assessment does not pass yet; signed/notarized distribution still pending"
+  ],
+  "external_distribution_ready": false,
+  "generated_utc": "2026-07-10T18:21:10.871450+00:00",
+  "hard_error_count": 0,
+  "hard_errors": [],
+  "info_plist": {
+    "CFBundleExecutable": "CodeRescueUnreal",
+    "CFBundleIdentifier": "com.operationcoderescue.CodeRescueUnreal",
+    "CFBundleName": "CodeRescueUnreal",
+    "CFBundleShortVersionString": "5.7.4",
+    "CFBundleVersion": "51494982.0.197",
+    "LSApplicationCategoryType": "public.app-category.games",
+    "LSMinimumSystemVersion": "14.00"
+  },
+  "local_package_ready": true,
+  "project_root": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix",
+  "required_files": [
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:08.230506+00:00",
+      "relative_path": "Contents/MacOS/CodeRescueUnreal",
+      "size_bytes": 381637776
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:09.997742+00:00",
+      "relative_path": "Contents/Info.plist",
+      "size_bytes": 1722
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:09.805284+00:00",
+      "relative_path": "Contents/UE/UECommandLine.txt",
+      "size_bytes": 62
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:08.643984+00:00",
+      "relative_path": "Contents/UE/CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak",
+      "size_bytes": 387047284
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:09.790551+00:00",
+      "relative_path": "Contents/UE/CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.ucas",
+      "size_bytes": 1164900224
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:08.644850+00:00",
+      "relative_path": "Contents/UE/CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc",
+      "size_bytes": 653810
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:09.792531+00:00",
+      "relative_path": "Contents/UE/CodeRescueUnreal/Content/Paks/global.ucas",
+      "size_bytes": 2939856
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:12:09.792842+00:00",
+      "relative_path": "Contents/UE/CodeRescueUnreal/Content/Paks/global.utoc",
+      "size_bytes": 734
+    }
+  ],
+  "spctl_assess": {
+    "available": true,
+    "returncode": 3,
+    "stderr": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app: rejected",
+    "stdout": ""
+  },
+  "strict_distribution": false,
+  "warning_count": 0,
+  "warnings": []
+}

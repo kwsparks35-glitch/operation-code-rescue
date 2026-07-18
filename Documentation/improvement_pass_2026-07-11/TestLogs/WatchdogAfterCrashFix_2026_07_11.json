@@ -1,0 +1,1101 @@
+{
+  "summary": {
+    "generated": "2026-07-12T01:36:46.368424+00:00",
+    "total": 170,
+    "passed": 129,
+    "environment_only": 14,
+    "pattern_stale": 27,
+    "real_regressions": 0,
+    "git": {
+      "uncommitted": 6,
+      "commits_today": 1,
+      "last_commit": "5b79385 2026-07-11 15:44:04 -0800 Fix packaged-report issues: floating characters, pause clicks, literal validators, final station guidance"
+    },
+    "verdict": "PASS"
+  },
+  "results": [
+    {
+      "name": "verify_adaptive_encounter_director_pressure_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_adaptive_encounter_director_pressure_slice_pass] FAIL: director must read objective, difficulty, and resumed player resource state: missing SolvedTerminalIds.Contains(Mission.TerminalId)"
+      ]
+    },
+    {
+      "name": "verify_animation_budget_runtime_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_art_beacon_physics_pass_2026_07_04.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_art_pipeline_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_asset_budget_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_audit_implementation_closure.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_bespoke_asset_animation_refinement.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_bespoke_survival_horror_art_ui.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_boss_phase_telegraph_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_boss_reveal_presentation_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_camera_perspectives_and_character_roster.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_case_file_collectibles_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_challenge_replay_journal_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_challenge_room_concept_art_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_character_promotion_validation_contract_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_character_promotion_validation_unreal.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_character_world_assets.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_city_ambient_zone_audio_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_city_ambient_zone_audio_slice_pass] FAIL: character ambient-zone sampler must classify city spaces, progression state, captions, and QA tags: missing SolvedTerminalIds"
+      ]
+    },
+    {
+      "name": "verify_city_radio_bark_cadence_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_city_radio_bark_cadence_slice_pass] FAIL: radio cadence helper must expose language, save phase, terminal, survivor, landmark, and next step: missing SolvedTerminalIds.Contains(Mission.TerminalId)",
+        "[verify_city_radio_bark_cadence_slice_pass] FAIL: radio briefing must queue text-first briefing/cadence before cooked audio or system voice fallback: missing BuildRadioRouteCadenceLine(Mission, GetGameInstance<UCodeRescueGameInstance>())"
+      ]
+    },
+    {
+      "name": "verify_city_street_grid_storefront_shell_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_code_rescue_data_validation_unreal.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_coding_world_response_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_collision_channel_gameplay_contract_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_combat_juice_weapon_feel_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_combat_juice_weapon_feel_slice_pass] FAIL: fire path must trigger fire kick and confirmed-hit feedback across weapon paths: missing TriggerCombatJuiceHitConfirm(ImpactPoint, EHitZone::Torso, true)"
+      ]
+    },
+    {
+      "name": "verify_companion_gesture_readability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_creative_development_implementation_ledger.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_creative_physics_world_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_curriculum_validator_shapes.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_damage_feedback_accessibility_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_datadriven_validation_pass_2026_07_04.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_death_replay_save_quit_flow_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_demo_readiness_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_destructible_cover_physics_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_distinct_weapon_presentation_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_editor_data_validation_contract_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_elite_warden_miniboss_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_elite_warden_miniboss_slice_pass] FAIL: staging layer must be driven by terminal-intel and boss-defeat save state: missing SolvedTerminalIds.Contains(Mission.TerminalId)"
+      ]
+    },
+    {
+      "name": "verify_encounter_director_ai_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_encounter_director_ai_slice_pass] FAIL: encounter director layer must place readable world beats, supplies, and save-aware directed zombies: missing NeutralizedZombieIds.Contains(ZombieId)"
+      ]
+    },
+    {
+      "name": "verify_end_state_language_run_continuity_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_environmental_storytelling_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_expanded_accessibility_options_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_expanded_extraction_set_pieces_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_external_demo_preflight_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_extraction_debrief_fast_travel_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_fab_import_and_entry_access.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_fab_unreal_mcp_porting.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_fading_review_trail_photomode_2026_07_04c.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_fail_safe_objective_board_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_fail_safe_objective_board_slice_pass] FAIL: fail-safe summary must be derived from saved language progress and expose recovery guidance: missing SolvedTerminalIds.Contains"
+      ]
+    },
+    {
+      "name": "verify_fast_travel_evac_route_readability_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_fast_travel_evac_route_readability_slice_pass] FAIL: destination labels must explain availability, completion, curriculum focus, and post-travel save: missing terminal solved + survivor extracted"
+      ]
+    },
+    {
+      "name": "verify_field_checklist_hud_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_field_checklist_hud_slice_pass] FAIL: HUD refresh must derive language-save, route phase, controls, and accessibility state: missing GI->SolvedTerminalIds.Contains(Mission->TerminalId), E open terminal | Ctrl+P practice | VALIDATE CODE"
+      ]
+    },
+    {
+      "name": "verify_first_level_combat_experience_pass_2026_07_09.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_first_level_completion_2026_07_06.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_first_level_integrated_v5_pass_2026_07_09.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "FAIL: the final single-run result requires every requested first-level subsystem"
+      ]
+    },
+    {
+      "name": "verify_first_session_route_preview_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_fixed_timestep_physics_contract_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_friendly_npc_gesture_readability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_friendly_safehouse_npc_service_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_gameplay_fixes_2026_07_07.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_graduated_campaign_world.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_headshot_feedback_reduced_motion_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_health_damage_survivability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_helipad_extraction_ready_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_houdini_modular_city_output_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_hud_vitals_theme_accessibility_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_human_scale_route_access_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_ik_foot_grounding_review_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_interior_mission_spaces_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_inventory_map_journal_polish_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_inventory_map_journal_polish_slice_pass] FAIL: route map readout must expose terminal, survivor, case-file, and next-marker state: missing SolvedTerminalIds.Contains, terminal needs code",
+        "[verify_inventory_map_journal_polish_slice_pass] FAIL: refresh path must update all new sections from live save/player state and accessibility settings: missing BuildRouteMapReadout(ActiveMission, GI, CompletedCount, Missions.Num())"
+      ]
+    },
+    {
+      "name": "verify_iteration_regressions_pass_2026_07_11.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_jeep_surface_vehicle_physics_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june01_rescue_survivability_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june12_city_realization_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_june12_city_realization_pass] FAIL: Tick day/night: missing `CityNightSunColor`",
+        "[verify_june12_city_realization_pass] FAIL: Tick day/night: missing `CityNightSunIntensity`"
+      ]
+    },
+    {
+      "name": "verify_june12_next100_improvement_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june12_squad_command_status_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june12_us_city_identity_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june13_arena_confinement_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june18_launch_grounding_symbol_pickup_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june18_public_hardening_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_june19_playability_readability_fix_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_language_breach_encounter_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_language_profile_recap_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_launch_language_start_screen_save_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_learning_vertical_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_mac_asset_import_budget_gate_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_mac_compatibility_validation_contract_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_mac_compatibility_validation_unreal.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_mac_feature_capability_gate_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_mac_hair_card_compatibility_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_mac_rendering_aa_readiness_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_maple_sinister_narration_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_may27_gameplay_access_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_may27_public_demo_fab_detail_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_may27_safe_learning_city_controls_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "raise RuntimeError(f\"{path} missing tokens: {', '.join(missing)}\")",
+        "RuntimeError: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Source/CodeRescueUnreal/CodeTerminalWidget.cpp missing tokens: Intel Reward: survivor whereabouts uploaded"
+      ]
+    },
+    {
+      "name": "verify_may27_tactical_arsenal_mcp_runtime.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_may27_unreal_systems_character_world_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_may28_creative_recommendations_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_maya_character_cleanup_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_menu_movement_v3art_2026_07_06.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_minimap_route_readability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_mono_audio_accessibility_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_next100_implementation.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_next20_nohuman_improvement_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_next20_round2_nohuman_improvement_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_nonhuman_release_readiness_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_objective_focus_beacon_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_objective_focus_beacon_slice_pass] FAIL: ResolveObjectivePhase must react to saved terminal/survivor progress and extraction proximity: missing SolvedTerminalIds.Contains(TerminalId)",
+        "[verify_objective_focus_beacon_slice_pass] FAIL: phase targets must map terminal, survivor, extraction, and entry fallback locations: missing TerminalLocation",
+        "[verify_objective_focus_beacon_slice_pass] FAIL: label builder must surface active language and objective phase: missing TERMINAL"
+      ]
+    },
+    {
+      "name": "verify_objective_journal_accessibility_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_objective_journal_accessibility_slice_pass] FAIL: journal refresh must expose active route state, saved language, explicit labels, and scalable rows: missing GI->SolvedTerminalIds.Contains(ActiveMission->TerminalId)",
+        "[verify_objective_journal_accessibility_slice_pass] FAIL: journal state vocabulary must be readable without relying on symbols: missing TEXT(\"Secure %s terminal\")"
+      ]
+    },
+    {
+      "name": "verify_objective_route_toast_clarity_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_onboarding_input_glyph_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_package_integrity_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_pause_difficulty_matrix_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_pause_difficulty_matrix_slice_pass] FAIL: pause menu must mirror theme settings and expose grouped information architecture labels: missing CodeRescueUI::Theme().bReducedMotion ? 4.0f : 10.0f, BALANCE: DIFFICULTY"
+      ]
+    },
+    {
+      "name": "verify_pedagogy_slice_pass_2026_07_04b.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_persistent_learning_debrief_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_persistent_learning_debrief_slice_pass] FAIL: bypass terminal flow must persist an assisted learning debrief: missing Bypass kit opened the survivor route"
+      ]
+    },
+    {
+      "name": "verify_physics_lane_combat_encounter_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_physics_lane_combat_encounter_slice_pass] FAIL: encounter zombies must be sandbox-gated, save-aware, variant-aware, and visibly marked: missing NeutralizedZombieIds.Contains(ZombieId)"
+      ]
+    },
+    {
+      "name": "verify_physics_promotion_validation_contract_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_physics_promotion_validation_unreal.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_playable_operator_identity_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_player_first_person_animation_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_player_first_person_animation_slice_pass] FAIL: camera perspective changes must hide body and show arms only in first person: missing BodyMesh->SetVisibility(!bFirstPerson, true)"
+      ]
+    },
+    {
+      "name": "verify_png_not_black.py",
+      "status": "ENV_ONLY",
+      "reason": "harness-invoked: needs a CLI argument",
+      "detail": []
+    },
+    {
+      "name": "verify_production_presentation_camera_pass_2026_07_09.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_production_track_completion.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_protected_learning_zone_ai_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_radio_scan_rescue_beacon_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "- objective label must name the radio-scan phase, survivor ping, and rescue beacon: missing RADIO SCAN: %s TERMINAL"
+      ]
+    },
+    {
+      "name": "verify_reactive_threat_audio_music_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_regional_city_kit_identity_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_rescue_access_challenge_pause_pass_2026_07_10.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_rescue_extraction_presentation_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_retarget_control_rig_slots_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_route_guidance_drone_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_runtime_data_layer_migration_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_runtime_log_contracts.py",
+      "status": "ENV_ONLY",
+      "reason": "harness-invoked: needs a CLI argument",
+      "detail": []
+    },
+    {
+      "name": "verify_runtime_regression_evidence_2026_07_11.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_runtime_step_smoke_contracts.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_save_compatibility_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_save_slots_language_backup_ux_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_secondary_motion_signal_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_selected_language_terminal_flow_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_sequencer_intro_boss_reveal_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_settings_audio_accessibility_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_settings_color_vision_live_refresh_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_settings_color_vision_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_skill_tree_progression_clarity_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_squad_personality_tactical_readability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_standard_direct_pursuit_zombie_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_stealth_avoidance_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_subtitle_accessibility_live_refresh_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_surface_impact_physics_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_survivor_archetype_roster_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_survivor_gesture_readability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_survivor_intel_archive_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_survivor_intel_archive_slice_pass] FAIL: terminal archive summary must describe route, contact, lesson payoff, and resume continuity: missing Next step: follow the survivor marker"
+      ]
+    },
+    {
+      "name": "verify_survivor_intel_dossier_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_survivor_intel_dossier_slice_pass] FAIL: journal refresh must bind dossier status to terminal and survivor progress: missing BuildSurvivorIntelDossier(ActiveMission, GI), GI->SolvedTerminalIds.Contains(ActiveMission->TerminalId)"
+      ]
+    },
+    {
+      "name": "verify_survivor_rescue_dialogue_handoff_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_survivor_rescue_dialogue_handoff_slice_pass] FAIL: locked survivor line must name the terminal, concept, language, landmark, and story: missing Route is still locked"
+      ]
+    },
+    {
+      "name": "verify_tactical_gear_pickups_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_terminal_diegetic_restyle_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_terminal_diegetic_restyle_slice_pass] FAIL: terminal refresh must update language, toolchain, frame styling, and diagnostics state: missing SAFEHOUSE TERMINAL LINK, combat paused for coding",
+        "[verify_terminal_diegetic_restyle_slice_pass] FAIL: terminal actions must drive explicit diagnostics states: missing PASS | survivor intel uploaded"
+      ]
+    },
+    {
+      "name": "verify_terminal_language_track_ux_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_terminal_post_solve_debrief_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_terminal_post_solve_debrief_slice_pass] FAIL: validation flow must append debriefs while preserving existing reward/profile output: missing Intel Reward: survivor whereabouts uploaded"
+      ]
+    },
+    {
+      "name": "verify_terminal_practice_run_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_terminal_practice_run_slice_pass] FAIL: practice validation path must run the validator without persistent progression, rewards, or route reveal: missing No terminal solve, survivor route, ResearchPoints, coding score, attempts, streaks, survivor intel archive, or save profile were advanced."
+      ]
+    },
+    {
+      "name": "verify_terminal_reward_choice_kiosk_slice_pass.py",
+      "status": "PATTERN_STALE",
+      "reason": "assertion(s) failed",
+      "detail": [
+        "[verify_terminal_reward_choice_kiosk_slice_pass] FAIL: live validation success must unlock and surface the reward kiosk: missing Intel Reward: survivor whereabouts uploaded"
+      ]
+    },
+    {
+      "name": "verify_threat_audio_captions_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_threat_compass_hud_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_ui_declutter_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_ui_text_scale_settings_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_visualized_sound_cues_accessibility_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_weapon_quick_slot_armory_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_weather_lighting_identity_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_world_bible_lore_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_world_promotion_validation_contract_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_world_promotion_validation_unreal.py",
+      "status": "ENV_ONLY",
+      "reason": "needs in-editor Unreal Python (run on the Mac)",
+      "detail": []
+    },
+    {
+      "name": "verify_zombie_death_physics_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_zombie_family_variants_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_zombie_motion_readability_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    },
+    {
+      "name": "verify_zombie_physical_animation_hit_reaction_slice_pass.py",
+      "status": "PASS",
+      "reason": "",
+      "detail": []
+    }
+  ],
+  "drift": []
+}

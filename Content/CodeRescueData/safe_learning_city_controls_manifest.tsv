@@ -1,0 +1,13 @@
+track	system	implementation	review_note
+safe_learning	protected_coding_safehouse	SpawnProtectedCodingChallengeHub creates a tagged NoZombieLearningZone safehouse in the southwest learning district	Main campaign terminals now sit in a protected area instead of the zombie/combat route
+safe_learning	bonus_terminal_annex	SpawnSecretTerminalForCity places the binary-search bonus terminal in a protected annex	The previous far-city hidden terminal no longer forces coding inside zombie territory
+safe_learning	combat_pause	Opening a terminal pauses gameplay and closing/destructing the widget unpauses it	Code entry can be completed without zombie damage pressure
+curriculum	selected_language	SelectedLanguage is chosen from the main menu and applied to every terminal refresh	The campaign no longer combines every language inside every level
+curriculum	c_plus_cpp	ECodingLanguage includes CPlus and Cpp with clang++ validation and starter signatures	C, C+, and C++ are all available language tracks
+mission_flow	intel_reward	Successful terminal validation prints survivor-intel reward guidance	Solving code now reinforces the survivor-rescue purpose of the zombie routes
+world	city_landscape	SpawnMajorCityUrbanIdentityLayer adds street grids, sidewalks, storefronts, district labels, windows, signs, and city composition tags	Levels read more like major-city districts than open fields of objects
+combat	zombie_separation	Regular zombie spawns are clamped to the combat district away from the protected learning safehouse	Combat remains for survivor rescue after learning progress
+controls	camera_perspective	F1-F6 directly select camera perspectives while C/V/gamepad shoulder cycle them	Perspective switching is no longer blocked by number-key weapon slots
+controls	weapons	Number keys 1-0 quick-select the first ten weapon slots and wheel/brackets cycle the full arsenal	Tactical gear is immediately selectable during normal gameplay
+survivability	health_gauge	HUD adds themed health/stamina vitals with STABLE/LOW/CRITICAL state text and enemy damage is capped per hit	A single zombie interaction should not immediately kill a healthy player
+death_flow	retry_or_save	Death screen offers resume from language save, fresh language replay, save this language run and quit, and quit	The user has clear recovery choices after death without losing the start-screen language resume contract

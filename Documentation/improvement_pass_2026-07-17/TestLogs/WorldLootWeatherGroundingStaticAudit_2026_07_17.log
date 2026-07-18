@@ -1,0 +1,17 @@
+[PASS] Blender deterministically authors all 13 ground-origin V6 assets
+[PASS] Unreal import is idempotent and persists weather-instancing metadata
+[PASS] Unreal inspection validates render data, grounded bounds, and weather instancing
+[PASS] all 13 Blender GLB sources exist (missing=[])
+[PASS] all 13 imported Unreal meshes exist (missing=[])
+[PASS] pickups resolve to six authored symbol-first presentation families
+[PASS] loot packaging is icon-first and derives ground clearance from mesh bounds
+[PASS] character grounding audits both capsule contact and visible mesh feet
+[PASS] zombie and companion animation bases are recached after grounding
+[PASS] survivor companions receive authored responder equipment
+[PASS] zombie readability uses attached nonblocking ground rings instead of enclosure cubes
+[PASS] the first level includes three readable, functional authored districts
+[PASS] wind, rain, fog, traction, and deterministic visual populations are implemented
+[PASS] weather visibility affects AI without repeated console-object searches
+[PASS] the single-session gate requires every new and existing subsystem
+
+[WorldLootWeatherGroundingStaticAudit] COMPLETE PASS checks=15 assets=13

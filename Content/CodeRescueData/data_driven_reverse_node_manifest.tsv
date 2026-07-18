@@ -1,0 +1,7 @@
+area	status	files	notes
+curriculum	implemented	Content/CodeRescueData/curriculum_database.json	Five tier-5 string/reverse challenges cover Java, C, C+, C++, Python, and MATLAB through explicit reverseString/reverse_string starter keys.
+terminal_open	implemented	Source/CodeRescueUnreal/CodeTerminalWidget.cpp	Reverse terminals now select data-driven string lessons and show teach/apply payloads from the curriculum database.
+validation_loop	implemented	Source/CodeRescueUnreal/CodeTerminalWidget.cpp	Reverse attempts use telemetry, post-solve reinforcement, and never-wall-block scaffold flow shared with filter and boolean nodes.
+world_response	implemented	Source/CodeRescueUnreal/CodeRescueGameMode.cpp	Solved reverse routes spawn the intrinsic solve effect plus a ReverseCodeWorldEffect glyph/vault structure.
+ux_safety	implemented	Source/CodeRescueUnreal/CodeRescueGameMode.cpp	Reverse-node props are tagged PhysicsSafeNonBlocking and keep traversal open.
+review_gate	implemented	Scripts/verify_learning_vertical_slice_pass.py	Static verifier checks reverse data coverage, runtime reverse tokens, solved-route tags, docs, and manifest.

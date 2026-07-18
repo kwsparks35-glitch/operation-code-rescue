@@ -1,0 +1,1309 @@
+﻿Log file open, 07/17/26 17:23:40
+LogInit: Display: Running engine for game: CodeRescueUnreal
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogCore: No trace connection. Tracing to in-memory cache.
+LogTrace: Finished trace initialization.
+LogTrace: Display: Control listening on port 34891
+LogCsvProfiler: Display: Metadata set : platform="Mac"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="macOS 26.5.2 25F84"
+LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M4 Pro"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/CodeRescueUnreal.uproject -game -windowed -ResX=1280 -ResY=720 -NoRadioVoice -NoSound -Unattended -NoSplash -VisualReviewStart -FirstLevelIntegratedAcceptanceAudit -ABSLOG=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/FirstLevelIntegratedWorldLootWeatherCleanAcceptance_2026_07_17.log""
+LogCsvProfiler: Display: Metadata set : loginid="2af10eca6448b8345865ed81f15fab2f"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.191224
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Mac-34E7576458468AACF83800B79CF3BD55
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Looking for build plugins target receipt
+LogConfig: Display: Loading VulkanPC ini files took 0.01 seconds
+LogPluginManager: Found target receipt: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogConfig: Display: Loading LinuxArm64 ini files took 0.02 seconds
+LogConfig: Display: Loading IOS ini files took 0.01 seconds
+LogPluginManager: Found target receipt: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Binaries/Mac/CodeRescueUnrealEditor.target
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin PCG
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogConfig: Display: Loading Mac ini files took 0.01 seconds
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogConfig: Display: Loading Unix ini files took 0.01 seconds
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GPUReshape
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogConfig: Display: Loading TVOS ini files took 0.01 seconds
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin GeometryScripting
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogConfig: Display: Loading Linux ini files took 0.02 seconds
+LogConfig: Display: Loading Android ini files took 0.01 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.02 seconds
+LogConfig: Display: Loading Windows ini files took 0.02 seconds
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogEOSShared: Loaded "libEOSSDK-Mac-Shipping.dylib"
+LogEOSShared: Initialize Initializing EOSSDK Version:1.19.0.3-49960398
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=MacEditor
+LogInit: MachineId=2af10eca6448b8345865ed81f15fab2f
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: macOS 26.5.2 (25F84), CPU: Apple M4 Pro, GPU: Apple M4 Pro
+LogInit: CPU Model ID: 0, microcode revision: 0
+LogInit: Compiled (64-bit): Mar  6 2026 07:40:56
+LogInit: Architecture: arm64
+LogInit: Compiled with Clang: 16.0.0 (clang-1600.0.26.4)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line: -windowed -ResX=1280 -ResY=720 -NoRadioVoice -NoSound -Unattended -NoSplash -VisualReviewStart -FirstLevelIntegratedAcceptanceAudit -ABSLOG=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/FirstLevelIntegratedWorldLootWeatherCleanAcceptance_2026_07_17.log -game
+LogInit: Base Directory: /Users/Shared/UE_5.7/Engine/Binaries/Mac/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:300000]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:2]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.07.18-01.23.40:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.07.18-01.23.40:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.07.18-01.23.40:355][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.07.18-01.23.40:356][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.07.18-01.23.40:360][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.07.18-01.23.40:360][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.07.18-01.23.40:361][  0]LogInit: Selected Device Profile: [MacEditor]
+[2026.07.18-01.23.40:361][  0]LogInit: Selected Device Profile: [MacEditor]
+[2026.07.18-01.23.40:361][  0]LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.07.18-01.23.40:361][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Mac]
+[2026.07.18-01.23.40:361][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.07.18-01.23.40:361][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.ZeroInitialise:1 -> 1]]
+[2026.07.18-01.23.40:361][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.BoundsChecking:1 -> 1]]
+[2026.07.18-01.23.40:361][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.07.18-01.23.40:361][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [Startup_Mac] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: CVar [[r.SceneCulling.ExplicitCellBounds:1]] deferred - dummy variable created
+[2026.07.18-01.23.40:361][  0]LogConfig: CVar [[r.GPUStatsEnabled:0]] deferred - dummy variable created
+[2026.07.18-01.23.40:361][  0]LogConfig: Set CVar [[Slate.NoAnimationOnTabForegroundedEvent:1]]
+[2026.07.18-01.23.40:361][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Config/MacEditor/Editor.ini]
+[2026.07.18-01.23.40:361][  0]LogInit: macOS 26.5.2 (25F84)
+[2026.07.18-01.23.40:361][  0]LogInit: Model: Mac16,8
+[2026.07.18-01.23.40:361][  0]LogInit: CPU: Apple M4 Pro
+[2026.07.18-01.23.40:361][  0]LogInit: CPU Page size=16384, Cores=14, HT=14
+[2026.07.18-01.23.40:361][  0]LogInit: Computer: Kenneths-MacBook-Pro.local
+[2026.07.18-01.23.40:361][  0]LogInit: User: labcomputer
+[2026.07.18-01.23.40:361][  0]LogInit: High frequency timer resolution =24.000000 MHz
+[2026.07.18-01.23.40:361][  0]LogInit: Power Source: AC Power
+[2026.07.18-01.23.40:361][  0]LogInit: Xcode developer folder path: /Applications/Xcode.app/Contents/Developer, version 26.6.0
+[2026.07.18-01.23.40:361][  0]LogInit: Memory total: Physical=48.0GB (48GB approx) Pagefile=0.0GB Virtual=48.0GB
+[2026.07.18-01.23.40:361][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.07.18-01.23.40:362][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.07.18-01.23.40:362][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.07.18-01.23.40:362][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.07.18-01.23.40:362][  0]LogInit: Using OS detected language (en-US).
+[2026.07.18-01.23.40:362][  0]LogInit: Using OS detected locale (en-US).
+[2026.07.18-01.23.40:363][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.07.18-01.23.40:655][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.07.18-01.23.40:657][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2026.07.18-01.23.40:657][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.07.18-01.23.40:841][  0]LogRHI: Texture pool is 25804 MB (70% of 36864 MB)
+[2026.07.18-01.23.40:841][  0]LogMetal: Display:       Vendor ID: 4203
+[2026.07.18-01.23.40:841][  0]LogMetal: Display:       Device ID: 875640394
+[2026.07.18-01.23.40:841][  0]LogMetal: Display:       VRAM (MB): 36864
+[2026.07.18-01.23.40:841][  0]LogMac: Attached monitors:
+[2026.07.18-01.23.40:841][  0]LogMac: Screen: Built-in Retina Display, Resolution: 1512x982, Points: 1512x982, WorkArea: (0, 0) -> (1448, 948), Scale: 2.00
+[2026.07.18-01.23.40:841][  0]LogMac: Found 1 attached monitors.
+[2026.07.18-01.23.40:849][  0]LogRHI: RHI Adapter Info:
+[2026.07.18-01.23.40:849][  0]LogRHI:             Name: Apple M4 Pro
+[2026.07.18-01.23.40:849][  0]LogRHI:   Driver Version:  (internal:351.2, unified:351.2)
+[2026.07.18-01.23.40:849][  0]LogRHI:      Driver Date: 1-1-1970
+[2026.07.18-01.23.40:852][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.07.18-01.23.40:853][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Metal"
+[2026.07.18-01.23.40:853][  0]LogCsvProfiler: Display: Metadata set : rhiname="Metal"
+[2026.07.18-01.23.40:853][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.07.18-01.23.40:853][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+[2026.07.18-01.23.40:853][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.07.18-01.23.40:905][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.07.18-01.23.40:905][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.07.18-01.23.40:905][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.07.18-01.23.40:905][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.07.18-01.23.40:905][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.07.18-01.23.40:905][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.07.18-01.23.40:905][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.14
+[2026.07.18-01.23.40:905][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.14.dylib
+[2026.07.18-01.23.40:912][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.5.dylib
+[2026.07.18-01.23.40:919][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.07.18-01.23.40:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.07.18-01.23.40:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2026.07.18-01.23.40:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.07.18-01.23.40:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.07.18-01.23.40:949][  0]LogTargetPlatformManager: Display: Building Assets For MacEditor
+[2026.07.18-01.23.40:998][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_SM5 from hinted modules, loading all potential format modules to find it
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2026.07.18-01.23.41:047][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2026.07.18-01.23.41:054][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.07.18-01.23.41:054][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.07.18-01.23.41:054][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.07.18-01.23.41:054][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.07.18-01.23.41:054][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.07.18-01.23.41:062][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.07.18-01.23.41:062][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.07.18-01.23.41:062][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.07.18-01.23.41:062][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.07.18-01.23.41:062][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.07.18-01.23.41:062][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2026.07.18-01.23.41:062][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2026.07.18-01.23.41:062][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2026.07.18-01.23.41:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.07.18-01.23.41:062][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.07.18-01.23.41:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.07.18-01.23.41:062][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.07.18-01.23.41:324][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2469 MiB)
+[2026.07.18-01.23.41:324][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.07.18-01.23.41:324][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.07.18-01.23.41:324][  0]LogZenServiceInstance: Found Zen config default=/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data
+[2026.07.18-01.23.41:324][  0]LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+[2026.07.18-01.23.41:831][  0]LogZenServiceInstance: Display: Launching zen utility '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zen service status'.
+[2026.07.18-01.23.42:338][  0]LogZenServiceInstance: Display: Read zen version cache file from '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/5.7/Saved/Zen/zen.version', version: '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+[2026.07.18-01.23.42:338][  0]LogZenServiceInstance: InTree version at '/Users/Shared/UE_5.7/Engine/Binaries/Mac/zenserver' is '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+[2026.07.18-01.23.42:338][  0]LogZenServiceInstance: Display: Read zen version cache file from '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zen.version', version: '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+[2026.07.18-01.23.42:338][  0]LogZenServiceInstance: Installed version at '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver' is '5.7.6-202510061211-macosx-arm64-release-9a1ebb9'
+[2026.07.18-01.23.42:338][  0]LogZenServiceInstance: Display: Installed service at '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver' is up to date
+[2026.07.18-01.23.42:339][  0]LogZenServiceInstance: No current process using the data dir found, launching a new instance
+[2026.07.18-01.23.42:339][  0]LogZenServiceInstance: Display: Launching executable '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver', working dir '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install', data dir '/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "/Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --http-forceloopback --owner-pid 6307  --child-id Zen_6307_Startup --detach'
+[2026.07.18-01.23.42:428][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.07.18-01.23.42:428][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.090 seconds
+[2026.07.18-01.23.42:429][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc status: OK!.
+[2026.07.18-01.23.42:431][  0]LogDerivedDataCache: /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.00 seconds.
+[2026.07.18-01.23.42:431][  0]LogDerivedDataCache: Display: /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.01ms. RandomReadSpeed=2370.38MBs, RandomWriteSpeed=435.80MBs. Assigned SpeedClass 'Local'
+[2026.07.18-01.23.42:431][  0]LogDerivedDataCache: Local: Using data cache path /Users/labcomputer/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2026.07.18-01.23.42:431][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2026.07.18-01.23.42:431][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2026.07.18-01.23.42:432][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2026.07.18-01.23.42:432][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.07.18-01.23.42:432][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2026.07.18-01.23.42:432][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2026.07.18-01.23.42:432][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/Shaders/WorkingDirectory/6307/).
+[2026.07.18-01.23.42:432][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/Shaders/tmp/B301448A4341A166E0D7A18D239B718A/'.
+[2026.07.18-01.23.42:432][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.07.18-01.23.42:432][  0]LogShaderCompilers: Display: Using 7 local workers for shader compilation
+[2026.07.18-01.23.42:432][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ShaderAutogen/METAL_SM6/AutogenShaderHeaders.ush
+[2026.07.18-01.23.42:432][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.07.18-01.23.43:483][  0]LogSlate: Using FreeType 2.10.0
+[2026.07.18-01.23.43:483][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.07.18-01.23.43:586][  0]LogInit: Using OS detected language (en-US).
+[2026.07.18-01.23.43:586][  0]LogInit: Using OS detected locale (en-US).
+[2026.07.18-01.23.43:586][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.07.18-01.23.43:586][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2026.07.18-01.23.43:586][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.07.18-01.23.43:586][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.07.18-01.23.43:588][  0]LogAssetRegistry: FAssetRegistry took 0.0003 seconds to start up
+[2026.07.18-01.23.43:789][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.07.18-01.23.43:789][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.07.18-01.23.43:813][  0]LogInit: Selected Device Profile: [MacEditor]
+[2026.07.18-01.23.43:813][  0]LogDeviceProfileManager: Active device profile: [0x43007e700][0x425aceb00 82] MacEditor
+[2026.07.18-01.23.43:813][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="MacEditor"
+[2026.07.18-01.23.43:815][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.18-01.23.43:816][  0]LogPackageLocalizationCache: Processed 78 localized package path(s) for 1 prioritized culture(s) in 0.001084 seconds
+[2026.07.18-01.23.43:817][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.07.18-01.23.43:817][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.07.18-01.23.43:817][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.07.18-01.23.43:826][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:826][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2026.07.18-01.23.43:826][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:826][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:827][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2026.07.18-01.23.43:827][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:827][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:829][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:830][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:830][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:831][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2026.07.18-01.23.43:831][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:858][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2026.07.18-01.23.43:858][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:869][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2026.07.18-01.23.43:869][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:877][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2026.07.18-01.23.43:877][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2026.07.18-01.23.43:951][  0]LogMeshReduction: Display: HLOD mesh reduction module (r.ProxyLODMeshReductionModule) set to "ProxyLODMeshReduction" which doesn't exist.
+[2026.07.18-01.23.43:959][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.07.18-01.23.43:959][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.07.18-01.23.43:959][  0]LogMeshReduction: Display: No automatic mesh merging module available
+[2026.07.18-01.23.43:959][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.07.18-01.23.43:959][  0]LogMeshMerging: No automatic mesh merging module available
+[2026.07.18-01.23.43:959][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.07.18-01.23.44:183][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2026.07.18-01.23.44:197][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/ShaderAutogen/METAL_SM5/AutogenShaderHeaders.ush
+[2026.07.18-01.23.44:197][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.07.18-01.23.44:197][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.07.18-01.23.44:197][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.07.18-01.23.44:296][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.07.18-01.23.44:297][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.235 ms
+[2026.07.18-01.23.44:351][  0]LogMoviePlayer: FAVMoviePlayer ctor...
+[2026.07.18-01.23.44:351][  0]LogMoviePlayer: Initializing movie player
+[2026.07.18-01.23.44:352][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.07.18-01.23.44:352][  0]LogInit: XR: MultiViewport is Disabled
+[2026.07.18-01.23.44:352][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.07.18-01.23.44:364][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.07.18-01.23.44:588][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 1BFF6B0AC46143A68000000000004300 | Instance: 55A488CAF041582CB80E6BBE5EFC14A3 (Kenneths-MacBook-Pro.local-6307).
+[2026.07.18-01.23.44:611][  0]LogCollectionManager: Loaded 0 collections in 0.002257 seconds
+[2026.07.18-01.23.44:611][  0]LogFileCache: Scanning file cache for directory '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Collections/' took 0.00s
+[2026.07.18-01.23.44:613][  0]LogFileCache: Scanning file cache for directory '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/Developers/labcomputer/Collections/' took 0.00s
+[2026.07.18-01.23.44:615][  0]LogFileCache: Scanning file cache for directory '/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/Collections/' took 0.00s
+[2026.07.18-01.23.44:617][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   DirectML:  no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   D3D12:     no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   NPU:       no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT: Interface availability:
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   GPU: no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   RDG: no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT:   NPU: no
+[2026.07.18-01.23.44:705][  0]LogNNERuntimeORT: NNERuntimeORTDml can only cook!
+[2026.07.18-01.23.45:189][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.07.18-01.23.45:189][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.07.18-01.23.45:191][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.07.18-01.23.45:404][  0]LogConfig: Applying CVar settings from Section [/Script/PCG.PCGEngineSettings] File [Engine]
+[2026.07.18-01.23.45:641][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.18-01.23.45:642][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.18-01.23.45:893][  0]SourceControl: Revision control is disabled
+[2026.07.18-01.23.47:215][  0]LogUsd: Attempted to call a static function from UnrealUSDWrapper before the module is actually loaded! The module will be loaded now, but not all static functions have this check. In general, please ensure an Unreal module is loaded before calling any of its static functions, for example by calling 'FModuleManager::LoadModuleChecked<IUnrealUSDWrapperModule>("UnrealUSDWrapper");' beforehand.
+[2026.07.18-01.23.47:256][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.07.18-01.23.47:333][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.07.18-01.23.47:536][  0]LogUObjectArray: 45746 objects as part of root set at end of initial load.
+[2026.07.18-01.23.47:536][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.07.18-01.23.47:649][  0]LogEngine: Initializing Engine...
+[2026.07.18-01.23.47:747][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.12.dylib
+[2026.07.18-01.23.47:769][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.07.18-01.23.47:769][  0]LogInit: Texture streaming: Enabled
+[2026.07.18-01.23.47:805][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.07.18-01.23.47:807][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.07.18-01.23.47:812][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.18-01.23.47:812][  0]LogInit: Display: Game Engine Initialized.
+[2026.07.18-01.23.47:814][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.07.18-01.23.47:814][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2026.07.18-01.23.47:815][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2026.07.18-01.23.47:815][  0]LogPython: Using Python 3.11.8
+[2026.07.18-01.23.47:972][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.07.18-01.23.48:334][  0]LogInit: Display: Starting Game.
+[2026.07.18-01.23.48:334][  0]LogGlobalStatus: Browse Started Browse: "/Engine/Maps/Entry?Name=Player"
+[2026.07.18-01.23.48:334][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
+[2026.07.18-01.23.48:334][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
+[2026.07.18-01.23.48:334][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.07.18-01.23.48:334][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.07.18-01.23.48:334][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.18-01.23.48:347][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2026.07.18-01.23.48:367][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Entry
+[2026.07.18-01.23.48:370][  0]LogLoad: Game class is 'CodeRescueGameMode'
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Barricade_Jersey_24/StaticMeshes/SM_Barricade_Jersey_24.SM_Barricade_Jersey_24 being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Building_Corner_9m/StaticMeshes/SM_Building_Corner_9m.SM_Building_Corner_9m being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Extraction_Arch_5m/StaticMeshes/SM_Extraction_Arch_5m.SM_Extraction_Arch_5m being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Facade_Storefront_6x45/StaticMeshes/SM_Facade_Storefront_6x45.SM_Facade_Storefront_6x45 being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Facade_Windows_6x9/StaticMeshes/SM_Facade_Windows_6x9.SM_Facade_Windows_6x9 being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Lamp_Post_4m/StaticMeshes/SM_Lamp_Post_4m.SM_Lamp_Post_4m being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Roof_Parapet_6m/StaticMeshes/SM_Roof_Parapet_6m.SM_Roof_Parapet_6m being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Rubble_Pile/StaticMeshes/SM_Rubble_Pile.SM_Rubble_Pile being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Street_Planter/StaticMeshes/SM_Street_Planter.SM_Street_Planter being ready before playing
+[2026.07.18-01.23.48:373][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/CityKit/SM_Terminal_Kiosk/StaticMeshes/SM_Terminal_Kiosk.SM_Terminal_Kiosk being ready before playing
+[2026.07.18-01.23.48:378][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 0) at 2026.07.17-17.23.48
+[2026.07.18-01.23.48:379][  0]LogWorld: Bringing up level for play took: 0.000772
+[2026.07.18-01.23.48:381][  0]r.DynamicGlobalIlluminationMethod = "0"
+[2026.07.18-01.23.48:381][  0]r.ReflectionMethod = "0"
+[2026.07.18-01.23.48:381][  0]r.DefaultFeature.AutoExposure = "1"
+[2026.07.18-01.23.48:381][  0]r.EyeAdaptationQuality = "2"
+[2026.07.18-01.23.48:381][  0]r.DefaultFeature.Bloom = "1"
+[2026.07.18-01.23.48:382][  0]r.Shadow.Virtual.Enable = "0"
+[2026.07.18-01.23.48:388][  0]LogTemp: Display: [CodeRescueUSCityRealization] 01 New York, NY active terrain='ForestHills' clouds='Overcast' grade='NeutralMetro' facades='GlassSteel' roads='NumberedGrid' homes='BrownstoneRow' wardrobe_accessory='Scarf'
+[2026.07.18-01.23.48:391][  0]LogTemp: Display: [CodeRescueArenaConfinement] 01 New York, NY mission-safe bounds include buildings, survivor, and extraction; catch floor, four edge walls, beacons, and Backspace recovery guidance active.
+[2026.07.18-01.23.48:394][  0]LogTemp: Display: [CityBlockV3] v3 street kit ACTIVE
+[2026.07.18-01.23.48:468][  0]LogTemp: Display: [Streetscape] 01 New York, NY: 54 spawned, 0 failed
+[2026.07.18-01.23.48:503][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/CodeRescueArt/CityKitV3/BuildingBrownstoneV3/BuildingBrownstoneV3/StaticMeshes/BuildingBrownstoneV3) ...
+[2026.07.18-01.23.48:562][  0]LogTemp: Display: [CityBlockV3] 01 New York, NY: 36 spawned, 0 failed
+[2026.07.18-01.23.48:578][  0]LogTemp: Display: [FirstLevelCombatArtV4] 01 New York, NY spawned 2 authored structures/cover; later levels unchanged
+[2026.07.18-01.23.48:583][  0]LogTemp: Display: [FirstLevelAccessV5] building=AccessibleMarketV5 collision_boxes=13 doorway_clear_width=230cm visual_hull=disabled
+[2026.07.18-01.23.48:585][  0]LogTemp: Display: [DoorActor] 01 New York, NY AccessibleMarketV5 doorway leaf spawned (left hinge)
+[2026.07.18-01.23.48:585][  0]LogTemp: Display: [DoorActor] 01 New York, NY AccessibleMarketV5 doorway leaf spawned (right hinge)
+[2026.07.18-01.23.48:593][  0]LogTemp: Display: [FirstLevelAccessV5] building=AccessibleClinicV5 collision_boxes=12 doorway_clear_width=230cm visual_hull=disabled
+[2026.07.18-01.23.48:593][  0]LogTemp: Display: [DoorActor] 01 New York, NY AccessibleClinicV5 doorway leaf spawned (left hinge)
+[2026.07.18-01.23.48:593][  0]LogTemp: Display: [DoorActor] 01 New York, NY AccessibleClinicV5 doorway leaf spawned (right hinge)
+[2026.07.18-01.23.48:599][  0]LogTemp: Display: [FirstLevelAccessV5] building=OpenStreetCafeV5 collision_boxes=17 doorway_clear_width=230cm visual_hull=disabled
+[2026.07.18-01.23.48:599][  0]LogTemp: Display: [DoorActor] 01 New York, NY OpenStreetCafeV5 doorway leaf spawned (left hinge)
+[2026.07.18-01.23.48:600][  0]LogTemp: Display: [DoorActor] 01 New York, NY OpenStreetCafeV5 doorway leaf spawned (right hinge)
+[2026.07.18-01.23.48:600][  0]LogTemp: Display: [FirstLevelAccessV5] 01 New York, NY buildings=3 open_doorways=3 functional_pickups=3 canonical_ground_z=0.0
+[2026.07.18-01.23.48:600][  0]LogTemp: Display: [CityMood] fog=ok post=ok
+[2026.07.18-01.23.48:604][  0]LogTemp: Display: [NightSky] dome=ok moon=ok
+[2026.07.18-01.23.48:604][  0]LogTemp: Display: [ProductionSky] 01 New York, NY uses fog, atmosphere, sun, and post processing; geometric cloud plates omitted.
+[2026.07.18-01.23.48:604][  0]LogTemp: Display: [CodeRescueUSCityRealization] 01 New York, NY sky family clouds='Overcast' grade='NeutralMetro' fog=0.016 sunday=(0.94 0.94 0.90)
+[2026.07.18-01.23.48:985][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn) ...
+[2026.07.18-01.23.49:237][  0]LogTemp: Display: [ProductionRoute] 01 New York, NY uses HUD objective distance, focus beacons, and the guidance drone; prototype pads and pillars omitted.
+[2026.07.18-01.23.49:239][  0]LogTemp: Display: [CodeRescueSafeLearning] 01 New York, NY spawned 10 protected coding stations using selected Java track; all ten persist before survivor clearance.
+[2026.07.18-01.23.49:239][  0]LogTemp: Display: [CodeRescueCaseFiles] 001 01 New York, NY spawned collectible case files with selected-language save persistence.
+[2026.07.18-01.23.49:239][  0]LogTemp: Display: [ProductionWorld] 01 New York, NY curated=1 development_showcases=0
+[2026.07.18-01.23.49:261][  0]LogTemp: Display: [SurvivorV3] SurvivorActor_0 wears SurvivorMayaV3 (idle=1 wave=1)
+[2026.07.18-01.23.49:268][  0]LogTemp: Display: [CharacterPresentation] Survivor 'Civilian Survivor' uses prototype Maya rig.
+[2026.07.18-01.23.49:473][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_0 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:477][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_0 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:477][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_0 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:602][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_2 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:605][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_2 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:605][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_2 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:669][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.8.dylib
+[2026.07.18-01.23.49:719][  0]LogTemp: Display: [CodeRescueEncounterDirector] 01 New York, NY spawned authored AI director layer with anchor, flanker, pressure, and sentinel roles. objective='terminal route locked' adaptive_pressure=0.90 relief=false difficulty='Normal'.
+[2026.07.18-01.23.49:764][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Zombie_F01_01) ...
+[2026.07.18-01.23.49:802][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_6 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:805][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_6 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:805][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_6 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:811][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_8 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:811][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_8 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:811][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_8 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:846][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_17 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:846][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_17 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:846][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_17 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:870][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_22 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:871][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_22 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:871][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_22 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:871][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_23 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:871][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_23 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:871][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_23 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:902][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_31 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:902][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_31 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:902][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_31 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:902][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_32 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:902][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_32 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:902][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_32 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:903][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_36 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:903][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_36 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:903][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_36 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:928][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_42 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:928][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_42 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:928][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_42 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:945][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_46 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:945][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_46 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:945][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_46 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:970][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_51 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:970][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_51 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:970][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_51 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.49:976][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_55 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.49:976][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_55 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.49:976][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_55 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:008][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_60 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:008][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_60 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:008][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_60 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:009][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_61 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:009][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_61 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:009][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_61 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:035][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_65 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:035][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_65 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:035][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_65 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:071][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SK_Zombie_F01_02) ...
+[2026.07.18-01.23.50:106][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_71 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:106][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_71 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:106][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_71 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:128][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_75 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:128][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_75 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:128][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_75 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:128][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_76 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:128][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_76 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:128][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_76 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:150][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_85 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:150][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_85 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:150][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_85 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:172][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_89 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:172][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_89 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:172][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_89 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:205][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_99 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:205][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_99 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:205][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_99 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:254][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_114 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:254][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_114 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:254][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_114 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:288][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_122 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.18-01.23.50:288][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_122 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.18-01.23.50:288][  0]LogTemp: Display: [ZombieV3] CodeZombieActor_122 authored physics asset kept (16 bodies)
+[2026.07.18-01.23.50:299][  0]LogTemp: Display: [CodeRescueExtractionSetPiece] 001 01 New York, NY spawned expanded extraction set piece 'ROOFTOP LIFT' around helipad for New York Survivor Team.
+[2026.07.18-01.23.50:358][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ModernBridges/Meshes/ModernBridges/SM_modern_bridge_001) ...
+[2026.07.18-01.23.50:488][  0]LogTemp: Display: [WeatherPhysics] phase=COLD_RAIN city=0 rain=1 wind_visual=1 wind_strength=1.35 fog=1 visibility_scale=0.84 traction_scale=0.88 audit=0
+[2026.07.18-01.23.50:493][  0]LogTemp: Display: [CodeRescueEliteWardenMiniBoss] 01 New York, NY state='WARDEN DEFEATED' intel_unlocked=false boss_defeated=true spawned_minibosses=0 terminal='new_york_ny_sum'
+[2026.07.18-01.23.50:493][  0]LogTemp: Display: [CodeRescueSecondaryMotion] 01 New York, NY spawned procedural cloth-ready rescue signals for safehouse, helipad, route, and survivor camp.
+[2026.07.18-01.23.50:513][  0]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_0 wears SurvivorKennyV3 (idle=1)
+[2026.07.18-01.23.50:519][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.18-01.23.50:520][  0]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_1 wears SurvivorKennyV3 (idle=1)
+[2026.07.18-01.23.50:520][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.18-01.23.50:520][  0]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_2 wears SurvivorKennyV3 (idle=1)
+[2026.07.18-01.23.50:520][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.18-01.23.50:521][  0]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_3 wears SurvivorKennyV3 (idle=1)
+[2026.07.18-01.23.50:521][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.18-01.23.50:522][  0]LogTemp: Display: [CodeRescueEntryAccess] 01 New York, NY cleared 0 static blockers from access points and froze 0 physics components. 
+[2026.07.18-01.23.50:522][  0]LogTemp: Display: [ProductionPresentation] 01 New York, NY hidden labels=0 review actors=99 arrival blockers=5; gameplay structures retained.
+[2026.07.18-01.23.50:558][  0]LogTemp: Display: [PurposeDistrictAudit] COMPLETE PASS landmarks=3/3 rewards=3/3 open_space=3/3 depot_modules=21/21 depot_icon_stock=6/6 physical_symbols=3 paragraph_signs=0 canonical_ground=1
+[2026.07.18-01.23.50:558][  0]LogTemp: Display: [CityGroundContinuity] COMPLETE PASS city=0 canonical_floor=1 floor_top=-0.00 flattened_regions=3 remaining_elevated=0
+[2026.07.18-01.23.50:559][  0]LogTemp: Display: [CanopyTrim] 01 New York, NY: 0 overhead display strips hidden
+[2026.07.18-01.23.50:559][  0]LogTemp: Display: [PadCanopy] 01 New York, NY: 0 airborne meshes over the entry pad hidden
+[2026.07.18-01.23.50:560][  0]LogTemp: Display: [CharacterGroundingAudit] COMPLETE PASS city=0 label=01 New York, NY characters=134 regrounded=7 floating_after=0 visible_feet=129/129 min_ground_z=-18.0
+[2026.07.18-01.23.50:560][  0]LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=0 renewable_alive=124 regular_alive=120 director_alive=4 persistent_alive=0 saved_renewable_deaths_ignored=130 minimum=6 sandbox=0
+[2026.07.18-01.23.50:560][  0]LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=0 renewable_alive=124 regular_alive=120 director_alive=4 persistent_alive=0 saved_renewable_deaths_ignored=130 minimum=6 sandbox=0
+[2026.07.18-01.23.50:560][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.07.18-01.23.50:741][  0]LogSkinnedAsset: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny) ...
+[2026.07.18-01.23.50:754][  0]LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+[2026.07.18-01.23.50:754][  0]LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+[2026.07.18-01.23.50:786][  0]LogTemp: Display: [CharacterV4] HERO presentation layer active = SurvivorKennyV4 (idle=1 walk=1 run=1)
+[2026.07.18-01.23.50:786][  0]LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+[2026.07.18-01.23.50:788][  0]LogTemp: Display: [HeldWeapon] body weapon 'PistolV4' attached via hand_R target_length_cm=28.0 local_longest=21.40 absolute_scale=1.30841 casts_shadow=0
+[2026.07.18-01.23.50:788][  0]LogLoad: Took 2.454169 seconds to LoadMap(/Engine/Maps/Entry)
+[2026.07.18-01.23.50:788][  0]LogGlobalStatus: LoadMap Load map complete /Engine/Maps/Entry
+[2026.07.18-01.23.50:808][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.18-01.23.51:046][  0]LogAssetRegistry: Display: Asset registry cache read as 86.9 MiB from ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/CachedAssetRegistry_0.bin
+[2026.07.18-01.23.51:047][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.063s loading caches ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Intermediate/CachedAssetRegistry_*.bin.
+[2026.07.18-01.23.51:094][  0]LogAssetRegistry: AssetRegistryGather time 0.1041s: AssetDataDiscovery 0.0000s, AssetDataGather 0.0714s, StoreResults 0.0327s. Wall time 7.5070s.
+	NumCachedDirectories 0. NumUncachedDirectories 2689. NumCachedFiles 10978. NumUncachedFiles 0.
+	BackgroundTickInterruptions 0.
+[2026.07.18-01.23.51:096][  0]LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+[2026.07.18-01.23.51:099][  0]LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: -0.675s
+[2026.07.18-01.23.51:150][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.07.18-01.23.51:150][  0]LogLoad: (Engine Initialization) Total time: 11.37 seconds
+[2026.07.18-01.23.51:150][  0]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[2026.07.18-01.23.51:155][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.07.18-01.23.51:155][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV5/AccessibleMarketV5/AccessibleMarketV5/StaticMeshes/AccessibleMarketV5.AccessibleMarketV5 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldKitV4/SM_Door_Steel/SM_Door_Steel/StaticMeshes/SM_Door_Steel.SM_Door_Steel being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/PickupAmmoV6/PickupAmmoV6/StaticMeshes/PickupAmmoV6.PickupAmmoV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV5/AccessibleClinicV5/AccessibleClinicV5/StaticMeshes/AccessibleClinicV5.AccessibleClinicV5 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV5/OpenStreetCafeV5/OpenStreetCafeV5/StaticMeshes/OpenStreetCafeV5.OpenStreetCafeV5 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV5/PointStarFieldV5/PointStarFieldV5/StaticMeshes/PointStarFieldV5.PointStarFieldV5 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV5/MoonDetailedV5/MoonDetailedV5/StaticMeshes/MoonDetailedV5.MoonDetailedV5 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/ResponderPackV6/ResponderPackV6/StaticMeshes/ResponderPackV6.ResponderPackV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/ThreatGroundRingV6/ThreatGroundRingV6/StaticMeshes/ThreatGroundRingV6.ThreatGroundRingV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/PickupMedicalV6/PickupMedicalV6/StaticMeshes/PickupMedicalV6.PickupMedicalV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/PickupArmorV6/PickupArmorV6/StaticMeshes/PickupArmorV6.PickupArmorV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/PickupTechV6/PickupTechV6/StaticMeshes/PickupTechV6.PickupTechV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/PickupSalvageV6/PickupSalvageV6/StaticMeshes/PickupSalvageV6.PickupSalvageV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WorldLootWeatherV6/PickupUtilityV6/PickupUtilityV6/StaticMeshes/PickupUtilityV6.PickupUtilityV6 being ready before playing
+[2026.07.18-01.23.51:196][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/WeaponsV4/PistolV4/PistolV4/StaticMeshes/PistolV4.PistolV4 being ready before playing
+[2026.07.18-01.23.51:205][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.18-01.23.52:561][  0]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.18-01.23.52:877][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.18-01.23.52:878][  0]LogPython: Display: Running start-up script /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/Python/init_unreal.py... started...
+[2026.07.18-01.23.52:911][  0]LogPython: [ClaudeBridge] v1.0.0 started. inbox=/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/ClaudeBridge/inbox
+[2026.07.18-01.23.52:911][  0]LogPython: Display: Running start-up script /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Content/Python/init_unreal.py... took 33.266 ms
+[2026.07.18-01.23.52:912][  0]LogPython: Display: Running start-up script /Users/Shared/UE_5.7/Engine/Plugins/Importers/USDImporter/Content/Python/init_unreal.py... started...
+[2026.07.18-01.23.52:912][  0]LogPython: Display: Running start-up script /Users/Shared/UE_5.7/Engine/Plugins/Importers/USDImporter/Content/Python/init_unreal.py... took 56 us (total: 33.322 ms)
+[2026.07.18-01.23.52:912][  0]LogPython: Display: Running start-up script /Users/Shared/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.07.18-01.23.52:934][  0]LogPython: Display: Running start-up script /Users/Shared/UE_5.7/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 22.773 ms (total: 56.096 ms)
+[2026.07.18-01.23.52:934][  0]LogPython: Display: Running start-up script /Users/Shared/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.07.18-01.23.52:941][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.07.18-01.23.52:949][  0]LogPython: Display: Running start-up script /Users/Shared/UE_5.7/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 14.156 ms (total: 70.253 ms)
+[2026.07.18-01.23.52:952][  1]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.728 day=1.00 twilight=0.00 night=0.00
+[2026.07.18-01.23.52:981][  1]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.18-01.23.53:038][  2]LogTemp: Display: [CharacterGroundingAudit] COMPLETE PASS city=0 label=01 New York, NY settled characters=134 regrounded=0 floating_after=0 visible_feet=129/129 min_ground_z=-18.0
+[2026.07.18-01.23.53:309][ 10]LogTemp: Display: [SpawnClear] facing yaw 0 (camera clearance 800uu)
+[2026.07.18-01.23.53:428][ 13]LogTemp: Display: [RadioVoiceArbiter] city=0 active_voice=1 overlapping_voices=0
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] street StaticMeshActor_113 (SM_Crosswalk_8m) top 19.1 -> 4.8
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_24 mesh=SM_Facade_Windows_6x9 top=12.0 delta=-7.6 extent=(310,456,38) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_24 top 12.0 -> 4.4 (delta -7.6)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_0 mesh=Cube top=-0.0 delta=4.4 extent=(10950,9550,6) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_0 top -0.0 -> 4.4 (delta 4.4)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_1 mesh=Cube top=-611.0 delta=615.4 extent=(11200,9800,9) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_1 top=-611.0 datum=4.4 delta=615.4
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_77 mesh=Cube top=-21.0 delta=25.4 extent=(560,560,4) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_77 top -21.0 -> 4.4 (delta 25.4)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_89 mesh=RoadIntersectionV3 top=2.8 delta=1.6 extent=(1300,1300,4) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_89 top 2.8 -> 4.4 (delta 1.6)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_173 mesh=Cube top=14.4 delta=-10.0 extent=(558,360,7) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_173 top 14.4 -> 4.4 (delta -10.0)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_180 mesh=Cube top=633.6 delta=-629.2 extent=(565,367,10) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_180 top=633.6 datum=4.4 delta=-629.2
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_186 top 7.8 -> 5.0 (delta -2.8)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_188 mesh=Cube top=14.4 delta=-10.0 extent=(558,360,7) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_188 top 14.4 -> 4.4 (delta -10.0)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_195 mesh=Cube top=633.6 delta=-629.2 extent=(565,367,10) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_195 top=633.6 datum=4.4 delta=-629.2
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_200 top 7.8 -> 5.0 (delta -2.8)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_202 mesh=Cube top=14.4 delta=-10.0 extent=(450,295,7) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_202 top 14.4 -> 4.4 (delta -10.0)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_209 mesh=Cube top=453.6 delta=-449.2 extent=(457,302,10) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_209 top=453.6 datum=4.4 delta=-449.2
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_219 top 7.8 -> 5.0 (delta -2.8)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_222 mesh=SidewalkV3 top=8.4 delta=-4.0 extent=(1360,541,10) platform=1
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_222 top 8.4 -> 4.4 (delta -4.0)
+[2026.07.18-01.23.53:498][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_267 top -19.2 -> 5.0 (delta 24.2)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_498 mesh=Cube top=-22.2 delta=26.6 extent=(940,940,2) platform=1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_498 top -22.2 -> 5.0 (delta 27.2)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_517 mesh=SM_modern_bridge_001 top=22.5 delta=-18.1 extent=(948,948,22) platform=1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_517 top 22.5 -> 4.4 (delta -18.1)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_535 top -10.5 -> 5.0 (delta 15.5)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_556 mesh=Cube top=-12.0 delta=16.4 extent=(900,700,2) platform=1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_556 top -12.0 -> 5.0 (delta 17.0)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_580 mesh=Cube top=20.0 delta=-15.6 extent=(486,383,10) platform=1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_580 top 20.0 -> 4.4 (delta -15.6)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_585 mesh=Cube top=339.0 delta=-334.6 extent=(486,383,11) platform=1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_585 top=339.0 datum=4.4 delta=-334.6
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] snapped StaticMeshActor_587 top 53.5 -> 4.4 (delta -49.1)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_588 top=123.5 datum=4.4 delta=-119.1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_589 top=193.5 datum=4.4 delta=-189.1
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] concrete plaza toned: StaticMeshActor_0 extent=(10950,9550,6)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] concrete plaza toned: StaticMeshActor_77 extent=(560,560,4)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] concrete plaza toned: StaticMeshActor_267 extent=(340,210,3)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] concrete plaza toned: StaticMeshActor_498 extent=(940,940,2)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] concrete plaza toned: StaticMeshActor_517 extent=(948,948,22)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] concrete plaza toned: StaticMeshActor_556 extent=(900,700,2)
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [GroundUnify] COMPLETE datum=4.40 street_snapped=1 adjusted=18 level=0 intentional=7 plaza_toned=6 orientation_tagged=0
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [CampaignPerimeterGroundAudit] COMPLETE PASS city=0 samples=36/36 east_right=9/9 floor_covers_walls=1 collision=1 max_top_delta=0.00 floor_extent=(10950,9550) wall_half=(10800,9400) catch_floor_accepted=0
+[2026.07.18-01.23.53:499][ 15]LogTemp: Display: [FirstLevelAccessAudit] ground pivot_spread=13.28 driving_TOP_spread=0.40
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [FirstLevelAccessAudit] doorway=1 clear=1 street_reachable=1 bounded=1 level=1 blocker=none approach_blocker=none blocker_location=V(0) blocker_tags=none outside=V(X=-7980.00, Y=-2460.00, Z=102.00) inside=V(X=-7980.00, Y=-2050.00, Z=102.00) street=V(X=-7980.00, Y=-3910.00, Z=102.00) ground_out=17.00 ground_in=4.40
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [FirstLevelAccessAudit] doorway=2 clear=1 street_reachable=1 bounded=1 level=1 blocker=none approach_blocker=none blocker_location=V(0) blocker_tags=none outside=V(X=-4700.00, Y=-8160.00, Z=102.00) inside=V(X=-4700.00, Y=-8570.00, Z=102.00) street=V(X=-4700.00, Y=-6710.00, Z=102.00) ground_out=17.00 ground_in=17.00
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [FirstLevelAccessAudit] doorway=3 clear=1 street_reachable=1 bounded=1 level=1 blocker=none approach_blocker=none blocker_location=V(0) blocker_tags=none outside=V(X=-3880.00, Y=-2460.00, Z=102.00) inside=V(X=-3880.00, Y=-2050.00, Z=102.00) street=V(X=-3880.00, Y=-3910.00, Z=102.00) ground_out=17.00 ground_in=4.40
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [FirstLevelAccessAudit] functional door leaves=6 (opened for sweep, restored closed)
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [PurposeDistrictRuntimeAudit] COMPLETE PASS landmarks=3/3 district_types=3 open_space=3/3 bounded=3/3 depot_modules=21/21 depot_icon_stock=6/6 physical_symbols=1 canonical_ground=1
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [PickupPresentationAudit] COMPLETE PASS pickups=26 authored=26 grounded=26 icon_styles=6/6 paragraph_labels=0
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [ThreatMarkerAudit] COMPLETE PASS markers=124 compact=124 attached=124 enclosure_cubes=0 collision=0
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [WeatherPhysics] phase=GUST_FRONT city=0 rain=0 wind_visual=1 wind_strength=1.85 fog=1 visibility_scale=0.95 traction_scale=1.00 audit=1
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [WeatherPhysics] phase=COLD_RAIN city=0 rain=1 wind_visual=1 wind_strength=1.35 fog=1 visibility_scale=0.84 traction_scale=0.88 audit=1
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [WeatherPhysics] phase=FOG_BANK city=0 rain=0 wind_visual=0 wind_strength=0.55 fog=1 visibility_scale=0.68 traction_scale=1.00 audit=1
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [WeatherPhysics] phase=COLD_RAIN city=0 rain=1 wind_visual=1 wind_strength=1.35 fog=1 visibility_scale=0.84 traction_scale=0.88 audit=1
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [WeatherPhysicsAudit] COMPLETE PASS wind=1 rain=112/112 fog=1 traction=1 ai_visibility=1 phase_cycle=1 authored_assets=1
+[2026.07.18-01.23.53:500][ 15]LogTemp: Display: [FirstLevelAccessAudit] COMPLETE PASS ground_surfaces=33 z_spread=13.28 perimeter_ground=1 enterable_buildings=3 clear_doors=3/3 street_doors=3/3 bounded_doors=3/3 level_doors=3/3 route_points=3/3 visible_feet=1 loot_symbols=1 districts=1 threat_markers=1 weather=1
+[2026.07.18-01.23.53:502][ 15]LogTemp: Display: [CampaignChallengeContractAudit] COMPLETE PASS cities=465 challenges=4650 expected=4650 ten_per_city=1 unique_ids=1
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=1/10 id='new_york_ny_sum' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=2/10 id='new_york_ny_stage02_lock' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=3/10 id='new_york_ny_stage03_reverse' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=4/10 id='new_york_ny_stage04_palindrome' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=5/10 id='new_york_ny_stage05_fizzbuzz' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=6/10 id='new_york_ny_stage06_even_filter' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=7/10 id='new_york_ny_stage07_linkedlist' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=8/10 id='new_york_ny_stage08_binary_search' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=9/10 id='new_york_ny_stage09_sum_relay' languages=6/6
+[2026.07.18-01.23.53:503][ 15]LogTemp: Display: [FirstLevelChallengeAudit] stage=10/10 id='new_york_ny_stage10_lock_final' languages=6/6
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [FirstLevelAlternateSolutionAudit] COMPLETE PASS vectors=8/8 prefix_decrement=1 palindrome_neq=1 bsearch_overflow_safe=1 nested_if=1 accumulation=1 reverse_compare=1 lowercase_literals=1 no_space_for=1
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [ObjectiveGuidanceAudit] COMPLETE PASS next_id='new_york_ny_sum' next_station_resolves=1 final_station_exists=1 final_station_briefed=1
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [FirstLevelProgressionAudit] COMPLETE PASS locked_at_9=1 unlocked_at_10=1 save_restored=1
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [ChallengeSupplyDrop] city=0 challenge='first_level_acceptance_supply' progress=0/10 pickups=3 location=V(X=-5980.00, Y=-5520.00, Z=112.00)
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [ZombieSupplyDrop] zombie_id=987650 kind=1 amount=1 location=V(X=-5740.00, Y=-5520.00, Z=112.00)
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [FirstLevelSupplyAudit] COMPLETE PASS challenge_drop=3 tagged_delta=3 zombie_drop=1 tagged_delta=1
+[2026.07.18-01.23.53:504][ 15]LogTemp: Display: [FirstLevelChallengeAudit] COMPLETE PASS physical_stations=10/10 campaign_challenges=4650 validators=60/60 alternate_solutions=1 guidance=1 external_available=0 progression=1 supplies=1
+[2026.07.18-01.23.53:601][ 18]LogTemp: Display: [FirstLevelSkyAudit] phase=DAY time=0.00 requested
+[2026.07.18-01.23.53:612][ 19]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.000 solar=1.000 day=1.00 twilight=0.00 night=0.00
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_24 mesh=SM_Facade_Windows_6x9 top=4.4 delta=0.0 extent=(310,456,38) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_0 mesh=Cube top=4.4 delta=0.0 extent=(10950,9550,6) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_1 mesh=Cube top=-611.0 delta=615.4 extent=(11200,9800,9) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_1 top=-611.0 datum=4.4 delta=615.4
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_77 mesh=Cube top=4.4 delta=0.0 extent=(560,560,4) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_89 mesh=RoadIntersectionV3 top=4.4 delta=0.0 extent=(1300,1300,4) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_173 mesh=Cube top=4.4 delta=-0.0 extent=(558,360,7) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_180 mesh=Cube top=633.6 delta=-629.2 extent=(565,367,10) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_180 top=633.6 datum=4.4 delta=-629.2
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_188 mesh=Cube top=4.4 delta=-0.0 extent=(558,360,7) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_195 mesh=Cube top=633.6 delta=-629.2 extent=(565,367,10) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_195 top=633.6 datum=4.4 delta=-629.2
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_202 mesh=Cube top=4.4 delta=-0.0 extent=(450,295,7) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_209 mesh=Cube top=453.6 delta=-449.2 extent=(457,302,10) platform=1
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_209 top=453.6 datum=4.4 delta=-449.2
+[2026.07.18-01.23.53:805][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_222 mesh=SidewalkV3 top=4.4 delta=0.0 extent=(1360,541,10) platform=1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_498 mesh=Cube top=5.0 delta=-0.6 extent=(940,940,2) platform=1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_517 mesh=SM_modern_bridge_001 top=4.4 delta=0.0 extent=(948,948,22) platform=1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_556 mesh=Cube top=5.0 delta=-0.6 extent=(900,700,2) platform=1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_580 mesh=Cube top=4.4 delta=0.0 extent=(486,383,10) platform=1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] candidate StaticMeshActor_585 mesh=Cube top=339.0 delta=-334.6 extent=(486,383,11) platform=1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_585 top=339.0 datum=4.4 delta=-334.6
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_588 top=123.5 datum=4.4 delta=-119.1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] intentional elevation kept: StaticMeshActor_589 top=193.5 datum=4.4 delta=-189.1
+[2026.07.18-01.23.53:806][ 24]LogTemp: Display: [GroundUnify] COMPLETE datum=4.40 street_snapped=0 adjusted=0 level=18 intentional=7 plaza_toned=0 orientation_tagged=0
+[2026.07.18-01.23.53:976][ 29]LogTemp: Display: [FirstLevelSkyAudit] phase=DAY capture=../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/FirstLevel/first_level_sky_day.png safe_stars=1 stars_visible=0 moon_visible=0
+[2026.07.18-01.23.54:877][ 29]LogCore: Display: Tracing Screenshot "first_level_sky_day" taken with size: 1280 x 720
+[2026.07.18-01.23.54:993][ 30]LogTemp: Display: [FirstLevelCombatAudit] collision actor_enabled=1 capsule_enabled=3 weapon_response=2 object_type=15 center=V(X=-5983.20, Y=-6191.04, Z=92.40) radius=34.00 half_height=88.00
+[2026.07.18-01.23.54:994][ 30]LogStreaming: Display: FlushAsyncLoading(285): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.18-01.23.55:002][ 30]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_0 bone=upperarm_L attacker=CodeZombieActor_4 count=1
+[2026.07.18-01.23.55:002][ 30]LogTemp: Display: [FirstLevelCombatAudit] BEGIN target=CodeZombieActor_4 location=V(X=-5983.20, Y=-6191.04, Z=92.40) bite_visual=PASS corpse_window=9.0 fade=2.8
+[2026.07.18-01.23.55:003][ 30]LogTemp: Display: [CharacterGroundingAudit] COMPLETE PASS city=0 label=01 New York, NY animation-settled characters=134 regrounded=3 floating_after=0 visible_feet=129/129 min_ground_z=-18.0
+[2026.07.18-01.23.55:007][ 30]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV4/BiteWoundV4/BiteWoundV4/StaticMeshes/BiteWoundV4.BiteWoundV4 being ready before playing
+[2026.07.18-01.23.55:010][ 31]LogTemp: Display: [TargetLock] ACQUIRED target=CodeZombieActor_4 distance=760 LOS=1 physical_trace=1
+[2026.07.18-01.23.55:193][ 36]LogTemp: Display: [FirstLevelCombatAudit] jump=PASS velocity_z=489.8 stamina=87.9
+[2026.07.18-01.23.55:457][ 44]LogTemp: Display: [TargetLock] RELEASED target=CodeZombieActor_4
+[2026.07.18-01.23.55:674][ 49]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNSET time=0.25 requested
+[2026.07.18-01.23.55:674][ 49]LogTemp: Display: [FirstLevelCombatAudit] deliberate_miss_locality=PASS health=100000.0->100000.0 physical_ray_miss=1 remote_damage=0
+[2026.07.18-01.23.55:685][ 50]LogTemp: Display: [FirstLevelSkyCycle] phase=SUNSET time=0.250 solar=-0.000 day=0.07 twilight=1.00 night=0.06
+[2026.07.18-01.23.55:685][ 50]LogTemp: Display: [TargetLock] ACQUIRED target=CodeZombieActor_4 distance=796 LOS=1 physical_trace=1
+[2026.07.18-01.23.55:766][ 51]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.18-01.23.56:044][ 62]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNSET capture=../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/FirstLevel/first_level_sky_sunset.png safe_stars=1 stars_visible=0 moon_visible=1
+[2026.07.18-01.23.56:086][ 62]LogCore: Display: Tracing Screenshot "first_level_sky_sunset" taken with size: 1280 x 720
+[2026.07.18-01.23.56:776][103]LogTemp: Display: [FirstLevelCombatAudit] settled_aim origin=V(X=-6340.00, Y=-5520.00, Z=170.55) target=V(X=-5841.20, Y=-6443.73, Z=150.19) forward=V(X=0.48, Y=-0.88, Z=-0.02)
+[2026.07.18-01.23.56:957][118]LogTemp: Display: [FirstLevelCombatAudit] target_lock=PASS target=CodeZombieActor_4 physical_trace_redirect=1
+[2026.07.18-01.23.56:981][120]LogTemp: Display: [FirstLevelSkyAudit] phase=NIGHT time=0.50 requested
+[2026.07.18-01.23.56:992][121]LogTemp: Display: [FirstLevelSkyCycle] phase=NIGHT time=0.500 solar=-1.000 day=0.00 twilight=0.00 night=1.00
+[2026.07.18-01.23.57:079][128]LogTemp: Display: [FirstLevelCombatAudit] preflight channel_hit=true channel_actor=CodeZombieActor_4 zombie_hit=true zombie_actor=CodeZombieActor_4 target=CodeZombieActor_4
+[2026.07.18-01.23.57:079][128]LogStreaming: Display: FlushAsyncLoading(287): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.18-01.23.57:082][128]LogTemp: Display: [AnatomicalWound] zombie=CodeZombieActor_4 zone=0 bone=head point=V(X=-5851.15, Y=-6412.46, Z=188.06) count=1
+[2026.07.18-01.23.57:083][128]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_4 remains visible 9.0s then fades 2.8s impulse=V(X=296.46, Y=-541.22, Z=59.99)
+[2026.07.18-01.23.57:083][128]LogTemp: Display: [FirstLevelCombatAudit] line_trace_shot=1 PASS health=70.0->-17.5 remote_assist=disabled
+[2026.07.18-01.23.57:083][128]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/CodeRescueArt/FirstLevelV4/WoundCavityV4/WoundCavityV4/StaticMeshes/WoundCavityV4.WoundCavityV4 being ready before playing
+[2026.07.18-01.23.57:090][129]LogTemp: Display: [TargetLock] RELEASED target=CodeZombieActor_4
+[2026.07.18-01.23.57:273][144]LogTemp: Display: [FirstLevelCombatAudit] wound capture requested ../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/FirstLevel/first_level_combat_wound.png
+[2026.07.18-01.23.57:320][144]LogCore: Display: Tracing Screenshot "first_level_combat_wound" taken with size: 1280 x 720
+[2026.07.18-01.23.57:407][145]LogTemp: Display: [FirstLevelSkyAudit] phase=NIGHT capture=../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/FirstLevel/first_level_sky_night.png safe_stars=1 stars_visible=1 moon_visible=1
+[2026.07.18-01.23.57:425][145]LogCore: Display: Tracing Screenshot "first_level_sky_night" taken with size: 1280 x 720
+[2026.07.18-01.23.57:977][186]LogTemp: Display: [FirstLevelCombatAudit] corpse_window=PASS trace_hits=1 location=V(X=-5836.03, Y=-6441.00, Z=162.22) scale=V(X=1.00, Y=1.00, Z=1.00)
+[2026.07.18-01.23.58:376][219]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNRISE time=0.75 requested
+[2026.07.18-01.23.58:387][220]LogTemp: Display: [FirstLevelSkyCycle] phase=SUNRISE time=0.750 solar=0.000 day=0.07 twilight=1.00 night=0.06
+[2026.07.18-01.23.58:670][240]LogCore: Display: Tracing Screenshot "first_level_grounded_corpse" taken with size: 1280 x 720
+[2026.07.18-01.23.58:760][241]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNRISE capture=../../../../../labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/FirstLevel/first_level_sky_sunrise.png safe_stars=1 stars_visible=0 moon_visible=1
+[2026.07.18-01.23.58:779][241]LogCore: Display: Tracing Screenshot "first_level_sky_sunrise" taken with size: 1280 x 720
+[2026.07.18-01.23.59:485][296]LogTemp: Display: [FirstLevelSkyAudit] COMPLETE PASS day=1 sunset=1 night=1 sunrise=1 stars=1 moon=1 period_seconds=1800 duration_pass=1
+[2026.07.18-01.23.59:494][297]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+[2026.07.18-01.24.06:085][931]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_4 captured final skeletal pose for fade
+[2026.07.18-01.24.06:085][931]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_4 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.18-01.24.07:832][106]LogTemp: Display: [FirstLevelCombatAudit] gradual_fade=PASS sink=49.13 scale_reduction=0.993
+[2026.07.18-01.24.07:871][106]LogCore: Display: Tracing Screenshot "first_level_corpse_fade" taken with size: 1280 x 720
+[2026.07.18-01.24.08:888][204]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_4 fade complete; removing corpse
+[2026.07.18-01.24.11:180][446]LogTemp: Display: [HeldWeaponPresentationAudit] COMPLETE PASS asset=PistolV4 target_length_cm=28.0 world_longest_cm=30.9 center_offset_cm=8.7 attached=1 absolute_scale=1 casts_shadow=0
+[2026.07.18-01.24.11:180][446]LogTemp: Display: [PlayerAnimationRuntimeAudit] COMPLETE PASS idle=1 jump=1 fall=1 land=1 landing_compression=1 two_arm_aim=1 authored_sequences=6
+[2026.07.18-01.24.11:180][446]LogTemp: Display: [FirstLevelCombatAudit] COMPLETE PASS jump=1 bite=1 miss_locality=1 target_lock=1 trace_hits=1 corpse=1 fade=1 removed=1 animation=1 held_weapon=1
+[2026.07.18-01.24.11:635][489]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.07.18-01.24.11:635][489]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.07.18-01.24.11:635][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2026.07.18-01.24.11:635][489]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.07.18-01.24.11:635][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.07.18-01.24.11:635][489]LogTemp: Display: [MessageReaderRoutingAudit] COMPLETE PASS opened=1 close_keys=3 mouse_close=1 pause_exclusive=1 world_unpaused=1
+[2026.07.18-01.24.11:806][504]LogTemp: Display: [PauseArmory] preview 1/17 Balanced Handgun mesh=PistolV4 size=V(X=21.40, Y=3.40, Z=17.49) center=V(X=6.50, Y=-0.10, Z=1.55) scale=11.916 ammo=10+180
+[2026.07.18-01.24.11:806][504]LogTemp: Display: [PauseMouseAudit] COMPLETE PASS buttons=18 preview_hit_test=disabled preview_pointer_route=1 overlay_passthrough=1
+[2026.07.18-01.24.11:806][504]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.07.18-01.24.11:806][504]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.07.18-01.24.11:806][504]LogTemp: Display: [PauseAuditClock] unattended_ui_clock=running gameplay_input_locked=1 production_pause_unchanged=1
+[2026.07.18-01.24.11:810][504]LogTemp: Display: [PauseAction] success=1 message="WORKBENCH OPEN | Select a recipe"
+[2026.07.18-01.24.11:810][504]LogTemp: Display: [PauseAction] success=1 message="WORKBENCH CLOSED"
+[2026.07.18-01.24.11:810][504]LogTemp: Display: [PauseCraftingAudit] COMPLETE PASS open=1 close=1 recipes=3 save_on_craft=1
+[2026.07.18-01.24.11:949][516]LogStreaming: Display: FlushAsyncLoading(288): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.18-01.24.11:952][516]LogTemp: Display: [PauseArmory] preview 2/17 Pump Shotgun mesh=ShotgunV4 size=V(X=114.77, Y=5.52, Z=13.75) center=V(X=25.61, Y=-0.46, Z=3.22) scale=2.222 ammo=6+72
+[2026.07.18-01.24.11:952][516]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:102][528]LogTemp: Display: [PauseArmory] preview 3/17 Assault Rifle mesh=RifleV4 size=V(X=110.90, Y=4.50, Z=30.74) center=V(X=19.65, Y=-0.15, Z=-0.47) scale=2.299 ammo=30+348
+[2026.07.18-01.24.12:102][528]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:252][540]LogTemp: Display: [PauseArmory] preview 4/17 Frag Grenade mesh=GrenadeV4 size=V(X=16.32, Y=11.20, Z=15.90) center=V(X=0.09, Z=2.35) scale=15.626 ammo=1+5
+[2026.07.18-01.24.12:252][540]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:401][552]LogTemp: Display: [PauseArmory] preview 5/17 Combat Knife mesh=CombatKnifeV4 size=V(X=94.50, Y=18.00, Z=8.00) center=V(X=7.75) scale=2.698 ammo=1+0
+[2026.07.18-01.24.12:401][552]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:547][564]LogTemp: Display: [PauseArmory] preview 6/17 Heavy Handgun mesh=PistolV4 size=V(X=21.40, Y=3.40, Z=17.49) center=V(X=6.50, Y=-0.10, Z=1.55) scale=11.916 ammo=9+54
+[2026.07.18-01.24.12:547][564]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:697][576]LogTemp: Display: [PauseArmory] preview 7/17 Burst Handgun mesh=PistolV4 size=V(X=21.40, Y=3.40, Z=17.49) center=V(X=6.50, Y=-0.10, Z=1.55) scale=11.916 ammo=18+108
+[2026.07.18-01.24.12:697][576]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:846][588]LogTemp: Display: [PauseArmory] preview 8/17 Tactical Shotgun mesh=ShotgunV4 size=V(X=114.77, Y=5.52, Z=13.75) center=V(X=25.61, Y=-0.46, Z=3.22) scale=2.222 ammo=8+48
+[2026.07.18-01.24.12:846][588]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.12:991][600]LogTemp: Display: [PauseArmory] preview 9/17 Auto Shotgun mesh=ShotgunV4 size=V(X=114.77, Y=5.52, Z=13.75) center=V(X=25.61, Y=-0.46, Z=3.22) scale=2.222 ammo=12+60
+[2026.07.18-01.24.12:991][600]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.13:143][612]LogTemp: Display: [PauseArmory] preview 10/17 SMG mesh=SMGV4 size=V(X=64.35, Y=4.38, Z=18.27) center=V(X=10.07, Y=-0.26, Z=0.95) scale=3.963 ammo=40+240
+[2026.07.18-01.24.13:143][612]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.13:284][624]LogTemp: Display: [PauseArmory] preview 11/17 Precision Rifle mesh=RifleV4 size=V(X=110.90, Y=4.50, Z=30.74) center=V(X=19.65, Y=-0.15, Z=-0.47) scale=2.299 ammo=5+35
+[2026.07.18-01.24.13:284][624]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.13:429][636]LogTemp: Display: [PauseArmory] preview 12/17 Semi-Auto Rifle mesh=RifleV4 size=V(X=110.90, Y=4.50, Z=30.74) center=V(X=19.65, Y=-0.15, Z=-0.47) scale=2.299 ammo=10+60
+[2026.07.18-01.24.13:429][636]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.13:575][648]LogTemp: Display: [PauseArmory] preview 13/17 Magnum mesh=PistolV4 size=V(X=21.40, Y=3.40, Z=17.49) center=V(X=6.50, Y=-0.10, Z=1.55) scale=11.916 ammo=6+24
+[2026.07.18-01.24.13:575][648]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.13:726][660]LogTemp: Display: [PauseArmory] preview 14/17 Bolt Launcher mesh=CrossbowV4 size=V(X=77.64, Y=52.15, Z=16.09) center=V(X=8.38, Z=1.64) scale=3.285 ammo=6+42
+[2026.07.18-01.24.13:726][660]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.13:872][672]LogTemp: Display: [PauseArmory] preview 15/17 Rocket Launcher mesh=RocketLauncherV5 size=V(X=112.00, Y=15.00, Z=23.21) center=V(X=23.00, Z=5.99) scale=2.277 ammo=1+1
+[2026.07.18-01.24.13:872][672]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.14:017][684]LogTemp: Display: [PauseArmory] preview 16/17 Incendiary Grenade mesh=GrenadeV4 size=V(X=16.32, Y=11.20, Z=15.90) center=V(X=0.09, Z=2.35) scale=15.626 ammo=1+4
+[2026.07.18-01.24.14:017][684]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.14:162][696]LogTemp: Display: [PauseArmory] preview 17/17 Flash Grenade mesh=GrenadeV4 size=V(X=16.32, Y=11.20, Z=15.90) center=V(X=0.09, Z=2.35) scale=15.626 ammo=1+4
+[2026.07.18-01.24.14:162][696]LogTemp: Display: [PauseAction] success=1 message="WEAPON PREVIEW | Next selection loaded"
+[2026.07.18-01.24.14:308][708]LogTemp: Display: [HeldWeapon] body weapon 'GrenadeV4' attached via hand_R target_length_cm=14.0 local_longest=16.32 absolute_scale=0.85789 casts_shadow=0
+[2026.07.18-01.24.14:308][708]LogTemp: Display: [WeaponSwap] equipped slot 16: Flash Grenade
+[2026.07.18-01.24.14:308][708]LogTemp: Display: [PauseArmory] equipped selection index=16
+[2026.07.18-01.24.14:308][708]LogTemp: Display: [PauseAction] success=1 message="EQUIPPED | Flash Grenade"
+[2026.07.18-01.24.14:308][708]LogTemp: Display: [PauseArmoryAudit] COMPLETE PASS previews=17 final_index=16 equipped=1
+[2026.07.18-01.24.15:967][826]LogCore: Display: Tracing Screenshot "first_level_armory_cycle_complete" taken with size: 1280 x 720
+[2026.07.18-01.24.16:721][888]LogTemp: Display: [FirstLevelIntegratedAudit] COMPLETE PASS world=1 access=1 ground=1 population=1 characters_grounded=1 visible_feet=1 sky=1 day_period=1 weather=1 challenges=1 alternate_solution=1 guidance=1 progression=1 supplies=1 loot_symbols=1 districts=1 threat_markers=1 target_lock=1 combat=1 corpse=1 animation=1 reader=1 armory=1 pause_mouse=1 overlay_passthrough=1 crafting=1
+[2026.07.18-01.24.16:721][888]LogMac: FPlatformMisc::RequestExit(0, <NoCallSiteInfo>)
+[2026.07.18-01.24.16:721][888]LogCore: Engine exit requested (reason: Mac RequestExit)
+[2026.07.18-01.24.16:730][889]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.07.18-01.24.16:744][889]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.07.18-01.24.16:744][889]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.07.18-01.24.16:744][889]LogInit: Display: PreExit Game.
+[2026.07.18-01.24.16:744][889]LogWorld: BeginTearingDown for /Engine/Maps/Entry
+[2026.07.18-01.24.16:744][889]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.07.18-01.24.16:745][889]LogWorld: BeginTearingDown for /Engine/Transient
+[2026.07.18-01.24.16:745][889]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.07.18-01.24.16:745][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.18-01.24.16:747][889]LogWorld: UWorld::CleanupWorld for Entry, bSessionEnded=true, bCleanupResources=true
+[2026.07.18-01.24.16:800][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.18-01.24.16:800][889]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.07.18-01.24.16:803][889]LogSlate: Window 'CodeRescueUnreal (64-bit Development SF_METAL_SM6) ' being destroyed
+[2026.07.18-01.24.16:805][889]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.07.18-01.24.16:805][889]LogExit: Preparing to exit.
+[2026.07.18-01.24.16:839][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.07.18-01.24.16:891][889]LogMoviePlayer: Shutting down movie player
+[2026.07.18-01.24.16:918][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.18-01.24.16:934][889]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.07.18-01.24.16:942][889]LogExit: Game engine shut down
+[2026.07.18-01.24.16:949][889]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.18-01.24.17:037][889]LogExit: Object subsystem successfully closed.
+[2026.07.18-01.24.17:125][889]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.07.18-01.24.17:301][889]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.07.18-01.24.17:301][889]LogEOSShared: Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.07.18-01.24.17:321][889]LogPakFile: Destroying PakPlatformFile
+[2026.07.18-01.24.17:345][889]LogExit: Exiting.
+[2026.07.18-01.24.17:358][889]Log file closed, 07/17/26 17:24:17

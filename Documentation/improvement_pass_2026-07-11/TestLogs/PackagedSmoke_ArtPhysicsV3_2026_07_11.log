@@ -1,0 +1,345 @@
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Mac/UnrealTraceServer')
+LogCsvProfiler: Display: Metadata set : platform="Mac"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="macOS 26.5.1 25F80"
+LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M4 Pro"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" -CodeRescueAutoResumeLanguage=Cpp -stdout -installed""
+LogCsvProfiler: Display: Metadata set : loginid="4c030eef89447e1ef239b28fd95251e1"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak.
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc, Id=d97666d6c79e2622, Order=4, EntryCount=2662, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc"
+LogPakFile: Display: Mounted Pak file '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak', mount point: '../../../'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+[2026.07.12-05.03.09:347][  0]LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.07.12-05.03.09:347][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.07.12-05.03.09:405][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.07.12-05.03.09:422][  0]LogMetal: Display:       Vendor ID: 4203
+[2026.07.12-05.03.09:422][  0]LogMetal: Display:       Device ID: 875640394
+[2026.07.12-05.03.09:422][  0]LogMetal: Display:       VRAM (MB): 36864
+[2026.07.12-05.03.09:427][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Metal"
+[2026.07.12-05.03.09:427][  0]LogCsvProfiler: Display: Metadata set : rhiname="Metal"
+[2026.07.12-05.03.09:427][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.07.12-05.03.09:427][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+[2026.07.12-05.03.09:431][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library Global
+[2026.07.12-05.03.09:431][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:431][  0]LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.09:432][  0]LogTemp: Display: Clearing the OS Cache
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:140][  0]LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:141][  0]LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+[2026.07.12-05.03.10:142][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+[2026.07.12-05.03.10:142][  0]LogShaderLibrary: Display: Logical shader library 'CodeRescueUnreal' has been created as a monolithic library
+[2026.07.12-05.03.10:142][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+[2026.07.12-05.03.10:142][  0]LogShaderLibrary: Display: Discovered new 0 components for logical shader library 'CodeRescueUnreal' (total number of components is now 2)
+[2026.07.12-05.03.10:233][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.07.12-05.03.10:233][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.07.12-05.03.10:234][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Mac"
+[2026.07.12-05.03.10:235][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.12-05.03.10:241][  0]LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm6-metal_sm6.0.metallib, 22425188 bytes!
+[2026.07.12-05.03.10:295][  0]LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/global_sf_metal_sm6-metal_sm6.0.metallib, 236063064 bytes!
+[2026.07.12-05.03.10:451][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.12-05.03.10:453][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.07.12-05.03.10:465][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.12-05.03.10:497][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.07.12-05.03.10:535][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.07.12-05.03.10:535][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.07.12-05.03.10:535][  0]LogAudioMixerAudioUnit: Display: Bytes per submitted buffer: 8192
+[2026.07.12-05.03.10:621][  0]LogAudioMixerAudioUnit: Warning: Error querying Sample Rate: 2003332927
+[2026.07.12-05.03.10:656][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'CoreAudio'
+[2026.07.12-05.03.10:659][  0]LogAudioMixer: Display: Using Audio Hardware Device Unknown
+[2026.07.12-05.03.10:659][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.07.12-05.03.10:660][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.07.12-05.03.10:660][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.07.12-05.03.10:660][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.07.12-05.03.10:660][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.07.12-05.03.10:664][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.07.12-05.03.10:670][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.07.12-05.03.10:671][  0]LogInit: Display: Game Engine Initialized.
+[2026.07.12-05.03.10:675][  0]LogInit: Display: Starting Game.
+[2026.07.12-05.03.10:678][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.07.12-05.03.10:686][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Entry'.
+[2026.07.12-05.03.10:693][  0]LogTemp: Display: [LaunchLanguage] station spawned: JAVA
+[2026.07.12-05.03.10:694][  0]LogTemp: Display: [LaunchLanguage] station spawned: PYTHON
+[2026.07.12-05.03.10:694][  0]LogTemp: Display: [LaunchLanguage] station spawned: C
+[2026.07.12-05.03.10:695][  0]LogTemp: Display: [LaunchLanguage] station spawned: C+
+[2026.07.12-05.03.10:695][  0]LogTemp: Display: [LaunchLanguage] station spawned: C++
+[2026.07.12-05.03.10:696][  0]LogTemp: Display: [LaunchLanguage] station spawned: MATLAB
+[2026.07.12-05.03.10:710][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.07.12-05.03.10:710][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2026.07.12-05.03.10:710][  0]LogTemp: Display: [CodeRescueLaunchLanguageMenu] Launch-only language widget ready: Java, C, C+, C++, Python, MATLAB.
+[2026.07.12-05.03.10:711][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.07.12-05.03.10:711][  0]LogTemp: Display: [CodeRescueLaunchLanguageMenu] Showing launch language chooser before active play.
+[2026.07.12-05.03.10:752][  0]LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+[2026.07.12-05.03.10:752][  0]LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+[2026.07.12-05.03.10:752][  0]LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+[2026.07.12-05.03.10:753][  0]LogTemp: Display: [HeldWeapon] body weapon 'PistolV4' attached via hand_R
+[2026.07.12-05.03.10:771][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2026.07.12-05.03.10:771][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2026.07.12-05.03.10:771][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2026.07.12-05.03.10:775][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.07.12-05.03.10:775][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.07.12-05.03.10:943][  0]LogTrace: Display: Control listening on port 40361
+[2026.07.12-05.03.10:944][  1]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+[2026.07.12-05.03.10:944][  1]LogTemp: Display: [LaunchGate] auto-resume harness language=Cpp save_exists=1
+[2026.07.12-05.03.10:945][  1]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2026.07.12-05.03.10:945][  1]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2026.07.12-05.03.10:985][  2]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.07.12-05.03.10:991][  2]LogStreaming: Display: FlushAsyncLoading(73): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.12-05.03.10:993][  2]LogAudio: Display: Audio Device (ID: 1) registered with world 'Entry'.
+[2026.07.12-05.03.10:997][  2]LogTemp: Display: [CodeRescueUSCityRealization] 03 Chicago, IL active terrain='GreatLakes' clouds='Overcast' grade='CoolOvercast' facades='GlassSteel' roads='StrictGrid' homes='BrickTwoFlat' wardrobe_accessory='Beanie'
+[2026.07.12-05.03.10:999][  2]LogTemp: Display: [CodeRescueArenaConfinement] 03 Chicago, IL mission-safe bounds include buildings, survivor, and extraction; catch floor, four edge walls, beacons, and Backspace/F8 recovery guidance active.
+[2026.07.12-05.03.11:001][  2]LogTemp: Display: [CityBlockV3] v3 street kit ACTIVE
+[2026.07.12-05.03.11:010][  2]LogTemp: Display: [Streetscape] 03 Chicago, IL: 54 spawned, 0 failed
+[2026.07.12-05.03.11:018][  2]LogTemp: Display: [CityBlockV3] 03 Chicago, IL: 39 spawned, 0 failed
+[2026.07.12-05.03.11:018][  2]LogTemp: Display: [CityMood] fog=ok post=ok
+[2026.07.12-05.03.11:020][  2]LogTemp: Display: [NightSky] dome=ok moon=ok
+[2026.07.12-05.03.11:020][  2]LogTemp: Display: [ProductionSky] 03 Chicago, IL uses fog, atmosphere, sun, and post processing; geometric cloud plates omitted.
+[2026.07.12-05.03.11:020][  2]LogTemp: Display: [CodeRescueUSCityRealization] 03 Chicago, IL sky family clouds='Overcast' grade='CoolOvercast' fog=0.013 sunday=(0.90 0.92 0.94)
+[2026.07.12-05.03.11:042][  2]LogTemp: Display: [ProductionRoute] 03 Chicago, IL uses HUD objective distance, focus beacons, and the guidance drone; prototype pads and pillars omitted.
+[2026.07.12-05.03.11:043][  2]LogTemp: Display: [CodeRescueSafeLearning] 03 Chicago, IL spawned 10 protected coding stations using selected C++ track; all ten persist before survivor clearance.
+[2026.07.12-05.03.11:044][  2]LogTemp: Display: [CodeRescueCaseFiles] 003 03 Chicago, IL spawned collectible case files with selected-language save persistence.
+[2026.07.12-05.03.11:044][  2]LogTemp: Display: [ProductionWorld] 03 Chicago, IL curated=1 development_showcases=0
+[2026.07.12-05.03.11:045][  2]LogTemp: Display: [SurvivorV3] SurvivorActor_2147481660 wears SurvivorMayaV3 (idle=1 wave=1)
+[2026.07.12-05.03.11:045][  2]LogTemp: Display: [CharacterPresentation] Survivor 'Civilian Survivor' uses prototype Maya rig.
+[2026.07.12-05.03.11:127][  2]LogTemp: Display: [CodeRescueEncounterDirector] 03 Chicago, IL spawned authored AI director layer with anchor, flanker, pressure, and sentinel roles. objective='terminal route locked' adaptive_pressure=0.90 relief=false difficulty='Normal'.
+[2026.07.12-05.03.11:132][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481534 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:132][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481534 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:132][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481534 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:150][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481517 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:150][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481517 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:150][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481517 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:187][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481478 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:187][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481478 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:187][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481478 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:281][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481254 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:281][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481254 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:281][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147481254 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:430][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480881 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:430][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480881 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:430][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480881 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:452][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480835 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:452][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480835 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:452][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480835 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:472][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480796 wears ZombieRunnerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:472][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480796 physics-eval pa=ZombieRunnerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:472][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480796 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:486][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480762 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:486][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480762 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:486][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480762 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:486][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480755 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:486][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480755 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:486][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480755 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:487][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480720 wears ZombieBruteV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:488][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480720 physics-eval pa=ZombieBruteV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:488][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480720 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:488][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480713 wears ZombieShamblerV3 (loop=1 attack=1 flinch=1 death=1)
+[2026.07.12-05.03.11:488][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480713 physics-eval pa=ZombieShamblerV3_PhysicsAsset matched=16 total=16 cvar=1
+[2026.07.12-05.03.11:488][  2]LogTemp: Display: [ZombieV3] CodeZombieActor_2147480713 authored physics asset kept (16 bodies)
+[2026.07.12-05.03.11:558][  2]LogTemp: Display: [CodeRescueExtractionSetPiece] 003 03 Chicago, IL spawned expanded extraction set piece 'HARBOR BOAT' around helipad for Chicago Survivor Team.
+[2026.07.12-05.03.11:638][  2]LogTemp: Display: [CodeRescueEliteWardenMiniBoss] 03 Chicago, IL state='DORMANT UNTIL TERMINAL INTEL' intel_unlocked=false boss_defeated=false spawned_minibosses=0 terminal='chicago_il_sum'
+[2026.07.12-05.03.11:638][  2]LogTemp: Display: [CodeRescueSecondaryMotion] 03 Chicago, IL spawned procedural cloth-ready rescue signals for safehouse, helipad, route, and survivor camp.
+[2026.07.12-05.03.11:641][  2]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_2147480200 wears SurvivorKennyV3 (idle=1)
+[2026.07.12-05.03.11:641][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.12-05.03.11:642][  2]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_2147480180 wears SurvivorKennyV3 (idle=1)
+[2026.07.12-05.03.11:642][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.12-05.03.11:642][  2]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_2147480160 wears SurvivorKennyV3 (idle=1)
+[2026.07.12-05.03.11:642][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.12-05.03.11:643][  2]LogTemp: Display: [FriendlyNPCV3] FriendlyNPCActor_2147480140 wears SurvivorKennyV3 (idle=1)
+[2026.07.12-05.03.11:643][  2]LogTemp: Display: [CharacterPresentation] Engineer NPC uses prototype character rig.
+[2026.07.12-05.03.11:644][  2]LogTemp: Display: [CodeRescueEntryAccess] 03 Chicago, IL cleared 0 static blockers from access points and froze 0 physics components. 
+[2026.07.12-05.03.11:644][  2]LogTemp: Display: [ProductionPresentation] 03 Chicago, IL hidden labels=23 review actors=99 arrival blockers=5; gameplay structures retained.
+[2026.07.12-05.03.11:644][  2]LogTemp: Display: [CityGroundContinuity] COMPLETE PASS city=2 canonical_floor=1 floor_top=-0.00 flattened_regions=1 remaining_elevated=0
+[2026.07.12-05.03.11:644][  2]LogTemp: Display: [CanopyTrim] 03 Chicago, IL: 0 overhead display strips hidden
+[2026.07.12-05.03.11:644][  2]LogTemp: Display: [PadCanopy] 03 Chicago, IL: 0 airborne meshes over the entry pad hidden
+[2026.07.12-05.03.11:645][  2]LogTemp: Display: [CharacterGroundingAudit] COMPLETE PASS city=2 label=03 Chicago, IL characters=138 regrounded=4 floating_after=0 min_ground_z=-18.0
+[2026.07.12-05.03.11:645][  2]LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=2 renewable_alive=127 regular_alive=120 director_alive=4 persistent_alive=1 saved_renewable_deaths_ignored=319 minimum=6 sandbox=0
+[2026.07.12-05.03.11:645][  2]LogTemp: Display: [CityZombiePopulation] COMPLETE PASS city=2 renewable_alive=127 regular_alive=120 director_alive=4 persistent_alive=1 saved_renewable_deaths_ignored=319 minimum=6 sandbox=0
+[2026.07.12-05.03.11:653][  2]LogTemp: Display: [PlayerAnimationAudit] COMPLETE PASS authored_sequences=6 locomotion=1 jump=1 fall=1 land=1 two_arm_aim=1
+[2026.07.12-05.03.11:653][  2]LogTemp: Display: [CharacterPresentation] Player uses authored Manny six-state locomotion rig.
+[2026.07.12-05.03.11:653][  2]LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+[2026.07.12-05.03.11:654][  2]LogTemp: Display: [HeldWeapon] body weapon 'PistolV4' attached via hand_R
+[2026.07.12-05.03.11:659][  2]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[2026.07.12-05.03.11:674][  2]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+[2026.07.12-05.03.12:035][ 23]LogTemp: Display: [SpawnClear] facing yaw 0 (camera clearance 800uu)
+[2026.07.12-05.03.12:226][ 26]LogTemp: Display: [RadioVoiceArbiter] city=2 active_voice=1 overlapping_voices=0
+[2026.07.12-05.05.43:982][674]LogTemp: Display: [FirstLevelSkyCycle] phase=SUNSET time=0.205 solar=0.280 day=0.99 twilight=0.14 night=0.00
+[2026.07.12-05.07.39:759][577]LogTemp: Display: [FirstLevelSkyCycle] phase=NIGHT time=0.269 solar=-0.120 day=0.00 twilight=0.79 night=0.61

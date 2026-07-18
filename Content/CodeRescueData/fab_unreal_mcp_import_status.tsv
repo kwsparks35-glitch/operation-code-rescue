@@ -1,0 +1,17 @@
+title	status	verdict	included_in_game_environment	content_roots	destination	next_action
+AI for NPC  MetaHuman - Dialog  actions and general intelligence - by Convai	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+ASYNC PHYSICS  Blueprints Library	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+Building Interior Cubemap Material Function	already_in_project	portable	yes	Parallax_Night_Building_Material		Use the world-generation queue and Unreal validation to keep this content active.
+Dog Zombie	already_in_project	portable_after_retarget	yes	DogZombie		Use the world-generation queue and Unreal validation to keep this content active.
+LE Extended Standard Library	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+MetaHuman Animator Depth Processing Plugin	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+MetaHuman for Houdini	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+MetaHuman for Maya	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+MetaHuman Groom Advanced Kit for Houdini	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+Modern Bridges	already_in_project	portable	yes	ModernBridges		Use the world-generation queue and Unreal validation to keep this content active.
+Quest Kit Pro	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.
+Urban Zombie 4	already_in_project	portable_after_retarget	yes	UrbanZombie4		Use the world-generation queue and Unreal validation to keep this content active.
+Zombie	already_in_project	portable_after_retarget	yes	Zombie		Use the world-generation queue and Unreal validation to keep this content active.
+Zombie - Bloated Female	already_in_project	portable_after_retarget	yes	YI_ModularZombies		Use the world-generation queue and Unreal validation to keep this content active.
+Zombie - Business Suit	already_in_project	portable_after_retarget	yes	YI_ModularZombies		Use the world-generation queue and Unreal validation to keep this content active.
+Zombie Female  Nurse	requires_launcher_materialization_or_manual_review	manual_review_required	no			Materialize through the Fab window/Epic Launcher; if it is a plugin, verify source, Mac binaries, and license terms.

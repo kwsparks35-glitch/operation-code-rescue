@@ -1,0 +1,7 @@
+area	status	files	notes
+curriculum	implemented	Content/CodeRescueData/curriculum_database.json	Five tier-4 filter challenges cover Java, C, C+, C++, Python, and MATLAB through explicit starter keys.
+terminal_open	implemented	Source/CodeRescueUnreal/CodeTerminalWidget.cpp	Filter terminals now show data-driven teach/apply payloads and use compatible exercise skeletons.
+validation_loop	implemented	Source/CodeRescueUnreal/CodeTerminalWidget.cpp	Every filter validation attempt records telemetry, success appends post-solve reinforcement, and repeated repair attempts show scaffold text.
+world_response	implemented	Source/CodeRescueUnreal/CodeRescueGameMode.cpp	Solved routes spawn ACodeRescueSolveEffectActor and add DataDrivenFilterNode convoy/pose/rail review props.
+ux_safety	implemented	Source/CodeRescueUnreal/CodeRescueGameMode.cpp	Filter-node world props are tagged PhysicsSafeNonBlocking and preserve the existing solved-route traversal.
+review_gate	implemented	Scripts/verify_learning_vertical_slice_pass.py	Static verifier checks data coverage, runtime wiring tokens, effect spawn, docs, and manifest.

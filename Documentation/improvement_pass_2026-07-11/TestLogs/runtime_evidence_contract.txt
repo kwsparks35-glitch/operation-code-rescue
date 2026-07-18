@@ -1,0 +1,18 @@
+[PASS] external 60-solution matrix and alternate case
+[PASS] reported prefix-decrement C++ solution scores 100
+[PASS] editor second-city recovery
+[PASS] terminal numeric and Metal render contrast
+[PASS] editor single-session integrated acceptance
+[PASS] packaged run exercised historical renewable deaths
+[PASS] packaged city retains renewable enemies
+[PASS] packaged city switch stops prior narrator
+[PASS] packaged real-save ground recovery
+[PASS] packaged single-session integrated acceptance
+[PASS] normal launch exposes all six language stations
+[PASS] normal launch displays the language chooser
+[PASS] normal launch does not auto-start gameplay or narration
+[PASS] final evidence logs contain no failure, fatal, ensure, or animation warning
+[PASS] packaged app exists
+[PASS] final bundle identifier
+[PASS] final bundle version
+[PASS] 2026-07-11 runtime evidence (17/17)

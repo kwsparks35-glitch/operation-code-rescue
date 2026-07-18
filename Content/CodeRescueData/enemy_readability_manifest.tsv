@@ -1,0 +1,15 @@
+enemy_type	readability_signal	code_hook	qa_check
+DefaultZombie	Infection glow turns red before melee range	AttackTelegraphRangeMultiplier and AttackTelegraphLeadSeconds	Player sees attack warning before damage.
+EliteSpitter	Acid attack message and ranged spacing	TickEliteBehavior EliteSpitter	Player can identify ranged pressure source.
+EliteCharger	Dash burst and knockback on contact	TickEliteBehavior EliteCharger	Player can read charge distance and avoid straight-line contact.
+EliteBoomer	Death explosion and small-zombie spawn	OnBoomerDeath	Player can learn to back away before finishing.
+BossZombie	Boss distance HUD coach line	Boss distance check in HUD	Player receives warning before optional boss pressure.
+EliteWardenMiniBoss	Terminal-intel gated charger, spitter, and boomer sentinels	SpawnEliteWardenMiniBossStagingLayer terminal-intel gated charger, spitter, and boomer sentinels	Player sees dormant/active/defeated warden runway state, then fights readable mini-boss roles only after coding intel opens the route.
+DamageFeedback	Direction/source/distance alert plus accessible hit overlay	DescribeAttackerDirection, HUD damage alert, and DamageFeedbackAccessibility	Player understands where damage came from with readable text, high-contrast chevrons, and reduced-motion steady flashes.
+PrecisionHitFeedback	Headshot pop/fade or fixed reduced-motion readout	HUD RefreshHeadshotFeedback	Player gets readable reward feedback for precise shots without forced motion.
+StaggerFeedback	AI enters stagger on high damage	EnterStagger from ApplyRescueDamage	Player sees hits interrupt enemy momentum.
+ThreatAudioCaptions	Subtitle-backed hostile audio captions	PushThreatCaption from growl/attack/elite/death events	Player can read nearby hostile audio cues when subtitles are enabled.
+ThreatCompassHUD	Nearest hostile direction, type, role, and urgency	HUD GetNearestHudThreat and ThreatCompassText	Player can identify the closest combat pressure without relying only on audio or minimap scanning.
+ZombieFamilyVariants	City-weighted and authored zombie family markers	ApplyZombieFamilyVariant and ApplyCityZombieFamilyVariant	Player can identify dog, urban, business, bloated, nurse, elite, fallback, horde, and add families through labels, marker color, tags, and saved variant continuity.
+ZombieMotionReadability	Additive chase sway, attack windup, attack lunge, hit recoil, and protected learning hold poses	UpdateMotionReadability, TriggerAttackMotionCue, and TriggerHitReactionMotionCue	Player can read zombie motion state even when a final authored montage or retargeted animation clip is not available.
+ZombiePhysicalAnimationHitReaction	Short-lived PhysicalAnimationComponent blend for promoted skeletal zombies with PhysicsAssets, plus preserved fallback flinch for primitive/unpromoted bodies	TriggerPhysicalAnimationHitReaction, UpdatePhysicalAnimationHitReaction, ResetPhysicalAnimationHitReaction	Player sees nonfatal hits bend through the skeletal body when assets support it while fallback zombies still launch, glow, play hit cues, and keep combat readable.

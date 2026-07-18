@@ -1,0 +1,971 @@
+﻿Log file open, 07/10/26 00:01:12
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Mac/UnrealTraceServer')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Mac"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.7-CL-51494982"
+LogCsvProfiler: Display: Metadata set : engineversion="5.7.4-51494982+++UE5+Release-5.7"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.7.4"
+LogCsvProfiler: Display: Metadata set : os="macOS 26.5.1 25F80"
+LogCsvProfiler: Display: Metadata set : cpu="Apple|Apple M4 Pro"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : commandline="" -windowed -ResX=1280 -ResY=720 -NoRadioVoice -NoSound -unattended -VisualReviewStart -FirstLevelIntegratedAcceptanceAudit -installed""
+LogCsvProfiler: Display: Metadata set : loginid="4c030eef89447e1ef239b28fd95251e1"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../CodeRescueUnreal/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak.
+LogIoDispatcher: Display: Reading toc: ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc, Id=d97666d6c79e2622, Order=4, EntryCount=2526, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc' in location slot 0
+LogFilePackageStore: Mounting container: Id=d97666d6c79e2622, Order=4, NumPackages=1807
+LogPakFile: Display: Mounted IoStore container "../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.utoc"
+LogPakFile: Display: Mounted Pak file '../../../CodeRescueUnreal/Content/Paks/CodeRescueUnreal-Mac.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.172654
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../CodeRescueUnreal/AssetRegistry.bin'
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: OS requested locale 'en-US' is not supported. Using the OS requested language of 'en-US' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Mac-27D4405FBE41AA192F532D9389A611FA
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [/Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin EaseCurveTool
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin AudioInsights
+LogPluginManager: Mounting Engine plugin BaseMaterial
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GlobalConfigurationData
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin NiagaraPreviewContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequenceValidator
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin PCG
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryScripting
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogStudioTelemetry: Started StudioTelemetry Session
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: CodeRescueUnreal
+LogInit: Build: ++UE5+Release-5.7-CL-51494982
+LogInit: Platform=Mac
+LogInit: MachineId=4c030eef89447e1ef239b28fd95251e1
+LogInit: DeviceId=
+LogInit: Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+LogInit: Compatible Engine Version: 5.7.0-47537391+++UE5+Release-5.7
+LogInit: Net CL: 47537391
+LogInit: OS: macOS 26.5.1 (25F80), CPU: Apple M4 Pro, GPU: Apple M4 Pro
+LogInit: CPU Model ID: 0, microcode revision: 0
+LogInit: Compiled (64-bit): Mar  6 2026 07:40:46
+LogInit: Architecture: arm64
+LogInit: Compiled with Clang: 16.0.0 (clang-1600.0.26.4)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.7
+LogInit: Command Line:  -windowed -ResX=1280 -ResY=720 -NoRadioVoice -NoSound -unattended -VisualReviewStart -FirstLevelIntegratedAcceptanceAudit -installed
+LogInit: Base Directory: /Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app/Contents/UE/CodeRescueUnreal/Binaries/Mac/
+LogInit: Allocator: Binned3
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 41
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 225
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 15
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 61
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   FN-Main-InterchangePipeline (B69D2E47-E2A8-4003-BF77-18A492C4D899): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 19
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 40
+LogDevObjectVersion:   Dev-Optimus (93EDE1AA-10CA-7375-4DF9-8A2849B157A0): 14
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 11
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: Set CVar [[g.TimeoutForBlockOnRenderFence:300000]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Substrate.RoughDiffuse:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Substrate.SheenQuality:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Substrate.ShadingQuality:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Substrate.TileCoord8bits:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Substrate.Glints:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Substrate.ClosuresPerPixel:4]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Refraction.Blur:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.DefaultFeature.MotionBlur:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.DefaultFeature.Bloom:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.TemporalAA.Upsampling:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:2]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Lumen.HardwareRayTracing:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.RayTracing:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[r.Nanite.ProjectEnabled:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.07.10-08.01.12:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2026.07.10-08.01.12:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.07.10-08.01.12:793][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="BufferBloat",ToolTip="Simulates a connection affected by buffer bloat (in and out)")]] deferred - dummy variable created
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MarkCoarsePagesLocal:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.HZB:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HorizonSearch.ForegroundSampleRejectPower:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Dim:64]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolume.Blur:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Precision:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2026.07.10-08.01.12:794][  0]LogInit: Selected Device Profile: [Mac]
+[2026.07.10-08.01.12:794][  0]LogInit: Selected Device Profile: [Mac]
+[2026.07.10-08.01.12:794][  0]LogHAL: Display: Platform has ~ 48 GB [51539607552 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.07.10-08.01.12:794][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.07.10-08.01.12:794][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.ZeroInitialise:1 -> 1]]
+[2026.07.10-08.01.12:794][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[r.Shaders.BoundsChecking:1 -> 1]]
+[2026.07.10-08.01.12:794][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2026.07.10-08.01.12:794][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [Startup_Mac] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.07.10-08.01.12:794][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2026.07.10-08.01.12:794][  0]LogConfig: CVar [[r.SceneCulling.ExplicitCellBounds:1]] deferred - dummy variable created
+[2026.07.10-08.01.12:794][  0]LogConfig: CVar [[r.GPUStatsEnabled:0]] deferred - dummy variable created
+[2026.07.10-08.01.12:794][  0]LogConfig: Set CVar [[Slate.NoAnimationOnTabForegroundedEvent:1]]
+[2026.07.10-08.01.12:794][  0]LogInit: macOS 26.5.1 (25F80)
+[2026.07.10-08.01.12:794][  0]LogInit: Model: Mac16,8
+[2026.07.10-08.01.12:794][  0]LogInit: CPU: Apple M4 Pro
+[2026.07.10-08.01.12:794][  0]LogInit: CPU Page size=16384, Cores=14, HT=14
+[2026.07.10-08.01.12:794][  0]LogInit: Computer: Kenneths-MacBook-Pro.local
+[2026.07.10-08.01.12:794][  0]LogInit: User: labcomputer
+[2026.07.10-08.01.12:794][  0]LogInit: High frequency timer resolution =24.000000 MHz
+[2026.07.10-08.01.12:794][  0]LogInit: Power Source: AC Power
+[2026.07.10-08.01.12:794][  0]LogInit: Memory total: Physical=48.0GB (48GB approx) Pagefile=7.0GB Virtual=55.0GB
+[2026.07.10-08.01.12:794][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.07.10-08.01.12:795][  0]LogSpline: Registered spline type: TypeId=0x54E3AD22, Impl=MultiSpline, Value=Vector
+[2026.07.10-08.01.12:795][  0]LogChaosDD: Chaos Debug Draw Startup
+[2026.07.10-08.01.12:795][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.07.10-08.01.12:795][  0]LogInit: Using OS detected language (en-US).
+[2026.07.10-08.01.12:795][  0]LogInit: Using OS detected locale (en-US).
+[2026.07.10-08.01.12:795][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.07.10-08.01.12:852][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.07.10-08.01.12:852][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2026.07.10-08.01.12:852][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.07.10-08.01.12:862][  0]LogRHI: Texture pool is 25804 MB (70% of 36864 MB)
+[2026.07.10-08.01.12:862][  0]LogMetal: Display:       Vendor ID: 4203
+[2026.07.10-08.01.12:862][  0]LogMetal: Display:       Device ID: 875640394
+[2026.07.10-08.01.12:862][  0]LogMetal: Display:       VRAM (MB): 36864
+[2026.07.10-08.01.12:863][  0]LogMac: Attached monitors:
+[2026.07.10-08.01.12:863][  0]LogMac: Screen: Built-in Retina Display, Resolution: 1512x982, Points: 1512x982, WorkArea: (0, 0) -> (1448, 948), Scale: 1.00
+[2026.07.10-08.01.12:863][  0]LogMac: Found 1 attached monitors.
+[2026.07.10-08.01.12:863][  0]LogRHI: RHI Adapter Info:
+[2026.07.10-08.01.12:863][  0]LogRHI:             Name: Apple M4 Pro
+[2026.07.10-08.01.12:863][  0]LogRHI:   Driver Version:  (internal:0.0.0, unified:0.0.0)
+[2026.07.10-08.01.12:863][  0]LogRHI:      Driver Date: 1-1-1970
+[2026.07.10-08.01.12:865][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2026.07.10-08.01.12:866][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Metal"
+[2026.07.10-08.01.12:866][  0]LogCsvProfiler: Display: Metadata set : rhiname="Metal"
+[2026.07.10-08.01.12:866][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.07.10-08.01.12:866][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+[2026.07.10-08.01.12:866][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.07.10-08.01.12:869][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2026.07.10-08.01.12:870][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library Global
+[2026.07.10-08.01.12:870][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for global_sc_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:870][  0]LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:871][  0]LogTemp: Display: Clearing the OS Cache
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: Platform=METAL_SM6 (52)
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: ---
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: ---
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2026.07.10-08.01.12:875][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2026.07.10-08.01.12:879][  0]LogSlate: Using FreeType 2.10.0
+[2026.07.10-08.01.12:879][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for paper2d_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for aclplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for controlrig_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for controlrigmodules_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for controlrigspline_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for deformergraph_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for easecurvetool_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for ikrig_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for livelink_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for riglogic_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:967][  0]LogMetal: Display: No .metalmap file found for skeletalmeshmodelingtools_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for tweeningutils_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for audioinsights_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for basematerial_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for bridge_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for gameplaycameras_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for chaosvd_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for animationsharing_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for namingtokens_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for blueprintheaderview_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for geometrymode_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for modelingtoolseditormode_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for lightmixer_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for objectmixer_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for speedtreeimporter_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for umgwidgetpreview_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for uveditor_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for datasmithcontent_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for gltfexporter_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for chaoscaching_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for chaosniagara_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for chaossolverplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for dataflow_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for editordatastorage_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for editordatastoragefeatures_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for fullbodyik_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for geometrycollectionplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for geometrydataflow_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for pythonscriptplugin_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for toolpresets_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for cascade_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for niagara_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for niagarapreviewcontent_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for niagarasimcaching_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for fab_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for usdimporter_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for interchangeassets_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for interchange_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for fablauncher_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for mediacompositing_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for mediaplate_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for metahumansdk_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for sequencerscripting_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for nnedenoiser_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for pcg_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for audiosynesthesia_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for audiowidgets_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for geometryprocessing_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for geometryscripting_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for hairstrands_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for meshmodelingtoolset_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for metasound_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for propertybindingutils_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for resonanceaudio_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for rigvm_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for statetree_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for synthesis_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for usdcore_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for wavetable_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for traceutilities_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:968][  0]LogMetal: Display: No .metalmap file found for takes_sf_metal_sm6-metal_sm6!
+[2026.07.10-08.01.12:969][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+[2026.07.10-08.01.12:969][  0]LogShaderLibrary: Display: Logical shader library 'CodeRescueUnreal' has been created as a monolithic library
+[2026.07.10-08.01.12:969][  0]LogShaderLibrary: Display: Cooked Context: Loaded Native Shared Shader Library CodeRescueUnreal
+[2026.07.10-08.01.12:969][  0]LogShaderLibrary: Display: Discovered new 0 components for logical shader library 'CodeRescueUnreal' (total number of components is now 2)
+[2026.07.10-08.01.12:969][  0]LogInit: Using OS detected language (en-US).
+[2026.07.10-08.01.12:969][  0]LogInit: Using OS detected locale (en-US).
+[2026.07.10-08.01.12:969][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2026.07.10-08.01.12:969][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2026.07.10-08.01.12:969][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.07.10-08.01.12:969][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2026.07.10-08.01.12:970][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2026.07.10-08.01.13:056][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.07.10-08.01.13:056][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.07.10-08.01.13:057][  0]LogInit: Selected Device Profile: [Mac]
+[2026.07.10-08.01.13:057][  0]LogDeviceProfileManager: Active device profile: [0x13781b220][0x7b00172ff0 82] Mac
+[2026.07.10-08.01.13:057][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Mac"
+[2026.07.10-08.01.13:058][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.10-08.01.13:058][  0]LogFilePackageStore: Updated: NewPackages=1807, OldPackages=0, TotalPackages=1808
+[2026.07.10-08.01.13:064][  0]LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/coderescueunreal_sf_metal_sm6-metal_sm6.0.metallib, 22425180 bytes!
+[2026.07.10-08.01.13:113][  0]LogMetal: Display: emulating mmapping ../../../CodeRescueUnreal/Content/global_sf_metal_sm6-metal_sm6.0.metallib, 236063064 bytes!
+[2026.07.10-08.01.13:234][  0]LogUsd: Attempted to call a static function from UnrealUSDWrapper before the module is actually loaded! The module will be loaded now, but not all static functions have this check. In general, please ensure an Unreal module is loaded before calling any of its static functions, for example by calling 'FModuleManager::LoadModuleChecked<IUnrealUSDWrapperModule>("UnrealUSDWrapper");' beforehand.
+[2026.07.10-08.01.13:250][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.10-08.01.13:252][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.07.10-08.01.13:253][  0]LogPackageLocalizationCache: Processed 73 localized package path(s) for 1 prioritized culture(s) in 0.000154 seconds
+[2026.07.10-08.01.13:257][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.07.10-08.01.13:257][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2026.07.10-08.01.13:263][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.07.10-08.01.13:271][  0]LogMoviePlayer: FAVMoviePlayer ctor...
+[2026.07.10-08.01.13:271][  0]LogMoviePlayer: Initializing movie player
+[2026.07.10-08.01.13:272][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2026.07.10-08.01.13:272][  0]LogInit: XR: MultiViewport is Disabled
+[2026.07.10-08.01.13:272][  0]LogInit: XR: Mobile Multiview is Disabled
+[2026.07.10-08.01.13:275][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 48D0610A6CEB4C8D800000000000FC00 | Instance: 3E6F59DFCE4D4711263F6FB5DA32A8E9 (Kenneths-MacBook-Pro.local-64469).
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   DirectML:  no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   RHI D3D12: no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   D3D12:     no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   NPU:       no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT: Interface availability:
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   GPU: no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   RDG: no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT:   NPU: no
+[2026.07.10-08.01.13:278][  0]LogNNERuntimeORT: NNERuntimeORTDml is not available!
+[2026.07.10-08.01.13:288][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.07.10-08.01.13:290][  0]LogMetaSound: MetaSound Engine Initialized
+[2026.07.10-08.01.13:297][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.07.10-08.01.13:305][  0]LogUObjectArray: 33127 objects as part of root set at end of initial load.
+[2026.07.10-08.01.13:305][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2026.07.10-08.01.13:305][  0]LogUObjectArray: CloseDisregardForGC: 33127/33127 objects in disregard for GC pool
+[2026.07.10-08.01.13:313][  0]LogEngine: Initializing Engine...
+[2026.07.10-08.01.13:322][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.07.10-08.01.13:322][  0]LogInit: Texture streaming: Enabled
+[2026.07.10-08.01.13:322][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.07.10-08.01.13:324][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2026.07.10-08.01.13:326][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.10-08.01.13:326][  0]LogInit: Display: Game Engine Initialized.
+[2026.07.10-08.01.13:326][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2026.07.10-08.01.13:331][  0]LogInit: Display: Starting Game.
+[2026.07.10-08.01.13:331][  0]LogGlobalStatus: Browse Started Browse: "/Engine/Maps/Entry?Name=Player"
+[2026.07.10-08.01.13:331][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
+[2026.07.10-08.01.13:331][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
+[2026.07.10-08.01.13:331][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2026.07.10-08.01.13:331][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.07.10-08.01.13:331][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.10-08.01.13:333][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.07.10-08.01.13:341][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Entry
+[2026.07.10-08.01.13:342][  0]LogLoad: Game class is 'CodeRescueGameMode'
+[2026.07.10-08.01.13:343][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 0) at 2026.07.10-00.01.13
+[2026.07.10-08.01.13:343][  0]LogWorld: Bringing up level for play took: 0.000849
+[2026.07.10-08.01.13:344][  0]r.DynamicGlobalIlluminationMethod = "0"
+[2026.07.10-08.01.13:344][  0]r.ReflectionMethod = "0"
+[2026.07.10-08.01.13:344][  0]r.DefaultFeature.AutoExposure = "1"
+[2026.07.10-08.01.13:344][  0]r.EyeAdaptationQuality = "2"
+[2026.07.10-08.01.13:344][  0]r.DefaultFeature.Bloom = "1"
+[2026.07.10-08.01.13:346][  0]r.Shadow.Virtual.Enable = "0"
+[2026.07.10-08.01.13:356][  0]LogTemp: Display: [CodeRescueUSCityRealization] 01 New York, NY active terrain='ForestHills' clouds='Overcast' grade='NeutralMetro' facades='GlassSteel' roads='NumberedGrid' homes='BrownstoneRow' wardrobe_accessory='Scarf'
+[2026.07.10-08.01.13:360][  0]LogTemp: Display: [CodeRescueArenaConfinement] 01 New York, NY locked with catch floor, four collision walls, corner beacons, skyline edge, and Backspace/F8 recovery guidance.
+[2026.07.10-08.01.13:362][  0]LogTemp: Display: [CityBlockV3] v3 street kit ACTIVE
+[2026.07.10-08.01.13:384][  0]LogTemp: Display: [Streetscape] 01 New York, NY: 54 spawned, 0 failed
+[2026.07.10-08.01.13:394][  0]LogTemp: Display: [CityBlockV3] 01 New York, NY: 36 spawned, 0 failed
+[2026.07.10-08.01.13:397][  0]LogTemp: Display: [FirstLevelCombatArtV4] 01 New York, NY spawned 2 authored structures/cover; later levels unchanged
+[2026.07.10-08.01.13:399][  0]LogTemp: Display: [FirstLevelAccessV5] building=AccessibleMarketV5 collision_boxes=13 doorway_clear_width=230cm visual_hull=disabled
+[2026.07.10-08.01.13:402][  0]LogTemp: Display: [FirstLevelAccessV5] building=AccessibleClinicV5 collision_boxes=12 doorway_clear_width=230cm visual_hull=disabled
+[2026.07.10-08.01.13:405][  0]LogTemp: Display: [FirstLevelAccessV5] building=OpenStreetCafeV5 collision_boxes=17 doorway_clear_width=230cm visual_hull=disabled
+[2026.07.10-08.01.13:405][  0]LogTemp: Display: [FirstLevelAccessV5] 01 New York, NY buildings=3 open_doorways=3 functional_pickups=3 canonical_ground_z=0.0
+[2026.07.10-08.01.13:405][  0]LogTemp: Display: [CityMood] fog=ok post=ok
+[2026.07.10-08.01.13:407][  0]LogTemp: Display: [NightSky] dome=ok moon=ok
+[2026.07.10-08.01.13:407][  0]LogTemp: Display: [ProductionSky] 01 New York, NY uses fog, atmosphere, sun, and post processing; geometric cloud plates omitted.
+[2026.07.10-08.01.13:407][  0]LogTemp: Display: [CodeRescueUSCityRealization] 01 New York, NY sky family clouds='Overcast' grade='NeutralMetro' fog=0.016 sunday=(0.94 0.94 0.90)
+[2026.07.10-08.01.13:462][  0]LogTemp: Display: [ProductionRoute] 01 New York, NY uses HUD objective distance, focus beacons, and the guidance drone; prototype pads and pillars omitted.
+[2026.07.10-08.01.13:463][  0]LogTemp: Display: [GuidanceTrail] new_york_ny_sum: 4 strips over 21m
+[2026.07.10-08.01.13:463][  0]LogTemp: Display: [CodeRescueSafeLearning] 01 New York, NY spawned protected coding safehouse using selected Java track; terminal validation pauses combat and rewards survivor intel.
+[2026.07.10-08.01.13:463][  0]LogTemp: Display: [CodeRescueCaseFiles] 001 01 New York, NY spawned collectible case files with selected-language save persistence.
+[2026.07.10-08.01.13:463][  0]LogTemp: Display: [ProductionWorld] 01 New York, NY curated=1 development_showcases=0
+[2026.07.10-08.01.13:467][  0]LogTemp: Display: [CharacterPresentation] Survivor 'Civilian Survivor' uses production Quinn rig.
+[2026.07.10-08.01.13:474][  0]LogTemp: Display: [CodeRescueEncounterDirector] 01 New York, NY spawned authored AI director layer with anchor, flanker, pressure, and sentinel roles. objective='terminal route locked' adaptive_pressure=0.90 relief=false difficulty='Normal'.
+[2026.07.10-08.01.13:482][  0]LogTemp: Display: [CodeRescueExtractionSetPiece] 001 01 New York, NY spawned expanded extraction set piece 'ROOFTOP LIFT' around helipad for New York Survivor Team.
+[2026.07.10-08.01.13:536][  0]LogTemp: Display: [CodeRescueEliteWardenMiniBoss] 01 New York, NY state='WARDEN DEFEATED' intel_unlocked=false boss_defeated=true spawned_minibosses=0 terminal='new_york_ny_sum'
+[2026.07.10-08.01.13:537][  0]LogTemp: Display: [CodeRescueSecondaryMotion] 01 New York, NY spawned procedural cloth-ready rescue signals for safehouse, helipad, route, and survivor camp.
+[2026.07.10-08.01.13:546][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.10-08.01.13:551][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.10-08.01.13:555][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.10-08.01.13:559][  0]LogTemp: Display: [CharacterPresentation] Engineer NPC uses production mannequin rig.
+[2026.07.10-08.01.13:560][  0]LogTemp: Display: [CodeRescueEntryAccess] 01 New York, NY cleared 0 static blockers from access points and froze 0 physics components. 
+[2026.07.10-08.01.13:560][  0]LogTemp: Display: [ProductionPresentation] 01 New York, NY hidden labels=0 review actors=99 arrival blockers=0; gameplay structures retained.
+[2026.07.10-08.01.13:560][  0]LogTemp: Display: [AutoGround] first-level canonical plane active; post-spawn transform rewriting skipped
+[2026.07.10-08.01.13:560][  0]LogTemp: Display: [CanopyTrim] 01 New York, NY: 0 overhead display strips hidden
+[2026.07.10-08.01.13:560][  0]LogTemp: Display: [PadCanopy] 01 New York, NY: 0 airborne meshes over the entry pad hidden
+[2026.07.10-08.01.13:560][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2026.07.10-08.01.13:566][  0]LogTemp: Display: [CharacterPresentation] Player uses production Manny locomotion rig.
+[2026.07.10-08.01.13:566][  0]LogTemp: Display: [FirstLevelAim] runtime pose copy configured for SKM_Manny
+[2026.07.10-08.01.13:566][  0]LogTemp: Display: [HeldWeapon] body weapon 'PistolV3' attached via hand_R
+[2026.07.10-08.01.13:570][  0]LogLoad: Took 0.239094 seconds to LoadMap(/Engine/Maps/Entry)
+[2026.07.10-08.01.13:570][  0]LogGlobalStatus: LoadMap Load map complete /Engine/Maps/Entry
+[2026.07.10-08.01.13:570][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2026.07.10-08.01.13:586][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.10-08.01.13:587][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2026.07.10-08.01.13:587][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=32, PathHashSize=16, EntriesSize=28672, DirTreeIndexSize=159448, TotalSize=188168
+[2026.07.10-08.01.13:587][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2026.07.10-08.01.13:587][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2026.07.10-08.01.13:590][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.07.10-08.01.13:590][  0]LogLoad: (Engine Initialization) Total time: 1.04 seconds
+[2026.07.10-08.01.13:611][  0]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[2026.07.10-08.01.13:612][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.07.10-08.01.13:612][  0]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.10-08.01.13:612][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.07.10-08.01.13:616][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.10-08.01.13:644][  0]LogSlate: Slate font cache was flushed
+[2026.07.10-08.01.13:644][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.10-08.01.13:645][  0]LogTrace: Display: Control listening on port 38750
+[2026.07.10-08.01.13:646][  1]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.728 day=1.00 twilight=0.00 night=0.00
+[2026.07.10-08.01.13:650][  1]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.07.10-08.01.13:652][  1]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2026.07.10-08.01.14:350][ 67]LogTemp: Display: [SpawnClear] facing yaw 0 (camera clearance 800uu)
+[2026.07.10-08.01.14:492][ 80]LogTemp: Display: [FirstLevelAccessAudit] doorway=1 clear=1 level=1 blocker=none component=none outside=V(X=-7980.00, Y=-2460.00, Z=102.00) inside=V(X=-7980.00, Y=-2050.00, Z=102.00) impact=V(0) normal=V(0) ground_out=17.00 ground_in=14.40
+[2026.07.10-08.01.14:492][ 80]LogTemp: Display: [FirstLevelAccessAudit] doorway=2 clear=1 level=1 blocker=none component=none outside=V(X=-4700.00, Y=-8580.00, Z=102.00) inside=V(X=-4700.00, Y=-8990.00, Z=102.00) impact=V(0) normal=V(0) ground_out=17.00 ground_in=14.40
+[2026.07.10-08.01.14:492][ 80]LogTemp: Display: [FirstLevelAccessAudit] doorway=3 clear=1 level=1 blocker=none component=none outside=V(X=-3880.00, Y=-2460.00, Z=102.00) inside=V(X=-3880.00, Y=-2050.00, Z=102.00) impact=V(0) normal=V(0) ground_out=17.00 ground_in=14.40
+[2026.07.10-08.01.14:492][ 80]LogTemp: Display: [FirstLevelAccessAudit] COMPLETE PASS ground_surfaces=33 z_spread=1.00 enterable_buildings=3 clear_doors=3/3 level_doors=3/3
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] language=Java mode=in_engine_fallback result=PASS score=100 passed_checks=3 failed_checks=0 summary=In-engine validation passed. (External compiler was not available; static-analysis tier was used.)
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] language=C mode=in_engine_fallback result=PASS score=100 passed_checks=3 failed_checks=0 summary=In-engine validation passed. (External compiler was not available; static-analysis tier was used.)
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] language=C+ mode=in_engine_fallback result=PASS score=100 passed_checks=3 failed_checks=0 summary=In-engine validation passed. (External compiler was not available; static-analysis tier was used.)
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] language=C++ mode=in_engine_fallback result=PASS score=100 passed_checks=3 failed_checks=0 summary=In-engine validation passed. (External compiler was not available; static-analysis tier was used.)
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] language=Python mode=in_engine_fallback result=PASS score=100 passed_checks=3 failed_checks=0 summary=In-engine validation passed. (External compiler was not available; static-analysis tier was used.)
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] language=MATLAB mode=in_engine_fallback result=PASS score=100 passed_checks=3 failed_checks=0 summary=In-engine validation passed. (External compiler was not available; static-analysis tier was used.)
+[2026.07.10-08.01.14:493][ 80]LogTemp: Display: [FirstLevelChallengeAudit] COMPLETE PASS languages=6/6 challenge=new_york_ny_sum visible=45 hidden=passed
+[2026.07.10-08.01.14:595][ 90]LogTemp: Display: [FirstLevelSkyAudit] phase=DAY time=0.00 requested
+[2026.07.10-08.01.14:606][ 91]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.000 solar=1.000 day=1.00 twilight=0.00 night=0.00
+[2026.07.10-08.01.14:950][124]LogTemp: Display: [FirstLevelSkyAudit] phase=DAY capture=/Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/Screenshots/FirstLevel/first_level_sky_day.png safe_stars=1 stars_visible=0 moon_visible=0
+[2026.07.10-08.01.15:094][128]LogTemp: Display: [FirstLevelCombatAudit] spawned transient target because campaign supplied no live zombie
+[2026.07.10-08.01.15:094][128]LogStreaming: Display: FlushAsyncLoading(118): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.10-08.01.15:096][128]LogTemp: Display: [FirstLevelCombatAudit] collision actor_enabled=1 capsule_enabled=3 weapon_response=2 object_type=15 center=V(X=-5983.20, Y=-4848.96, Z=90.00) radius=34.00 half_height=88.00
+[2026.07.10-08.01.15:098][128]LogTemp: Display: [AnatomicalWound] bite victim=CodeRescueCharacter_2147482412 bone=upperarm_R attacker=CodeZombieActor_2147481353 count=1
+[2026.07.10-08.01.15:098][128]LogTemp: Display: [FirstLevelCombatAudit] BEGIN target=CodeZombieActor_2147481353 location=V(X=-5983.20, Y=-4848.96, Z=90.00) bite_visual=PASS corpse_window=9.0 fade=2.8
+[2026.07.10-08.01.15:105][129]LogTemp: Display: [TargetLock] ACQUIRED target=CodeZombieActor_2147481353 distance=760 LOS=1 physical_trace=1
+[2026.07.10-08.01.15:277][144]LogTemp: Display: [FirstLevelCombatAudit] jump=PASS velocity_z=500.0 stamina=87.8
+[2026.07.10-08.01.15:549][167]LogTemp: Display: [TargetLock] RELEASED target=CodeZombieActor_2147481353
+[2026.07.10-08.01.15:721][184]LogTemp: Display: [FirstLevelCombatAudit] deliberate_miss_locality=PASS health=100000.0->100000.0 physical_ray_miss=1 remote_damage=0
+[2026.07.10-08.01.15:739][186]LogTemp: Display: [TargetLock] ACQUIRED target=CodeZombieActor_2147481353 distance=796 LOS=1 physical_trace=1
+[2026.07.10-08.01.16:001][209]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNSET time=0.25 requested
+[2026.07.10-08.01.16:011][210]LogTemp: Display: [FirstLevelSkyCycle] phase=SUNSET time=0.250 solar=-0.000 day=0.07 twilight=1.00 night=0.06
+[2026.07.10-08.01.16:364][236]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNSET capture=/Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/Screenshots/FirstLevel/first_level_sky_sunset.png safe_stars=1 stars_visible=0 moon_visible=1
+[2026.07.10-08.01.16:900][268]LogTemp: Display: [FirstLevelCombatAudit] settled_aim origin=V(X=-6561.09, Y=-5755.11, Z=215.61) target=V(X=-5998.61, Y=-4873.06, Z=125.51) forward=V(X=0.54, Y=0.84, Z=-0.09)
+[2026.07.10-08.01.17:078][281]LogTemp: Display: [FirstLevelCombatAudit] target_lock=PASS target=CodeZombieActor_2147481353 physical_trace_redirect=1
+[2026.07.10-08.01.17:201][290]LogTemp: Display: [FirstLevelCombatAudit] preflight channel_hit=true channel_actor=CodeZombieActor_2147481353 zombie_hit=true zombie_actor=CodeZombieActor_2147481353 target=CodeZombieActor_2147481353
+[2026.07.10-08.01.17:201][290]LogStreaming: Display: FlushAsyncLoading(122): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.10-08.01.17:202][290]LogTemp: Display: [AnatomicalWound] zombie=CodeZombieActor_2147481353 zone=1 bone=pelvis point=V(X=-6016.89, Y=-4901.73, Z=140.85) count=1
+[2026.07.10-08.01.17:202][290]LogTemp: Display: [FirstLevelCombatAudit] line_trace_shot=1 PASS health=70.0->35.0 remote_assist=disabled
+[2026.07.10-08.01.17:395][304]LogTemp: Display: [FirstLevelSkyAudit] phase=NIGHT time=0.50 requested
+[2026.07.10-08.01.17:395][304]LogTemp: Display: [FirstLevelCombatAudit] wound capture requested /Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/Screenshots/FirstLevel/first_level_combat_wound.png
+[2026.07.10-08.01.17:534][305]LogTemp: Display: [FirstLevelSkyCycle] phase=NIGHT time=0.501 solar=-1.000 day=0.00 twilight=0.00 night=1.00
+[2026.07.10-08.01.17:705][320]LogTemp: Display: [AnatomicalWound] zombie=CodeZombieActor_2147481353 zone=1 bone=pelvis point=V(X=-6016.55, Y=-4901.19, Z=153.13) count=2
+[2026.07.10-08.01.17:705][320]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481353 remains visible 9.0s then fades 2.8s impulse=V(X=166.40, Y=260.94, Z=8.71)
+[2026.07.10-08.01.17:705][320]LogTemp: Display: [FirstLevelCombatAudit] line_trace_shot=2 PASS health=35.0->0.0 remote_assist=disabled
+[2026.07.10-08.01.17:718][321]LogTemp: Display: [TargetLock] RELEASED target=CodeZombieActor_2147481353
+[2026.07.10-08.01.17:746][323]LogTemp: Display: [FirstLevelSkyAudit] phase=NIGHT capture=/Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/Screenshots/FirstLevel/first_level_sky_night.png safe_stars=1 stars_visible=1 moon_visible=1
+[2026.07.10-08.01.18:097][342]LogTemp: Display: [FirstLevelCombatAudit] corpse_window=PASS trace_hits=2 location=V(X=-5998.27, Y=-4872.52, Z=113.36) scale=V(X=1.00, Y=1.00, Z=1.00)
+[2026.07.10-08.01.18:888][392]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNRISE time=0.75 requested
+[2026.07.10-08.01.18:889][393]LogTemp: Display: [FirstLevelSkyCycle] phase=SUNRISE time=0.750 solar=0.000 day=0.07 twilight=1.00 night=0.06
+[2026.07.10-08.01.19:248][421]LogTemp: Display: [FirstLevelSkyAudit] phase=SUNRISE capture=/Users/labcomputer/Library/Containers/com.operationcoderescue.CodeRescueUnreal/Data/Library/Application Support/Epic/CodeRescueUnreal/Saved/Screenshots/FirstLevel/first_level_sky_sunrise.png safe_stars=1 stars_visible=0 moon_visible=1
+[2026.07.10-08.01.19:900][464]LogTemp: Display: [FirstLevelSkyAudit] COMPLETE PASS day=1 sunset=1 night=1 sunrise=1 stars=1 moon=1
+[2026.07.10-08.01.19:910][465]LogTemp: Display: [FirstLevelSkyCycle] phase=DAY time=0.120 solar=0.729 day=1.00 twilight=0.00 night=0.00
+[2026.07.10-08.01.26:710][ 56]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481353 captured final skeletal pose for fade
+[2026.07.10-08.01.26:710][ 56]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481353 visible-settle complete; 2.8s gradual sink/fade started
+[2026.07.10-08.01.27:948][163]LogTemp: Display: [FirstLevelCombatAudit] gradual_fade=PASS sink=29.78 scale_reduction=0.602
+[2026.07.10-08.01.29:513][287]LogTemp: Display: [CorpseLifecycle] zombie=CodeZombieActor_2147481353 fade complete; removing corpse
+[2026.07.10-08.01.31:295][443]LogTemp: Display: [FirstLevelCombatAudit] COMPLETE PASS jump=1 bite=1 miss_locality=1 target_lock=1 trace_hits=2 corpse=1 fade=1 removed=1
+[2026.07.10-08.01.31:750][482]LogClient: Warning: Consoles don't need hitproxy storage - wasting memory!?
+[2026.07.10-08.01.31:751][482]LogTemp: Display: [PauseArmory] preview 1/17 Balanced Handgun mesh=PistolV3 size=V(X=21.10, Y=3.35, Z=16.45) center=V(X=6.45, Y=-0.07, Z=1.77) scale=12.085 ammo=9+96
+[2026.07.10-08.01.31:751][482]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.07.10-08.01.31:751][482]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2026.07.10-08.01.31:882][491]LogStreaming: Display: FlushAsyncLoading(123): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.10-08.01.31:882][491]LogTemp: Display: [PauseArmory] preview 2/17 Pump Shotgun mesh=ShotgunV3 size=V(X=114.52, Y=6.00, Z=12.61) center=V(X=25.74, Y=-0.70, Z=2.64) scale=2.227 ammo=6+36
+[2026.07.10-08.01.32:030][502]LogTemp: Display: [PauseArmory] preview 3/17 Assault Rifle mesh=RifleV3 size=V(X=110.50, Y=4.00, Z=28.85) center=V(X=19.25, Z=-0.13) scale=2.308 ammo=30+180
+[2026.07.10-08.01.32:177][513]LogTemp: Display: [PauseArmory] preview 4/17 Frag Grenade mesh=GrenadeV4 size=V(X=16.32, Y=11.20, Z=15.90) center=V(X=0.09, Z=2.35) scale=15.626 ammo=1+5
+[2026.07.10-08.01.32:332][524]LogTemp: Display: [PauseArmory] preview 5/17 Combat Knife mesh=CombatKnifeV4 size=V(X=94.50, Y=18.00, Z=8.00) center=V(X=7.75) scale=2.698 ammo=1+0
+[2026.07.10-08.01.32:471][535]LogTemp: Display: [PauseArmory] preview 6/17 Heavy Handgun mesh=PistolV3 size=V(X=21.10, Y=3.35, Z=16.45) center=V(X=6.45, Y=-0.07, Z=1.77) scale=12.085 ammo=9+54
+[2026.07.10-08.01.32:619][546]LogTemp: Display: [PauseArmory] preview 7/17 Burst Handgun mesh=PistolV3 size=V(X=21.10, Y=3.35, Z=16.45) center=V(X=6.45, Y=-0.07, Z=1.77) scale=12.085 ammo=18+108
+[2026.07.10-08.01.32:767][557]LogTemp: Display: [PauseArmory] preview 8/17 Tactical Shotgun mesh=ShotgunV3 size=V(X=114.52, Y=6.00, Z=12.61) center=V(X=25.74, Y=-0.70, Z=2.64) scale=2.227 ammo=8+48
+[2026.07.10-08.01.32:916][568]LogTemp: Display: [PauseArmory] preview 9/17 Auto Shotgun mesh=ShotgunV3 size=V(X=114.52, Y=6.00, Z=12.61) center=V(X=25.74, Y=-0.70, Z=2.64) scale=2.227 ammo=12+60
+[2026.07.10-08.01.33:064][579]LogTemp: Display: [PauseArmory] preview 10/17 SMG mesh=SMGV3 size=V(X=62.20, Y=3.40, Z=17.53) center=V(X=10.40, Z=-0.12) scale=4.100 ammo=40+240
+[2026.07.10-08.01.33:210][590]LogTemp: Display: [PauseArmory] preview 11/17 Precision Rifle mesh=RifleV3 size=V(X=110.50, Y=4.00, Z=28.85) center=V(X=19.25, Z=-0.13) scale=2.308 ammo=5+35
+[2026.07.10-08.01.33:360][601]LogTemp: Display: [PauseArmory] preview 12/17 Semi-Auto Rifle mesh=RifleV3 size=V(X=110.50, Y=4.00, Z=28.85) center=V(X=19.25, Z=-0.13) scale=2.308 ammo=10+60
+[2026.07.10-08.01.33:509][612]LogTemp: Display: [PauseArmory] preview 13/17 Magnum mesh=PistolV3 size=V(X=21.10, Y=3.35, Z=16.45) center=V(X=6.45, Y=-0.07, Z=1.77) scale=12.085 ammo=6+24
+[2026.07.10-08.01.33:657][623]LogTemp: Display: [PauseArmory] preview 14/17 Bolt Launcher mesh=CrossbowV3 size=V(X=74.48, Y=56.00, Z=15.07) center=V(X=7.76, Z=1.14) scale=3.424 ammo=6+42
+[2026.07.10-08.01.33:805][634]LogTemp: Display: [PauseArmory] preview 15/17 Rocket Launcher mesh=RocketLauncherV4 size=V(X=160.50, Y=24.00, Z=60.56) center=V(X=3.75, Z=5.22) scale=1.589 ammo=1+1
+[2026.07.10-08.01.33:954][645]LogTemp: Display: [PauseArmory] preview 16/17 Incendiary Grenade mesh=GrenadeV4 size=V(X=16.32, Y=11.20, Z=15.90) center=V(X=0.09, Z=2.35) scale=15.626 ammo=1+4
+[2026.07.10-08.01.34:104][656]LogTemp: Display: [PauseArmory] preview 17/17 Flash Grenade mesh=GrenadeV4 size=V(X=16.32, Y=11.20, Z=15.90) center=V(X=0.09, Z=2.35) scale=15.626 ammo=1+4
+[2026.07.10-08.01.34:252][667]LogTemp: Display: [HeldWeapon] body weapon 'GrenadeV4' attached via hand_R
+[2026.07.10-08.01.34:252][667]LogTemp: Display: [WeaponSwap] equipped slot 16: Flash Grenade
+[2026.07.10-08.01.34:252][667]LogTemp: Display: [PauseArmory] equipped selection index=16
+[2026.07.10-08.01.34:252][667]LogTemp: Display: [PauseArmoryAudit] COMPLETE PASS previews=17 final_index=16 equipped=1
+[2026.07.10-08.01.36:610][837]LogTemp: Display: [FirstLevelIntegratedAudit] COMPLETE PASS world=1 sky=1 challenges=1 target_lock=1 combat=1 corpse=1 armory=1
+[2026.07.10-08.01.36:610][837]LogMac: FPlatformMisc::RequestExit(0, <NoCallSiteInfo>)
+[2026.07.10-08.01.36:610][837]LogCore: Engine exit requested (reason: Mac RequestExit)
+[2026.07.10-08.01.36:624][838]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.07.10-08.01.36:639][838]LogInit: Display: PreExit Game.
+[2026.07.10-08.01.36:640][838]LogWorld: BeginTearingDown for /Engine/Maps/Entry
+[2026.07.10-08.01.36:640][838]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.07.10-08.01.36:640][838]LogWorld: BeginTearingDown for /Engine/Transient
+[2026.07.10-08.01.36:640][838]LogWorld: UWorld::CleanupWorld for World_2147481285, bSessionEnded=true, bCleanupResources=true
+[2026.07.10-08.01.36:640][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.10-08.01.36:641][838]LogWorld: UWorld::CleanupWorld for Entry, bSessionEnded=true, bCleanupResources=true
+[2026.07.10-08.01.36:642][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.10-08.01.36:643][838]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.07.10-08.01.36:643][838]LogSlate: Request Window 'CodeRescueUnreal (64-bit Development SF_METAL_SM6) ' being destroyed
+[2026.07.10-08.01.36:643][838]LogSlate: Window 'CodeRescueUnreal (64-bit Development SF_METAL_SM6) ' being destroyed
+[2026.07.10-08.01.36:655][838]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.07.10-08.01.36:656][838]LogExit: Preparing to exit.
+[2026.07.10-08.01.36:656][838]LogMoviePlayer: Shutting down movie player
+[2026.07.10-08.01.36:660][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.10-08.01.36:662][838]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.07.10-08.01.36:665][838]LogExit: Game engine shut down
+[2026.07.10-08.01.36:667][838]LogRenderer: Forcing update for all mesh draw commands: SkyLight real-time capture change
+[2026.07.10-08.01.36:687][838]LogExit: Object subsystem successfully closed.
+[2026.07.10-08.01.36:695][838]LogShaderLibrary: Display: Closing logical shader library 'Global' with 1 components
+[2026.07.10-08.01.36:695][838]LogShaderLibrary: Display: Closing logical shader library 'CodeRescueUnreal' with 2 components
+[2026.07.10-08.01.36:698][838]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.07.10-08.01.36:698][838]LogPakFile: Destroying PakPlatformFile
+[2026.07.10-08.01.36:707][838]LogExit: Exiting.
+[2026.07.10-08.01.36:712][838]Log file closed, 07/10/26 00:01:36

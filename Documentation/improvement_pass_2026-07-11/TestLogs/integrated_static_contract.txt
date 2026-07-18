@@ -1,0 +1,30 @@
+PASS: character owns a persistent, bounded target-lock state machine
+PASS: target retention requires collision, range, view cone, and line of sight
+PASS: the authored two-arm presentation follows the locked target
+PASS: lock-on redirects the real ray instead of awarding damage after a miss
+PASS: legacy post-miss proximity damage is absent
+PASS: runtime acceptance requires a deliberate miss to leave the nearby target unharmed
+PASS: HUD exposes a clear lock state and physical-trace promise
+PASS: the first-level arena is protected from post-spawn vertical stacking
+PASS: roads, sidewalks, and crosswalks share an audited canonical elevation
+PASS: three Blender-authored first-level destinations are integrated
+PASS: open interiors include explicit access contracts and functional pickups
+PASS: runtime access audit sweeps a player-sized capsule through every doorway
+PASS: runtime access audit verifies arena and threshold elevation continuity
+PASS: night sky uses point stars and a detailed moon controlled by solar altitude
+PASS: only the non-occluding star field can follow the player camera
+PASS: sun, moon, skylight, and four readable day phases update continuously
+PASS: the runtime sky audit captures every required lighting phase
+PASS: the first-level challenge audit covers all six selectable languages
+PASS: reference solutions exist for C-family, Python, and MATLAB syntax
+PASS: every reference answer runs through the same validator used by gameplay
+PASS: world, combat, and armory audits share one integrated command-line mode
+PASS: each subsystem records an independent runtime pass tag
+PASS: the final single-run result requires every requested first-level subsystem
+PASS: Blender source deterministically authors all V5 assets and literal door openings
+PASS: Unreal V5 import is idempotent
+PASS: Unreal commandlet audit validates triangles, LODs, materials, and bounds
+PASS: all five Blender GLB sources exist
+PASS: all five Unreal static meshes exist
+
+PASS: first-level V5 integrated acceptance contracts are complete

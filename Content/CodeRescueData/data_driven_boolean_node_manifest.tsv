@@ -1,0 +1,7 @@
+area	status	files	notes
+curriculum	implemented	Content/CodeRescueData/curriculum_database.json	Five tier-2 boolean/conditionals challenges cover Java, C, C+, C++, Python, and MATLAB through explicit shouldUnlock/should_unlock starter keys.
+terminal_open	implemented	Source/CodeRescueUnreal/CodeTerminalWidget.cpp	Lock terminals now select data-driven boolean lessons and show teach/apply payloads from the curriculum database.
+validation_loop	implemented	Source/CodeRescueUnreal/CodeTerminalWidget.cpp	Boolean attempts use the same telemetry, post-solve reinforcement, and never-wall-block scaffold flow as the filter node.
+world_response	implemented	Source/CodeRescueUnreal/CodeRescueGameMode.cpp	Solved lock routes spawn the intrinsic solve effect plus a BooleanAirlockWorldEffect truth-table structure.
+ux_safety	implemented	Source/CodeRescueUnreal/CodeRescueGameMode.cpp	Boolean-node world props are tagged PhysicsSafeNonBlocking and keep traversal open.
+review_gate	implemented	Scripts/verify_learning_vertical_slice_pass.py	Static verifier checks boolean data coverage, runtime lock tokens, solved-route tags, docs, and manifest.

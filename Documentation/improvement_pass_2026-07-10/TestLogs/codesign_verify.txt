@@ -1,0 +1,7 @@
+Command:
+codesign --verify --deep --strict --verbose=2 PackagedMac/Mac/CodeRescueUnreal.app
+
+Result: PASS (exit code 0)
+PackagedMac/Mac/CodeRescueUnreal.app: valid on disk
+PackagedMac/Mac/CodeRescueUnreal.app: satisfies its Designated Requirement
+

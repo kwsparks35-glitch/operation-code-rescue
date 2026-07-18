@@ -1,0 +1,21 @@
+id	priority	area	recommendation	implemented_change	verification
+01	P0	launch_flow	Prompt for coding language immediately on game start	Main menu status copy now directs the player to choose a language before deployment	verify_june18_launch_grounding_symbol_pickup_pass.py
+02	P0	launch_flow	Make language choice start play without a second click	Each language button calls SelectLanguageAndLaunch and opens the campaign map immediately	verify_june18_launch_grounding_symbol_pickup_pass.py
+03	P0	launch_flow	Preserve a fallback start path for the selected language	The old New Game path is relabeled START SELECTED LANGUAGE and still preserves the selected track	verify_june18_launch_grounding_symbol_pickup_pass.py
+04	P0	language_lock	Remove active-play language switching stations	SpawnLanguageStation no longer spawns ALanguageStationActor instances and only emits the selected launch marker	verify_june18_launch_grounding_symbol_pickup_pass.py
+05	P0	language_lock	Block any placed language station from mutating the run language	ALanguageStationActor::ActivateStation saves only when the station already matches the launch-selected language	verify_june18_launch_grounding_symbol_pickup_pass.py
+06	P0	language_lock	Keep terminal challenges on the selected language track	Terminal refresh continues to force Challenge.Language and starter code from UCodeRescueGameInstance::SelectedLanguage	verify_june18_launch_grounding_symbol_pickup_pass.py
+07	P0	language_lock	Show only selected-language progress during active play	GetLanguageProgressSummary now returns only the selected track counts	verify_june18_launch_grounding_symbol_pickup_pass.py
+08	P0	language_lock	Remove all-language counters from the HUD	HUD second line now reports Track <selected> solves/attempts instead of J/C/P/M/C+/C++ counts	verify_june18_launch_grounding_symbol_pickup_pass.py
+09	P1	world_learning	Keep academy/banners/mentors selected-language-only	Decorative curriculum wall, hanging banner, mastery readouts, and mentor row now instantiate only the selected language surface	verify_june18_launch_grounding_symbol_pickup_pass.py
+10	P1	curriculum_text	Remove cross-language active-play hints	Generic terminal hints no longer mention another language by name	verify_june18_launch_grounding_symbol_pickup_pass.py
+11	P1	curriculum_text	Remove active-play cross-training station copy	Campaign language track text now says the launch-selected run stays on one track	verify_june18_launch_grounding_symbol_pickup_pass.py
+12	P0	visual_clarity	Replace most word ribbons with symbols	SpawnGuideText maps nonessential labels to compact ASCII symbols such as </>, +, !, H, >, [], ~, and ?	verify_june18_launch_grounding_symbol_pickup_pass.py
+13	P1	visual_clarity	Preserve text only where symbols are not enough	Action prompts, keybinds, protected coding text, and track-only labels are tagged WorldTextEssential	verify_june18_launch_grounding_symbol_pickup_pass.py
+14	P1	visual_clarity	Tag symbolic markers for future audits	Symbolized labels receive WorldInfoSymbol tags at spawn time	verify_june18_launch_grounding_symbol_pickup_pass.py
+15	P0	grounding	Raise global zone platform to actor feet	SpawnZone floor center moved from z -35 to z -6 so the slab top meets the play plane	verify_june18_launch_grounding_symbol_pickup_pass.py
+16	P0	grounding	Raise city mission platform to actor feet	SpawnCampaignCity mission floor center moved from z -35 to z -6 so survivors and zombies stand on a visible slab	verify_june18_launch_grounding_symbol_pickup_pass.py
+17	P0	pickups	Snap pickups to solid surfaces at runtime	APickupActor traces down to WorldStatic and adds PickupGroundSnapped after placement	verify_june18_launch_grounding_symbol_pickup_pass.py
+18	P1	pickups	Make pickups easier to collect	APickupActor pickup trigger radius increased from 180 to 220	verify_june18_launch_grounding_symbol_pickup_pass.py
+19	P0	pickups	Spawn every usable pickup kind in the armory	The tactical armory now creates ammo, medkit, flare, smoke, stim, scrap, and armor plate pickups	verify_june18_launch_grounding_symbol_pickup_pass.py
+20	P0	pickups	Spawn every usable pickup kind on the city route	Each campaign city route now includes ammo, medkit, armor plate, flare, smoke, stim, and scrap pickups	verify_june18_launch_grounding_symbol_pickup_pass.py

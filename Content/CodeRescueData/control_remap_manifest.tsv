@@ -1,0 +1,21 @@
+action	default_keyboard	alternate_keyboard	gamepad	intent	remap_status
+MoveForward	W/S	Up/Down	Gamepad_LeftY	Move forward and backward	Config-backed axis mapping; eligible for profile remap.
+MoveRight	A/D	None	Gamepad_LeftX	Strafe left and right	Config-backed axis mapping; eligible for profile remap.
+Turn	MouseX	Left/Right	Gamepad_RightX	Turn camera/body	Config-backed axis mapping; eligible for profile remap.
+LookUp	MouseY	I/K	Gamepad_RightY	Look up and down	Config-backed axis mapping; eligible for profile remap.
+Fire	LeftMouseButton	SpaceBar/F	Gamepad_RightTrigger	Fire equipped weapon	Config-backed action plus direct C++ binding; profile remap must update both.
+Interact	E	Enter/Tab/G	Gamepad_FaceButton_Bottom	Interact with terminal, survivor, pickup, vehicle, or language station	Config-backed action plus direct C++ binding; profile remap must update both.
+UseMedkit	Q	R	Gamepad_FaceButton_Right	Use a medkit	Config-backed action plus direct C++ binding; profile remap must update both.
+Reload	R	LeftControl	None	Reload active weapon	Direct C++ binding; profile remap documented.
+ShowGuidance	H	M	None	Show mission help	Config-backed action plus direct C++ binding; profile remap must update both.
+JumpObjective	T	None	None	Jump to active objective route	Config-backed action plus direct C++ binding; profile remap must update both.
+RecoverToCityArena	Backspace	F8	None	Recover from stuck/out-of-bounds states	Direct C++ binding; profile remap documented.
+SquadRegroup	Y	None	None	Regroup rescue team	Direct C++ binding; profile remap documented.
+SquadFormation	U	None	None	Cycle Tight/Standard/Wide formation	Direct C++ binding; profile remap documented.
+SquadMedic	N	None	None	Call squad medic	Direct C++ binding; profile remap documented.
+SquadHoldFollow	O	None	None	Toggle squad hold/follow	Direct C++ binding; profile remap documented.
+Journal	J	None	None	Toggle objective journal	Direct C++ binding; profile remap documented.
+Pause	P	Escape	None	Open/close pause menu	Direct C++ binding; profile remap documented.
+CameraCycle	C	V	Gamepad_RightShoulder	Cycle gameplay camera	Direct C++ binding; profile remap documented.
+WeaponQuickSlots	1-0	None	None	Direct-select weapon slots	Direct C++ binding; profile remap documented.
+WeaponCycle	MouseWheel	LeftBracket/RightBracket	Gamepad_LeftShoulder	Cycle weapon roster	Direct C++ binding; profile remap documented.

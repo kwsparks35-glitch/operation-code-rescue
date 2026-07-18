@@ -1,0 +1,542 @@
+# Operation Code Rescue - Next 500 Personal Recommendations Ledger
+
+Date: 2026-05-24
+
+Purpose: persistent status ledger for the next 500 recommended changes and implementations. Items stay unchecked until they are actually implemented and verified.
+
+Current progress: 50 complete, 450 pending.
+
+Status legend:
+
+- `[ ]` recommended and pending
+- `[x]` implemented in this session or a later documented session
+
+## Orientation, Onboarding, and First-Minute Clarity
+
+- [x] 001 Add a first-run orientation plaza that explains the five-step play loop in-world.
+- [x] 002 Add a city mission stack board showing language, terminal, survivor, threat, and extraction.
+- [x] 003 Add route-stage markers for Start, Language, Terminal, Rescue, and Extraction.
+- [x] 004 Add color-coded path strips from the spawn pad to the language stations.
+- [x] 005 Add color-coded path strips from the language stations to the active terminal.
+- [x] 006 Add color-coded path strips from the terminal to the survivor area.
+- [x] 007 Add color-coded path strips from the survivor area to extraction.
+- [x] 008 Add an in-world "What to do next" board near spawn.
+- [x] 009 Add an in-world "controls at a glance" board near spawn.
+- [x] 010 Add a visible rescue promise board that ties coding success to saving people.
+- [x] 011 Add a beginner lane for first city movement practice.
+- [x] 012 Add a beginner lane for interaction practice.
+- [x] 013 Add a beginner lane for terminal-opening practice.
+- [x] 014 Add a beginner lane for sprint and stamina awareness.
+- [x] 015 Add a beginner lane for reload and ammo awareness.
+- [x] 016 Add a beginner lane for defensive positioning.
+- [x] 017 Add a spawn-side warning if the optional boss is not required.
+- [x] 018 Add a spawn-side board explaining that language choice changes syntax, not the rescue goal.
+- [x] 019 Add a spawn-side board explaining visible tests and hidden tests.
+- [x] 020 Add a spawn-side board explaining hints and no-hint bonuses.
+- [x] 021 Add a city orientation light tower visible from spawn.
+- [x] 022 Add a terminal beacon comparison display so players learn the terminal color language.
+- [x] 023 Add survivor beacon comparison display so players learn rescue color language.
+- [x] 024 Add enemy beacon comparison display so players learn threat color language.
+- [x] 025 Add a world sign explaining that solving code opens routes.
+- [x] 026 Add a world sign explaining that civilians are narrative support and not objectives unless marked.
+- [x] 027 Add a world sign explaining fast travel and city graduation.
+- [x] 028 Add a world sign explaining objective journal usage.
+- [x] 029 Add a world sign explaining pause menu and safe exit.
+- [x] 030 Add a world sign explaining camera perspective cycling.
+- [x] 031 Add clearer first-run tutorial page for the rescue loop.
+- [x] 032 Add clearer first-run tutorial page for combat basics.
+- [x] 033 Add clearer first-run tutorial page for terminal validation.
+- [x] 034 Add clearer first-run tutorial page for language selection.
+- [x] 035 Add clearer first-run tutorial page for reward types.
+- [x] 036 Add tutorial skip confirmation text.
+- [x] 037 Add tutorial replay option from pause menu.
+- [x] 038 Add tutorial replay option from main menu.
+- [x] 039 Add objective text that updates after language selection.
+- [x] 040 Add objective text that updates after first failed validation.
+- [x] 041 Add objective text that updates after successful validation.
+- [x] 042 Add objective text that updates after survivor rescue.
+- [x] 043 Add objective text that updates when the boss is nearby.
+- [x] 044 Add objective text that updates when extraction is available.
+- [x] 045 Add a safe-zone boundary label.
+- [x] 046 Add a "danger increases beyond this line" threshold marker.
+- [x] 047 Add a short fallback objective prompt if no interactable is nearby.
+- [x] 048 Add a short fallback objective prompt if player is idle for too long.
+- [x] 049 Add a visible return-to-route marker when player wanders far from objectives.
+- [x] 050 Add a post-first-city debrief board explaining what the player learned.
+
+## Curriculum, Challenge Coverage, and Learning Progression
+
+- [ ] 051 Add a concept progression map across the campaign.
+- [ ] 052 Add a Java-specific syntax museum kiosk.
+- [ ] 053 Add a C-specific syntax museum kiosk.
+- [ ] 054 Add a Python-specific syntax museum kiosk.
+- [ ] 055 Add a MATLAB-specific syntax museum kiosk.
+- [ ] 056 Add a loop concept practice set-piece.
+- [ ] 057 Add an array indexing practice set-piece.
+- [ ] 058 Add a string parsing practice set-piece.
+- [ ] 059 Add a conditional logic practice set-piece.
+- [ ] 060 Add a function decomposition practice set-piece.
+- [ ] 061 Add a recursion concept rescue mission.
+- [ ] 062 Add a sorting concept rescue mission.
+- [ ] 063 Add a graph traversal concept rescue mission.
+- [ ] 064 Add a dynamic programming concept rescue mission.
+- [ ] 065 Add a debugging-only mission with broken code samples.
+- [ ] 066 Add a testing-only mission where player writes expected outputs.
+- [ ] 067 Add a refactoring-only mission with readability scoring.
+- [ ] 068 Add a data-structure choice mission.
+- [ ] 069 Add a memory safety lesson for C missions.
+- [ ] 070 Add pointer diagram support for C missions.
+- [ ] 071 Add object-oriented syntax lessons for Java missions.
+- [ ] 072 Add list comprehension lessons for Python missions.
+- [ ] 073 Add matrix/vectorization lessons for MATLAB missions.
+- [ ] 074 Add input/output formatting lessons.
+- [ ] 075 Add edge-case recognition lessons.
+- [ ] 076 Add time-complexity reading boards.
+- [ ] 077 Add space-complexity reading boards.
+- [ ] 078 Add "why this solution works" post-solve board.
+- [ ] 079 Add "common wrong answer" post-fail board.
+- [ ] 080 Add per-concept mastery stars.
+- [ ] 081 Add per-language mastery badges.
+- [ ] 082 Add per-city curriculum trophies.
+- [ ] 083 Add cross-language comparison board after repeated solves.
+- [ ] 084 Add optional challenge variants for solved terminals.
+- [ ] 085 Add time-trial variants for confident players.
+- [ ] 086 Add accessibility-friendly untimed variants.
+- [ ] 087 Add "explain in plain English" reflection prompt.
+- [ ] 088 Add "trace the sample input" reflection prompt.
+- [ ] 089 Add "write a hidden-case guess" reflection prompt.
+- [ ] 090 Add terminal-generated study notes.
+- [ ] 091 Add city archive of completed concepts.
+- [ ] 092 Add language archive of solved syntax patterns.
+- [ ] 093 Add curriculum map filters by language.
+- [ ] 094 Add curriculum map filters by concept.
+- [ ] 095 Add curriculum map filters by difficulty.
+- [ ] 096 Add campaign pacing rules so early cities avoid advanced concepts.
+- [ ] 097 Add campaign pacing rules so advanced concepts recur later.
+- [ ] 098 Add spaced repetition prompts for weak concepts.
+- [ ] 099 Add "try again tomorrow" style practice recommendations.
+- [ ] 100 Add a final capstone mission combining all four languages.
+
+## Terminal UX, Validation, and Feedback
+
+- [ ] 101 Add terminal line numbers.
+- [ ] 102 Add terminal syntax highlighting for Java.
+- [ ] 103 Add terminal syntax highlighting for C.
+- [ ] 104 Add terminal syntax highlighting for Python.
+- [ ] 105 Add terminal syntax highlighting for MATLAB.
+- [ ] 106 Add terminal bracket matching.
+- [ ] 107 Add terminal indentation guides.
+- [ ] 108 Add terminal auto-indent on new lines.
+- [ ] 109 Add terminal tab handling.
+- [ ] 110 Add terminal undo support.
+- [ ] 111 Add terminal redo support.
+- [ ] 112 Add terminal copy support.
+- [ ] 113 Add terminal paste support.
+- [ ] 114 Add terminal select-all support.
+- [ ] 115 Add terminal font-size setting.
+- [ ] 116 Add terminal high-contrast setting.
+- [ ] 117 Add terminal reduced-motion setting.
+- [ ] 118 Add terminal validation progress animation.
+- [ ] 119 Add terminal failure grouping by syntax, logic, edge case, or runtime.
+- [ ] 120 Add terminal "first failed case" visual emphasis.
+- [ ] 121 Add terminal "next smallest fix" suggestion.
+- [ ] 122 Add terminal "read the problem again" summary.
+- [ ] 123 Add terminal examples panel.
+- [ ] 124 Add terminal constraints panel.
+- [ ] 125 Add terminal reward panel.
+- [ ] 126 Add terminal concept panel.
+- [ ] 127 Add terminal hints panel with increasing specificity.
+- [ ] 128 Add terminal starter-code reset confirmation.
+- [ ] 129 Add terminal per-language starter templates.
+- [ ] 130 Add terminal saved drafts by mission.
+- [ ] 131 Add terminal autosave indicator.
+- [ ] 132 Add terminal last successful solution viewer.
+- [ ] 133 Add terminal last failed solution viewer.
+- [ ] 134 Add terminal local attempt timeline.
+- [ ] 135 Add terminal streak celebration.
+- [ ] 136 Add terminal no-hint celebration.
+- [ ] 137 Add terminal perfect-score celebration.
+- [ ] 138 Add terminal partial-credit explanation.
+- [ ] 139 Add terminal hidden-test warning before validation.
+- [ ] 140 Add terminal "run sample only" mode.
+- [ ] 141 Add terminal "validate all" mode.
+- [ ] 142 Add terminal keyboard shortcut help.
+- [ ] 143 Add terminal controller navigation.
+- [ ] 144 Add terminal screen-reader labels.
+- [ ] 145 Add terminal-friendly color names for feedback.
+- [ ] 146 Add terminal offline-failure messaging if compiler runner is unavailable.
+- [ ] 147 Add terminal timeout explanation.
+- [ ] 148 Add terminal infinite-loop prevention copy.
+- [ ] 149 Add terminal crash-safe runner recovery prompt.
+- [ ] 150 Add terminal export of personal practice notes.
+
+## Characters, Story, Relationships, and NPC Depth
+
+- [ ] 151 Add named survivor portraits or stand-in visual identity panels.
+- [ ] 152 Add survivor backstory variation by city.
+- [ ] 153 Add survivor profession variation by mission.
+- [ ] 154 Add survivor gratitude lines after rescue.
+- [ ] 155 Add survivor fear lines before terminal completion.
+- [ ] 156 Add survivor confidence lines after repeated player success.
+- [ ] 157 Add survivor mentor lines for failed attempts.
+- [ ] 158 Add survivor-specific rescued-state world props.
+- [ ] 159 Add rescued survivors to safehouse after rescue.
+- [ ] 160 Add rescued survivor debrief board.
+- [ ] 161 Add a recurring mentor character for Java.
+- [ ] 162 Add a recurring mentor character for C.
+- [ ] 163 Add a recurring mentor character for Python.
+- [ ] 164 Add a recurring mentor character for MATLAB.
+- [ ] 165 Add mentor reactions to no-hint solves.
+- [ ] 166 Add mentor reactions to repeated failures.
+- [ ] 167 Add mentor reactions to streaks.
+- [ ] 168 Add mentor reactions to city graduation.
+- [ ] 169 Add mentor campfire conversations.
+- [ ] 170 Add companion upgrade dialogue.
+- [ ] 171 Add companion warning barks for nearby enemies.
+- [ ] 172 Add companion encouragement after code failure.
+- [ ] 173 Add companion celebration after rescue.
+- [ ] 174 Add NPC idle barks by role.
+- [ ] 175 Add NPC idle barks by city theme.
+- [ ] 176 Add NPC idle barks by curriculum focus.
+- [ ] 177 Add NPC idle barks during enemy pressure.
+- [ ] 178 Add NPC idle barks after extraction unlock.
+- [ ] 179 Add role-specific NPC props that match trade, medic, engineer, and scientist.
+- [ ] 180 Add NPC micro-quests for optional resources.
+- [ ] 181 Add NPC micro-quest for gathering repair parts.
+- [ ] 182 Add NPC micro-quest for clinic supplies.
+- [ ] 183 Add NPC micro-quest for research data.
+- [ ] 184 Add NPC micro-quest for route maps.
+- [ ] 185 Add civilian family groups in safe zones.
+- [ ] 186 Add civilian study groups near terminals.
+- [ ] 187 Add civilian repair teams near barricades.
+- [ ] 188 Add civilian runners near extraction.
+- [ ] 189 Add civilian radio teams near mission boards.
+- [ ] 190 Add city-specific civilian naming pools.
+- [ ] 191 Add repeated-character memory across cities.
+- [ ] 192 Add relationship score for rescued survivors.
+- [ ] 193 Add relationship score for mentor support.
+- [ ] 194 Add relationship score for civilian morale.
+- [ ] 195 Add morale changes after clean solves.
+- [ ] 196 Add morale changes after many failures.
+- [ ] 197 Add morale changes after boss defeat.
+- [ ] 198 Add morale changes after optional quests.
+- [ ] 199 Add endgame reunion scene.
+- [ ] 200 Add credits wall of rescued names.
+
+## Enemies, Combat, Stealth, and Pressure
+
+- [ ] 201 Add clearer zombie role silhouettes.
+- [ ] 202 Add zombie role names above elite threats.
+- [ ] 203 Add zombie wind-up audio cues.
+- [ ] 204 Add zombie wind-up light cues.
+- [ ] 205 Add zombie hurt feedback variations.
+- [ ] 206 Add zombie defeated feedback variations.
+- [ ] 207 Add weak-point tutorial prop.
+- [ ] 208 Add boss attack pattern board near arena.
+- [ ] 209 Add boss phase transition warning.
+- [ ] 210 Add boss defeated rescue celebration.
+- [ ] 211 Add non-lethal training dummy.
+- [ ] 212 Add moving target range.
+- [ ] 213 Add reload timing training lane.
+- [ ] 214 Add stamina pressure training lane.
+- [ ] 215 Add cover tutorial lane.
+- [ ] 216 Add stealth route around one enemy group.
+- [ ] 217 Add stealth reward for avoiding combat.
+- [ ] 218 Add noise-lure tutorial.
+- [ ] 219 Add throwable practice range.
+- [ ] 220 Add barricade practice lane.
+- [ ] 221 Add barricade repair feedback.
+- [ ] 222 Add enemy spawn warning zones.
+- [ ] 223 Add horde countdown board.
+- [ ] 224 Add horde pressure scaling by city tier.
+- [ ] 225 Add horde relief if player recently failed code.
+- [ ] 226 Add enemy density cap diagnostics.
+- [ ] 227 Add optional "learning focus" combat assist.
+- [ ] 228 Add optional "hardcore pressure" mode.
+- [ ] 229 Add enemy patrol routes in safe distances.
+- [ ] 230 Add enemy patrol route visualization for debug mode.
+- [ ] 231 Add infection fog pockets as hazard zones.
+- [ ] 232 Add antidote pickup interactions.
+- [ ] 233 Add medkit scarcity rules by difficulty.
+- [ ] 234 Add ammo scarcity rules by difficulty.
+- [ ] 235 Add boss vulnerability tied to terminal success.
+- [ ] 236 Add enemy behavior changes after terminal success.
+- [ ] 237 Add enemy behavior changes after survivor rescue.
+- [ ] 238 Add city evacuation defense sequence.
+- [ ] 239 Add extraction holdout objective.
+- [ ] 240 Add optional boss-rematch board.
+- [ ] 241 Add enemy bestiary entries.
+- [ ] 242 Add enemy bestiary unlocks by observation.
+- [ ] 243 Add enemy bestiary unlocks by defeat.
+- [ ] 244 Add enemy bestiary counter-strategy notes.
+- [ ] 245 Add friendly NPC warnings by enemy type.
+- [ ] 246 Add survivor panic when enemy enters rescue area.
+- [ ] 247 Add safe-zone alarm when perimeter is breached.
+- [ ] 248 Add enemy pathing stuck detector.
+- [ ] 249 Add enemy spawn collision telemetry.
+- [ ] 250 Add combat summary after city graduation.
+
+## World Building, Cities, Traversal, and Environmental Storytelling
+
+- [ ] 251 Add city-specific welcome signs.
+- [ ] 252 Add city-specific skyline silhouettes.
+- [ ] 253 Add city-specific landmark plaques.
+- [ ] 254 Add city-specific weather variation boards.
+- [ ] 255 Add city-specific civic-service props.
+- [ ] 256 Add city-specific transit props.
+- [ ] 257 Add city-specific food-market props.
+- [ ] 258 Add city-specific school props.
+- [ ] 259 Add city-specific clinic props.
+- [ ] 260 Add city-specific shelter props.
+- [ ] 261 Add city-specific bridge or road set-piece.
+- [ ] 262 Add city-specific water or terrain set-piece.
+- [ ] 263 Add city-specific radio tower set-piece.
+- [ ] 264 Add city-specific archive set-piece.
+- [ ] 265 Add city-specific hazard signage.
+- [ ] 266 Add traversal ramp variety.
+- [ ] 267 Add traversal stair variety.
+- [ ] 268 Add traversal bridge variety.
+- [ ] 269 Add traversal rooftop route.
+- [ ] 270 Add traversal alley route.
+- [ ] 271 Add traversal safehouse interior route.
+- [ ] 272 Add traversal shortcut unlock after terminal success.
+- [ ] 273 Add traversal shortcut unlock after survivor rescue.
+- [ ] 274 Add readable collision boundaries.
+- [ ] 275 Add nonblocking decorative clutter clusters.
+- [ ] 276 Add route cleanup after city graduation.
+- [ ] 277 Add post-rescue celebratory lighting.
+- [ ] 278 Add pre-rescue distressed lighting.
+- [ ] 279 Add safehouse day-night lighting moods.
+- [ ] 280 Add rain shelter props.
+- [ ] 281 Add snow shelter props.
+- [ ] 282 Add desert shade props.
+- [ ] 283 Add coastal flood props.
+- [ ] 284 Add mountain rescue props.
+- [ ] 285 Add warehouse district props.
+- [ ] 286 Add campus district props.
+- [ ] 287 Add hospital district props.
+- [ ] 288 Add transit district props.
+- [ ] 289 Add civic district props.
+- [ ] 290 Add data-center district props.
+- [ ] 291 Add outdoor classroom district props.
+- [ ] 292 Add bridge-control district props.
+- [ ] 293 Add science-lab district props.
+- [ ] 294 Add emergency radio district props.
+- [ ] 295 Add city memory wall.
+- [ ] 296 Add rescued survivor thank-you notes in world.
+- [ ] 297 Add failed-attempt encouragement notes in world.
+- [ ] 298 Add hidden lore pickups.
+- [ ] 299 Add optional sightseeing route.
+- [ ] 300 Add world completion marker per city.
+
+## UI, HUD, Menus, Accessibility, and Settings
+
+- [ ] 301 Add HUD objective phase chip.
+- [ ] 302 Add HUD selected language chip.
+- [ ] 303 Add HUD current concept chip.
+- [ ] 304 Add HUD next reward preview.
+- [ ] 305 Add HUD rescue readiness indicator.
+- [ ] 306 Add HUD extraction readiness indicator.
+- [ ] 307 Add HUD boss optional indicator.
+- [ ] 308 Add HUD civilian morale indicator.
+- [ ] 309 Add HUD cleaner combat feedback.
+- [ ] 310 Add HUD cleaner damage direction feedback.
+- [ ] 311 Add HUD clearer low-health warning.
+- [ ] 312 Add HUD clearer low-ammo warning.
+- [ ] 313 Add HUD clearer stamina warning.
+- [ ] 314 Add HUD clearer terminal-ready prompt.
+- [ ] 315 Add HUD clearer survivor-ready prompt.
+- [ ] 316 Add HUD clearer fast-travel prompt.
+- [ ] 317 Add minimap objective icons.
+- [ ] 318 Add minimap survivor icon.
+- [ ] 319 Add minimap terminal icon.
+- [ ] 320 Add minimap language station icons.
+- [ ] 321 Add minimap boss icon only after discovery.
+- [ ] 322 Add minimap safe-zone boundary.
+- [ ] 323 Add minimap zoom setting.
+- [ ] 324 Add minimap toggle setting.
+- [ ] 325 Add subtitles size setting.
+- [ ] 326 Add subtitles background setting.
+- [ ] 327 Add colorblind palette setting.
+- [ ] 328 Add high-contrast objective palette.
+- [ ] 329 Add reduce-flash setting.
+- [ ] 330 Add reduce-screen-shake setting.
+- [ ] 331 Add simplified-combat setting.
+- [ ] 332 Add typing-assist setting.
+- [ ] 333 Add terminal font setting.
+- [ ] 334 Add controller remapping.
+- [ ] 335 Add keyboard remapping.
+- [ ] 336 Add mouse sensitivity setting.
+- [ ] 337 Add camera distance setting.
+- [ ] 338 Add field-of-view setting.
+- [ ] 339 Add audio category sliders.
+- [ ] 340 Add master volume persistence.
+- [ ] 341 Add music volume persistence.
+- [ ] 342 Add effects volume persistence.
+- [ ] 343 Add voice/radio volume persistence.
+- [ ] 344 Add autosave slot clarity.
+- [ ] 345 Add manual save confirmation.
+- [ ] 346 Add save-slot metadata with city and concept.
+- [ ] 347 Add pause menu objective recap.
+- [ ] 348 Add pause menu controls recap.
+- [ ] 349 Add pause menu curriculum recap.
+- [ ] 350 Add pause menu accessibility quick toggles.
+
+## Audio, Music, Radio, Cinematics, and Game Feel
+
+- [ ] 351 Add city-specific ambient music layers.
+- [ ] 352 Add terminal focus music layer.
+- [ ] 353 Add rescue success music sting.
+- [ ] 354 Add validation failure soft sting.
+- [ ] 355 Add no-hint success sting.
+- [ ] 356 Add perfect-solve success sting.
+- [ ] 357 Add boss approach music layer.
+- [ ] 358 Add horde warning music layer.
+- [ ] 359 Add safehouse ambient loop.
+- [ ] 360 Add market ambient loop.
+- [ ] 361 Add radio chatter variations by city.
+- [ ] 362 Add radio chatter variations by mission state.
+- [ ] 363 Add radio chatter variations by language.
+- [ ] 364 Add radio briefing replay.
+- [ ] 365 Add rescue debrief radio call.
+- [ ] 366 Add boss defeated radio call.
+- [ ] 367 Add city graduation radio call.
+- [ ] 368 Add civilian crowd murmur near evacuation queue.
+- [ ] 369 Add clinic sound bed.
+- [ ] 370 Add repair bay sound bed.
+- [ ] 371 Add study hall sound bed.
+- [ ] 372 Add terminal keyboard sound bed.
+- [ ] 373 Add validation processing sound.
+- [ ] 374 Add hidden-test reveal sound.
+- [ ] 375 Add reward pickup sound variants.
+- [ ] 376 Add ammo pickup sound variant.
+- [ ] 377 Add medkit pickup sound variant.
+- [ ] 378 Add research point pickup sound variant.
+- [ ] 379 Add barricade build sound.
+- [ ] 380 Add throwable throw sound.
+- [ ] 381 Add enemy role audio signatures.
+- [ ] 382 Add boss phase audio signatures.
+- [ ] 383 Add extraction helicopter ambience.
+- [ ] 384 Add jeep engine ambience.
+- [ ] 385 Add weather audio layers.
+- [ ] 386 Add interior/exterior audio transitions.
+- [ ] 387 Add cinematic city-entry camera sweep.
+- [ ] 388 Add cinematic terminal-solve pulse.
+- [ ] 389 Add cinematic survivor-rescue pulse.
+- [ ] 390 Add cinematic city-graduation sweep.
+- [ ] 391 Add optional screenshot moment after graduation.
+- [ ] 392 Add UI button sounds.
+- [ ] 393 Add menu music.
+- [ ] 394 Add settings-preview sounds.
+- [ ] 395 Add audio fallback diagnostics.
+- [ ] 396 Add subtitle tags for radio speaker names.
+- [ ] 397 Add subtitle tags for survivor speaker names.
+- [ ] 398 Add subtitle tags for companion speaker names.
+- [ ] 399 Add subtitle tags for NPC speaker names.
+- [ ] 400 Add audio polish pass for loudness consistency.
+
+## Performance, Reliability, Tooling, QA, and Save Integrity
+
+- [ ] 401 Add automated compile check documentation for every major pass.
+- [ ] 402 Add automated asset verifier expansion for new world layers.
+- [ ] 403 Add automated smoke test script wrapper.
+- [ ] 404 Add automated log summary parser.
+- [ ] 405 Add automated warning baseline file.
+- [ ] 406 Add automated detection of new asset load failures.
+- [ ] 407 Add automated detection of spawn collision warnings.
+- [ ] 408 Add automated detection of missing input bindings.
+- [ ] 409 Add automated detection of missing save fields.
+- [ ] 410 Add automated detection of terminal runner failures.
+- [ ] 411 Add automated city generation bounds check.
+- [ ] 412 Add automated objective distance sanity check.
+- [ ] 413 Add automated survivor spawn sanity check.
+- [ ] 414 Add automated terminal spawn sanity check.
+- [ ] 415 Add automated language station spawn sanity check.
+- [ ] 416 Add automated boss spawn sanity check.
+- [ ] 417 Add automated NPC spawn sanity check.
+- [ ] 418 Add automated minimap icon sanity check.
+- [ ] 419 Add automated HUD text overflow check.
+- [ ] 420 Add automated tutorial page count check.
+- [ ] 421 Add save migration version field.
+- [ ] 422 Add save migration test notes.
+- [ ] 423 Add corrupt save recovery prompt.
+- [ ] 424 Add save backup before migration.
+- [ ] 425 Add autosave throttling diagnostics.
+- [ ] 426 Add terminal draft save diagnostics.
+- [ ] 427 Add crash recovery note for last mission state.
+- [ ] 428 Add performance budget comments for procedural layers.
+- [ ] 429 Add actor count budget summary.
+- [ ] 430 Add pooled marker actors for repeated route details.
+- [ ] 431 Add pooled light actors for repeated route details.
+- [ ] 432 Add pooled text actors for repeated route details.
+- [ ] 433 Add optional low-detail world-dressing setting.
+- [ ] 434 Add optional reduced-civilian setting.
+- [ ] 435 Add optional reduced-light setting.
+- [ ] 436 Add optional reduced-zombie-proxy setting.
+- [ ] 437 Add streaming cleanup audit.
+- [ ] 438 Add streamed actor tag audit.
+- [ ] 439 Add memory snapshot documentation.
+- [ ] 440 Add startup timing documentation.
+- [ ] 441 Add terminal runner timing telemetry.
+- [ ] 442 Add validation score telemetry summary.
+- [ ] 443 Add player death telemetry summary.
+- [ ] 444 Add rescue completion telemetry summary.
+- [ ] 445 Add city graduation telemetry summary.
+- [ ] 446 Add code-attempt privacy note.
+- [ ] 447 Add local-only telemetry explanation.
+- [ ] 448 Add QA checklist for keyboard play.
+- [ ] 449 Add QA checklist for controller play.
+- [ ] 450 Add QA checklist for low-vision play.
+
+## Long-Term Content, Modding, Publishing, and Community
+
+- [ ] 451 Add campaign chapter structure.
+- [ ] 452 Add chapter one boss identity.
+- [ ] 453 Add chapter two boss identity.
+- [ ] 454 Add chapter three boss identity.
+- [ ] 455 Add chapter four boss identity.
+- [ ] 456 Add endgame antagonist identity.
+- [ ] 457 Add chapter-specific curriculum themes.
+- [ ] 458 Add chapter-specific world palettes.
+- [ ] 459 Add chapter-specific music themes.
+- [ ] 460 Add chapter-specific survivor arcs.
+- [ ] 461 Add modding documentation for challenges.
+- [ ] 462 Add modding documentation for city props.
+- [ ] 463 Add modding documentation for NPC lines.
+- [ ] 464 Add modding documentation for radio lines.
+- [ ] 465 Add modding documentation for reward tuning.
+- [ ] 466 Add sample custom challenge pack.
+- [ ] 467 Add sample custom city dressing pack.
+- [ ] 468 Add sample custom NPC dialogue pack.
+- [ ] 469 Add sample custom radio pack.
+- [ ] 470 Add sample custom accessibility preset.
+- [ ] 471 Add content creator checklist.
+- [ ] 472 Add educator setup checklist.
+- [ ] 473 Add classroom mode documentation.
+- [ ] 474 Add practice-only classroom mode.
+- [ ] 475 Add teacher review export.
+- [ ] 476 Add student progress export.
+- [ ] 477 Add privacy-preserving classroom profile.
+- [ ] 478 Add offline classroom setup notes.
+- [ ] 479 Add packaged build instructions.
+- [ ] 480 Add Mac packaging checklist.
+- [ ] 481 Add Windows packaging checklist.
+- [ ] 482 Add Linux packaging checklist.
+- [ ] 483 Add playtest feedback form template.
+- [ ] 484 Add bug report template.
+- [ ] 485 Add feature request template.
+- [ ] 486 Add release notes template.
+- [ ] 487 Add credits template.
+- [ ] 488 Add public roadmap template.
+- [ ] 489 Add internal sprint planning template.
+- [ ] 490 Add balance tuning spreadsheet plan.
+- [ ] 491 Add audio asset acquisition plan.
+- [ ] 492 Add character art acquisition plan.
+- [ ] 493 Add environment art acquisition plan.
+- [ ] 494 Add animation acquisition plan.
+- [ ] 495 Add UI art acquisition plan.
+- [ ] 496 Add localization plan.
+- [ ] 497 Add accessibility review plan.
+- [ ] 498 Add educational review plan.
+- [ ] 499 Add security review plan for code runner boundaries.
+- [ ] 500 Add final release readiness checklist.

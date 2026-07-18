@@ -1,0 +1,401 @@
+{
+  "city_layer_profile": {
+    "exists": true,
+    "mtime_utc": "2026-06-30T21:10:57.492923+00:00",
+    "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Profiling/city_layer_static_profile_latest.json",
+    "sha256": "5f935a018d7f33ec1cb81d03d9a5ec56545c76db95eac5460b49801925c6c03c",
+    "size_bytes": 5455
+  },
+  "feature_flags": {
+    "difficulty_presets": [
+      "Story",
+      "Easy",
+      "Normal",
+      "Hard",
+      "Survival",
+      "Nightmare"
+    ],
+    "external_validation_default": "CodeRescue.AllowExternalCodeValidation=0",
+    "external_validation_trusted_qa": "-AllowExternalCodeValidation",
+    "maple_generation": "resumable via Generate_Maple_Sinister_Narrations.command",
+    "nohuman_next20_improvement": "Run_NoHuman_Next20_Improvement.command",
+    "nohuman_next20_round2_improvement": "Run_NoHuman_Next20_Round2_Improvement.command",
+    "nonhuman_release_readiness": "Run_NonHuman_Release_Readiness.command"
+  },
+  "generated_utc": "2026-07-11T21:11:14.584149+00:00",
+  "git_status_short": [
+    " M Build/Mac/code_rescue_unreal_ue57_rebuild_fix.PackageVersionCounter",
+    " M Config/DefaultGame.ini",
+    " M Content/CodeRescueArt/CityKitV3/BuildingBrickV3/BuildingBrickV3/StaticMeshes/BuildingBrickV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/BuildingBrownstoneV3/BuildingBrownstoneV3/StaticMeshes/BuildingBrownstoneV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/BuildingConcreteV3/BuildingConcreteV3/StaticMeshes/BuildingConcreteV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/BuildingStuccoV3/BuildingStuccoV3/StaticMeshes/BuildingStuccoV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/BusStopV3/BusStopV3/StaticMeshes/BusStopV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/DeliveryVanV3/DeliveryVanV3/StaticMeshes/DeliveryVanV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/HydrantV3/HydrantV3/StaticMeshes/HydrantV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/JerseyBarrierV3/JerseyBarrierV3/StaticMeshes/JerseyBarrierV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/PickupV3/PickupV3/StaticMeshes/PickupV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/PoliceCruiserV3/PoliceCruiserV3/StaticMeshes/PoliceCruiserV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/PowerPoleV3/PowerPoleV3/StaticMeshes/PowerPoleV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/RoadIntersectionV3/RoadIntersectionV3/StaticMeshes/RoadIntersectionV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/RoadStraightV3/RoadStraightV3/StaticMeshes/RoadStraightV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/SedanCleanV3/SedanCleanV3/StaticMeshes/SedanCleanV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/SedanCrashedV3/SedanCrashedV3/StaticMeshes/SedanCrashedV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/SidewalkV3/SidewalkV3/StaticMeshes/SidewalkV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/StreetlightV3/StreetlightV3/StaticMeshes/StreetlightV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/TrafficLightV3/TrafficLightV3/StaticMeshes/TrafficLightV3.uasset",
+    " M Content/CodeRescueArt/CityKitV3/TrashClusterV3/TrashClusterV3/StaticMeshes/TrashClusterV3.uasset",
+    " M Content/CodeRescueArt/WeaponsV3/CrossbowV3/CrossbowV3/StaticMeshes/CrossbowV3.uasset",
+    " M Content/CodeRescueArt/WeaponsV3/PistolV3/PistolV3/StaticMeshes/PistolV3.uasset",
+    " M Content/CodeRescueArt/WeaponsV3/RifleV3/RifleV3/StaticMeshes/RifleV3.uasset",
+    " M Content/CodeRescueArt/WeaponsV3/SMGV3/SMGV3/StaticMeshes/SMGV3.uasset",
+    " M Content/CodeRescueArt/WeaponsV3/ShotgunV3/ShotgunV3/StaticMeshes/ShotgunV3.uasset",
+    " M RawArt/CityKitV3/BuildingBrickV3.glb",
+    " M RawArt/CityKitV3/BuildingBrownstoneV3.glb",
+    " M RawArt/CityKitV3/BuildingConcreteV3.glb",
+    " M RawArt/CityKitV3/BuildingStuccoV3.glb",
+    " M RawArt/CityKitV3/BusStopV3.glb",
+    " M RawArt/CityKitV3/DeliveryVanV3.glb",
+    " M RawArt/CityKitV3/HydrantV3.glb",
+    " M RawArt/CityKitV3/JerseyBarrierV3.glb",
+    " M RawArt/CityKitV3/PickupV3.glb",
+    " M RawArt/CityKitV3/PoliceCruiserV3.glb",
+    " M RawArt/CityKitV3/PowerPoleV3.glb",
+    " M RawArt/CityKitV3/RoadIntersectionV3.glb",
+    " M RawArt/CityKitV3/RoadStraightV3.glb",
+    " M RawArt/CityKitV3/SedanCleanV3.glb",
+    " M RawArt/CityKitV3/SedanCrashedV3.glb",
+    " M RawArt/CityKitV3/SidewalkV3.glb",
+    " M RawArt/CityKitV3/StreetlightV3.glb",
+    " M RawArt/CityKitV3/TrafficLightV3.glb",
+    " M RawArt/CityKitV3/TrashClusterV3.glb",
+    " M RawArt/WeaponsV3/CrossbowV3.glb",
+    " M RawArt/WeaponsV3/PistolV3.glb",
+    " M RawArt/WeaponsV3/RifleV3.glb",
+    " M RawArt/WeaponsV3/SMGV3.glb",
+    " M RawArt/WeaponsV3/ShotgunV3.glb",
+    " M Scripts/BlenderArt/build_weapons_v3.py",
+    " M Scripts/BlenderArt/build_world_art_v3.py",
+    " M Scripts/scan_audit_warnings.py",
+    " M Scripts/verify_camera_perspectives_and_character_roster.py",
+    " M Scripts/verify_combat_juice_weapon_feel_slice_pass.py",
+    " M Scripts/verify_datadriven_validation_pass_2026_07_04.py",
+    " M Scripts/verify_gameplay_fixes_2026_07_07.py",
+    " M Scripts/verify_menu_movement_v3art_2026_07_06.py",
+    " M Scripts/verify_runtime_log_contracts.py",
+    " M Scripts/verify_zombie_death_physics_slice_pass.py",
+    " M Source/CodeRescueUnreal/CityFastTravelWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueCampaign.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueCampaign.h",
+    " M Source/CodeRescueUnreal/CodeRescueCharacter.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueCharacter.h",
+    " M Source/CodeRescueUnreal/CodeRescueGameInstance.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueGameInstance.h",
+    " M Source/CodeRescueUnreal/CodeRescueGameMode.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueGameMode.h",
+    " M Source/CodeRescueUnreal/CodeRescueGameModeSpawning.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueHUDWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueHUDWidget.h",
+    " M Source/CodeRescueUnreal/CodeRescueMainMenuWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueMessageReaderWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeRescueMessageReaderWidget.h",
+    " M Source/CodeRescueUnreal/CodeRescueObjectiveJournalWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeRescuePauseWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeRescuePauseWidget.h",
+    " M Source/CodeRescueUnreal/CodeRunnerLibrary.cpp",
+    " M Source/CodeRescueUnreal/CodeTerminalWidget.cpp",
+    " M Source/CodeRescueUnreal/CodeTerminalWidget.h",
+    " M Source/CodeRescueUnreal/CodeZombieActor.cpp",
+    " M Source/CodeRescueUnreal/CodeZombieActor.h",
+    " M Source/CodeRescueUnreal/CompanionActor.cpp",
+    " M Source/CodeRescueUnreal/CompanionActor.h",
+    " M Source/CodeRescueUnreal/FriendlyNPCActor.cpp",
+    " M Source/CodeRescueUnreal/ObjectiveFocusBeaconActor.cpp",
+    " M Source/CodeRescueUnreal/SurvivorActor.cpp",
+    " M progress.md",
+    "?? Content/CodeRescueArt/CityKitV3/RoadStraightV3/RoadStraightV3/Materials/CR_MetalDark.uasset",
+    "?? Content/CodeRescueArt/CityKitV3/RoadStraightV3/RoadStraightV3/Materials/CR_MetalRust.uasset",
+    "?? Content/CodeRescueArt/CityKitV3/SidewalkV3/SidewalkV3/Materials/CR_LanePaint.uasset",
+    "?? Content/CodeRescueArt/CityKitV3/SidewalkV3/SidewalkV3/Materials/CR_MetalDark.uasset",
+    "?? Content/CodeRescueArt/FirstLevelV4/",
+    "?? Content/CodeRescueArt/FirstLevelV5/",
+    "?? Documentation/improvement_pass_2026-07-09/",
+    "?? Documentation/improvement_pass_2026-07-10/",
+    "?? README.md",
+    "?? RawArt/FirstLevelV4/",
+    "?? RawArt/FirstLevelV5/",
+    "?? Scripts/BlenderArt/build_first_level_combat_art_v4.py",
+    "?? Scripts/BlenderArt/build_first_level_world_v5.py",
+    "?? Scripts/BlenderArt/render_first_level_world_v5_review.py",
+    "?? Scripts/BlenderArt/render_production_art_review.py",
+    "?? Scripts/configure_first_level_v5_collision_unreal.py",
+    "?? Scripts/import_first_level_combat_art_v4.py",
+    "?? Scripts/import_first_level_world_v5.py",
+    "?? Scripts/import_production_art_v3.py",
+    "?? Scripts/inspect_first_level_v4_meshes_unreal.py",
+    "?? Scripts/inspect_first_level_v5_meshes_unreal.py",
+    "?? Scripts/verify_first_level_combat_experience_pass_2026_07_09.py",
+    "?? Scripts/verify_first_level_integrated_v5_pass_2026_07_09.py",
+    "?? Scripts/verify_iteration_regressions_pass_2026_07_11.py",
+    "?? Scripts/verify_production_presentation_camera_pass_2026_07_09.py",
+    "?? Scripts/verify_rescue_access_challenge_pause_pass_2026_07_10.py",
+    "?? \"Video Presentation Link.txt\""
+  ],
+  "known_allowed_warnings": [
+    "LogNavigationDirtyArea immediate-quit dirty area diagnostic",
+    "LogCrowdFollowing immediate-quit RecastNavMesh diagnostic",
+    "macOS CoreAudio sample-rate query warning in render smoke"
+  ],
+  "logs": [
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-30T21:13:54.515721+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/HeadlessFullQASmoke.log",
+      "sha256": "4d47bae4cd1549589be3ec85ea15166aab563af759d354094359d683013d29c2",
+      "size_bytes": 95726
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:20:50.076214+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/PackagedSmoke_null.log",
+      "sha256": "271eb7c69b62cf69d04003ea2b63e99c6362e5a5699d70d7db51eb08ec1e1337",
+      "size_bytes": 60502
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T18:20:56.766441+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/PackagedSmoke_render.log",
+      "sha256": "d10a0427e58e7de4f98fad9cc640d18105f98a667fad2d8d493406c613732d5e",
+      "size_bytes": 86174
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:11:54.434284+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/PerformanceProfile.log",
+      "sha256": "f3909f4da6e0e74fef381afb0c3c488c5b0d9cc744e8ac38f55d09832f7f68de",
+      "size_bytes": 92714
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:07:30.769253+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Logs/VisualReviewCapture.log",
+      "sha256": "5acaad100628e09535b6de59210a9a18909a06932c9d9600139198508e45bd64",
+      "size_bytes": 89827
+    }
+  ],
+  "maple_audio_audit_report": {
+    "exists": true,
+    "mtime_utc": "2026-06-24T01:54:31.477602+00:00",
+    "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/AudioAudit/maple_audio_audit_latest.json",
+    "sha256": "b20bf97598ebc094e9c6f8a47a3f21daf37da82cb9e3750f0d2b2efa6abdb5d6",
+    "size_bytes": 128814
+  },
+  "maple_narration": {
+    "female_total": 230,
+    "generated": 230,
+    "missing": [],
+    "missing_count": 0
+  },
+  "nohuman_next20_evidence": {
+    "exists": true,
+    "mtime_utc": "2026-06-30T21:10:57.542716+00:00",
+    "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Release/nohuman_next20_evidence_latest.json",
+    "sha256": "7cd7bc06051879030ef3a6f647e9984769107da7c4d4ae872fed607ad94a81d4",
+    "size_bytes": 189601
+  },
+  "nohuman_next20_round2_evidence": {
+    "exists": true,
+    "mtime_utc": "2026-06-30T21:11:00.901489+00:00",
+    "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Release/nohuman_next20_round2_evidence_latest.json",
+    "sha256": "c4df27ca435859d61d3bf11a2a305637d03f634c3464c110b0816802f1bde5c8",
+    "size_bytes": 77603
+  },
+  "package": {
+    "exists": true,
+    "file_count": 44,
+    "latest_mtime_utc": "2026-07-11T21:05:35.384713+00:00",
+    "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/PackagedMac/Mac/CodeRescueUnreal.app",
+    "size_bytes": 2151262687,
+    "size_gb": 2.0
+  },
+  "package_integrity_report": {
+    "exists": true,
+    "mtime_utc": "2026-07-11T21:10:36.583853+00:00",
+    "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Release/package_integrity_latest.json",
+    "sha256": "f29083eb31d98cc10d83ab56edde7f124a1cf1099d75a65a3ae425400931775f",
+    "size_bytes": 4412
+  },
+  "project_root": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix",
+  "static_verifiers": [
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-18T23:21:16.406705+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_june18_public_hardening_pass.py",
+      "sha256": "56bf8b5ce357bb291e1a7fa8b59c11e75f6af00fb2980281b02548c223bdc2db",
+      "size_bytes": 6094
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-19T01:39:48.025059+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_maple_sinister_narration_pass.py",
+      "sha256": "0215d7a7496d6f86ae2eccbd1a1a4a637dc93dbf19352d5a8b16a330ffd6e1ca",
+      "size_bytes": 8258
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-30T20:27:02.711144+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_june12_city_realization_pass.py",
+      "sha256": "e0727891f2a26e00c4b4a3b326ba9ebaed76b0f6478bcfde29d1b41a5ad1d2f3",
+      "size_bytes": 7948
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-30T18:52:18.269135+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_save_compatibility_pass.py",
+      "sha256": "1cc711ec63c1e105717578f4e06a58ea3839fb2ae6d82db8aa9f2620aa1791ea",
+      "size_bytes": 4244
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-18T23:17:48.646317+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_asset_budget_pass.py",
+      "sha256": "229dbb480a115499ea57b71aadee2f2047fa636b8f09c7a66c082f9dec4c2209",
+      "size_bytes": 3531
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-19T02:48:39.902090+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_demo_readiness_pass.py",
+      "sha256": "ccdabc70d83e144dcfae57a27d1e62785165a38b37a437c4fbc099b817717730",
+      "size_bytes": 10889
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-19T02:46:53.624620+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/audit_maple_audio_assets.py",
+      "sha256": "3d05f678649800b04aa3aa94ec7e46b6e53ccca5fa8b66838d5282e67c1a8541",
+      "size_bytes": 6999
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-19T02:46:53.726264+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_package_integrity_pass.py",
+      "sha256": "dcb48eae80d18e9f55e7c0c7272709caa2238fd38ea8e1b8cc951bc98c125818",
+      "size_bytes": 8121
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-19T02:46:53.829013+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_nonhuman_release_readiness_pass.py",
+      "sha256": "a295c8e8ff253d90137b0f6f9f2cd2faa3ea45396f31a027712baa5546084717",
+      "size_bytes": 5026
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-24T03:19:49.878406+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_next20_nohuman_improvement_pass.py",
+      "sha256": "a40dcd4ba014231185f5dd0da78b5bdbc0989592fe51dd6c7a1a9b3fad471b74",
+      "size_bytes": 4157
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-06-24T03:34:59.128810+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_next20_round2_nohuman_improvement_pass.py",
+      "sha256": "aa255fa87e7dbbe463622eab6395c8ebb1596fe035e17685b70b143d05caadf3",
+      "size_bytes": 5316
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-10T02:16:53.989278+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Scripts/verify_runtime_log_contracts.py",
+      "sha256": "0e69be083c09ea00cf5a10aab7daa16846ee85d3bbbbba790bae64beb2e49b78",
+      "size_bytes": 3030
+    }
+  ],
+  "visual_regression_latest": [
+    {
+      "exists": true,
+      "mtime_utc": "2026-07-09T20:11:16.923864+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/MacEditor/HighresScreenshot00009.png",
+      "sha256": "f06df1b4d18140c96747421e1e2839cf73230c54f7605f964daf993b568e9fd0",
+      "size_bytes": 1125302
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:07:30.154097+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/VisualReview/visual_review_20260524_210714.png",
+      "sha256": "77a52ceb7cb0083a0fde6ed25698df326a623526639b2dfae163989951244504",
+      "size_bytes": 1034124
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:07:29.832660+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/MacEditor/HighresScreenshot00008.png",
+      "sha256": "77a52ceb7cb0083a0fde6ed25698df326a623526639b2dfae163989951244504",
+      "size_bytes": 1034124
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:06:24.113046+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/VisualReview/visual_review_20260524_210608.png",
+      "sha256": "5addff280f18bbbad45e099de29a4764a1f4e8778cbefc667fcfbe73bc7672e5",
+      "size_bytes": 1096702
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:06:23.726319+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/MacEditor/HighresScreenshot00007.png",
+      "sha256": "5addff280f18bbbad45e099de29a4764a1f4e8778cbefc667fcfbe73bc7672e5",
+      "size_bytes": 1096702
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:03:59.465589+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/VisualReview/visual_review_20260524_210345.png",
+      "sha256": "39514e715bc0d160bf7316ca3cef3c2daf200136f5ab920d75110b5638ef3f38",
+      "size_bytes": 1096059
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:03:59.458510+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/MacEditor/HighresScreenshot00006.png",
+      "sha256": "39514e715bc0d160bf7316ca3cef3c2daf200136f5ab920d75110b5638ef3f38",
+      "size_bytes": 1096059
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:02:12.747586+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/VisualReview/visual_review_20260524_210157.png",
+      "sha256": "c9d8e52af06e8c56c5499cc7d39ed0bf61340d120a01a537e723df36f74549ee",
+      "size_bytes": 1096542
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:02:12.258580+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/MacEditor/HighresScreenshot00005.png",
+      "sha256": "c9d8e52af06e8c56c5499cc7d39ed0bf61340d120a01a537e723df36f74549ee",
+      "size_bytes": 1096542
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:00:12.684883+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/VisualReview/visual_review_20260524_205958.png",
+      "sha256": "6d182cc82732da8b32df3aa6a4337f89d7328a9f67a6a0ebceb9f69c2ff54a81",
+      "size_bytes": 1098979
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T05:00:11.917771+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/MacEditor/HighresScreenshot00004.png",
+      "sha256": "6d182cc82732da8b32df3aa6a4337f89d7328a9f67a6a0ebceb9f69c2ff54a81",
+      "size_bytes": 1098979
+    },
+    {
+      "exists": true,
+      "mtime_utc": "2026-05-25T04:59:14.369020+00:00",
+      "path": "/Users/labcomputer/Desktop/Operation_Code_Rescue/code_rescue_unreal_ue57_rebuild_fix/Saved/Screenshots/VisualReview/visual_review_20260524_205859.png",
+      "sha256": "99548a7ae553316a7f69cd18fb9165177794cbbcd84854e50d43c210fa15a21d",
+      "size_bytes": 900087
+    }
+  ]
+}

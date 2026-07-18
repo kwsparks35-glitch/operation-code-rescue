@@ -1,0 +1,4 @@
+[cr-log-scan] allowed warning: Saved/Logs/PackagedFirstLevelIntegratedWorldLootWeatherAcceptance_2026_07_17.log:921: [2026.07.18-01.34.28:694][  0]LogNavigationDirtyArea: Warning: Skipped some dirty area creation due to: 0 invalid bounds, 1 empty bounds (element: None, from: Navigation bounds update)
+[cr-log-scan] allowed warning: Saved/Logs/PackagedFirstLevelIntegratedWorldLootWeatherAcceptance_2026_07_17.log:1092: [2026.07.18-01.34.47:000][695]LogClient: Warning: Consoles don't need hitproxy storage - wasting memory!?
+[cr-log-scan] allowed warning: Saved/Logs/PackagedFirstLevelIntegratedWorldLootWeatherAcceptance_2026_07_17.log:1145: [2026.07.18-01.34.51:854][125]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[cr-log-scan] passed: scanned 1 log file(s), 3 allowed warning(s)

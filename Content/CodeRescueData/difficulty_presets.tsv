@@ -1,0 +1,7 @@
+preset	enum_name	zombie_health_multiplier	zombie_damage_multiplier	player_intent	qa_expectation
+Story	Story	0.45	0.35	Learning-first route with low combat pressure	First-time players can reach the terminal and survivor with minimal combat mastery.
+Easy	Easy	0.65	0.60	Approachable survival pressure	Zombies matter, but recovery supplies and squad support remain forgiving.
+Normal	Normal	1.00	1.00	Default intended balance	Combat supports the coding loop without dominating it.
+Hard	Hard	1.60	1.75	Experienced survival-horror pressure	Players need medkits, armor, movement, and squad commands.
+Survival	Survival	2.00	2.15	Resource-aware high-pressure mode	Players must manage ammo, squad support, and route safety.
+Nightmare	Nightmare	2.55	2.75	Challenge mode for repeat players	Combat is dangerous, but single-hit protection and recovery systems still prevent unfair instant failure.

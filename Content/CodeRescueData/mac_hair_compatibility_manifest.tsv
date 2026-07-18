@@ -1,0 +1,6 @@
+surface	asset_location	mac_runtime_status	fallback_contract	validation
+Local groom content root	Content/Grooms	groom_strand_review_only	Do not promote strand grooms directly to packaged Mac gameplay; require card or mesh hair fallback.	verify_mac_hair_card_compatibility_slice_pass.py
+MetaHuman groom packages	MetaHuman_Downloads and Content/Grooms/ArtSource	groom_mhpkg_review_only	Keep .mhpkg groom sources as DCC review inputs until a Mac-visible card or mesh fallback is authored.	verify_mac_hair_card_compatibility_slice_pass.py
+Zombie hair mesh packs	Content/YI_ModularZombies and Content/ZombieFemale	hair_mesh_runtime_candidate	Prefer skeletal/static mesh hair pieces and hair materials for playable Mac character silhouettes.	verify_mac_hair_card_compatibility_slice_pass.py
+Novel cast medic slot	SpawnUnrealSystemsCharacterWorldLayer	MacHairCardRuntimeReady	Mika Stone advertises the hair-card/mesh fallback path while strand grooms remain review-only.	verify_mac_hair_card_compatibility_slice_pass.py
+Creative download intake	SpawnCreativeRecommendationsLayer	GroomStrandReviewOnlyMac	The in-world intake board separates Groom review from Hair cards so future imports cannot blur the Mac boundary.	verify_mac_hair_card_compatibility_slice_pass.py

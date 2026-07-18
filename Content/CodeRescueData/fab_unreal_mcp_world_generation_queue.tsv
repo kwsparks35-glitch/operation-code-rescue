@@ -1,0 +1,17 @@
+title	verdict	project_present	content_roots	world_role	target_layer	gameplay_use
+AI for NPC  MetaHuman - Dialog  actions and general intelligence - by Convai	manual_review_required	no		survivor_character_pipeline	survivor/mentor visual identity and character customization staging	photoreal survivor mesh, hair/groom review, or tooling support
+ASYNC PHYSICS  Blueprints Library	manual_review_required	no		tooling_or_plugin_candidate	manual review queue before runtime use	only after Mac rebuild, validation, and license review
+Building Interior Cubemap Material Function	portable	yes	Parallax_Night_Building_Material	environment_material_upgrade	city skyline, interiors, and architectural mood panels	visual variety without changing the coding-learning loop
+Dog Zombie	portable_after_retarget	yes	DogZombie	enemy_character_roster	zombie encounter family and combat readability pass	distinct enemy silhouette, behavior tuning, and animation validation
+LE Extended Standard Library	manual_review_required	no		tooling_or_plugin_candidate	manual review queue before runtime use	only after Mac rebuild, validation, and license review
+MetaHuman Animator Depth Processing Plugin	manual_review_required	no		survivor_character_pipeline	survivor/mentor visual identity and character customization staging	photoreal survivor mesh, hair/groom review, or tooling support
+MetaHuman for Houdini	manual_review_required	no		survivor_character_pipeline	survivor/mentor visual identity and character customization staging	photoreal survivor mesh, hair/groom review, or tooling support
+MetaHuman for Maya	manual_review_required	no		survivor_character_pipeline	survivor/mentor visual identity and character customization staging	photoreal survivor mesh, hair/groom review, or tooling support
+MetaHuman Groom Advanced Kit for Houdini	manual_review_required	no		survivor_character_pipeline	survivor/mentor visual identity and character customization staging	photoreal survivor mesh, hair/groom review, or tooling support
+Modern Bridges	portable	yes	ModernBridges	city_traversal_architecture	FabShowcase bridge spans and rescue-route crossings	navigation landmark and coding-objective traversal route
+Quest Kit Pro	manual_review_required	no		tooling_or_plugin_candidate	manual review queue before runtime use	only after Mac rebuild, validation, and license review
+Urban Zombie 4	portable_after_retarget	yes	UrbanZombie4	enemy_character_roster	zombie encounter family and combat readability pass	distinct enemy silhouette, behavior tuning, and animation validation
+Zombie	portable_after_retarget	yes	Zombie	enemy_character_roster	zombie encounter family and combat readability pass	distinct enemy silhouette, behavior tuning, and animation validation
+Zombie - Bloated Female	portable_after_retarget	yes	YI_ModularZombies	enemy_character_roster	zombie encounter family and combat readability pass	distinct enemy silhouette, behavior tuning, and animation validation
+Zombie - Business Suit	portable_after_retarget	yes	YI_ModularZombies	enemy_character_roster	zombie encounter family and combat readability pass	distinct enemy silhouette, behavior tuning, and animation validation
+Zombie Female  Nurse	manual_review_required	no		enemy_character_roster	zombie encounter family and combat readability pass	distinct enemy silhouette, behavior tuning, and animation validation

@@ -1,0 +1,4 @@
+phase	trigger_state	visual_components	label_contract	accessibility_contract
+TerminalRadioScan	active city before terminal solve	RadioScanRing/RadioSweepArm/ObjectiveLabel/RadioScanLabel	RADIO SCAN names selected language route lock and terminal title	bReducedMotion slows sweep and text remains primary
+SurvivorPing	terminal solved before survivor rescue	RadioScanRing/RadioSweepArm/RadioPingA/ObjectiveLabel/RadioScanLabel	SURVIVOR PING names survivor and mission concept	bReducedMotion slows ping cadence and text remains primary
+ExtractionRescueBeacon	survivor rescued and extraction phase active	RadioScanRing/RadioSweepArm/RadioPingB/RescueBeaconHalo/ObjectiveLabel/RadioScanLabel	RESCUE BEACON names landmark and extraction live state	bReducedMotion slows halo/sweep motion and text remains primary
