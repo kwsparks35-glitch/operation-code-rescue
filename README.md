@@ -34,10 +34,11 @@ external compiler/interpreter execution is opt-in for trusted local QA.
 Open `CodeRescueUnreal.uproject` in Unreal Engine 5.7 (macOS, Apple Silicon),
 or run `Recompile_Module.command`; package with `Package_Mac_App.command`.
 
-## Video presentation
-Slide walkthrough + live demo of the packaged macOS build (one video):
-https://drive.google.com/drive/folders/1IwMeEkBgQ-PaNy8-HWPmM50Aq9xp7-W7?usp=sharing
-(also listed in `Video Presentation Link.txt`).
+## Submission materials
+- Video presentation (slide walkthrough + live packaged-build demo):
+  https://drive.google.com/file/d/1Q0K0TUDwO8RXQxK4Js7JV_hwls3AfMzr/view?usp=sharing
+- Report, slide deck, source ZIP, README, and video-link text file:
+  https://drive.google.com/drive/folders/1IwMeEkBgQ-PaNy8-HWPmM50Aq9xp7-W7?usp=sharing
 
 Public repository: https://github.com/kwsparks35-glitch/operation-code-rescue
 

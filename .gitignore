@@ -1,0 +1,20 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Local editor state
+.idea/
+.vs/
+.vscode/
